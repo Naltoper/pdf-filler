@@ -1,0 +1,704 @@
+{
+  "form": {
+    "title": "Supplier Quality Assessment Questionnaire",
+    "id": "QA-FO-069",
+    "revision": "1",
+    "file_name": "QA-FO-069R1_Supplier Quality Assessment Questionnaire (2).pdf",
+    "pages": 3,
+    "issuer": "COMPOSITE TECHNOLOGY INTERNATIONAL PTE LTD",
+    "respondent": "AIRBUS HELICOPTERS"
+  },
+  "answers": [
+    {
+      "ref": "Section 1",
+      "page": 1,
+      "label": "Registered / Trading Name",
+      "type": "text",
+      "value": "AIRBUS HELICOPTERS",
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 1",
+      "page": 1,
+      "label": "Address",
+      "type": "text",
+      "value": "Aéroport International Marseille Provence, 13700 Marignane, France",
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 1",
+      "page": 1,
+      "label": "Tel",
+      "type": "text",
+      "value": "+33 4 42 85 85 85",
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 1",
+      "page": 1,
+      "label": "Fax",
+      "type": "text",
+      "value": null,
+      "confidence": "low"
+    },
+    {
+      "ref": "Section 1",
+      "page": 1,
+      "label": "Website",
+      "type": "text",
+      "value": "www.airbus.com",
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 2",
+      "page": 1,
+      "label": "General Manager",
+      "type": "text",
+      "value": "Romain TRAPP",
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 2",
+      "page": 1,
+      "context": "General Manager",
+      "label": "Email",
+      "type": "text",
+      "value": null,
+      "confidence": "low"
+    },
+    {
+      "ref": "Section 2",
+      "page": 1,
+      "label": "Quality Manager",
+      "type": "text",
+      "value": "Elodie CARMONA",
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 2",
+      "page": 1,
+      "context": "Quality Manager",
+      "label": "Email",
+      "type": "text",
+      "value": "elodie.carmona@airbus.com",
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 2",
+      "page": 1,
+      "label": "Audit Contact Person",
+      "type": "text",
+      "value": "Shinichi KATAYAMA",
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 2",
+      "page": 1,
+      "context": "Audit Contact Person",
+      "label": "Email",
+      "type": "text",
+      "value": "shinichi.katayama@airbus.com",
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 3",
+      "page": 1,
+      "label": "Nature of Business (in relation to this application for approval)",
+      "type": "multi_choice",
+      "options_checked": [
+        "OEM",
+        "MRO",
+        "Parts / Materials Distributor"
+      ],
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 3",
+      "page": 1,
+      "context": "Nature of Business (in relation to this application for approval)",
+      "label": "Others (Provide Details)",
+      "type": "text",
+      "value": null,
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 4",
+      "page": 1,
+      "context": "CAAS",
+      "label": "Certificate No",
+      "type": "text",
+      "value": null,
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 4",
+      "page": 1,
+      "context": "CAAS",
+      "label": "Expiry Date",
+      "type": "date",
+      "value": null,
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 4",
+      "page": 1,
+      "context": "EASA",
+      "label": "Certificate No",
+      "type": "text",
+      "value": "FR.145.0002 (no limit), Part-21J.700(no limit), Part-21G.0070 (no limit)",
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 4",
+      "page": 1,
+      "context": "EASA",
+      "label": "Expiry Date",
+      "type": "date",
+      "value": null,
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 4",
+      "page": 1,
+      "context": "FAA",
+      "label": "Certificate No",
+      "type": "text",
+      "value": "E0OY135X",
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 4",
+      "page": 1,
+      "context": "FAA",
+      "label": "Expiry Date",
+      "type": "date",
+      "value": "November 30 2027",
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 4",
+      "page": 1,
+      "context": "ISO9000 Standards",
+      "label": "Certificate No",
+      "type": "text",
+      "value": null,
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 4",
+      "page": 1,
+      "context": "ISO9000 Standards",
+      "label": "Expiry Date",
+      "type": "date",
+      "value": null,
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 4",
+      "page": 1,
+      "context": "ISO9100 Standards",
+      "label": "Certificate No",
+      "type": "text",
+      "value": "282727-2019-AQ-FRA-ACCREDIA",
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 4",
+      "page": 1,
+      "context": "ISO9100 Standards",
+      "label": "Expiry Date",
+      "type": "date",
+      "value": "07 May 2028",
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 4",
+      "page": 1,
+      "context": "ISO/IEC 17025",
+      "label": "Certificate No",
+      "type": "text",
+      "value": null,
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 4",
+      "page": 1,
+      "context": "ISO/IEC 17025",
+      "label": "Expiry Date",
+      "type": "date",
+      "value": null,
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 4",
+      "page": 1,
+      "context": "Others (Specify)",
+      "label": "Certificate No",
+      "type": "text",
+      "value": null,
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 4",
+      "page": 1,
+      "context": "Others (Specify)",
+      "label": "Expiry Date",
+      "type": "date",
+      "value": null,
+      "confidence": "high"
+    },
+    {
+      "ref": "1.1",
+      "page": 2,
+      "label": "Is there an established Quality Assurance System in your organisation?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "1.2",
+      "page": 2,
+      "label": "Do you have a documented Quality Policy in your organisation?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "1.3",
+      "page": 2,
+      "label": "If so, is this policy disseminated and understood by all employees in the organisation?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "1.4",
+      "page": 2,
+      "label": "Is there an internal audit program to verify compliance with company procedures?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "1.5",
+      "page": 2,
+      "label": "Does your organisation encourage all staff to cooperate with quality auditors in the performance of their work?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "1.6",
+      "page": 2,
+      "label": "Is there a feedback channel to the Accountable Manager where he is apprised of findings arising from such audits?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "1.7",
+      "page": 2,
+      "label": "Are such audit findings reviewed and relevant information used in your organisation continuous improvement program, if any?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "2.1",
+      "page": 2,
+      "label": "Has your organisation implemented a Safety Management System?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "2.2",
+      "page": 2,
+      "label": "In this Safety Management System, does the Accountable Manager hold the ultimate responsibility for all safety matters in your organisation?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "2.3",
+      "page": 2,
+      "label": "Is hazard identification and risk assessment (HIRA) part of your Safety Management System?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "2.4",
+      "page": 2,
+      "label": "Are personnel who carry out HIRA appropriately trained?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "2.5",
+      "page": 2,
+      "label": "Are HIRAs documented and such records retained.",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "2.6",
+      "page": 2,
+      "label": "Are HIRAs reviewed at regular intervals to ensure that they are current and effective?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "3.1",
+      "page": 2,
+      "label": "Are personnel who perform work in your facility protected from the environment?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "3.2",
+      "page": 2,
+      "label": "Are conditions in your facility environmentally controlled to ensure a conducive work environment?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "3.3",
+      "page": 2,
+      "label": "Does your facility have adequate storage equipment to ensure that customer parts are protected from environmental degradation?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "3.4",
+      "page": 2,
+      "label": "Are customer parts protected from contamination whilst awaiting work to be performed?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "3.5",
+      "page": 2,
+      "label": "Are there adequate storage racks to ensure the proper segregation of serviceable parts from unserviceable ones?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "3.6",
+      "page": 2,
+      "label": "Is the facility adequately protected to ensure the security of customers' property?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "4.1",
+      "page": 2,
+      "label": "Is there a documented procedure for the receiving of parts, including customers' parts?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "4.2",
+      "page": 2,
+      "label": "Are personnel who perform receiving inspection trained and approved?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "4.3",
+      "page": 2,
+      "label": "Are there adequate storage facilities to ensure that parts waiting to be received in your system are protected from pilferage and inter-mixing?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "4.4",
+      "page": 2,
+      "label": "Does your organisation have a bonded store which is environmentally controlled for storage of spares?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "4.5",
+      "page": 2,
+      "label": "If so, is access to this area controlled?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "4.6",
+      "page": 2,
+      "label": "Is there a procedure to ensure the traceability of parts used in production?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "4.7",
+      "page": 2,
+      "label": "Is there a procedure to control shelf life parts to ensure that life expired items are not inadvertently issued for production use?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "4.8",
+      "page": 2,
+      "label": "Is there a secure area dedicated for the storage of quarantine parts awaiting further disposition?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "5.1",
+      "page": 2,
+      "label": "Is there a documented procedure to control the use of maintenance data?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "5.2",
+      "page": 2,
+      "label": "Is there a procedure to ensure that maintenance data used for production is updated?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "5.3",
+      "page": 2,
+      "label": "Where maintenance data is controlled electronically, is there a procedure to control the use of printed data?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "5.4",
+      "page": 2,
+      "label": "Where the use of customer supplied maintenance data is allowed, is there a procedure to control such use?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "6.1",
+      "page": 3,
+      "label": "Is there a procedure to control the use of tools?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "6.2",
+      "page": 3,
+      "label": "Is there a procedure to control the use of equipment that requires calibration?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "6.3",
+      "page": 3,
+      "label": "Is there a procedure to ensure the accountability of tools and to report lost tools?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "6.4",
+      "page": 3,
+      "label": "Are tools maintained and kept in good working condition?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "6.5",
+      "page": 3,
+      "label": "Where personal tools are allowed to be used, is there a procedure to ensure their accountability?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "6.6",
+      "page": 3,
+      "label": "Do you have a recall system if tooling proves to be out of tolerance after the work was released to service?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "7.1",
+      "page": 3,
+      "label": "Does the organisation have a training program?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "7.2",
+      "page": 3,
+      "label": "If so, is human factors performance included in the training program?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "7.3",
+      "page": 3,
+      "label": "If training is conducted in-house, is there a procedure to qualify and ensure the competence of such trainers?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "7.4",
+      "page": 3,
+      "label": "Are the records of such training maintained and retained?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "7.5",
+      "page": 3,
+      "label": "Are maintenance personnel assessed on their competency and training requirements tailored to meet such needs?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "8.1",
+      "page": 3,
+      "label": "Is there a procedure to govern the qualification and approval of personnel involved in maintenance?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "8.2",
+      "page": 3,
+      "label": "Are maintenance personnel provided with appropriate personal protection equipment in the performance of their work?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "8.3",
+      "page": 3,
+      "label": "Is work load monitored to ensure that there is sufficiency of resources available to meet the workload?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "8.4",
+      "page": 3,
+      "label": "Where the organisation employs multiple shifts, is there a procedure for the proper handing-taking over of work between shifts?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "8.5",
+      "page": 3,
+      "label": "Is there effective supervision to ensure that maintenance personnel refer to maintenance data when carrying out work?",
+      "type": "choice",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 6",
+      "page": 3,
+      "label": "Questionnaire completed by:",
+      "type": "text",
+      "value": "Shinichi KATAYAMA / Business & Programs Quality",
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 6",
+      "page": 3,
+      "label": "Authorised Company Representative / Title",
+      "type": "text",
+      "value": null,
+      "confidence": "low",
+      "note_for_reviewer": "Titre à confirmer pour la signature"
+    },
+    {
+      "ref": "Section 6",
+      "page": 3,
+      "label": "Signature",
+      "type": "signature",
+      "confidence": "high"
+    },
+    {
+      "ref": "Section 6",
+      "page": 3,
+      "label": "Date",
+      "type": "date",
+      "value": null,
+      "confidence": "low",
+      "note_for_reviewer": "Date à insérer lors de la signature"
+    },
+    {
+      "ref": "Section 6",
+      "page": 3,
+      "context": "For Composite Technology International Pte Ltd Quality Assurance Department Use",
+      "label": "The responses in the questionnaire have been reviewed and are found to be acceptable / unacceptable.",
+      "type": "choice",
+      "choice": null,
+      "do_not_fill": true
+    },
+    {
+      "ref": "Section 6",
+      "page": 3,
+      "context": "For Composite Technology International Pte Ltd Quality Assurance Department Use",
+      "label": "Approved / Not Approved to be included as an approved supplier",
+      "type": "choice",
+      "choice": null,
+      "do_not_fill": true
+    },
+    {
+      "ref": "Section 6",
+      "page": 3,
+      "context": "For Composite Technology International Pte Ltd Quality Assurance Department Use",
+      "label": "Quality Assurance Manager",
+      "type": "signature",
+      "do_not_fill": true
+    },
+    {
+      "ref": "Section 6",
+      "page": 3,
+      "context": "For Composite Technology International Pte Ltd Quality Assurance Department Use",
+      "label": "Composite Technology International Pte Ltd",
+      "type": "text",
+      "value": null,
+      "do_not_fill": true
+    },
+    {
+      "ref": "Section 6",
+      "page": 3,
+      "context": "For Composite Technology International Pte Ltd Quality Assurance Department Use",
+      "label": "Date",
+      "type": "date",
+      "value": null,
+      "do_not_fill": true
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+Here is the draft response compiled from the FO61 questionnaire and filled out using the Airbus Helicopters Master QMS Responses.
+
+---
+
+**Document Title:** Draft Responses for DLHT Supplier Questionnaire FO61
+
+**1.0 General Information**
+
+* **Company Legal Name:** AIRBUS HELICOPTERS
+
+
+* **Address:** Aéroport International Marseille Provence, 13700 Marignane, France
+
+
+* **Phone:** +33 4 42 85 85 85
+
+
+* **E-Mail:** [Draft: Requires specific commercial/order email to be filled by user]
+* **Website:** [www.airbus.com](https://www.google.com/search?q=https%3A%2F%2Fwww.airbus.com)
+
+
+* **Total Employees / relevant employees:** [Draft: Requires current employee count]
+* **Quality Contact:** Elodie CARMONA (Quality Manager) / Florence VERLUT (Head of Aviation Safety & Quality)
+
+
+* **Order/Commercial Contact:** [Draft: Requires specific contact info]
+* **Claims / Reclamation Contact:** [Draft: Requires specific contact info]
+* **Supplier / Contractor / Subcontractor reference (if any):** [Draft: To be filled if applicable]
+
+**1.1 Type of Business / Supply Category**
+
+* *Checked items:* Part-145, Part-21G, Part-21J, Part-147, Distributor, OEM, Maintenance Contractor, Material Supplier
+
+
+
+**1.2 Approvals / Certifications / Accreditations**
+
+* **1.2.1 Relevant EASA / LBA approval or authorisation number and scope available and current?** YES (EASA Part 145: FR.145.0002; EASA Part 21G: EASA.21G.0070; EASA Part 21J: EASA.21J.0700)
+
+
+* **1.2.2 Other aviation authority approval/certificate applicable to the supplied product/service available and current?** YES (FAA Repair Station E00Y135X, UK CAA UK.145.01638, TCCA 804-01)
+
+
+* **1.2.3 ISO or equivalent management-system certification applicable to the supplied product/service available and current?** YES (ISO 9001 / EN 9100 / AS9100 ref: 282727-2019-AQ-FRA-ACCREDIA, ISO 14001, ISO 17025)
+
+
+* **1.2.4 Accreditation/certification for specialised services available where required?** YES (NADCAP Approvals for NDT, Heat Treatment, Coating, Chemical Processing)
+
+
+* **1.2.5 Are copies of relevant approvals/certificates available for review?** YES
+* **1.2.6 Date of last relevant authority, certification or customer audit:** [Draft: Continuous via OSAC/DSAE. Verify specific latest date on Acacia portal]
+
+
+* **1.2.7 Are there any current suspended, restricted or expired approvals relevant to the supplied scope?** NO (Airbus Helicopters has not lost or had any external approval certifications suspended in the last 5 years)
+
+
+
+**2.0 Goods / Services and Scope**
+
+* **2.0.1 Please describe the goods, parts, materials, maintenance or services supplied to DLHT:** [Draft: Requires specific scope of current DLHT contract]
+* **2.0.2 Is the supplied scope clearly defined...?** YES
+* **2.0.3 Where approval is required, does the supplier's approval scope cover the intended goods/services?** YES
+* **2.0.4 Are limitations, ratings, locations and/or capabilities relevant to the supplied scope clearly defined and current?** YES
+* **2.0.5 Are critical or safety-relevant processes within the supplier's own controlled scope?** YES
+* **2.0.6 Are any activities further subcontracted? If yes, are they controlled and monitored?** YES (Subcontractors/suppliers are evaluated through an AVL and independent internal audit program)
+
+
+
+**2.1 Main Suppliers // Sub-suppliers**
+
+* **2.1.1 to 2.1.4** (Control lists, evaluation, change control, special processes): YES to all
+
+
+
+**2.2 Release / Verification / Conformity Documents**
+
+* **2.2.1 Can the required release certificate or conformity documentation be supplied...?** YES
+
+
+* **2.2.2 Where applicable, can EASA Form 1 or an accepted equivalent be provided?** YES
+
+
+* **2.2.3 Where applicable, can FAA Form 8130-3 or other accepted authority release documentation be provided?** YES
+
+
+* **2.2.4 Can a Certificate of Conformity / inspection certificate be provided where required?** YES
+
+
+* **2.2.5 Can material certificates in accordance with applicable specifications be provided?** YES
+* **2.2.6 Is documentation traceable to the delivered part/material/service and purchase order?** YES
+
+
+
+**3. Facilities / Work Environment**
+
+* **3.0.1 to 3.0.6** (Appropriate facilities, segregation, lighting/temp control, security, serviceable/unserviceable segregation): YES to all (Facilities provide protection, control temp/humidity, restrict access, and strictly segregate aviation/non-aviation and serviceable/unserviceable parts)
+
+
+
+**4. Quality Assurance / Management System**
+
+* **4.0.1 to 4.0.8** (QMS implementation, manual availability, internal audit program, CAPA closures, management responsibility, record retention): YES to all (Independent internal audit and compliance monitoring program in place; Quality, maintenance, and training records are retained for the regulatory minimum)
+
+
+
+**4.1 Safety / Occurrence Reporting**
+
+* **4.1.1 to 4.1.7** (SMS implementation, hazard ID, occurrence reporting, Just Culture): YES to all (SMS compliant with ICAO Annex 19 is fully implemented; Just Culture policy and confidential hazard reporting system are in place)
+
+
+
+**4.2 Subcontracting / Contracted Activities**
+
+* **4.2.1 to 4.2.6** (Contractor evaluation, defined interfaces, access rights): YES to all
+
+
+
+**5. Environmental Protection / Safety at Work**
+
+* **5.0.1 to 5.0.3** (Chemical/waste handling, EH&S controls): YES to all (ISO 14001 and ISO 45001 certifications maintained; hazardous/flammable materials have documented handling procedures)
+
+
+
+**6. Storage / Preservation**
+
+* **6.0.1 to 6.0.7** (Storage suitability, shelf-life control, ESD protection): YES to all (Shelf-life limited parts strictly monitored; Documented procedures for ESDS devices)
+
+
+
+**7. Personnel / Competence / Training**
+
+* **7.0.1 to 7.0.9** (Competent personnel, assessments, initial/recurrent training, Part-145 certifying staff limits, Human Factors): YES to all (All mechanics, inspectors, and certifying staff are appropriately trained and authorized; HF training is mandatory)
+
+
+
+**8. Work Processing / Maintenance Activities**
+
+* **8.0.1 to 8.0.8** (Work instructions, job cards, test traceability, independent inspections, final verifications): YES to all
+
+
+
+**9. Material / Parts Handling and Traceability**
+
+* **9.0.1 to 9.0.18** (Incoming inspections, SUPs, batch control, unsalvageable mutilation, recall procedures): YES to all (Strict procedures to detect/report SUPs; Unsalvageable parts are permanently mutilated)
+
+
+
+**10. Tools / Measuring and Test Equipment / Calibration**
+
+* **10.0.1 to 10.0.7** (Tool availability, calibration registers, traceable standards, out-of-calibration recall processes): YES to all (Measuring and test equipment is calibrated traceable to National Standards)
+
+
+
+**11. Technical Data / Documents**
+
+* **11.0.1 to 11.0.7** (Current data availability, revision control, record legibility): YES to all (We strictly do not permit the use of obsolete, illegible, or hand-corrected technical data without formal engineering concession)
+
+
+
+**12. Release / Certification / Records**
+
+* **12.0.1 to 12.0.7** (Authorized release personnel, correct EASA Form 1 issuance, record protection/backups): YES to all
+
+
+
+**13. Changes / Notifications**
+
+* **13.0.1 to 13.0.5** (Prompt notification of changes to approvals, scope, ownership, or safety issues): YES to all (We notify authorities and customers of major industrial changes)

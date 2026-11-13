@@ -1,0 +1,79 @@
+---
+name: fill-form
+description: Fill supplier questionnaires (flat PDF, fillable PDF or Word legacy form fields) from a Gemini gem answers.json that points to numbered zones (Zn). Use when the user asks to fill a form/questionnaire in jobs/ or inbox/, mentions answers.json, zones.pdf, the gem or "remplis ce formulaire".
+---
+
+# Remplir un formulaire
+
+Outil : package `formfill` (Python, venv `.venv`). Toujours depuis la racine du repo avec `.venv/bin/python -m formfill`.
+Si `.venv` n'existe pas : `uv venv .venv && uv pip install --python .venv/bin/python -r requirements.txt`.
+
+Le gem Gemini (app web uniquement) choisit les zones. Le script détecte, valide et écrit. Pas d'API, pas d'autre IA pour le placement.
+
+## Dossier de travail (job)
+
+```
+jobs/<nom>/
+  form.pdf | form.docx     formulaire vierge (copie, jamais l'original signé)
+  zones/                   produit par `prepare` — à donner au gem
+    zones.pdf | zones.docx   formulaire avec Zn visibles
+    zones.txt                liste compacte (id, page, type, texte autour)
+    zones.json               carte complète (interne)
+  answers.json             sortie du gem (schéma : schema/answers.schema.json)
+  out/                     généré : filled.*, review.pdf, report.md, plan.json
+```
+
+Sans job : créer `jobs/<nom>/`, y copier le formulaire. Sans answers : lancer `prepare`, donner `zones.pdf` + `zones.txt` + `gem/PROMPT.md` à l'utilisateur pour le gem, attendre le JSON.
+
+## Workflow
+
+```
+- [ ] 1. python -m formfill prepare jobs/<nom>
+        → donner zones/zones.pdf + zones/zones.txt (+ formulaire) au gem
+- [ ] 2. Attendre answers.json (doit contenir form.zone_map = code ZONE_MAP de zones.txt)
+- [ ] 3. python -m formfill run jobs/<nom>
+- [ ] 4. Si erreurs de validation : donner out/gem_feedback.txt à l'utilisateur pour le gem, s'arrêter
+- [ ] 5. Lire out/report.md
+        - « À corriger » (no_zone / conflict / partial) : demander au gem une correction
+          (zone manquante, mauvaise Zn, conflit) via gem_feedback, ou à l'utilisateur
+        - Ne pas inventer de coordonnées ni d'overrides géométriques
+- [ ] 6. Questions bloquantes → AskQuestion
+- [ ] 7. Résumé : fichiers rendus, « À vérifier », zones texte sans réponse, signature manuelle
+```
+
+Pas de contrôle visuel page par page. Revue humaine via `out/review.pdf` (jaune = à vérifier, rouge = vide / conflit) et `report.md`.
+
+## Rôles
+
+| Qui | Fait quoi |
+|---|---|
+| Script `prepare` | Détecte large toutes les zones possibles, les numérote Z1…Zn |
+| Gem Gemini (app web) | Lit le PDF + zones.pdf/txt, produit answers.json avec `zone` / `zones` |
+| Script `run` | Valide les Zn, écrit, produit filled + review + report |
+| Humain | Revue finale, signature, cases « reserved » |
+
+## Quand une zone manque
+
+Si le gem signale `zone: null` pour une valeur réelle, ou si `report.md` liste une zone texte importante dans « sans réponse » :
+
+1. Vérifier d'abord que le gem n'a pas simplement oublié le numéro (souvent visible sur `zones.pdf`).
+2. Si la zone n'existe vraiment pas dans `zones/` : corriger le détecteur (`formfill/pdf_zones.py` ou `formfill/docx_form.py`), relancer `prepare` sur **tous** les jobs, puis redemander au gem un JSON sur la **nouvelle** carte (`zone_map` différent).
+
+Ne pas empiler de correctifs manuels de coordonnées : la carte numérotée est la source de vérité.
+
+## Statuts du rapport
+
+- `placed` : écrit
+- `already_filled` : valeur déjà présente, non réécrite
+- `empty` : gem sans valeur (+ note)
+- `skipped` : signature / do_not_fill
+- `no_zone` : réponse sans Zn utilisable
+- `conflict` : zone déjà remplie avec une autre valeur
+- `partial` : une partie seulement des écritures a une zone
+
+## Règles
+
+- Ne jamais modifier un PDF déjà signé ni le formulaire source : tout va dans `out/` et `zones/`.
+- Ne pas inventer de réponse ni de numéro de zone.
+- Une zone = une réponse (validateur).
+- Livrer `out/review.pdf` + `out/report.md` pour la revue humaine.

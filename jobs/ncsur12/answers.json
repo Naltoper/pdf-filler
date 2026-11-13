@@ -1,0 +1,766 @@
+{
+  "form": {
+    "title": "Supplier Approval Survey",
+    "id": "NC-SUR-12",
+    "revision": "C",
+    "file_name": "form.pdf",
+    "zone_map": "9d7c1d88",
+    "pages": 4,
+    "issuer": "NORDAVIA Components AB",
+    "respondent": "AIRBUS HELICOPTERS"
+  },
+  "answers": [
+    {
+      "ref": "A1",
+      "page": 1,
+      "label": "Registered company name",
+      "type": "text",
+      "zone": "Z1",
+      "value": "AIRBUS HELICOPTERS",
+      "confidence": "high"
+    },
+    {
+      "ref": "A2",
+      "page": 1,
+      "label": "Trading name (if different)",
+      "type": "text",
+      "zone": "Z2",
+      "value": "N/A",
+      "confidence": "high"
+    },
+    {
+      "ref": "A3",
+      "page": 1,
+      "label": "Company registration number",
+      "type": "text",
+      "zone": "Z3",
+      "value": "388 255 861",
+      "confidence": "high"
+    },
+    {
+      "ref": "A4",
+      "page": 1,
+      "label": "Street address",
+      "type": "text",
+      "zone": "Z4",
+      "value": "Aéroport International Marseille Provence",
+      "confidence": "high"
+    },
+    {
+      "ref": "A5",
+      "page": 1,
+      "label": "Postal code",
+      "type": "text",
+      "zone": "Z5",
+      "value": "13700",
+      "confidence": "high"
+    },
+    {
+      "ref": "A6",
+      "page": 1,
+      "label": "City",
+      "type": "text",
+      "zone": "Z6",
+      "value": "Marignane",
+      "confidence": "high"
+    },
+    {
+      "ref": "A7",
+      "page": 1,
+      "label": "Country",
+      "type": "text",
+      "zone": "Z7",
+      "value": "France",
+      "confidence": "high"
+    },
+    {
+      "ref": "A8",
+      "page": 1,
+      "label": "VAT / Tax identification number",
+      "type": "text",
+      "zone": "Z8",
+      "value": null,
+      "confidence": "low",
+      "note_for_reviewer": "TVA intracommunautaire à compléter par l'administration"
+    },
+    {
+      "ref": "A9",
+      "page": 1,
+      "label": "DUNS number",
+      "type": "text",
+      "zone": "Z9",
+      "value": null,
+      "confidence": "low",
+      "note_for_reviewer": "Numéro DUNS à confirmer"
+    },
+    {
+      "ref": "A10",
+      "page": 1,
+      "label": "Website",
+      "type": "text",
+      "zone": "Z10",
+      "value": "www.airbus.com",
+      "confidence": "high"
+    },
+    {
+      "ref": "A11",
+      "page": 1,
+      "label": "Year of foundation",
+      "type": "text",
+      "zone": "Z11",
+      "value": "1992",
+      "confidence": "medium"
+    },
+    {
+      "ref": "A12",
+      "page": 1,
+      "label": "Number of employees (all sites)",
+      "type": "choice",
+      "zone": "Z15",
+      "choice": "1 000 or more",
+      "confidence": "high"
+    },
+    {
+      "ref": "A13",
+      "page": 1,
+      "label": "Annual turnover, last fiscal year",
+      "type": "choice",
+      "zone": "Z18",
+      "choice": "> 50 M EUR",
+      "confidence": "high"
+    },
+    {
+      "ref": "B",
+      "page": 1,
+      "label": "General management",
+      "context": "Name",
+      "type": "text",
+      "zone": "Z19",
+      "value": "Romain TRAPP",
+      "confidence": "high"
+    },
+    {
+      "ref": "B",
+      "page": 1,
+      "label": "General management",
+      "context": "Job title",
+      "type": "text",
+      "zone": "Z20",
+      "value": "Accountable Manager / EVP Customer Support",
+      "confidence": "high"
+    },
+    {
+      "ref": "B",
+      "page": 1,
+      "label": "General management",
+      "context": "Telephone",
+      "type": "text",
+      "zone": "Z21",
+      "value": "+33 4 42 85 85 85",
+      "confidence": "high"
+    },
+    {
+      "ref": "B",
+      "page": 1,
+      "label": "General management",
+      "context": "E-mail",
+      "type": "text",
+      "zone": "Z22",
+      "value": null,
+      "confidence": "low",
+      "note_for_reviewer": "A compléter"
+    },
+    {
+      "ref": "B",
+      "page": 1,
+      "label": "Quality / Airworthiness",
+      "context": "Name",
+      "type": "text",
+      "zone": "Z23",
+      "value": "Elodie CARMONA",
+      "confidence": "high"
+    },
+    {
+      "ref": "B",
+      "page": 1,
+      "label": "Quality / Airworthiness",
+      "context": "Job title",
+      "type": "text",
+      "zone": "Z24",
+      "value": "Head of Safety and Quality S&S",
+      "confidence": "high"
+    },
+    {
+      "ref": "B",
+      "page": 1,
+      "label": "Quality / Airworthiness",
+      "context": "Telephone",
+      "type": "text",
+      "zone": "Z25",
+      "value": "+33 4 42 85 85 85",
+      "confidence": "high"
+    },
+    {
+      "ref": "B",
+      "page": 1,
+      "label": "Quality / Airworthiness",
+      "context": "E-mail",
+      "type": "text",
+      "zone": "Z26",
+      "value": "elodie.carmona@airbus.com",
+      "confidence": "high"
+    },
+    {
+      "ref": "B",
+      "page": 1,
+      "label": "Sales / Customer service",
+      "context": "Name",
+      "type": "text",
+      "zone": "Z27",
+      "value": "Elisa MOREAU",
+      "confidence": "high"
+    },
+    {
+      "ref": "B",
+      "page": 1,
+      "label": "Sales / Customer service",
+      "context": "Job title",
+      "type": "text",
+      "zone": "Z28",
+      "value": "Key Account Manager",
+      "confidence": "high"
+    },
+    {
+      "ref": "B",
+      "page": 1,
+      "label": "Sales / Customer service",
+      "context": "Telephone",
+      "type": "text",
+      "zone": "Z29",
+      "value": "+33 442 851 881",
+      "confidence": "high"
+    },
+    {
+      "ref": "B",
+      "page": 1,
+      "label": "Sales / Customer service",
+      "context": "E-mail",
+      "type": "text",
+      "zone": "Z30",
+      "value": "elisa.moreau@airbus.com",
+      "confidence": "high"
+    },
+    {
+      "ref": "B",
+      "page": 1,
+      "label": "Logistics / Shipping",
+      "context": "Name",
+      "type": "text",
+      "zone": "Z31",
+      "value": "Olivier Tillier",
+      "confidence": "high"
+    },
+    {
+      "ref": "B",
+      "page": 1,
+      "label": "Logistics / Shipping",
+      "context": "Job title",
+      "type": "text",
+      "zone": "Z32",
+      "value": "Stores Manager",
+      "confidence": "high"
+    },
+    {
+      "ref": "B",
+      "page": 1,
+      "label": "Logistics / Shipping",
+      "context": "Telephone",
+      "type": "text",
+      "zone": "Z33",
+      "value": "+33 4 42 85 85 85",
+      "confidence": "high"
+    },
+    {
+      "ref": "B",
+      "page": 1,
+      "label": "Logistics / Shipping",
+      "context": "E-mail",
+      "type": "text",
+      "zone": "Z34",
+      "value": null,
+      "confidence": "low",
+      "note_for_reviewer": "A compléter"
+    },
+    {
+      "ref": "C1",
+      "page": 1,
+      "label": "Is your company a subsidiary of a group?",
+      "type": "choice",
+      "zone": "Z35",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "C2",
+      "page": 1,
+      "label": "If yes, name and country of the parent company:",
+      "type": "text",
+      "zone": "Z37",
+      "value": "AIRBUS, Netherlands",
+      "confidence": "high"
+    },
+    {
+      "ref": "C3",
+      "page": 1,
+      "label": "Shareholders holding more than 25 %:",
+      "type": "text",
+      "zone": "Z38",
+      "value": "AIRBUS",
+      "confidence": "high"
+    },
+    {
+      "ref": "D.1",
+      "page": 2,
+      "label": "Organisation",
+      "type": "choice",
+      "choice": "C",
+      "zone": "Z39",
+      "remark": "MOE Part 1",
+      "remark_zone": "Z43",
+      "confidence": "high"
+    },
+    {
+      "ref": "D.1.1",
+      "page": 2,
+      "label": "A quality manager is appointed, independent from production, with direct access to top management.",
+      "type": "choice",
+      "choice": "C",
+      "zone": "Z44",
+      "remark": "MOE / QMS",
+      "remark_zone": "Z48",
+      "confidence": "high"
+    },
+    {
+      "ref": "D.1.2",
+      "page": 2,
+      "label": "An organisation chart is maintained and responsibilities for product conformity are defined.",
+      "type": "choice",
+      "choice": "C",
+      "zone": "Z49",
+      "remark": "MOE Ch 1",
+      "remark_zone": "Z53",
+      "confidence": "high"
+    },
+    {
+      "ref": "D.1.3",
+      "page": 2,
+      "label": "Personnel performing special processes are qualified and their qualification records are kept.",
+      "type": "choice",
+      "choice": "C",
+      "zone": "Z54",
+      "remark": "MOE Ch 3",
+      "remark_zone": "Z58",
+      "confidence": "high"
+    },
+    {
+      "ref": "D.2",
+      "page": 2,
+      "label": "Documentation & records",
+      "type": "choice",
+      "choice": "C",
+      "zone": "Z59",
+      "remark": "MOE Part 2",
+      "remark_zone": "Z63",
+      "confidence": "high"
+    },
+    {
+      "ref": "D.2.1",
+      "page": 2,
+      "label": "A quality manual or equivalent describes the quality management system and its scope.",
+      "type": "choice",
+      "choice": "C",
+      "zone": "Z64",
+      "remark": "MOE / QMS",
+      "remark_zone": "Z68",
+      "confidence": "high"
+    },
+    {
+      "ref": "D.2.2",
+      "page": 2,
+      "label": "Documents are controlled (approval, revision status, distribution, removal of obsolete issues).",
+      "type": "choice",
+      "choice": "C",
+      "zone": "Z69",
+      "remark": "MOE",
+      "remark_zone": "Z73",
+      "confidence": "high"
+    },
+    {
+      "ref": "D.2.3",
+      "page": 2,
+      "label": "Quality records are retained for at least 10 years after delivery, or longer if required by contract.",
+      "type": "choice",
+      "choice": "P",
+      "zone": "Z75",
+      "remark": "3 to 7+ years based on regulatory min",
+      "remark_zone": "Z78",
+      "confidence": "high"
+    },
+    {
+      "ref": "D.3",
+      "page": 2,
+      "label": "Production & inspection",
+      "type": "choice",
+      "choice": "C",
+      "zone": "Z79",
+      "remark": "MOE Part 2",
+      "remark_zone": "Z83",
+      "confidence": "high"
+    },
+    {
+      "ref": "D.3.1",
+      "page": 2,
+      "label": "First Article Inspection is performed according to EN 9102 / AS9102 for new or modified parts.",
+      "type": "choice",
+      "choice": "C",
+      "zone": "Z84",
+      "remark": "FAI Procedure",
+      "remark_zone": "Z88",
+      "confidence": "high"
+    },
+    {
+      "ref": "D.3.2",
+      "page": 2,
+      "label": "Measuring and test equipment is calibrated against traceable standards at defined intervals.",
+      "type": "choice",
+      "choice": "C",
+      "zone": "Z89",
+      "remark": "MOE Ch 2.5",
+      "remark_zone": "Z93",
+      "confidence": "high"
+    },
+    {
+      "ref": "D.3.3",
+      "page": 2,
+      "label": "Nonconforming product is identified, segregated and dispositioned by authorised personnel.",
+      "type": "choice",
+      "choice": "C",
+      "zone": "Z94",
+      "remark": "MOE Ch 2.15",
+      "remark_zone": "Z98",
+      "confidence": "high"
+    },
+    {
+      "ref": "D.3.4",
+      "page": 2,
+      "label": "Foreign Object Damage (FOD) prevention is in place in production and storage areas.",
+      "type": "choice",
+      "choice": "C",
+      "zone": "Z99",
+      "remark": "MOE Ch 2",
+      "remark_zone": "Z103",
+      "confidence": "high"
+    },
+    {
+      "ref": "D.4",
+      "page": 2,
+      "label": "Purchasing & sub-tier suppliers",
+      "type": "choice",
+      "choice": "C",
+      "zone": "Z104",
+      "remark": "MOE Ch 2.1",
+      "remark_zone": "Z108",
+      "confidence": "high"
+    },
+    {
+      "ref": "D.4.1",
+      "page": 2,
+      "label": "Sub-tier suppliers are evaluated, approved and monitored for quality and delivery performance.",
+      "type": "choice",
+      "choice": "C",
+      "zone": "Z109",
+      "remark": "MOE Ch 2.1",
+      "remark_zone": "Z113",
+      "confidence": "high"
+    },
+    {
+      "ref": "D.4.2",
+      "page": 2,
+      "label": "Customer requirements, including key characteristics and flow-down clauses, are passed to sub-tiers.",
+      "type": "choice",
+      "choice": "C",
+      "zone": "Z114",
+      "remark": "MOE Ch 2.1",
+      "remark_zone": "Z118",
+      "confidence": "high"
+    },
+    {
+      "ref": "D.4.3",
+      "page": 2,
+      "label": "A counterfeit part prevention process is implemented (AS5553 / AS6174 or equivalent).",
+      "type": "choice",
+      "choice": "C",
+      "zone": "Z119",
+      "remark": "SUP procedure",
+      "remark_zone": "Z123",
+      "confidence": "high"
+    },
+    {
+      "ref": "D.5",
+      "page": 2,
+      "label": "Improvement",
+      "type": "choice",
+      "choice": "C",
+      "zone": "Z124",
+      "remark": "MOE Part 3",
+      "remark_zone": "Z128",
+      "confidence": "high"
+    },
+    {
+      "ref": "D.5.1",
+      "page": 2,
+      "label": "Internal audits covering the whole system are planned and performed at least once a year.",
+      "type": "choice",
+      "choice": "C",
+      "zone": "Z129",
+      "remark": "MOE Ch 3.1",
+      "remark_zone": "Z133",
+      "confidence": "high"
+    },
+    {
+      "ref": "D.5.2",
+      "page": 2,
+      "label": "Corrective actions use a root-cause method (8D, 5 Why, Ishikawa) and are verified for effectiveness.",
+      "type": "choice",
+      "choice": "C",
+      "zone": "Z134",
+      "remark": "MOE Ch 3.3",
+      "remark_zone": "Z138",
+      "confidence": "high"
+    },
+    {
+      "ref": "D.5.3",
+      "page": 2,
+      "label": "Customer satisfaction and on-time delivery are measured and reviewed by management.",
+      "type": "choice",
+      "choice": "C",
+      "zone": "Z139",
+      "remark": "Management review",
+      "remark_zone": "Z143",
+      "confidence": "high"
+    },
+    {
+      "ref": "E",
+      "page": 3,
+      "label": "EN 9100 / AS9100",
+      "type": "choice",
+      "zone": "Z144",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "E",
+      "page": 3,
+      "label": "EN 9100 / AS9100",
+      "context": "Cert. no.",
+      "type": "text",
+      "zone": "Z145",
+      "value": "282727-2019-AQ-FRA-ACCREDIA",
+      "confidence": "high"
+    },
+    {
+      "ref": "E",
+      "page": 3,
+      "label": "EN 9100 / AS9100",
+      "context": "Expiry",
+      "type": "text",
+      "zone": "Z146",
+      "value": "07/05/2028",
+      "confidence": "high"
+    },
+    {
+      "ref": "E",
+      "page": 3,
+      "label": "ISO 9001",
+      "type": "choice",
+      "zone": "Z149",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "E",
+      "page": 3,
+      "label": "ISO 9001",
+      "context": "Cert. no.",
+      "type": "text",
+      "zone": "Z147",
+      "value": "282727-2019-AQ-FRA-ACCREDIA",
+      "confidence": "high"
+    },
+    {
+      "ref": "E",
+      "page": 3,
+      "label": "ISO 9001",
+      "context": "Expiry",
+      "type": "text",
+      "zone": "Z148",
+      "value": "07/05/2028",
+      "confidence": "high"
+    },
+    {
+      "ref": "E",
+      "page": 3,
+      "label": "ISO 14001",
+      "type": "choice",
+      "zone": "Z150",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "E",
+      "page": 3,
+      "label": "ISO 45001",
+      "type": "choice",
+      "zone": "Z153",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "E",
+      "page": 3,
+      "label": "EASA Part 21G",
+      "type": "choice",
+      "zone": "Z158",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "E",
+      "page": 3,
+      "label": "EASA Part 21G",
+      "context": "Cert. no.",
+      "type": "text",
+      "zone": "Z160",
+      "value": "EASA.21G.0070",
+      "confidence": "high"
+    },
+    {
+      "ref": "E",
+      "page": 3,
+      "label": "EASA Part 145",
+      "type": "choice",
+      "zone": "Z159",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "E",
+      "page": 3,
+      "label": "EASA Part 145",
+      "context": "Cert. no.",
+      "type": "text",
+      "zone": "Z164",
+      "value": "FR.145.0002",
+      "confidence": "high"
+    },
+    {
+      "ref": "E",
+      "page": 3,
+      "label": "Nadcap (process)",
+      "type": "choice",
+      "zone": "Z162",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "F1",
+      "page": 3,
+      "label": "Processes performed in-house (tick all that apply)",
+      "type": "multi_choice",
+      "options_checked": [
+        "Composite lay-up",
+        "Heat treatment",
+        "Non-destructive testing",
+        "Surface treatment"
+      ],
+      "zones": [
+        "Z170",
+        "Z171",
+        "Z175",
+        "Z172"
+      ],
+      "confidence": "medium",
+      "note_for_reviewer": "A adapter selon le périmètre détaillé du site"
+    },
+    {
+      "ref": "F2",
+      "page": 3,
+      "label": "Materials processed",
+      "type": "multi_choice",
+      "options_checked": [
+        "Aluminium",
+        "Titanium",
+        "Composites"
+      ],
+      "zones": [
+        "Z182",
+        "Z183",
+        "Z186"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "ref": "H1",
+      "page": 4,
+      "label": "Name of authorised signatory",
+      "type": "text",
+      "zone": "Z192",
+      "value": "Shinichi KATAYAMA",
+      "confidence": "medium"
+    },
+    {
+      "ref": "H2",
+      "page": 4,
+      "label": "Position",
+      "type": "text",
+      "zone": "Z193",
+      "value": "S&S Top Quality Issues Manager",
+      "confidence": "medium"
+    },
+    {
+      "ref": "H3",
+      "page": 4,
+      "label": "Date",
+      "type": "text",
+      "zone": "Z194",
+      "value": "13/11/2026",
+      "confidence": "high"
+    },
+    {
+      "ref": "H4",
+      "page": 4,
+      "label": "Signature",
+      "type": "signature",
+      "zone": "Z195",
+      "confidence": "high"
+    },
+    {
+      "ref": "H5",
+      "page": 4,
+      "label": "Company stamp",
+      "type": "signature",
+      "zone": "Z196",
+      "confidence": "high"
+    },
+    {
+      "ref": "RESERVED",
+      "page": 4,
+      "label": "RESERVED FOR NORDAVIA - DO NOT FILL IN",
+      "type": "text",
+      "zone": null,
+      "value": null,
+      "do_not_fill": true,
+      "confidence": "high"
+    }
+  ]
+}

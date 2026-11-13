@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Form answers produced by the Gemini gem, each one pointing to a numbered zone",
+  "type": "object",
+  "required": ["form", "answers"],
+  "additionalProperties": false,
+  "$defs": {
+    "zone": {"type": ["string", "null"], "pattern": "^Z[0-9]+$"}
+  },
+  "properties": {
+    "form": {
+      "type": "object",
+      "required": ["title", "file_name", "zone_map"],
+      "additionalProperties": false,
+      "properties": {
+        "title": {"type": "string"},
+        "id": {"type": ["string", "null"]},
+        "revision": {"type": ["string", "null"]},
+        "file_name": {"type": "string"},
+        "zone_map": {"type": "string", "pattern": "^[0-9a-f]{8}$"},
+        "pages": {"type": ["integer", "null"]},
+        "issuer": {"type": ["string", "null"]},
+        "respondent": {"type": ["string", "null"]}
+      }
+    },
+    "answers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["ref", "label", "type"],
+        "additionalProperties": false,
+        "properties": {
+          "ref": {"type": "string", "minLength": 1},
+          "page": {"type": ["integer", "null"], "minimum": 1},
+          "label": {"type": "string", "minLength": 1},
+          "context": {"type": ["string", "null"]},
+          "type": {"enum": ["text", "date", "choice", "multi_choice", "signature"]},
+          "zone": {"$ref": "#/$defs/zone"},
+          "zones": {"type": "array", "items": {"type": "string", "pattern": "^Z[0-9]+$"}},
+          "value": {"type": ["string", "null"]},
+          "choice": {"type": ["string", "null"]},
+          "options_checked": {"type": "array", "items": {"type": "string"}},
+          "remark": {"type": ["string", "null"]},
+          "remark_zone": {"$ref": "#/$defs/zone"},
+          "inline_text": {"type": ["string", "null"]},
+          "inline_zone": {"$ref": "#/$defs/zone"},
+          "confidence": {"enum": ["high", "medium", "low"]},
+          "note_for_reviewer": {"type": ["string", "null"]},
+          "do_not_fill": {"type": "boolean"}
+        },
+        "allOf": [
+          {"if": {"properties": {"type": {"const": "choice"}}}, "then": {"required": ["choice", "zone"]}},
+          {"if": {"properties": {"type": {"const": "multi_choice"}}}, "then": {"required": ["options_checked", "zones"]}},
+          {"if": {"properties": {"type": {"enum": ["text", "date"]}}}, "then": {"required": ["value", "zone"]}}
+        ]
+      }
+    }
+  }
+}

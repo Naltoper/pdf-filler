@@ -1,0 +1,684 @@
+{
+  "form": {
+    "title": "Vendor Quality Survey",
+    "id": "HO-616",
+    "revision": "10",
+    "file_name": "form.pdf",
+    "zone_map": "0bbf9989",
+    "pages": 4,
+    "issuer": "CHC / Heli-One",
+    "respondent": "AIRBUS HELICOPTERS"
+  },
+  "answers": [
+    {
+      "ref": "A",
+      "page": 1,
+      "label": "Company name (as it appears in approval certificates):",
+      "type": "text",
+      "zone": "Z1",
+      "value": "AIRBUS HELICOPTERS",
+      "confidence": "high"
+    },
+    {
+      "ref": "A",
+      "page": 1,
+      "label": "CAGE code (as applicable)",
+      "type": "text",
+      "zone": "Z2",
+      "value": "F0210",
+      "confidence": "medium",
+      "note_for_reviewer": "Standard CAGE code for Airbus Helicopters Marignane"
+    },
+    {
+      "ref": "A",
+      "page": 1,
+      "label": "Address",
+      "type": "text",
+      "zone": "Z3",
+      "value": "Aéroport International Marseille Provence",
+      "confidence": "high"
+    },
+    {
+      "ref": "A",
+      "page": 1,
+      "label": "City",
+      "type": "text",
+      "zone": "Z4",
+      "value": "Marignane",
+      "confidence": "high"
+    },
+    {
+      "ref": "A",
+      "page": 1,
+      "label": "Province / State",
+      "type": "text",
+      "zone": "Z5",
+      "value": "Cedex",
+      "confidence": "high"
+    },
+    {
+      "ref": "A",
+      "page": 1,
+      "label": "Postal Code / Zip",
+      "type": "text",
+      "zone": "Z6",
+      "value": "13725",
+      "confidence": "high"
+    },
+    {
+      "ref": "A",
+      "page": 1,
+      "label": "Country",
+      "type": "text",
+      "zone": "Z7",
+      "value": "France",
+      "confidence": "high"
+    },
+    {
+      "ref": "A",
+      "page": 1,
+      "label": "Name of Quality Point of Contact",
+      "type": "text",
+      "zone": "Z8",
+      "value": "Elodie CARMONA",
+      "confidence": "high"
+    },
+    {
+      "ref": "A",
+      "page": 1,
+      "label": "Title",
+      "type": "text",
+      "zone": "Z9",
+      "value": "Quality Manager",
+      "confidence": "high"
+    },
+    {
+      "ref": "A",
+      "page": 1,
+      "label": "E-mail address",
+      "type": "text",
+      "zone": "Z10",
+      "value": "elodie.carmona@airbus.com",
+      "confidence": "high"
+    },
+    {
+      "ref": "A",
+      "page": 1,
+      "label": "Telephone",
+      "type": "text",
+      "zone": "Z11",
+      "value": "+33 4 42 85 85 85",
+      "confidence": "high"
+    },
+    {
+      "ref": "B",
+      "page": 1,
+      "label": "EASA Maintenance Organizations must hold EASA 145 approval and Transport Canada Civil Aviation acceptance.",
+      "type": "choice",
+      "zone": "Z20",
+      "choice": "X",
+      "confidence": "high"
+    },
+    {
+      "ref": "B",
+      "page": 1,
+      "label": "EASA 145",
+      "type": "text",
+      "zone": "Z21",
+      "value": "FR.145.0002",
+      "confidence": "high"
+    },
+    {
+      "ref": "B",
+      "page": 1,
+      "label": "FAA CRS #",
+      "type": "text",
+      "zone": "Z22",
+      "value": "E00Y135X",
+      "confidence": "high"
+    },
+    {
+      "ref": "B",
+      "page": 1,
+      "label": "TCCA Acceptance",
+      "type": "text",
+      "zone": "Z23",
+      "value": "804-01",
+      "confidence": "high"
+    },
+    {
+      "ref": "1",
+      "page": 2,
+      "label": "Is there availability of appropriate up to date regulations, specifications and standards?",
+      "type": "choice",
+      "zone": "Z42",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "2",
+      "page": 2,
+      "label": "Does the organization have standards and procedures for training of personnel and competency assessment?",
+      "type": "choice",
+      "zone": "Z46",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "3",
+      "page": 2,
+      "label": "Does the organization have procedures for shelf-life control?",
+      "type": "choice",
+      "zone": "Z50",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "4",
+      "page": 2,
+      "label": "Does the organization have procedures for handling of electrostatic sensitive devices?",
+      "type": "choice",
+      "zone": "Z54",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "5",
+      "page": 2,
+      "label": "Does the organization have a procedure for identifying the source from which components and material were received?",
+      "type": "choice",
+      "zone": "Z58",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "6",
+      "page": 2,
+      "label": "Are there purchasing procedures identifying documentation to accompany components and material for subsequent use by approved maintenance organizations (e.g. Part 145, CAR 573)?",
+      "type": "choice",
+      "zone": "Z62",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "7",
+      "page": 2,
+      "label": "Are there purchasing procedures governing the purchase of military parts and the segregation of military parts from civilian parts?",
+      "type": "choice",
+      "zone": "Z66",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "8",
+      "page": 2,
+      "label": "Are there documented procedures for incoming / receiving inspection of components and materials?",
+      "type": "choice",
+      "zone": "Z70",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "9",
+      "page": 2,
+      "label": "Are there documented procedures for measuring equipment control that provides for appropriate storage, usage, and calibration when such equipment is required?",
+      "type": "choice",
+      "zone": "Z74",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "10",
+      "page": 2,
+      "label": "Are there documented procedures to ensure appropriate storage conditions for components and materials that are adequate to protect the components and materials from damage and/or deterioration in accordance with manufacturers' recommendations and relevant standards?",
+      "type": "choice",
+      "zone": "Z78",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "11",
+      "page": 2,
+      "label": "Are there documented procedures for adequate packing and shipping of components and materials for granting protection from damage and deterioration, including procedures for proper shipping of dangerous goods (e.g. ICAO and ATA specifications)?",
+      "type": "choice",
+      "zone": "Z82",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "12",
+      "page": 2,
+      "label": "Is the procedure for identifying and declaring dangerous goods (e.g. against ICAO, IATA or ATA specifications) documented, effective and monitored?",
+      "type": "choice",
+      "zone": "Z86",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "13",
+      "page": 2,
+      "label": "Is there a documented procedure for detecting and reporting of suspected unapproved components to the appropriate authority?",
+      "type": "choice",
+      "zone": "Z90",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "14",
+      "page": 2,
+      "label": "Is there a documented procedure for handling of unsalvageable components in accordance with applicable regulations and standards?",
+      "type": "choice",
+      "zone": "Z94",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "15",
+      "page": 2,
+      "label": "Is there a documented procedure for batch splitting or redistribution of lots and handling of the related documents?",
+      "type": "choice",
+      "zone": "Z98",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "16",
+      "page": 2,
+      "label": "Is there a documented procedure to notify purchasers of any components that have been shipped and later been identified to not conform to the applicable technical data or standard.",
+      "type": "choice",
+      "zone": "Z102",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "17",
+      "page": 2,
+      "label": "Is there a documented procedure for recall control to ensure that components and materials shipped can be traced and recalled if necessary?",
+      "type": "choice",
+      "zone": "Z106",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "18",
+      "page": 2,
+      "label": "Is there a documented procedure for monitoring the effectiveness of the distributor’s quality system?",
+      "type": "choice",
+      "zone": "Z110",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "19",
+      "page": 2,
+      "label": "Does the Quality Manual (or equivalent) describe a method for approving and overseeing sub-contractors and parts distributors?",
+      "type": "choice",
+      "zone": "Z114",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "20",
+      "page": 2,
+      "label": "Does the Quality Manual (or equivalent) contain policies and procedures for internal quality audits, including issuance and follow-up on audit findings?",
+      "type": "choice",
+      "zone": "Z118",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "21",
+      "page": 2,
+      "label": "Are there effective policies for ensuring that purchase orders meet CHC and/or Heli-One special requirements?",
+      "type": "choice",
+      "zone": "Z122",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "22",
+      "page": 2,
+      "label": "As a parts distributer, do you have the authority to issue a release certificates for ‘new’ parts? If so, is there a documented procedure in place?",
+      "type": "choice",
+      "zone": "Z126",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "23",
+      "page": 2,
+      "label": "Is there a documented procedure in place that ensures traceability of proprietary parts?",
+      "type": "choice",
+      "zone": "Z130",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "24",
+      "page": 2,
+      "label": "Has the facility received any level One findings from a National Civil Aviation Authority audit within the past 2 years?",
+      "type": "choice",
+      "zone": "Z136",
+      "choice": "No",
+      "confidence": "high"
+    },
+    {
+      "ref": "25",
+      "page": 2,
+      "label": "Is there a documented procedure for verifying that a supplier of PMA Parts is approved under Title 14 Code of Federal Regulations (14 CFR) Subpart K (sections 21.301 to 21.320)?",
+      "type": "choice",
+      "zone": "Z141",
+      "choice": "N/A",
+      "confidence": "high",
+      "remark": "OEM, no PMA"
+    },
+    {
+      "ref": "1",
+      "page": 3,
+      "label": "If mandated by your local Authority, do you have a valid approved and active anti-drug and alcohol misuse prevention program?",
+      "type": "choice",
+      "zone": "Z146",
+      "choice": "N/A",
+      "confidence": "high",
+      "remark": "EU Labor laws apply"
+    },
+    {
+      "ref": "2",
+      "page": 3,
+      "label": "Does the Quality Manual (or equivalent) contain procedures for receiving inspection of aircraft parts and materials?",
+      "type": "choice",
+      "zone": "Z147",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "3",
+      "page": 3,
+      "label": "Does the Quality Manual (or equivalent) describe a method for approving and overseeing sub-contractors and parts distributors?",
+      "type": "choice",
+      "zone": "Z151",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "4",
+      "page": 3,
+      "label": "Does the Quality Manual (or equivalent) contain requirements for calibrating tools and test equipment?",
+      "type": "choice",
+      "zone": "Z155",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "5",
+      "page": 3,
+      "label": "Does the Quality Manual (or equivalent) contain policies and procedures for internal quality audits, including issuance and follow-up on audit findings?",
+      "type": "choice",
+      "zone": "Z159",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "6",
+      "page": 3,
+      "label": "Is there a documented and effective training program that complies with applicable civil aviation requirements?",
+      "type": "choice",
+      "zone": "Z163",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "7",
+      "page": 3,
+      "label": "Are return to service personnel properly trained, certified and authorized for all work performed at the facility?",
+      "type": "choice",
+      "zone": "Z167",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "8",
+      "page": 3,
+      "label": "Is there an effective system for ensuring that only authorized personnel can sign an authorized release certificate (e.g. stamp control, roster)?",
+      "type": "choice",
+      "zone": "Z171",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "9",
+      "page": 3,
+      "label": "Is there a documented and effective program to ensure that parts subject to IATA Dangerous Goods Regulations are handled and shipped within those regulations?",
+      "type": "choice",
+      "zone": "Z175",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "10",
+      "page": 3,
+      "label": "Is all necessary technical data (CMM, drawings) available to perform work on all items on the capability list?",
+      "type": "choice",
+      "zone": "Z179",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "11",
+      "page": 3,
+      "label": "Is work performed only based on appropriate technical data acceptable to the customer or as specified in the Purchase Order?",
+      "type": "choice",
+      "zone": "Z183",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "12",
+      "page": 3,
+      "label": "Do procedures for controlling technical data used for performing work ensure that only current data is made available to personnel?",
+      "type": "choice",
+      "zone": "Z187",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "13",
+      "page": 3,
+      "label": "Do procedures exist to ensure that all technical data is current as required by customer’s specifications?",
+      "type": "choice",
+      "zone": "Z191",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "14",
+      "page": 3,
+      "label": "Is there a policy that establishes and maintains control of all records and documents used to perform and record maintenance?",
+      "type": "choice",
+      "zone": "Z195",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "15",
+      "page": 3,
+      "label": "Are technical records retained on file for at least 2 years from the date of completion?",
+      "type": "choice",
+      "zone": "Z199",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "16",
+      "page": 3,
+      "label": "Is there a documented and effective shelf-life program that applies to all parts subject to time control limitations?",
+      "type": "choice",
+      "zone": "Z203",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "17",
+      "page": 3,
+      "label": "Is there a documented and effective parts segregation program that ensures that non-aircraft and non-serviceable parts are not inter-mixed with serviceable aeronautical parts?",
+      "type": "choice",
+      "zone": "Z207",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "18",
+      "page": 3,
+      "label": "Is there a documented and effective parts segregation program that ensures that military aeronautical parts are not inter-mixed with civilian aeronautical parts?",
+      "type": "choice",
+      "zone": "Z211",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "19",
+      "page": 3,
+      "label": "Are parts adequately protected from the environment, dust, contaminants and metal-metal contact through the repair process?",
+      "type": "choice",
+      "zone": "Z215",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "20",
+      "page": 3,
+      "label": "Is there a documented and effective system for ensuring all parts are properly identified?",
+      "type": "choice",
+      "zone": "Z219",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "21",
+      "page": 3,
+      "label": "Is there a documented and effective program to ensure that parts subject to Electrostatic Discharge protection are properly handled?",
+      "type": "choice",
+      "zone": "Z223",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "22",
+      "page": 3,
+      "label": "Is there an adequate Scrapped parts program in place in order to ensure that rejected parts do not return to the aircraft market?",
+      "type": "choice",
+      "zone": "Z227",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "23",
+      "page": 3,
+      "label": "Has the facility received any level One findings from a National Civil Aviation Authority audit within the past 2 years?",
+      "type": "choice",
+      "zone": "Z233",
+      "choice": "No",
+      "confidence": "high"
+    },
+    {
+      "ref": "24",
+      "page": 4,
+      "label": "Is there a method for ensuring sub-contractors follow customer’s detailed work instructions?",
+      "type": "choice",
+      "zone": "Z236",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "25",
+      "page": 4,
+      "label": "Are there effective policies for ensuring the traceability of parts and materials to an approved source acceptable to CHC and/or Heli-One?",
+      "type": "choice",
+      "zone": "Z240",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "26",
+      "page": 4,
+      "label": "Is there a documented and effective program for ensuring that all tools subject to periodic calibration are adequately monitored, identified and re-calibrated?",
+      "type": "choice",
+      "zone": "Z244",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "27",
+      "page": 4,
+      "label": "Is there a system to ensure that required tooling and test equipment is available to perform work required by applicable technical data?",
+      "type": "choice",
+      "zone": "Z248",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "28",
+      "page": 4,
+      "label": "Is there a system to ensure that all tools are calibrated using standards traceable to an approved standards organization (e.g. NIST)?",
+      "type": "choice",
+      "zone": "Z252",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "29",
+      "page": 4,
+      "label": "Do the facilities provide adequate housing, protection (e.g. clean rooms, environmentally controlled rooms) and working space as required by applicable standards and specifications?",
+      "type": "choice",
+      "zone": "Z256",
+      "choice": "Yes",
+      "confidence": "high"
+    },
+    {
+      "ref": "Declaration",
+      "page": 4,
+      "label": "Name:",
+      "type": "text",
+      "zone": "Z260",
+      "value": "Elodie CARMONA",
+      "confidence": "high"
+    },
+    {
+      "ref": "Declaration",
+      "page": 4,
+      "label": "Authorized representative’s signature:",
+      "type": "signature",
+      "zone": "Z261",
+      "confidence": "high"
+    },
+    {
+      "ref": "Declaration",
+      "page": 4,
+      "label": "Title:",
+      "type": "text",
+      "zone": "Z262",
+      "value": "Quality Manager",
+      "confidence": "high"
+    },
+    {
+      "ref": "Declaration",
+      "page": 4,
+      "label": "Date (dd-Mmm-yyyy):",
+      "type": "date",
+      "zone": "Z264",
+      "value": "13-Nov-2026",
+      "confidence": "high"
+    },
+    {
+      "ref": "RESERVED",
+      "page": 4,
+      "label": "Vendor Risk Rating",
+      "type": "text",
+      "zone": null,
+      "value": null,
+      "do_not_fill": true,
+      "confidence": "high",
+      "note_for_reviewer": "Reserved for issuer."
+    }
+  ]
+}
