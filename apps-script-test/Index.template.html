@@ -3,20 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Zones PDF</title>
+  <title>Remplissage PDF</title>
   <style>
     body { margin: 0; font-family: "Segoe UI", sans-serif; background: #f4f6f8; color: #1c2430; }
     main { max-width: 640px; margin: 32px auto; padding: 0 16px 48px; }
     h1 { font-size: 22px; margin: 0 0 8px; }
+    h2 { font-size: 20px; margin: 36px 0 8px; }
     p.lead { margin: 0 0 20px; line-height: 1.45; }
     .box { background: #fff; border: 1px solid #d5dde6; border-radius: 10px; padding: 16px; }
+    .box + .box { margin-top: 12px; }
+    label.field { display: block; margin-top: 12px; font-size: 14px; }
     label.drop { display: block; border: 1.5px dashed #8aa0b8; border-radius: 8px; padding: 22px; text-align: center; }
     input[type=file] { display: block; width: 100%; margin-top: 10px; }
     button { margin-top: 12px; background: #1d4e89; color: #fff; border: 0; border-radius: 6px; padding: 10px 16px; font-size: 15px; cursor: pointer; }
     button:disabled { background: #9aabbd; cursor: default; }
     #status { margin-top: 14px; min-height: 1.3em; }
-    #downloads { display: none; margin-top: 14px; }
-    #downloads a { display: inline-block; margin-right: 14px; }
+    #downloads, #fill-downloads { display: none; margin-top: 14px; }
+    #downloads a, #fill-downloads a { display: inline-block; margin-right: 14px; }
+    #fill-status { margin-top: 14px; min-height: 1.3em; }
     .legend { margin-top: 18px; font-size: 14px; line-height: 1.5; }
     .swatch { display: inline-block; width: 14px; height: 14px; vertical-align: -2px; margin-right: 4px; border-radius: 2px; }
     .orange { background: transparent; border: 2px solid #f26500; }
@@ -44,6 +48,33 @@
       <div><span class="swatch orange"></span> case à cocher</div>
       <div><span class="swatch blue"></span> texte</div>
       <div><span class="swatch purple"></span> case ou texte</div>
+    </div>
+  </div>
+
+  <h2>Remplir le formulaire</h2>
+  <p class="lead">Dépose le PDF vierge, le zones.json de l'étape précédente et le answers.json du gem. La page écrit le PDF rempli, le PDF de revue et le rapport. Ces fichiers restent dans le navigateur.</p>
+  <div class="box">
+    <label class="field">PDF vierge
+      <input id="fill-pdf" type="file" accept="application/pdf,.pdf">
+    </label>
+    <label class="field">zones.json
+      <input id="fill-zones" type="file" accept="application/json,.json">
+    </label>
+    <label class="field">answers.json
+      <input id="fill-answers" type="file" accept="application/json,.json">
+    </label>
+    <div id="fill-status">En attente des librairies PDF…</div>
+    <button id="fill" type="button" onclick="onFillClick()">Remplir</button>
+    <div id="fill-downloads">
+      <a id="dl-filled">filled.pdf</a>
+      <a id="dl-review">review.pdf</a>
+      <a id="dl-report">report.md</a>
+      <a id="dl-feedback">gem_feedback.txt</a>
+    </div>
+    <div class="legend">
+      <div><span class="swatch" style="background:#e0edff;border:1px solid #143e94"></span> ajout OK</div>
+      <div><span class="swatch" style="background:#fff2d1;border:1px solid #8c5210"></span> à vérifier</div>
+      <div><span class="swatch" style="background:#ffe6e6;border:1px solid #941410"></span> à traiter</div>
     </div>
   </div>
 </main>
@@ -143,15 +174,20 @@ function bootLibs() {
     }
     window.__libsReady = true;
     setStatus(window.__pdfFile ? "Prêt. Clique sur Préparer les zones." : "Prêt. Choisis un PDF.");
+    var fillStatus = document.getElementById("fill-status");
+    if (fillStatus) fillStatus.textContent = "Prêt. Dépose le PDF, zones.json et answers.json.";
   }).catch(function (err) {
     window.__libsError = err && err.message ? err.message : String(err);
     setStatus("Erreur de chargement : " + window.__libsError);
+    var fillStatus = document.getElementById("fill-status");
+    if (fillStatus) fillStatus.textContent = "Erreur de chargement : " + window.__libsError;
   });
 }
 bootLibs();
 </script>
 <script>
 ___LOGIC___
+___RUN___
 (function () {
   var runButton = document.getElementById("run");
   var status = document.getElementById("status");
@@ -190,6 +226,94 @@ ___LOGIC___
     }).then(function () {
       window.__running = false;
       runButton.disabled = false;
+    });
+  };
+})();
+(function () {
+  var fillButton = document.getElementById("fill");
+  var status = document.getElementById("fill-status");
+  var downloads = document.getElementById("fill-downloads");
+
+  function link(id, bytes, name, type) {
+    var a = document.getElementById(id);
+    if (a.href) URL.revokeObjectURL(a.href);
+    a.href = URL.createObjectURL(new Blob([bytes], {type: type}));
+    a.download = name;
+    a.style.display = "";
+  }
+  function hide(id) {
+    var a = document.getElementById(id);
+    if (a.href) URL.revokeObjectURL(a.href);
+    a.removeAttribute("href");
+    a.style.display = "none";
+  }
+
+  window.onFillClick = function () {
+    if (window.__running) {
+      status.textContent = "Un traitement est déjà en cours…";
+      return;
+    }
+    if (window.__libsError) {
+      status.textContent = "Erreur de chargement : " + window.__libsError;
+      return;
+    }
+    if (!window.__libsReady) {
+      status.textContent = "Les librairies PDF se chargent encore. Attends le message « Prêt ».";
+      return;
+    }
+    if (typeof window.Run === "undefined" && typeof Run === "undefined") {
+      status.textContent = "Le remplissage n'est pas chargé. Recharge la page.";
+      return;
+    }
+    var pdf = document.getElementById("fill-pdf").files[0];
+    var zonesFile = document.getElementById("fill-zones").files[0];
+    var answersFile = document.getElementById("fill-answers").files[0];
+    if (!pdf || !zonesFile || !answersFile) {
+      status.textContent = "Il manque le PDF vierge, zones.json ou answers.json.";
+      return;
+    }
+    window.__running = true;
+    fillButton.disabled = true;
+    downloads.style.display = "none";
+    status.textContent = "Lecture des fichiers…";
+    var stem = pdf.name.replace(/\.pdf$/i, "");
+    Promise.all([pdf.arrayBuffer(), zonesFile.text(), answersFile.text()]).then(function (parts) {
+      var zmap, data;
+      try {
+        zmap = JSON.parse(parts[1]);
+        data = JSON.parse(parts[2]);
+      } catch (err) {
+        throw new Error("JSON illisible : " + (err && err.message ? err.message : err));
+      }
+      status.textContent = "Remplissage…";
+      return Run.run(new Uint8Array(parts[0]), zmap, data, PDFLib, {jobName: stem});
+    }).then(function (res) {
+      if (res.errors.length) {
+        link("dl-feedback", res.feedback, stem + "-gem-feedback.txt", "text/plain;charset=utf-8");
+        hide("dl-filled");
+        hide("dl-review");
+        hide("dl-report");
+        downloads.style.display = "block";
+        status.textContent = res.errors.length + " erreur(s). La première : " + res.errors[0];
+        return;
+      }
+      hide("dl-feedback");
+      link("dl-filled", res.filled, stem + "-filled.pdf", "application/pdf");
+      link("dl-review", res.review, stem + "-review.pdf", "application/pdf");
+      link("dl-report", res.report, stem + "-report.md", "text/markdown;charset=utf-8");
+      downloads.style.display = "block";
+      var placed = 0, empty = 0;
+      res.plan.answers.forEach(function (a) {
+        if (a.status === "placed" || a.status === "already_filled") placed += 1;
+        if (a.status === "empty") empty += 1;
+      });
+      status.textContent = placed + " réponses écrites, " + empty + " vides, " +
+        res.plan.unused.length + " zones sans réponse, " + res.warnings.length + " avertissement(s).";
+    }).catch(function (err) {
+      status.textContent = "Erreur : " + (err && err.message ? err.message : err);
+    }).then(function () {
+      window.__running = false;
+      fillButton.disabled = false;
     });
   };
 })();
