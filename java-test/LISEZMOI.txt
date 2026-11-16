@@ -1,0 +1,22 @@
+Test : est-ce que ce PC peut lancer un programme Java compile ?
+
+1. Ouvre une invite de commandes dans CE dossier
+   (dans l'explorateur : barre d'adresse, tape cmd, Entree).
+
+2. Verifie que Java est vu :
+      java -version
+
+   Si "java n'est pas reconnu", le JRE n'est pas dans le PATH.
+   Relance avec le chemin complet, par exemple :
+      "C:\Program Files\Java\jre-1.8\bin\java.exe" -jar JreTest.jar
+   (adapte le dossier a l'endroit ou tu as decompresse le JRE)
+
+3. Lance le test :
+      java -jar JreTest.jar
+
+   Ou double-clique sur test.bat.
+
+Resultat attendu : un texte "Test JRE : OK" plus un fichier
+jre-test-resultat.txt cree dans ce dossier.
+
+Le .jar est compile pour Java 8. Il marche avec Java 8, 11, 17, 21.

@@ -33,8 +33,7 @@ def save_json(path, data):
 
 def find_form(job_dir):
     job = Path(job_dir)
-    for ext in (".pdf", ".docx"):
-        hits = sorted(p for p in job.glob(f"*{ext}") if not p.name.startswith("~$"))
-        if hits:
-            return hits[0]
-    raise FileNotFoundError(f"Aucun formulaire .pdf/.docx dans {job}")
+    hits = sorted(p for p in job.glob("*.pdf") if not p.name.startswith("~$"))
+    if hits:
+        return hits[0]
+    raise FileNotFoundError(f"Aucun formulaire .pdf dans {job}")

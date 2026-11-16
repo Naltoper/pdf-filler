@@ -1,4 +1,4 @@
-"""formfill: fill PDF/DOCX questionnaires from gem answers addressed to numbered zones.
+"""formfill: fill PDF questionnaires from gem answers addressed to numbered zones.
 
 Usage:
   python -m formfill prepare JOB_DIR     detect zones -> JOB_DIR/zones/zones.pdf + zones.txt (for the gem)
@@ -7,7 +7,7 @@ Usage:
   python -m formfill crop JOB_DIR PAGE X0 Y0 X1 Y1 [--original]   zoom on a zone of the filled PDF
 
 Options: --answers PATH (default JOB_DIR/answers.json), --no-render, --pages (run: also out/pages/*.png)
-JOB_DIR contains the blank form (one .pdf or .docx).
+JOB_DIR contains the blank form (one .pdf).
 """
 import argparse
 import sys
@@ -55,6 +55,7 @@ def cmd_validate(job, answers_path):
 
 
 def cmd_run(job, answers_path, render=True, pages=False):
+    from .fill_pdf import fill_pdf
     from .plan import build_plan
     from .report import build_report
 
@@ -68,23 +69,16 @@ def cmd_run(job, answers_path, render=True, pages=False):
     save_json(out / "plan.json", plan)
     zones = {z["id"]: z for z in zmap["zones"]}
 
-    if form.suffix.lower() == ".docx":
-        from .docx_form import fill_docx
-        from .render import docx_to_pdf
-        filled = out / "filled.docx"
-        fill_docx(form, filled, plan["ops"])
-        fill_results = [dict(op=op, ok=True, overflow=False) for op in plan["ops"]]
-        filled_pdf = out / "filled.pdf"
-        if render:
-            docx_to_pdf(filled, filled_pdf)
-    else:
-        from .fill_pdf import fill_pdf
-        filled_pdf = out / "filled.pdf"
-        fill_results = fill_pdf(form, filled_pdf, plan["ops"], zones)
+    filled_pdf = out / "filled.pdf"
+    fill_results = fill_pdf(form, filled_pdf, plan["ops"], zones)
 
     if render and filled_pdf.exists():
         from .render import render_pages, review_pdf
-        review_pdf(filled_pdf, out / "review.pdf", plan, zmap, fill_results)
+        try:
+            review_pdf(filled_pdf, out / "review.pdf", plan, zmap, fill_results)
+        except ValueError as e:
+            print(f"erreur review.pdf : {e}")
+            return 2
         if pages:
             render_pages(filled_pdf, out / "pages")
 

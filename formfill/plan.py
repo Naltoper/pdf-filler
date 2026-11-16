@@ -65,11 +65,13 @@ def build_plan(zmap, data, fit=None):
         else:
             info["status"] = "already_filled"
 
-    for op in ops:
-        z = zones[op["zone"]]
-        if "field" in z:
-            op["field"] = z["field"]
-    return dict(ops=ops, answers=answers, unused=_unused(zmap["zones"], used | ignored))
+    return dict(
+        ops=ops,
+        answers=answers,
+        unused=_unused(zmap["zones"], used | ignored),
+        map_id=zmap.get("map_id"),
+        detector=zmap.get("detector"),
+    )
 
 
 def _unused(zones, taken):

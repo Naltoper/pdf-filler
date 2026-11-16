@@ -1,7 +1,7 @@
-"""Zone map of a form: detection, numbering (Z1..Zn) and the files given to the gem.
+"""Zone map of a PDF form: detection, numbering (Z1..Zn) and the files given to the gem.
 
 jobs/<job>/zones/
-  zones.json   full map used by the filler (geometry, docx field index, widget xref)
+  zones.json   full map used by the filler (geometry, widget xref)
   zones.txt    compact list for the gem: id, page, type, surrounding text
   zones.pdf    the form with every zone outlined and labelled with its id
 """
@@ -11,8 +11,9 @@ from pathlib import Path
 import pymupdf
 
 from .common import load_json, save_json
+from .pdf_zones import detect_pdf
 
-DETECTOR_VERSION = "zones-1"
+DETECTOR_VERSION = "zones-4"
 KIND_FR = {"check": "case", "text": "texte", "any": "case ou texte"}
 CTX_ORDER = ("row", "col", "left", "above", "right", "tooltip", "field_name")
 COLORS = {"check": (0.95, 0.4, 0.0), "text": (0.0, 0.35, 0.9), "any": (0.55, 0.0, 0.7)}
@@ -27,12 +28,7 @@ def map_id(form_path):
 
 def detect(form_path):
     form_path = Path(form_path)
-    if form_path.suffix.lower() == ".docx":
-        from .docx_form import docx_zones
-        zmap = docx_zones(form_path)
-    else:
-        from .pdf_zones import detect_pdf
-        zmap = detect_pdf(form_path)
+    zmap = detect_pdf(form_path)
     for n, z in enumerate(zmap["zones"], start=1):
         z["id"] = f"Z{n}"
     zmap.update(map_id=map_id(form_path), source=form_path.name, detector=DETECTOR_VERSION)
@@ -135,15 +131,7 @@ def prepare(job, form):
     zmap = detect(form)
     save_json(zdir / "zones.json", zmap)
     (zdir / "zones.txt").write_text(zones_txt(zmap), encoding="utf-8")
-    if form.suffix.lower() == ".docx":
-        from .docx_form import numbered_docx
-        from .render import docx_to_pdf
-        numbered = zdir / "zones.docx"
-        numbered_docx(form, numbered, zmap["zones"])
-        if docx_to_pdf(numbered, zdir / "zones.pdf") is None:
-            zmap["notes"].append("LibreOffice absent : zones.pdf non généré, donner zones.docx au gem")
-    else:
-        annotate_pdf(form, zmap["zones"], zdir / "zones.pdf")
+    annotate_pdf(form, zmap["zones"], zdir / "zones.pdf")
     return zmap
 
 

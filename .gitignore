@@ -2,3 +2,5 @@
 __pycache__/
 jobs/*/out/
 jobs/*/zones/
+apps-script-test/vendor/
+apps-script-test/out/

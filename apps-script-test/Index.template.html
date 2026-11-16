@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zones PDF</title>
+  <style>
+    body { margin: 0; font-family: "Segoe UI", sans-serif; background: #f4f6f8; color: #1c2430; }
+    main { max-width: 640px; margin: 32px auto; padding: 0 16px 48px; }
+    h1 { font-size: 22px; margin: 0 0 8px; }
+    p.lead { margin: 0 0 20px; line-height: 1.45; }
+    .box { background: #fff; border: 1px solid #d5dde6; border-radius: 10px; padding: 16px; }
+    label.drop { display: block; border: 1.5px dashed #8aa0b8; border-radius: 8px; padding: 22px; text-align: center; }
+    input[type=file] { display: block; width: 100%; margin-top: 10px; }
+    button { margin-top: 12px; background: #1d4e89; color: #fff; border: 0; border-radius: 6px; padding: 10px 16px; font-size: 15px; cursor: pointer; }
+    button:disabled { background: #9aabbd; cursor: default; }
+    #status { margin-top: 14px; min-height: 1.3em; }
+    #downloads { display: none; margin-top: 14px; }
+    #downloads a { display: inline-block; margin-right: 14px; }
+    .legend { margin-top: 18px; font-size: 14px; line-height: 1.5; }
+    .swatch { display: inline-block; width: 14px; height: 14px; vertical-align: -2px; margin-right: 4px; border-radius: 2px; }
+    .orange { background: transparent; border: 2px solid #f26500; }
+    .blue { background: transparent; border: 2px solid #0059e6; }
+    .purple { background: transparent; border: 2px solid #8c00b3; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Préparer les zones</h1>
+  <p class="lead">Dépose le PDF vierge. La page détecte les zones et te donne zones.pdf, zones.txt et zones.json. Le fichier reste dans le navigateur : il n'est pas envoyé à Google.</p>
+  <div class="box">
+    <label class="drop">
+      <span id="filename">Aucun fichier choisi</span>
+      <input id="file" type="file" accept="application/pdf,.pdf" onchange="onPdfChosen(this)">
+    </label>
+    <div id="status">Chargement des librairies PDF…</div>
+    <button id="run" type="button" onclick="onRunClick()">Préparer les zones</button>
+    <div id="downloads">
+      <a id="dl-pdf">zones.pdf</a>
+      <a id="dl-txt">zones.txt</a>
+      <a id="dl-json">zones.json</a>
+    </div>
+    <div class="legend">
+      <div><span class="swatch orange"></span> case à cocher</div>
+      <div><span class="swatch blue"></span> texte</div>
+      <div><span class="swatch purple"></span> case ou texte</div>
+    </div>
+  </div>
+</main>
+<script>
+window.onerror = function (message) {
+  var status = document.getElementById("status");
+  if (status) status.textContent = "Erreur : " + message;
+};
+function setStatus(text) {
+  var status = document.getElementById("status");
+  if (status) status.textContent = text;
+}
+function onPdfChosen(input) {
+  var file = input.files && input.files[0];
+  if (!file) {
+    setStatus("La page n'a pas reçu le fichier. Réessaie.");
+    return;
+  }
+  document.getElementById("filename").textContent = file.name;
+  window.__pdfFile = file;
+  if (!window.__libsReady) {
+    setStatus("Fichier reçu : " + file.name + ". Chargement des librairies encore en cours…");
+    return;
+  }
+  onRunClick();
+}
+function onRunClick() {
+  if (window.__running) {
+    setStatus("Analyse déjà en cours…");
+    return;
+  }
+  if (window.__libsError) {
+    setStatus("Erreur de chargement : " + window.__libsError);
+    return;
+  }
+  if (!window.__libsReady) {
+    setStatus("Les librairies PDF se chargent encore. Attends le message « Prêt ».");
+    return;
+  }
+  if (!window.__pdfFile) {
+    setStatus("Choisis d'abord un PDF.");
+    return;
+  }
+  if (typeof window.runPrepare !== "function") {
+    setStatus("Le détecteur n'est pas chargé. Recharge la page.");
+    return;
+  }
+  window.runPrepare(window.__pdfFile);
+}
+function patchWorker(code) {
+  var from = "d.styles[t]={fontFamily:e.fallbackName,ascent:e.ascent,descent:e.descent,vertical:e.vertical}";
+  var to = "d.styles[t]={fontFamily:e.fallbackName,ascent:e.ascent,descent:e.descent,vertical:e.vertical,pdfName:e.name,bold:!!(e.bold||e.black||/bold|black/i.test(e.name||\"\")),bbox:e.bbox}";
+  if (code.indexOf("pdfName:e.name") >= 0) return code;
+  if (code.indexOf(from) < 0) throw new Error("pdf.js ne contient pas le point d'insertion des noms de police");
+  return code.split(from).join(to);
+}
+function fetchLib(url) {
+  return window.fetch(url).then(function (res) {
+    if (!res.ok) throw new Error("HTTP " + res.status + " sur " + url);
+    return res.text();
+  });
+}
+function runScript(code) {
+  return new Promise(function (resolve, reject) {
+    var blob = new Blob([code], {type: "text/javascript"});
+    var url = URL.createObjectURL(blob);
+    var script = document.createElement("script");
+    script.onload = function () { URL.revokeObjectURL(url); resolve(); };
+    script.onerror = function () { reject(new Error("Exécution de la librairie bloquée")); };
+    script.src = url;
+    document.head.appendChild(script);
+  });
+}
+function bootLibs() {
+  setStatus("Chargement des librairies PDF…");
+  var LIB_URLS = {
+    pdf: "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js",
+    worker: "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js",
+    pdflib: "https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"
+  };
+  setStatus("Chargement pdf.js…");
+  fetchLib(LIB_URLS.pdf).then(function (code) {
+    return runScript(code);
+  }).then(function () {
+    setStatus("Chargement moteur PDF…");
+    return fetchLib(LIB_URLS.worker);
+  }).then(function (code) {
+    return runScript(patchWorker(code));
+  }).then(function () {
+    setStatus("Chargement pdf-lib…");
+    return fetchLib(LIB_URLS.pdflib);
+  }).then(function (code) {
+    return runScript(code);
+  }).then(function () {
+    if (typeof pdfjsLib === "undefined" || typeof PDFLib === "undefined") {
+      throw new Error("librairies incomplètes");
+    }
+    window.__libsReady = true;
+    setStatus(window.__pdfFile ? "Prêt. Clique sur Préparer les zones." : "Prêt. Choisis un PDF.");
+  }).catch(function (err) {
+    window.__libsError = err && err.message ? err.message : String(err);
+    setStatus("Erreur de chargement : " + window.__libsError);
+  });
+}
+bootLibs();
+</script>
+<script>
+___LOGIC___
+(function () {
+  var runButton = document.getElementById("run");
+  var status = document.getElementById("status");
+  var downloads = document.getElementById("downloads");
+
+  function link(id, bytes, name, type) {
+    var a = document.getElementById(id);
+    if (a.href) URL.revokeObjectURL(a.href);
+    a.href = URL.createObjectURL(new Blob([bytes], {type: type}));
+    a.download = name;
+  }
+
+  window.runPrepare = function (file) {
+    if (typeof pdfjsLib === "undefined" || typeof PDFLib === "undefined" || typeof Prepare === "undefined") {
+      status.textContent = "Les librairies PDF ne se sont pas chargées.";
+      return;
+    }
+    window.__running = true;
+    runButton.disabled = true;
+    downloads.style.display = "none";
+    status.textContent = "Détection des zones…";
+    var stem = file.name.replace(/\.pdf$/i, "");
+    file.arrayBuffer().then(function (buffer) {
+      return Prepare.prepare(new Uint8Array(buffer), file.name, pdfjsLib, PDFLib);
+    }).then(function (res) {
+      var counts = {check: 0, text: 0, any: 0};
+      res.zmap.zones.forEach(function (z) { counts[z.kind] = (counts[z.kind] || 0) + 1; });
+      link("dl-pdf", res.pdf, stem + "-zones.pdf", "application/pdf");
+      link("dl-txt", res.txt, stem + "-zones.txt", "text/plain");
+      link("dl-json", JSON.stringify(res.zmap, null, 2), stem + "-zones.json", "application/json");
+      downloads.style.display = "block";
+      status.textContent = res.zmap.zones.length + " zones (" + counts.check + " cases, " +
+        counts.text + " textes, " + counts.any + " case-ou-texte). Carte " + res.zmap.map_id + ".";
+    }).catch(function (err) {
+      status.textContent = "Erreur : " + (err && err.message ? err.message : err);
+    }).then(function () {
+      window.__running = false;
+      runButton.disabled = false;
+    });
+  };
+})();
+</script>
+</body>
+</html>

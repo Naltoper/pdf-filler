@@ -156,37 +156,99 @@ def vector_shapes(page):
 
 
 def merge_collinear(segs, horizontal, gap=4.0, tol=0.8):
-    """Join touching segments lying on the same line: (a0, a1, c) for h, (c, a0, a1) for v."""
+    """Join touching segments lying on the same line: (a0, a1, c) for h, (c, a0, a1) for v.
+
+    Segments must actually overlap or abut along the line (within ``gap``). A mere
+    ``a0 <= current_end + gap`` is not enough: with sorted x/y keys, a later fragment
+    higher on the page can otherwise be absorbed into an earlier span lower on the
+    page without extending it, dropping table borders (e.g. FO61 §2.2 Remarks edge).
+    """
     norm = [(s[2], s[0], s[1]) for s in segs] if horizontal else [(s[0], s[1], s[2]) for s in segs]
     norm.sort()
     out = []
     for c, a0, a1 in norm:
-        if out and abs(out[-1][0] - c) <= tol and a0 <= out[-1][2] + gap:
+        if (out and abs(out[-1][0] - c) <= tol
+                and a0 <= out[-1][2] + gap and a1 >= out[-1][1] - gap):
             pc, p0, p1 = out[-1]
-            out[-1] = (pc, p0, max(p1, a1))
+            out[-1] = (pc, min(p0, a0), max(p1, a1))
         else:
             out.append((c, a0, a1))
     return [(a0, a1, c) for c, a0, a1 in out] if horizontal else out
 
 
-def _cluster(values, tol=1.2):
-    out = []
-    for v in sorted(values):
-        if out and v - out[-1][-1] <= tol:
-            out[-1].append(v)
-        else:
-            out.append([v])
-    return [sum(g) / len(g) for g in out]
+def _cluster_lines(segs, cross_idx, a0_idx, a1_idx, tol=1.2, overlap_pad=2.0):
+    """Group segments into grid lines by cross-coordinate proximity AND along-range overlap.
+
+    Nearby x/y values that live on different bands of the page stay separate (avoids
+    averaging a real table edge with unrelated strokes, then dropping it from v_at/h_at
+    because it sits >tol from the cluster mean — see appart Prior Residence column).
+
+    ``segs``: verticals ``(x, y0, y1)`` or horizontals ``(x0, x1, y)``.
+    Returns ``(coords_sorted, spans_by_index)`` where each span is ``(a0, a1)`` along the line.
+    Coordinates are length-weighted means; spans are the member segments (membership, not
+    distance-to-mean matching).
+    """
+    n = len(segs)
+    if not n:
+        return [], {}
+    parent = list(range(n))
+
+    def find(i):
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    def union(a, b):
+        ra, rb = find(a), find(b)
+        if ra != rb:
+            parent[rb] = ra
+
+    normed = []
+    for s in segs:
+        c, a0, a1 = s[cross_idx], s[a0_idx], s[a1_idx]
+        if a0 > a1:
+            a0, a1 = a1, a0
+        normed.append((c, a0, a1))
+
+    order = sorted(range(n), key=lambda i: normed[i][0])
+    for ii, i in enumerate(order):
+        ci, a0i, a1i = normed[i]
+        for j in order[ii + 1:]:
+            cj, a0j, a1j = normed[j]
+            if cj - ci > tol:
+                break
+            if a0i <= a1j + overlap_pad and a0j <= a1i + overlap_pad:
+                union(i, j)
+
+    groups = {}
+    for i in range(n):
+        groups.setdefault(find(i), []).append(i)
+
+    lines = []
+    for idxs in groups.values():
+        num = den = 0.0
+        spans = []
+        for i in idxs:
+            c, a0, a1 = normed[i]
+            length = max(a1 - a0, 0.01)
+            num += c * length
+            den += length
+            spans.append((a0, a1))
+        lines.append((num / den, spans))
+    lines.sort(key=lambda t: t[0])
+    coords = [c for c, _ in lines]
+    spans_at = {i: sp for i, (_, sp) in enumerate(lines)}
+    return coords, spans_at
 
 
 def grid_cells(hs, vs, page_rect):
     """Closed rectangular cells formed by horizontal and vertical segments (merged cells included)."""
-    xs = _cluster([v[0] for v in vs])
-    ys = _cluster([h[2] for h in hs])
+    # vs: (x, y0, y1) ; hs: (x0, x1, y)
+    xs, v_at = _cluster_lines(vs, cross_idx=0, a0_idx=1, a1_idx=2)
+    ys, h_at = _cluster_lines(hs, cross_idx=2, a0_idx=0, a1_idx=1)
     if len(xs) < 2 or len(ys) < 2:
         return []
-    h_at = {j: [(h[0], h[1]) for h in hs if abs(h[2] - y) <= 1.2] for j, y in enumerate(ys)}
-    v_at = {i: [(v[1], v[2]) for v in vs if abs(v[0] - x) <= 1.2] for i, x in enumerate(xs)}
 
     def covered(spans, a, b):
         return any(s0 <= a + 2 and s1 >= b - 2 for s0, s1 in spans)
@@ -244,6 +306,133 @@ def _zone(shape, kind, rect, **kw):
 
 def _inside(word, rect, pad=0.5):
     return rect.x0 - pad <= word.cx <= rect.x1 + pad and rect.y0 - pad <= (word.y0 + word.y1) / 2 <= rect.y1 + pad
+
+
+def _v_overlap(a, b):
+    return max(0.0, min(a.y1, b.y1) - max(a.y0, b.y0))
+
+
+def _grid_neighbor_right(parent, cells, gap_max=8.0):
+    """Cell immediately to the right of parent on the same grid row, or None."""
+    best, best_gap = None, None
+    for c in cells:
+        if c is parent or id(c) == id(parent):
+            continue
+        if c.x0 < parent.x1 - 2:
+            continue
+        gap = c.x0 - parent.x1
+        if gap > gap_max:
+            continue
+        ov = _v_overlap(parent, c)
+        if ov < 0.55 * min(parent.height, c.height):
+            continue
+        # Prefer same-height row mates; require substantial x-alignment of the shared edge.
+        if best is None or gap < best_gap - 0.5 or (abs(gap - best_gap) <= 0.5 and c.y0 < best.y0):
+            best, best_gap = c, gap
+    return best
+
+
+def _grid_neighbor_left(cell, cells, gap_max=8.0):
+    best, best_gap = None, None
+    for c in cells:
+        if c is cell:
+            continue
+        if cell.x0 < c.x1 - 2:
+            continue
+        gap = cell.x0 - c.x1
+        if gap > gap_max:
+            continue
+        ov = _v_overlap(cell, c)
+        if ov < 0.55 * min(cell.height, c.height):
+            continue
+        if best is None or gap < best_gap - 0.5 or (abs(gap - best_gap) <= 0.5 and c.y0 < best.y0):
+            best, best_gap = c, gap
+    return best
+
+
+def _column_title_above(cell, cells, words_in, max_dist=36.0):
+    """True if a distinct column header sits in the grid cell directly above `cell`.
+
+    Used to avoid dropping a left-hand in-cell fill when the empty cell to the right
+    is a different field (e.g. Phone: ___ | [empty Ext column]).
+    Only a grid cell above counts (not free-floating paragraph text). A data row
+    whose cells end with ':' (Label: | Prompt:) is not treated as a header band.
+    """
+    above = None
+    best_gap = None
+    for c in cells:
+        if abs(c.x0 - cell.x0) > 8 or abs(c.x1 - cell.x1) > 8:
+            continue
+        gap = cell.y0 - c.y1
+        if gap < -1 or gap > max_dist:
+            continue
+        if above is None or gap < best_gap:
+            above, best_gap = c, gap
+    if above is None:
+        return False
+    title = text_of(words_in(above)).strip()
+    if not title:
+        return False
+    # Data rows use "Label:" prompts; real column titles rarely end with ':'.
+    if title.endswith(":"):
+        return False
+    left = _grid_neighbor_left(above, cells)
+    if left is not None:
+        left_txt = text_of(words_in(left)).strip()
+        if left_txt.endswith(":"):
+            return False
+    return True
+
+
+def _drop_colon_residues(cands, cells, words_in):
+    """Remove after-':' label_space residues that are not real fill targets.
+
+    Two-column label|value rows emit both a leftover gap after the label in the
+    left cell and an empty (or prompt+gap) cell on the right. Writing belongs in
+    the right-hand zone; keeping the left residue makes the gem pick the wrong Zn.
+
+    Keep the residue when:
+    - there is no grid neighbour to the right, or
+    - the right neighbour is an empty column that has its own header above
+      (independent field), or
+    - the right neighbour also ends with ':' but the pair looks symmetric
+      (Phone:|Fax: peers — both are real in-cell fills).
+    """
+    drop = set()
+    residues = [z for z in cands if z.get("colon_residue") and z.get("parent_cell") is not None]
+    for z in residues:
+        parent = z["parent_cell"]
+        sib = _grid_neighbor_right(parent, cells)
+        if sib is None:
+            continue
+        ws = words_in(sib)
+        if not ws:
+            if _column_title_above(sib, cells, words_in):
+                continue
+            drop.add(id(z))
+            continue
+        ws = sorted(ws, key=lambda w: (w.y0, w.x0))
+        last_line = [w for w in ws if abs(w.oy - ws[-1].oy) <= 2.5]
+        label = text_of(sorted(last_line, key=lambda w: w.x0))
+        if not label.endswith(":"):
+            continue
+        lx1 = max(w.x1 for w in last_line)
+        right_gap = sib.x1 - lx1
+        if right_gap < 30:
+            continue
+        # Row header | value prompt: left stub is narrow vs parent AND vs right gap.
+        # Symmetric peers (Phone:|Fax:) keep similar fill shares in each cell.
+        left_share = z["rect"].width / max(parent.width, 1.0)
+        if left_share <= 0.65 and z["rect"].width < 0.85 * right_gap:
+            drop.add(id(z))
+    out = []
+    for z in cands:
+        if id(z) in drop:
+            continue
+        z.pop("colon_residue", None)
+        z.pop("parent_cell", None)
+        out.append(z)
+    return out
 
 
 def _box_from_glyph(w):
@@ -356,9 +545,12 @@ def detect_page(page, pno):
         if text_of(sorted(last_line, key=lambda w: w.x0)).endswith(":") and c.x1 - lx1 >= 30 and not small_or_bold:
             same_line_top = min(w.y0 for w in last_line)
             y0 = c.y0 + 1 if len({round(w.oy) for w in ws}) == 1 else same_line_top - 1
-            cands.append(_zone("label_space", "text", pymupdf.Rect(lx1 + 3, y0, c.x1 - 1.5, c.y1 - 1)))
+            cands.append(_zone("label_space", "text", pymupdf.Rect(lx1 + 3, y0, c.x1 - 1.5, c.y1 - 1),
+                               colon_residue=True, parent_cell=c))
         elif top - c.y0 < 7 and c.y1 - bottom >= 12 and c.height >= 22:
             cands.append(_zone("label_space", "text", pymupdf.Rect(c.x0 + 1.5, bottom + 1, c.x1 - 1.5, c.y1 - 1)))
+
+    cands = _drop_colon_residues(cands, cells, words_in)
 
     # combs: touching small empty cells or squares on one row, joined across "/" separators
     comb_src = comb_cells + [r for s, r in smalls if s == "square"]
