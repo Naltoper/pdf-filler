@@ -109,7 +109,7 @@
     .previews { display: grid; gap: 10px; align-content: start; }
     .preview-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
     .preview-bar p { margin: 0; color: var(--muted); font-size: 13px; }
-    .preview-bar button, .filehead a { margin-top: 0; }
+    .preview-bar button, .filehead .dl { margin-top: 0; }
     .empty-preview {
       margin: 0;
       padding: 28px 16px;
@@ -118,34 +118,48 @@
       color: var(--muted);
       font-size: 14px;
     }
-    details.filecard { background: #fff; border: 1px solid var(--line); }
-    details.filecard > summary { list-style: none; cursor: pointer; }
-    details.filecard > summary::-webkit-details-marker { display: none; }
+    .filecard { background: #fff; border: 1px solid var(--line); }
     .filehead {
       display: flex;
       align-items: center;
       gap: 10px;
-      padding: 10px 14px;
+      padding: 0 14px 0 0;
       background: var(--navy);
       color: #fff;
     }
+    .filehead .fold {
+      margin: 0;
+      padding: 10px 14px;
+      background: transparent;
+      color: inherit;
+      letter-spacing: 0;
+      text-transform: none;
+      font-weight: 600;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex: 1;
+      min-width: 0;
+      text-align: left;
+    }
+    .filehead .fold:hover { background: transparent; }
     .chev { width: 14px; color: var(--sky); font-size: 12px; }
     .chev::before { content: "▸"; }
-    details[open] > summary .chev::before { content: "▾"; }
+    .chev.open::before { content: "▾"; }
     .filehead h3 { margin: 0; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; font-weight: 600; }
     .filehead .meta { color: #b7c9d8; font-size: 12px; }
-    .filehead a {
-      margin-left: auto;
+    .filehead .dl {
+      margin: 0;
       color: var(--navy);
       background: var(--sky);
-      text-decoration: none;
       font-size: 12px;
       font-weight: 700;
       letter-spacing: 0.06em;
       text-transform: uppercase;
       padding: 7px 10px;
     }
-    .filehead a:hover { background: #7fd4f2; }
+    .filehead .dl:hover { background: #7fd4f2; }
     .preview {
       max-height: 70vh;
       overflow: auto;
@@ -404,10 +418,13 @@ window.renderPreviews = function (rootId, items, zipName) {
     root.appendChild(bar);
   }
   items.forEach(function (item) {
-    var card = document.createElement("details");
+    var card = document.createElement("div");
     card.className = "filecard";
-    var head = document.createElement("summary");
+    var head = document.createElement("div");
     head.className = "filehead";
+    var fold = document.createElement("button");
+    fold.type = "button";
+    fold.className = "fold";
     var chev = document.createElement("span");
     chev.className = "chev";
     var title = document.createElement("h3");
@@ -415,18 +432,28 @@ window.renderPreviews = function (rootId, items, zipName) {
     var meta = document.createElement("span");
     meta.className = "meta";
     meta.textContent = byteSize(item.bytes);
-    var link = document.createElement("a");
-    link.href = URL.createObjectURL(new Blob([item.bytes], {type: item.type}));
-    link.download = item.name;
-    link.textContent = "Télécharger";
-    link.addEventListener("click", function (event) { event.stopPropagation(); });
-    head.appendChild(chev);
-    head.appendChild(title);
-    head.appendChild(meta);
-    head.appendChild(link);
+    fold.appendChild(chev);
+    fold.appendChild(title);
+    fold.appendChild(meta);
     var view = document.createElement("div");
     view.className = "preview";
+    view.hidden = true;
     view.textContent = "Aperçu…";
+    fold.onclick = function () {
+      view.hidden = !view.hidden;
+      if (view.hidden) chev.classList.remove("open");
+      else chev.classList.add("open");
+    };
+    var dl = document.createElement("button");
+    dl.type = "button";
+    dl.className = "dl";
+    dl.textContent = "Télécharger";
+    dl.onclick = function (event) {
+      event.stopPropagation();
+      saveBlob(item.bytes, item.name, item.type);
+    };
+    head.appendChild(fold);
+    head.appendChild(dl);
     card.appendChild(head);
     card.appendChild(view);
     root.appendChild(card);
@@ -443,7 +470,12 @@ function renderText(view, bytes) {
 }
 function renderPdf(view, meta, bytes) {
   var data = bytes instanceof Uint8Array ? bytes : new Uint8Array(bytes);
-  pdfjsLib.getDocument({data: data.slice(0), disableFontFace: true, verbosity: 0}).promise.then(function (doc) {
+  pdfjsLib.getDocument({
+    data: data.slice(0),
+    standardFontDataUrl: "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/standard_fonts/",
+    disableFontFace: false,
+    verbosity: 0
+  }).promise.then(function (doc) {
     view.innerHTML = "";
     meta.textContent = doc.numPages + (doc.numPages > 1 ? " pages · " : " page · ") + byteSize(bytes);
     var chain = Promise.resolve();
