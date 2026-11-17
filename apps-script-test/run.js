@@ -558,6 +558,40 @@ const Run = (function () {
     return {fontsize: fs, lines: 1, overflow: chars.length > cells.length};
   }
 
+  function widgetIndex(doc) {
+    var form;
+    try { form = doc.getForm(); } catch (err) { return null; }
+    var byObj = {};
+    var ctx = doc.context;
+    form.getFields().forEach(function (field) {
+      var widgets = field.acroField && field.acroField.getWidgets ? field.acroField.getWidgets() : [];
+      widgets.forEach(function (widget) {
+        var ref = ctx.getObjectRef(widget.dict);
+        if (ref) byObj[ref.objectNumber] = field;
+      });
+    });
+    return {form: form, byObj: byObj, written: []};
+  }
+
+  function writeWidget(index, z, op) {
+    var field = z.xref ? index.byObj[z.xref] : null;
+    if (!field && z.ctx && z.ctx.field_name) {
+      try { field = index.form.getField(z.ctx.field_name); } catch (err) { field = null; }
+    }
+    if (!field) return false;
+    if (op.op === "check") {
+      if (typeof field.check === "function") field.check();
+      else if (typeof field.select === "function" && z.export_value) field.select(z.export_value);
+      else return false;
+    } else if (typeof field.setText === "function") {
+      field.setText(op.text == null ? "" : String(op.text));
+    } else if (typeof field.select === "function") {
+      field.select(op.text == null ? "" : String(op.text));
+    } else return false;
+    index.written.push(field);
+    return true;
+  }
+
   async function fillPdf(bytes, ops, zones, PDFLib, fonts) {
     var doc = await PDFLib.PDFDocument.load(bytes);
     var reg, bold;
@@ -571,14 +605,25 @@ const Run = (function () {
     }
     var pages = doc.getPages();
     var results = [];
+    var fields = null;
+    var widgetWrites = 0;
     for (var i = 0; i < ops.length; i++) {
       var op = ops[i], z = zones[op.zone];
       var page = pages[z.page - 1];
       var H = page.getHeight();
       var maxFs = op.role === "remark" ? REMARK_FS : MAX_FS;
       if (z.shape === "widget") {
-        results.push({op: op, ok: false, overflow: false, error: "champ de formulaire introuvable"});
-        continue;
+        if (!fields) fields = widgetIndex(doc);
+        var wrote = false;
+        if (fields) {
+          try { wrote = writeWidget(fields, z, op); }
+          catch (err) { wrote = false; }
+        }
+        if (wrote) {
+          widgetWrites += 1;
+          results.push({op: op, ok: true, overflow: false});
+          continue;
+        }
       }
       if (op.op === "check") {
         drawCheck(page, z.rect, z.shape, bold, H);
@@ -590,6 +635,14 @@ const Run = (function () {
       else if (LINE_SHAPES[z.shape]) info = drawLineText(page, [z.rect].concat(z.extra || []), op.text, maxFs, reg, H);
       else info = drawBoxText(page, z.rect, op.text, maxFs, reg, H);
       results.push({op: op, ok: !info.overflow, fontsize: info.fontsize, lines: info.lines, overflow: info.overflow});
+    }
+    if (widgetWrites && fields) {
+      try { fields.form.updateFieldAppearances(reg); }
+      catch (err) {
+        fields.written.forEach(function (field) {
+          try { if (field.updateAppearances) field.updateAppearances(reg); } catch (e) {}
+        });
+      }
     }
     return {doc: doc, results: results};
   }
@@ -710,7 +763,12 @@ const Run = (function () {
     var zones = {};
     zmap.zones.forEach(function (z) { zones[z.id] = z; });
     var overflow = {};
-    fillResults.forEach(function (r) { if (r.overflow) overflow[r.op.answer + ":" + r.op.zone] = 1; });
+    var failed = {};
+    fillResults.forEach(function (r) {
+      var key = r.op.answer + ":" + r.op.zone;
+      if (r.overflow) overflow[key] = 1;
+      if (r.ok === false) failed[key] = r.error || "écriture impossible";
+    });
     var byAnswer = {};
     plan.ops.forEach(function (op) {
       if (!byAnswer[op.answer]) byAnswer[op.answer] = [];
@@ -723,7 +781,8 @@ const Run = (function () {
         var z = zones[op.zone];
         if (!z || !z.page) return;
         var over = !!overflow[ans.index + ":" + op.zone];
-        var toCheck = op.flag || over;
+        var fail = failed[ans.index + ":" + op.zone];
+        var toCheck = op.flag || over || fail;
         var lines = [head, "Zone " + op.zone, "Confiance  " + (ans.confidence || "—")];
         var kind;
         if (toCheck) {
@@ -731,6 +790,7 @@ const Run = (function () {
           if (ans.note) lines.push("Note  " + ans.note);
           (ans.messages || []).forEach(function (m) { if (m) lines.push("• " + m); });
           if (over) lines.push("• texte trop long pour la zone");
+          if (fail) lines.push("• " + fail);
           kind = "check";
         } else {
           lines.push("Statut  ajout OK");
@@ -808,6 +868,12 @@ const Run = (function () {
       L.push("");
       L.push("Textes réduits au minimum mais trop longs pour leur zone :");
       over.forEach(function (r) { L.push("- " + r.op.zone + " : " + pyRepr(String(r.op.text || "").slice(0, 80))); });
+    }
+    var missed = fillResults.filter(function (r) { return r.ok === false; });
+    if (missed.length) {
+      L.push("");
+      L.push("Écritures impossibles :");
+      missed.forEach(function (r) { L.push("- " + r.op.zone + " : " + (r.error || "écriture impossible")); });
     }
     L.push("");
     L.push("## Zones de texte sans réponse (" + plan.unused.length + ")");

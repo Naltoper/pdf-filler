@@ -75,7 +75,7 @@
     .workspace {
       display: grid;
       grid-template-columns: minmax(380px, 0.85fr) minmax(0, 1.35fr);
-      gap: 18px;
+      gap: 6vw;
       align-items: start;
     }
     .work { order: 1; }
@@ -1058,8 +1058,10 @@ ___RUN___
         if (a.status === "placed" || a.status === "already_filled") placed += 1;
         if (a.status === "empty") empty += 1;
       });
+      var failedWrites = (res.results || []).filter(function (r) { return r.ok === false; }).length;
       status.textContent = placed + " answers written, " + empty + " empty, " +
-        res.plan.unused.length + " zones with no answer, " + res.warnings.length + " warning(s).";
+        res.plan.unused.length + " zones with no answer, " + res.warnings.length + " warning(s)" +
+        (failedWrites ? ", " + failedWrites + " not written" : "") + ".";
     }).catch(function (err) {
       status.textContent = "Error: " + (err && err.message ? err.message : err);
     }).then(function () {

@@ -999,6 +999,9 @@ const Prepare = (function () {
       var r = rect(box[0], H - box[3], box[2], H - box[1]);
       var isCheck = !!(a.checkBox || a.radioButton);
       var z = zone("widget", isCheck ? "check" : "text", r, {field_name: a.fieldName || ""});
+      var xref = parseInt(a.id, 10);
+      if (xref) z.xref = xref;
+      if (a.radioButton && a.exportValue) z.export_value = a.exportValue;
       if (isCheck) z.checked = !!(a.fieldValue && a.fieldValue !== "Off");
       else {
         z.prefilled = (a.fieldValue || "").trim() || null;
