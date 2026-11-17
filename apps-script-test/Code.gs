@@ -9,7 +9,7 @@
  */
 function doGet() {
   return HtmlService.createHtmlOutputFromFile("Index")
-    .setTitle("Remplissage PDF")
+    .setTitle("PDF filler")
     .setSandboxMode(HtmlService.SandboxMode.IFRAME)
     .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
 }

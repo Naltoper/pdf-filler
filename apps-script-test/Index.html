@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Remplissage PDF</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap">
+  <title>PDF filler</title>
   <style>
     :root {
       --navy: #00205b;
@@ -23,82 +24,144 @@
     body {
       margin: 0;
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      background: var(--paper);
+      background:
+        radial-gradient(900px 320px at 100% -40px, rgba(0, 169, 224, 0.16), transparent 60%),
+        linear-gradient(180deg, #f6f8fb 0%, #e7eef3 100%);
       color: var(--ink);
     }
     header {
-      background: var(--navy);
+      background: linear-gradient(180deg, #00143d 0%, #00205b 72%);
       color: #fff;
       border-bottom: 4px solid var(--sky);
     }
     .head {
-      max-width: 1240px;
+      max-width: 2200px;
       margin: 0 auto;
-      padding: 22px 24px 20px;
+      padding: 18px 32px 16px;
       display: flex;
       justify-content: space-between;
       gap: 24px;
-      align-items: flex-end;
+      align-items: center;
     }
+    .brand { display: flex; align-items: center; gap: 16px; min-width: 0; }
+    .logo-plate {
+      display: flex;
+      align-items: center;
+      background: #fff;
+      border-radius: 10px;
+      padding: 8px 12px;
+      line-height: 0;
+      flex: none;
+    }
+    .logo { display: block; height: 44px; width: auto; }
     .kicker {
-      margin: 0 0 6px;
+      margin: 0 0 2px;
       color: var(--sky);
-      font-size: 12px;
-      letter-spacing: 0.16em;
+      font-size: 11px;
+      letter-spacing: 0.18em;
       font-weight: 700;
     }
-    h1 { margin: 0; font-size: 28px; font-weight: 500; letter-spacing: -0.02em; }
-    .head p { margin: 0; max-width: 320px; color: #d5e2ee; font-size: 14px; line-height: 1.45; text-align: right; }
-    main { max-width: 1240px; margin: 0 auto; padding: 28px 24px 64px; }
+    h1 {
+      margin: 0;
+      font-family: "Barlow Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 30px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .head-side { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; }
+    .head p { margin: 0; max-width: 320px; color: #d5e2ee; font-size: 13px; line-height: 1.45; text-align: right; }
+    main { max-width: 2200px; margin: 0 auto; padding: 22px 32px 64px; }
     .workspace {
       display: grid;
-      grid-template-columns: minmax(320px, 0.8fr) minmax(0, 1.2fr);
+      grid-template-columns: minmax(380px, 0.85fr) minmax(0, 1.35fr);
       gap: 18px;
       align-items: start;
     }
     .work { order: 1; }
     .previews { order: 2; }
-    .step { margin: 0 0 28px; }
-    .step-title { display: flex; align-items: baseline; gap: 12px; margin: 0 0 8px; }
-    .step-no { color: var(--sky-dark); font-size: 13px; font-weight: 700; letter-spacing: 0.14em; }
+    .step {
+      margin: 0 0 18px;
+      padding: 22px;
+      background: #fff;
+      border: 1px solid rgba(0, 32, 91, 0.08);
+      border-radius: 18px;
+      box-shadow: 0 12px 32px rgba(0, 32, 91, 0.06);
+    }
+    .step-title { display: flex; align-items: center; gap: 12px; margin: 0 0 8px; }
+    .step-no {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 34px;
+      height: 34px;
+      border-radius: 999px;
+      background: var(--navy);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      flex: none;
+    }
     h2 { margin: 0; font-size: 22px; font-weight: 500; }
-    .lead { margin: 0 0 14px; color: var(--muted); line-height: 1.45; }
-    .box {
-      background: var(--white);
+    .lead { margin: 0 0 16px; color: var(--muted); line-height: 1.5; }
+    .box { background: transparent; border: 0; padding: 0; }
+    .gem {
+      background: #f7fbfd;
       border: 1px solid var(--line);
-      padding: 18px;
+      border-radius: 14px;
+      padding: 16px 18px;
     }
     label.drop, .drop {
       display: block;
       position: relative;
-      border: 1px dashed var(--sky-dark);
-      background: #f7fbfd;
-      padding: 20px;
+      border: 1.5px dashed rgba(0, 119, 168, 0.55);
+      border-radius: 14px;
+      background: linear-gradient(180deg, #f8fcfe, #f2f7fb);
+      padding: 22px;
       text-align: left;
+      transition: border-color 0.15s ease, background 0.15s ease;
     }
     label.drop.over, .drop.over { background: #e5f6fc; border-color: var(--navy); }
     label.drop strong, .drop strong { display: block; color: var(--navy); font-size: 16px; font-weight: 600; }
     label.drop span, .drop span.hint { display: block; margin-top: 4px; color: var(--muted); font-size: 14px; }
     .picker { display: block; width: 100%; margin-top: 12px; color: var(--muted); font-size: 14px; }
     button {
-      margin-top: 14px;
+      margin-top: 0;
       background: var(--navy);
       color: #fff;
       border: 0;
-      padding: 11px 18px;
-      font-size: 14px;
+      border-radius: 999px;
+      padding: 9px 14px;
+      font-size: 12px;
       font-weight: 700;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
+      letter-spacing: 0.04em;
       cursor: pointer;
     }
     button:hover:not(:disabled) { background: var(--navy-deep); }
+    button.reset {
+      background: transparent;
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      padding: 7px 14px;
+    }
+    button.reset:hover { background: rgba(255, 255, 255, 0.12); }
     button:disabled { background: #9aa6b2; cursor: default; }
-    .status { margin-top: 12px; min-height: 1.3em; color: var(--navy); font-size: 14px; }
+    .status {
+      margin-top: 14px;
+      min-height: 1.3em;
+      padding: 10px 12px;
+      border-radius: 10px;
+      background: #f4f8fb;
+      border-left: 3px solid var(--sky);
+      color: var(--navy);
+      font-size: 14px;
+    }
     .picked { list-style: none; margin: 14px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
     .picked li {
       border: 1px solid var(--line);
-      padding: 6px 10px;
+      border-radius: 999px;
+      padding: 6px 12px;
       font-size: 13px;
       background: #fff;
     }
@@ -107,18 +170,25 @@
     .legend { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 16px; font-size: 13px; color: var(--muted); }
     .swatch { display: inline-block; width: 12px; height: 12px; margin-right: 6px; vertical-align: -1px; }
     .previews { display: grid; gap: 10px; align-content: start; }
-    .preview-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+    .preview-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
     .preview-bar p { margin: 0; color: var(--muted); font-size: 13px; }
+    .preview-actions { display: flex; flex-wrap: wrap; gap: 8px; }
     .preview-bar button, .filehead .dl { margin-top: 0; }
+    .preview-actions button { padding: 8px 12px; font-size: 12px; }
+    .gem ol { margin: 0; padding-left: 1.2em; }
+    .gem li { margin: 0 0 8px; line-height: 1.45; }
+    .gem li:last-child { margin-bottom: 0; }
+    .gem p { margin: 12px 0 0; color: var(--muted); }
     .empty-preview {
       margin: 0;
       padding: 28px 16px;
       border: 1px dashed var(--line);
-      background: #fff;
+      border-radius: 14px;
+      background: #f8fafc;
       color: var(--muted);
       font-size: 14px;
     }
-    .filecard { background: #fff; border: 1px solid var(--line); }
+    .filecard { background: #fff; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
     .filehead {
       display: flex;
       align-items: center;
@@ -153,11 +223,11 @@
       margin: 0;
       color: var(--navy);
       background: var(--sky);
+      border-radius: 999px;
       font-size: 12px;
       font-weight: 700;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      padding: 7px 10px;
+      letter-spacing: 0.04em;
+      padding: 7px 12px;
     }
     .filehead .dl:hover { background: #7fd4f2; }
     .preview {
@@ -182,7 +252,7 @@
     .sheet-cap { padding: 4px 8px 6px; color: var(--muted); font-size: 11px; letter-spacing: 0.04em; }
     @media (max-width: 900px) {
       .workspace { grid-template-columns: 1fr; }
-      .head { flex-direction: column; align-items: flex-start; }
+      .head, .head-side { flex-direction: column; align-items: flex-start; }
       .head p { text-align: left; }
       h1 { font-size: 24px; }
     }
@@ -191,62 +261,74 @@
 <body>
 <header>
   <div class="head">
-    <div>
-      <p class="kicker">AIRBUS HELICOPTERS</p>
-      <h1>Remplissage de questionnaires</h1>
+    <div class="brand">
+      <span class="logo-plate"><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/74/Airbus_Helicopters_logo_2014.svg" alt="Airbus Helicopters"></span>
+      <h1>Questionnaire filling</h1>
     </div>
-    <p>Les PDF et les JSON restent dans ce navigateur. Rien n'est envoyé à Google.</p>
+    <div class="head-side">
+      <p>PDFs and JSON files stay in this browser, including after a reload.</p>
+      <button id="reset" class="reset" type="button" onclick="onResetClick()">Reset</button>
+    </div>
   </div>
 </header>
 <main>
   <section class="step">
-    <div class="step-title"><span class="step-no">01</span><h2>Préparer les zones</h2></div>
-    <p class="lead">Dépose le PDF vierge. La page détecte les zones et affiche zones.pdf, zones.txt et zones.json.</p>
+    <div class="step-title"><span class="step-no">01</span><h2>Prepare the zones</h2></div>
+    <p class="lead">Drop the blank PDF. The page finds the zones and prepares zones.pdf and zones.txt for the gem.</p>
     <div class="workspace">
     <div id="prepare-previews" class="previews">
-      <p class="empty-preview">Les aperçus des trois fichiers s'afficheront ici.</p>
+      <p class="empty-preview">Previews of zones.pdf and zones.txt will appear here.</p>
     </div>
     <div class="box work">
       <div class="drop" id="prepare-drop">
-        <strong id="filename">Dépose le PDF vierge</strong>
-        <span class="hint">Glisse-le ici, ou choisis-le ci-dessous. La détection démarre toute seule.</span>
+        <strong id="filename">Drop the blank PDF</strong>
+        <span class="hint">Drop it here, or choose it below. Detection starts on its own.</span>
         <input id="file" class="picker" type="file" accept="application/pdf,.pdf" onchange="onPdfChosen(this)">
       </div>
-      <div id="status" class="status">Chargement des librairies PDF…</div>
-      <button id="run" type="button" onclick="onRunClick()">Préparer les zones</button>
+      <div id="status" class="status">Loading PDF libraries…</div>
       <div class="legend">
-        <div><span class="swatch" style="background:#f26500"></span> case à cocher</div>
-        <div><span class="swatch" style="background:#0059e6"></span> texte</div>
-        <div><span class="swatch" style="background:#8c00b3"></span> case ou texte</div>
+        <div><span class="swatch" style="background:#f26500"></span> checkbox</div>
+        <div><span class="swatch" style="background:#0059e6"></span> text</div>
+        <div><span class="swatch" style="background:#8c00b3"></span> checkbox or text</div>
       </div>
     </div>
     </div>
   </section>
 
   <section class="step">
-    <div class="step-title"><span class="step-no">02</span><h2>Remplir le formulaire</h2></div>
-    <p class="lead">Dépose en une fois le PDF vierge, le zones.json et le answers.json du gem. La page affiche le PDF rempli, la revue et le rapport.</p>
+    <div class="step-title"><span class="step-no">02</span><h2>Ask the gem</h2></div>
+    <div class="box gem">
+      <ol>
+        <li>Download zones.pdf and zones.txt from step 1.</li>
+        <li>Open the Gemini gem and give it these two files.</li>
+        <li>The gem returns a JSON file. Save it: this is answers.json, to drop at step 3.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="step">
+    <div class="step-title"><span class="step-no">03</span><h2>Fill the form</h2></div>
+    <p class="lead">The blank PDF and zones.json come from step 1. Drop answers.json, the file returned by the gem.</p>
     <div class="workspace">
     <div id="fill-previews" class="previews">
-      <p class="empty-preview">Les aperçus du PDF rempli, de la revue et du rapport s'afficheront ici.</p>
+      <p class="empty-preview">Previews of the filled PDF, the review and the report will appear here.</p>
     </div>
     <div class="box work">
       <div class="drop" id="fill-drop">
-        <strong>Dépose les trois fichiers ensemble</strong>
-        <span class="hint">PDF vierge, zones.json et answers.json, en une seule fois. L'ordre n'a pas d'importance.</span>
+        <strong id="fill-title">Drop answers.json</strong>
+        <span class="hint" id="fill-hint">If step 1 has not run here yet, also drop the blank PDF and zones.json.</span>
         <input id="fill-files" class="picker" type="file" multiple accept=".pdf,.json,application/pdf,application/json" onchange="onFillFiles(this)">
       </div>
       <ul id="fill-picked" class="picked">
-        <li id="slot-pdf" class="miss">PDF vierge · manquant</li>
-        <li id="slot-zones" class="miss">zones.json · manquant</li>
-        <li id="slot-answers" class="miss">answers.json · manquant</li>
+        <li id="slot-pdf" class="miss">Blank PDF · missing</li>
+        <li id="slot-zones" class="miss">zones.json · missing</li>
+        <li id="slot-answers" class="miss">answers.json · missing</li>
       </ul>
-      <div id="fill-status" class="status">En attente des librairies PDF…</div>
-      <button id="fill" type="button" onclick="onFillClick()">Remplir</button>
+      <div id="fill-status" class="status">Waiting for the PDF libraries…</div>
       <div class="legend">
-        <div><span class="swatch" style="background:#d6e6f5"></span> ajout OK</div>
-        <div><span class="swatch" style="background:#f3e2b8"></span> à vérifier</div>
-        <div><span class="swatch" style="background:#f3c9c9"></span> à traiter</div>
+        <div><span class="swatch" style="background:#d6e6f5"></span> written OK</div>
+        <div><span class="swatch" style="background:#f3e2b8"></span> to check</div>
+        <div><span class="swatch" style="background:#f3c9c9"></span> to handle</div>
       </div>
     </div>
     </div>
@@ -255,16 +337,164 @@
 <script>
 window.onerror = function (message) {
   var status = document.getElementById("status");
-  if (status) status.textContent = "Erreur : " + message;
+  if (status) status.textContent = "Error: " + message;
 };
 function setStatus(text) {
   var status = document.getElementById("status");
   if (status) status.textContent = text;
 }
+var cacheDbPromise;
+function cacheDb() {
+  if (!cacheDbPromise) {
+    cacheDbPromise = new Promise(function (resolve, reject) {
+      var req = indexedDB.open("pdffill", 1);
+      req.onupgradeneeded = function () { req.result.createObjectStore("files"); };
+      req.onsuccess = function () { resolve(req.result); };
+      req.onerror = function () { reject(req.error); };
+    });
+  }
+  return cacheDbPromise;
+}
+function cachePut(key, record) {
+  return cacheDb().then(function (db) {
+    return new Promise(function (resolve, reject) {
+      var tx = db.transaction("files", "readwrite");
+      tx.objectStore("files").put(record, key);
+      tx.oncomplete = function () { resolve(); };
+      tx.onerror = function () { reject(tx.error); };
+    });
+  }).catch(function () {});
+}
+function cacheDel(key) {
+  return cacheDb().then(function (db) {
+    return new Promise(function (resolve, reject) {
+      var tx = db.transaction("files", "readwrite");
+      tx.objectStore("files").delete(key);
+      tx.oncomplete = function () { resolve(); };
+      tx.onerror = function () { reject(tx.error); };
+    });
+  }).catch(function () {});
+}
+function cacheAll() {
+  return cacheDb().then(function (db) {
+    return new Promise(function (resolve, reject) {
+      var tx = db.transaction("files", "readonly");
+      var store = tx.objectStore("files");
+      var keysReq = store.getAllKeys();
+      var valsReq = store.getAll();
+      var keys, vals;
+      keysReq.onsuccess = function () { keys = keysReq.result; };
+      valsReq.onsuccess = function () { vals = valsReq.result; };
+      tx.oncomplete = function () {
+        var out = {};
+        (keys || []).forEach(function (key, i) { out[key] = vals[i]; });
+        resolve(out);
+      };
+      tx.onerror = function () { reject(tx.error); };
+    });
+  });
+}
+function cacheClear() {
+  return cacheDb().then(function (db) {
+    return new Promise(function (resolve, reject) {
+      var tx = db.transaction("files", "readwrite");
+      tx.objectStore("files").clear();
+      tx.oncomplete = function () { resolve(); };
+      tx.onerror = function () { reject(tx.error); };
+    });
+  });
+}
+function bytesOf(value) {
+  if (value instanceof ArrayBuffer) return value.slice(0);
+  var view = value instanceof Uint8Array ? value : new Uint8Array(value);
+  return view.buffer.slice(view.byteOffset, view.byteOffset + view.byteLength);
+}
+function textOf(record) {
+  if (!record) return "";
+  return typeof record.bytes === "string" ? record.bytes : new TextDecoder().decode(record.bytes);
+}
+function fileOf(record) {
+  return new File([record.bytes], record.name, {type: record.type || ""});
+}
+function updateFillHint() {
+  var title = document.getElementById("fill-title");
+  var hint = document.getElementById("fill-hint");
+  var ready = !!(window.__fillPdf && window.__fillZones);
+  if (title) title.textContent = ready ? "Drop answers.json" : "Drop the files";
+  if (hint) hint.textContent = ready
+    ? "The blank PDF and zones.json from step 1 are already here. Drop them again to replace them."
+    : "Blank PDF, zones.json and answers.json, in any order.";
+}
+function restoreCache() {
+  return cacheAll().then(function (all) {
+    if (all.blankPdf && !window.__pdfFile) {
+      window.__pdfFile = fileOf(all.blankPdf);
+      if (!window.__fillPdf) window.__fillPdf = window.__pdfFile;
+      document.getElementById("filename").textContent = all.blankPdf.name;
+    }
+    if (all.zonesJson && !window.__fillZones) {
+      var zonesText = textOf(all.zonesJson);
+      window.__fillZones = {file: new File([zonesText], all.zonesJson.name, {type: "application/json"}), text: zonesText};
+    }
+    if (all.answers && !window.__fillAnswers) {
+      var answersText = textOf(all.answers);
+      window.__fillAnswers = {file: new File([answersText], all.answers.name, {type: "application/json"}), text: answersText};
+    }
+    if (typeof window.paintFillSlots === "function") window.paintFillSlots();
+    updateFillHint();
+    if (!window.__running && !window.__startPrepare && all.zonesPdf && all.zonesTxt && all.zonesJson) {
+      var zoneStem = String(all.zonesPdf.name).replace(/-zones\.pdf$/i, "");
+      window.renderPreviews("prepare-previews", [
+        {name: all.zonesPdf.name, kind: "pdf", bytes: new Uint8Array(all.zonesPdf.bytes), type: "application/pdf"},
+        {name: all.zonesTxt.name, kind: "text", bytes: textOf(all.zonesTxt), type: "text/plain;charset=utf-8"}
+      ], zoneStem + "-zones.zip");
+    }
+    if (!window.__running && !window.__startFill) {
+      if (all.feedback) {
+        window.renderPreviews("fill-previews", [
+          {name: all.feedback.name, kind: "text", bytes: textOf(all.feedback), type: "text/plain;charset=utf-8"}
+        ], String(all.feedback.name).replace(/\.txt$/i, "") + ".zip");
+      } else if (all.filledPdf && all.reviewPdf && all.report) {
+        var stem = String(all.filledPdf.name).replace(/-filled\.pdf$/i, "");
+        window.renderPreviews("fill-previews", [
+          {name: all.filledPdf.name, kind: "pdf", bytes: new Uint8Array(all.filledPdf.bytes), type: "application/pdf"},
+          {name: all.reviewPdf.name, kind: "pdf", bytes: new Uint8Array(all.reviewPdf.bytes), type: "application/pdf"},
+          {name: all.report.name, kind: "text", bytes: textOf(all.report), type: "text/markdown;charset=utf-8"}
+        ], stem + "-filled.zip");
+      }
+    }
+  }).catch(function () {});
+}
+function clearPage() {
+  window.__pdfFile = null;
+  window.__fillPdf = null;
+  window.__fillZones = null;
+  window.__fillAnswers = null;
+  window.__startPrepare = false;
+  window.__startFill = false;
+  document.getElementById("filename").textContent = "Drop the blank PDF";
+  document.getElementById("prepare-previews").innerHTML = "<p class=\"empty-preview\">Previews of zones.pdf and zones.txt will appear here.</p>";
+  document.getElementById("fill-previews").innerHTML = "<p class=\"empty-preview\">Previews of the filled PDF, the review and the report will appear here.</p>";
+  var fileInput = document.getElementById("file");
+  var fillInput = document.getElementById("fill-files");
+  if (fileInput) fileInput.value = "";
+  if (fillInput) fillInput.value = "";
+  if (typeof window.paintFillSlots === "function") window.paintFillSlots();
+  updateFillHint();
+  setStatus(window.__libsReady ? "Ready. Drop a PDF." : "Loading PDF libraries…");
+  var fillStatus = document.getElementById("fill-status");
+  if (fillStatus) fillStatus.textContent = window.__libsReady ? "Ready. Drop answers.json, or the PDF and zones.json." : "Waiting for the PDF libraries…";
+}
+function onResetClick() {
+  if (!window.confirm("Clear the files kept in this browser?")) return;
+  cacheClear().then(clearPage).catch(function (err) {
+    setStatus("Error: " + (err && err.message ? err.message : err));
+  });
+}
 function onPdfChosen(input) {
   var file = input.files && input.files[0];
   if (!file) {
-    setStatus("La page n'a pas reçu le fichier. Réessaie.");
+    setStatus("The page did not receive the file. Try again.");
     return;
   }
   takePrepareFile(file);
@@ -272,8 +502,12 @@ function onPdfChosen(input) {
 function takePrepareFile(file) {
   document.getElementById("filename").textContent = file.name;
   window.__pdfFile = file;
+  window.__fillPdf = file;
+  if (typeof window.paintFillSlots === "function") window.paintFillSlots();
+  updateFillHint();
   if (!window.__libsReady) {
-    setStatus("Fichier reçu : " + file.name + ". Chargement des librairies encore en cours…");
+    window.__startPrepare = true;
+    setStatus("File received: " + file.name + ". PDF libraries are still loading…");
     return;
   }
   onRunClick();
@@ -283,15 +517,15 @@ function onFillFiles(input) {
 }
 function onRunClick() {
   if (window.__running) {
-    setStatus("Analyse déjà en cours…");
+    setStatus("A run is already in progress…");
     return;
   }
   if (window.__libsError) {
-    setStatus("Erreur de chargement : " + window.__libsError);
+    setStatus("Load error: " + window.__libsError);
     return;
   }
   if (!window.__libsReady) {
-    setStatus("Les librairies PDF se chargent encore. Attends le message « Prêt ».");
+    setStatus("The PDF libraries are still loading. Wait for the “Ready” message.");
     return;
   }
   if (!window.__pdfFile) {
@@ -299,7 +533,7 @@ function onRunClick() {
     return;
   }
   if (typeof window.runPrepare !== "function") {
-    setStatus("Le détecteur n'est pas chargé. Recharge la page.");
+    setStatus("The detector is not loaded. Reload the page.");
     return;
   }
   window.runPrepare(window.__pdfFile);
@@ -309,8 +543,8 @@ function byteSize(bytes) {
   if (typeof bytes === "string") n = window.TextEncoder ? new TextEncoder().encode(bytes).length : bytes.length;
   else n = bytes.byteLength || bytes.length || 0;
   if (n < 1024) return n + " o";
-  if (n < 1048576) return Math.round(n / 1024) + " Ko";
-  return (n / 1048576).toFixed(1) + " Mo";
+  if (n < 1048576) return Math.round(n / 1024) + " KB";
+  return (n / 1048576).toFixed(1) + " MB";
 }
 function bindDrop(id, onFiles) {
   var el = document.getElementById(id);
@@ -400,21 +634,31 @@ function saveBlob(bytes, name, type) {
 window.renderPreviews = function (rootId, items, zipName) {
   var root = document.getElementById(rootId);
   root.innerHTML = "";
-  if (items.length > 1) {
+  if (items.length) {
     var bar = document.createElement("div");
     bar.className = "preview-bar";
     var note = document.createElement("p");
-    note.textContent = "Clique un fichier pour afficher son aperçu.";
-    var all = document.createElement("button");
-    all.type = "button";
-    all.textContent = "Télécharger les " + items.length;
-    all.onclick = function () {
+    note.textContent = "Click a file to show its preview.";
+    var actions = document.createElement("div");
+    actions.className = "preview-actions";
+    var separate = document.createElement("button");
+    separate.type = "button";
+    separate.textContent = "Download separately";
+    separate.onclick = function () {
+      items.forEach(function (item) { saveBlob(item.bytes, item.name, item.type); });
+    };
+    var zip = document.createElement("button");
+    zip.type = "button";
+    zip.textContent = "Download the zip";
+    zip.onclick = function () {
       saveBlob(buildZip(items.map(function (item) {
         return {name: item.name, bytes: asBytes(item.bytes)};
-      })), zipName || "fichiers.zip", "application/zip");
+      })), zipName || "files.zip", "application/zip");
     };
+    actions.appendChild(separate);
+    actions.appendChild(zip);
     bar.appendChild(note);
-    bar.appendChild(all);
+    bar.appendChild(actions);
     root.appendChild(bar);
   }
   items.forEach(function (item) {
@@ -438,7 +682,7 @@ window.renderPreviews = function (rootId, items, zipName) {
     var view = document.createElement("div");
     view.className = "preview";
     view.hidden = true;
-    view.textContent = "Aperçu…";
+    view.textContent = "Preview…";
     fold.onclick = function () {
       view.hidden = !view.hidden;
       if (view.hidden) chev.classList.remove("open");
@@ -447,7 +691,7 @@ window.renderPreviews = function (rootId, items, zipName) {
     var dl = document.createElement("button");
     dl.type = "button";
     dl.className = "dl";
-    dl.textContent = "Télécharger";
+    dl.textContent = "Download";
     dl.onclick = function (event) {
       event.stopPropagation();
       saveBlob(item.bytes, item.name, item.type);
@@ -484,7 +728,7 @@ function renderPdf(view, meta, bytes) {
     }
     return chain.then(function () { doc.destroy(); });
   }).catch(function (err) {
-    view.textContent = "Aperçu impossible : " + (err && err.message ? err.message : err);
+    view.textContent = "Preview failed: " + (err && err.message ? err.message : err);
   });
 }
 function renderPage(doc, n, view) {
@@ -528,46 +772,61 @@ function runScript(code) {
     var url = URL.createObjectURL(blob);
     var script = document.createElement("script");
     script.onload = function () { URL.revokeObjectURL(url); resolve(); };
-    script.onerror = function () { reject(new Error("Exécution de la librairie bloquée")); };
+    script.onerror = function () { reject(new Error("Library execution was blocked")); };
     script.src = url;
     document.head.appendChild(script);
   });
 }
 function bootLibs() {
-  setStatus("Chargement des librairies PDF…");
+  setStatus("Loading PDF libraries…");
   var LIB_URLS = {
     pdf: "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js",
     worker: "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js",
     pdflib: "https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"
   };
-  setStatus("Chargement pdf.js…");
+  setStatus("Loading pdf.js…");
   fetchLib(LIB_URLS.pdf).then(function (code) {
     return runScript(code);
   }).then(function () {
-    setStatus("Chargement moteur PDF…");
+    setStatus("Loading the PDF engine…");
     return fetchLib(LIB_URLS.worker);
   }).then(function (code) {
     return runScript(patchWorker(code));
   }).then(function () {
-    setStatus("Chargement pdf-lib…");
+    setStatus("Loading pdf-lib…");
     return fetchLib(LIB_URLS.pdflib);
   }).then(function (code) {
     return runScript(code);
   }).then(function () {
     if (typeof pdfjsLib === "undefined" || typeof PDFLib === "undefined") {
-      throw new Error("librairies incomplètes");
+      throw new Error("libraries incomplete");
     }
     window.__libsReady = true;
-    setStatus(window.__pdfFile ? "Prêt. Clique sur Préparer les zones." : "Prêt. Dépose un PDF.");
+    return restoreCache();
+  }).then(function () {
+    if (!window.__libsReady) return;
     var fillStatus = document.getElementById("fill-status");
-    if (fillStatus) fillStatus.textContent = "Prêt. Dépose les trois fichiers ensemble.";
-    if (window.__pdfFile) onRunClick();
-    if (window.__fillPdf && window.__fillZones && window.__fillAnswers && typeof window.onFillClick === "function") window.onFillClick();
+    if (window.__startPrepare) {
+      setStatus("Ready. Detecting…");
+      onRunClick();
+    } else {
+      setStatus(window.__pdfFile ? "PDF restored: " + window.__pdfFile.name + "." : "Ready. Drop a PDF.");
+    }
+    if (fillStatus) {
+      if (window.__fillPdf && window.__fillZones && window.__fillAnswers) {
+        fillStatus.textContent = "Files restored. You can run Fill again.";
+      } else if (window.__fillPdf && window.__fillZones) {
+        fillStatus.textContent = "Ready. Drop answers.json.";
+      } else {
+        fillStatus.textContent = "Ready. Drop answers.json, or the PDF and zones.json.";
+      }
+    }
+    if (window.__startFill && typeof window.onFillClick === "function") window.onFillClick();
   }).catch(function (err) {
     window.__libsError = err && err.message ? err.message : String(err);
-    setStatus("Erreur de chargement : " + window.__libsError);
+    setStatus("Load error: " + window.__libsError);
     var fillStatus = document.getElementById("fill-status");
-    if (fillStatus) fillStatus.textContent = "Erreur de chargement : " + window.__libsError;
+    if (fillStatus) fillStatus.textContent = "Load error: " + window.__libsError;
   });
 }
 bindDrop("prepare-drop", function (files) {
@@ -576,7 +835,7 @@ bindDrop("prepare-drop", function (files) {
     if (/\.pdf$/i.test(files[i].name) || files[i].type === "application/pdf") { file = files[i]; break; }
   }
   if (!file) {
-    setStatus("Dépose un PDF.");
+    setStatus("Drop a PDF.");
     return;
   }
   takePrepareFile(file);
@@ -2664,43 +2923,54 @@ const Run = (function () {
 if (typeof module === "object" && module.exports) module.exports = Run;
 
 (function () {
-  var runButton = document.getElementById("run");
   var status = document.getElementById("status");
   var previews = document.getElementById("prepare-previews");
 
   window.runPrepare = function (file) {
     if (typeof pdfjsLib === "undefined" || typeof PDFLib === "undefined" || typeof Prepare === "undefined") {
-      status.textContent = "Les librairies PDF ne se sont pas chargées.";
+      status.textContent = "The PDF libraries did not load.";
       return;
     }
     window.__running = true;
-    runButton.disabled = true;
-    previews.innerHTML = "<p class=\"empty-preview\">Préparation des aperçus…</p>";
-    status.textContent = "Détection des zones…";
+    previews.innerHTML = "<p class=\"empty-preview\">Preparing previews…</p>";
+    status.textContent = "Detecting zones…";
+    window.__fillAnswers = null;
+    ["answers", "filledPdf", "reviewPdf", "report", "feedback"].forEach(cacheDel);
+    document.getElementById("fill-previews").innerHTML = "<p class=\"empty-preview\">Previews of the filled PDF, the review and the report will appear here.</p>";
+    if (typeof window.paintFillSlots === "function") window.paintFillSlots();
     var stem = file.name.replace(/\.pdf$/i, "");
     file.arrayBuffer().then(function (buffer) {
-      return Prepare.prepare(new Uint8Array(buffer), file.name, pdfjsLib, PDFLib);
-    }).then(function (res) {
+      return Prepare.prepare(new Uint8Array(buffer), file.name, pdfjsLib, PDFLib).then(function (res) {
+        return {res: res, buffer: buffer};
+      });
+    }).then(function (packed) {
+      var res = packed.res;
       var counts = {check: 0, text: 0, any: 0};
       res.zmap.zones.forEach(function (z) { counts[z.kind] = (counts[z.kind] || 0) + 1; });
       var json = JSON.stringify(res.zmap, null, 2);
+      var zonesName = stem + "-zones.json";
+      window.__fillPdf = file;
+      window.__fillZones = {file: new File([json], zonesName, {type: "application/json"}), text: json};
+      if (typeof window.paintFillSlots === "function") window.paintFillSlots();
+      if (typeof updateFillHint === "function") updateFillHint();
+      cachePut("blankPdf", {name: file.name, type: "application/pdf", bytes: bytesOf(packed.buffer)});
+      cachePut("zonesPdf", {name: stem + "-zones.pdf", type: "application/pdf", bytes: bytesOf(res.pdf)});
+      cachePut("zonesTxt", {name: stem + "-zones.txt", type: "text/plain", bytes: res.txt});
+      cachePut("zonesJson", {name: zonesName, type: "application/json", bytes: json});
       window.renderPreviews("prepare-previews", [
         {name: stem + "-zones.pdf", kind: "pdf", bytes: res.pdf, type: "application/pdf"},
-        {name: stem + "-zones.txt", kind: "text", bytes: res.txt, type: "text/plain;charset=utf-8"},
-        {name: stem + "-zones.json", kind: "text", bytes: json, type: "application/json"}
+        {name: stem + "-zones.txt", kind: "text", bytes: res.txt, type: "text/plain;charset=utf-8"}
       ], stem + "-zones.zip");
-      status.textContent = res.zmap.zones.length + " zones (" + counts.check + " cases, " +
-        counts.text + " textes, " + counts.any + " case-ou-texte). Carte " + res.zmap.map_id + ".";
+      status.textContent = res.zmap.zones.length + " zones (" + counts.check + " checkboxes, " +
+        counts.text + " text fields, " + counts.any + " checkbox or text). Map " + res.zmap.map_id + ".";
     }).catch(function (err) {
-      status.textContent = "Erreur : " + (err && err.message ? err.message : err);
+      status.textContent = "Error: " + (err && err.message ? err.message : err);
     }).then(function () {
       window.__running = false;
-      runButton.disabled = false;
     });
   };
 })();
 (function () {
-  var fillButton = document.getElementById("fill");
   var status = document.getElementById("fill-status");
   var previews = document.getElementById("fill-previews");
 
@@ -2710,10 +2980,11 @@ if (typeof module === "object" && module.exports) module.exports = Run;
     el.textContent = text;
   }
   function paintSlots() {
-    slot("slot-pdf", !!window.__fillPdf, window.__fillPdf ? "PDF · " + window.__fillPdf.name : "PDF vierge · manquant");
-    slot("slot-zones", !!window.__fillZones, window.__fillZones ? "zones · " + window.__fillZones.file.name : "zones.json · manquant");
-    slot("slot-answers", !!window.__fillAnswers, window.__fillAnswers ? "réponses · " + window.__fillAnswers.file.name : "answers.json · manquant");
+    slot("slot-pdf", !!window.__fillPdf, window.__fillPdf ? "PDF · " + window.__fillPdf.name : "Blank PDF · missing");
+    slot("slot-zones", !!window.__fillZones, window.__fillZones ? "zones · " + window.__fillZones.file.name : "zones.json · missing");
+    slot("slot-answers", !!window.__fillAnswers, window.__fillAnswers ? "answers · " + window.__fillAnswers.file.name : "answers.json · missing");
   }
+  window.paintFillSlots = paintSlots;
 
   window.ingestFillFiles = function (fileList) {
     var files = Array.prototype.slice.call(fileList || []);
@@ -2728,16 +2999,23 @@ if (typeof module === "object" && module.exports) module.exports = Run;
       } else if (/\.json$/.test(name) || /json/.test(file.type || "")) jsonFiles.push(file);
       else unknown.push(file.name);
     });
-    if (pdf) window.__fillPdf = pdf;
+    if (pdf) {
+      window.__fillPdf = pdf;
+      pdf.arrayBuffer().then(function (buffer) {
+        cachePut("blankPdf", {name: pdf.name, type: "application/pdf", bytes: bytesOf(buffer)});
+      });
+    }
     paintSlots();
+    if (typeof updateFillHint === "function") updateFillHint();
     if (!jsonFiles.length) {
       status.textContent = unknown.length
-        ? "Fichier non reconnu : " + unknown.join(", ") + "."
-        : (window.__fillPdf && window.__fillZones && window.__fillAnswers ? "Fichiers prêts." : "Il manque encore un JSON.");
-      if (window.__fillPdf && window.__fillZones && window.__fillAnswers && window.__libsReady) window.onFillClick();
+        ? "Unrecognized file: " + unknown.join(", ") + "."
+        : (window.__fillPdf && window.__fillZones && window.__fillAnswers ? "Files ready." : "A JSON file is still missing.");
+        if (window.__fillPdf && window.__fillZones && window.__fillAnswers && window.__libsReady) window.onFillClick();
+        else if (window.__fillPdf && window.__fillZones && window.__fillAnswers) window.__startFill = true;
       return;
     }
-    status.textContent = "Lecture des JSON…";
+    status.textContent = "Reading the JSON files…";
     Promise.all(jsonFiles.map(function (file) {
       return file.text().then(function (text) { return {file: file, text: text}; });
     })).then(function (loaded) {
@@ -2747,99 +3025,119 @@ if (typeof module === "object" && module.exports) module.exports = Run;
       loaded.forEach(function (item) {
         var parsed;
         try { parsed = JSON.parse(item.text); }
-        catch (err) { problems.push(item.file.name + " n'est pas un JSON lisible"); return; }
+        catch (err) { problems.push(item.file.name + " is not valid JSON"); return; }
         var isZones = !!(parsed && Array.isArray(parsed.zones) && typeof parsed.map_id === "string");
         var isAnswers = !!(parsed && Array.isArray(parsed.answers));
         if (isZones) {
-          if (zonesHit) problems.push("Deux cartes de zones.");
+          if (zonesHit) problems.push("Two zone maps.");
           else zonesHit = {file: item.file, text: item.text};
         } else if (isAnswers) {
-          if (answersHit) problems.push("Deux fichiers de réponses.");
+          if (answersHit) problems.push("Two answer files.");
           else answersHit = {file: item.file, text: item.text};
-        } else problems.push(item.file.name + " n'est ni une carte de zones ni des réponses.");
+        } else problems.push(item.file.name + " is neither a zone map nor answers.");
       });
       if (!problems.length) {
-        if (zonesHit) window.__fillZones = zonesHit;
-        if (answersHit) window.__fillAnswers = answersHit;
+        if (pdf) {
+          window.__fillPdf = pdf;
+          pdf.arrayBuffer().then(function (buffer) {
+            cachePut("blankPdf", {name: pdf.name, type: "application/pdf", bytes: bytesOf(buffer)});
+          });
+        }
+        if (zonesHit) {
+          window.__fillZones = zonesHit;
+          cachePut("zonesJson", {name: zonesHit.file.name, type: "application/json", bytes: zonesHit.text});
+        }
+        if (answersHit) {
+          window.__fillAnswers = answersHit;
+          cachePut("answers", {name: answersHit.file.name, type: "application/json", bytes: answersHit.text});
+        }
       }
       paintSlots();
+      if (typeof updateFillHint === "function") updateFillHint();
       if (problems.length) {
         status.textContent = problems.join(" ");
         return;
       }
       var missing = [];
-      if (!window.__fillPdf) missing.push("le PDF");
+      if (!window.__fillPdf) missing.push("the PDF");
       if (!window.__fillZones) missing.push("zones.json");
       if (!window.__fillAnswers) missing.push("answers.json");
       if (missing.length) {
-        status.textContent = "Encore " + missing.join(" et ") + ".";
+        status.textContent = "Still missing " + missing.join(" and ") + ".";
         return;
       }
       if (!window.__libsReady) {
-        status.textContent = "Fichiers reçus. Chargement des librairies encore en cours…";
+        window.__startFill = true;
+        status.textContent = "Files received. PDF libraries are still loading…";
         return;
       }
       window.onFillClick();
     }).catch(function (err) {
-      status.textContent = "Erreur : " + (err && err.message ? err.message : err);
+      status.textContent = "Error: " + (err && err.message ? err.message : err);
     });
   };
 
   window.onFillClick = function () {
     if (window.__running) {
-      status.textContent = "Un traitement est déjà en cours…";
+      status.textContent = "A run is already in progress…";
       return;
     }
     if (window.__libsError) {
-      status.textContent = "Erreur de chargement : " + window.__libsError;
+      status.textContent = "Load error: " + window.__libsError;
       return;
     }
     if (!window.__libsReady) {
-      status.textContent = "Les librairies PDF se chargent encore. Attends le message « Prêt ».";
+      status.textContent = "The PDF libraries are still loading. Wait for the “Ready” message.";
       return;
     }
     if (typeof Run === "undefined") {
-      status.textContent = "Le remplissage n'est pas chargé. Recharge la page.";
+      status.textContent = "The filler is not loaded. Reload the page.";
       return;
     }
     if (!window.__fillPdf || !window.__fillZones || !window.__fillAnswers) {
-      status.textContent = "Il manque le PDF vierge, zones.json ou answers.json.";
+      status.textContent = "The blank PDF, zones.json or answers.json is missing.";
       return;
     }
     window.__running = true;
-    fillButton.disabled = true;
-    previews.innerHTML = "<p class=\"empty-preview\">Préparation des aperçus…</p>";
-    status.textContent = "Lecture des fichiers…";
+    previews.innerHTML = "<p class=\"empty-preview\">Preparing previews…</p>";
+    status.textContent = "Reading the files…";
     var pdf = window.__fillPdf;
     var stem = pdf.name.replace(/\.pdf$/i, "");
     pdf.arrayBuffer().then(function (buffer) {
-      status.textContent = "Remplissage…";
+      status.textContent = "Filling…";
       return Run.run(new Uint8Array(buffer), JSON.parse(window.__fillZones.text), JSON.parse(window.__fillAnswers.text), PDFLib, {jobName: stem});
     }).then(function (res) {
       if (res.errors.length) {
+        cacheDel("filledPdf");
+        cacheDel("reviewPdf");
+        cacheDel("report");
+        cachePut("feedback", {name: stem + "-gem-feedback.txt", type: "text/plain", bytes: res.feedback});
         window.renderPreviews("fill-previews", [
           {name: stem + "-gem-feedback.txt", kind: "text", bytes: res.feedback, type: "text/plain;charset=utf-8"}
-        ]);
-        status.textContent = res.errors.length + " erreur(s). La première : " + res.errors[0];
+        ], stem + "-gem-feedback.zip");
+        status.textContent = res.errors.length + " error(s). The first: " + res.errors[0];
         return;
       }
+      cacheDel("feedback");
+      cachePut("filledPdf", {name: stem + "-filled.pdf", type: "application/pdf", bytes: bytesOf(res.filled)});
+      cachePut("reviewPdf", {name: stem + "-review.pdf", type: "application/pdf", bytes: bytesOf(res.review)});
+      cachePut("report", {name: stem + "-report.md", type: "text/markdown", bytes: res.report});
       window.renderPreviews("fill-previews", [
         {name: stem + "-filled.pdf", kind: "pdf", bytes: res.filled, type: "application/pdf"},
         {name: stem + "-review.pdf", kind: "pdf", bytes: res.review, type: "application/pdf"},
         {name: stem + "-report.md", kind: "text", bytes: res.report, type: "text/markdown;charset=utf-8"}
-      ], stem + "-rempli.zip");
+      ], stem + "-filled.zip");
       var placed = 0, empty = 0;
       res.plan.answers.forEach(function (a) {
         if (a.status === "placed" || a.status === "already_filled") placed += 1;
         if (a.status === "empty") empty += 1;
       });
-      status.textContent = placed + " réponses écrites, " + empty + " vides, " +
-        res.plan.unused.length + " zones sans réponse, " + res.warnings.length + " avertissement(s).";
+      status.textContent = placed + " answers written, " + empty + " empty, " +
+        res.plan.unused.length + " zones with no answer, " + res.warnings.length + " warning(s).";
     }).catch(function (err) {
-      status.textContent = "Erreur : " + (err && err.message ? err.message : err);
+      status.textContent = "Error: " + (err && err.message ? err.message : err);
     }).then(function () {
       window.__running = false;
-      fillButton.disabled = false;
     });
   };
 })();
