@@ -10,7 +10,7 @@
   "properties": {
     "form": {
       "type": "object",
-      "required": ["title", "file_name", "zone_map"],
+      "required": ["zone_map"],
       "additionalProperties": false,
       "properties": {
         "title": {"type": "string"},
@@ -50,9 +50,18 @@
           "do_not_fill": {"type": "boolean"}
         },
         "allOf": [
-          {"if": {"properties": {"type": {"const": "choice"}}}, "then": {"required": ["choice", "zone"]}},
-          {"if": {"properties": {"type": {"const": "multi_choice"}}}, "then": {"required": ["options_checked", "zones"]}},
-          {"if": {"properties": {"type": {"enum": ["text", "date"]}}}, "then": {"required": ["value", "zone"]}}
+          {"if": {"allOf": [
+            {"properties": {"type": {"const": "choice"}}, "required": ["type"]},
+            {"not": {"properties": {"do_not_fill": {"const": true}}, "required": ["do_not_fill"]}}
+          ]}, "then": {"required": ["choice", "zone"]}},
+          {"if": {"allOf": [
+            {"properties": {"type": {"const": "multi_choice"}}, "required": ["type"]},
+            {"not": {"properties": {"do_not_fill": {"const": true}}, "required": ["do_not_fill"]}}
+          ]}, "then": {"required": ["options_checked", "zones"]}},
+          {"if": {"allOf": [
+            {"properties": {"type": {"enum": ["text", "date"]}}, "required": ["type"]},
+            {"not": {"properties": {"do_not_fill": {"const": true}}, "required": ["do_not_fill"]}}
+          ]}, "then": {"required": ["value", "zone"]}}
         ]
       }
     }

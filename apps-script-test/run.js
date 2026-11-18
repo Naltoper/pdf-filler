@@ -1,12 +1,10 @@
 /* run : valide answers.json, écrit le PDF et le review.
-   Même règles que formfill/validate.py, plan.py, fill_pdf.py, render.py, report.py.
+   Même règles que formfill/validate.py, plan.py, fill_pdf.py, render.py.
    Les rectangles des zones sont en repère PyMuPDF (origine en haut, y vers le bas). */
 const Run = (function () {
   "use strict";
 
   var ROLE_FR = {value: "la valeur", choice: "la case", option: "l'option", remark: "la remarque", inline: "le texte dans la question"};
-  var STATUS_FR = {placed: "écrite", already_filled: "déjà présente", partial: "PARTIELLE", no_zone: "SANS ZONE", conflict: "CONFLIT", empty: "vide", skipped: "ignorée"};
-  var NEEDS_ACTION = {no_zone: 1, conflict: 1, partial: 1};
   var FIT_MIN = 55;
   var MAX_FS = 9.5, REMARK_FS = 8.0, MIN_FS = 5.0, LINE_GAP = 1.15;
   var LINE_SHAPES = {fill: 1, underline: 1, blank: 1};
@@ -158,7 +156,7 @@ const Run = (function () {
       if (!form || typeof form !== "object" || Array.isArray(form)) {
         pushErr(errors, ["form"], typeMsg(form, ["object"]));
       } else {
-        requireProps(form, ["title", "file_name", "zone_map"], ["form"]);
+        requireProps(form, ["zone_map"], ["form"]);
         extraProps(form, {title:1, id:1, revision:1, file_name:1, zone_map:1, pages:1, issuer:1, respondent:1}, ["form"]);
         if (Object.prototype.hasOwnProperty.call(form, "title") && typeof form.title !== "string") {
           pushErr(errors, ["form", "title"], typeMsg(form.title, ["string"]));
@@ -187,9 +185,11 @@ const Run = (function () {
       if (!a || typeof a !== "object" || Array.isArray(a)) { pushErr(errors, path, typeMsg(a, ["object"])); return; }
       requireProps(a, ["ref", "label", "type"], path);
       var typeKnown = Object.prototype.hasOwnProperty.call(a, "type");
-      if (!typeKnown || a.type === "choice") requireProps(a, ["choice", "zone"], path);
-      if (!typeKnown || a.type === "multi_choice") requireProps(a, ["options_checked", "zones"], path);
-      if (!typeKnown || a.type === "text" || a.type === "date") requireProps(a, ["value", "zone"], path);
+      if (a.do_not_fill !== true) {
+        if (!typeKnown || a.type === "choice") requireProps(a, ["choice", "zone"], path);
+        if (!typeKnown || a.type === "multi_choice") requireProps(a, ["options_checked", "zones"], path);
+        if (!typeKnown || a.type === "text" || a.type === "date") requireProps(a, ["value", "zone"], path);
+      }
       extraProps(a, {ref:1, page:1, label:1, context:1, type:1, zone:1, zones:1, value:1, choice:1, options_checked:1, remark:1, remark_zone:1, inline_text:1, inline_zone:1, confidence:1, note_for_reviewer:1, do_not_fill:1}, path);
       if (Object.prototype.hasOwnProperty.call(a, "ref")) {
         if (typeof a.ref !== "string") pushErr(errors, path.concat("ref"), typeMsg(a.ref, ["string"]));
@@ -386,7 +386,7 @@ const Run = (function () {
     data.answers.forEach(function (a, i) {
       var info = {
         index: i, ref: a.ref, label: a.label, context: a.context == null ? null : a.context, type: a.type,
-        confidence: a.confidence || "medium", note: a.note_for_reviewer == null ? null : a.note_for_reviewer,
+        confidence: a.confidence || "high", note: a.note_for_reviewer == null ? null : a.note_for_reviewer,
         zones: [], messages: (fit[i] || []).slice()
       };
       answers.push(info);
@@ -818,89 +818,6 @@ const Run = (function () {
     });
   }
 
-  function ctxLine(z) {
-    return Object.keys(z.ctx || {}).filter(function (k) { return z.ctx[k] && k !== "line"; })
-      .map(function (k) { return k + ": " + String(z.ctx[k]).slice(0, 50); }).join(" ; ").slice(0, 160);
-  }
-
-  function buildReport(jobName, zmap, plan, fillResults, warnings) {
-    var zones = {};
-    zmap.zones.forEach(function (z) { zones[z.id] = z; });
-    var answers = plan.answers;
-    var counts = {};
-    answers.forEach(function (a) { counts[a.status] = (counts[a.status] || 0) + 1; });
-    var kinds = {check: 0, text: 0, any: 0};
-    zmap.zones.forEach(function (z) { kinds[z.kind] = (kinds[z.kind] || 0) + 1; });
-    var L = ["# Revue de remplissage : " + jobName, ""];
-    L.push("Formulaire : `" + zmap.source + "` (" + zmap.kind + "), carte des zones " + zmap.map_id);
-    L.push("Zones détectées : " + zmap.zones.length + " (" + (kinds.check || 0) + " cases, " + (kinds.text || 0) + " textes, " +
-      (kinds.any || 0) + " cellules case-ou-texte)");
-    (zmap.notes || []).forEach(function (n) { L.push("Note de détection : " + n); });
-    L.push("");
-    var order = Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a]; });
-    L.push("Réponses : " + order.map(function (k) { return (STATUS_FR[k] || k) + " " + counts[k]; }).join(", "));
-    L.push("");
-    var todo = answers.filter(function (a) { return NEEDS_ACTION[a.status]; });
-    L.push("## À corriger (" + todo.length + ")");
-    L.push("");
-    if (!todo.length) L.push("Rien.");
-    todo.forEach(function (a) {
-      L.push("- **" + a.ref + "** " + String(a.label).slice(0, 70) + " : " + STATUS_FR[a.status] + ". " + a.messages.join(" "));
-    });
-    L.push("");
-    var check = answers.filter(function (a) {
-      return !NEEDS_ACTION[a.status] && a.status !== "skipped" && a.status !== "empty" &&
-        (a.confidence !== "high" || a.note || a.messages.length);
-    });
-    var over = fillResults.filter(function (r) { return r.overflow; });
-    L.push("## À vérifier (" + check.length + ")");
-    L.push("");
-    check.slice().sort(function (a, b) {
-      var am = a.messages.length ? 0 : 1, bm = b.messages.length ? 0 : 1;
-      return am - bm || a.index - b.index;
-    }).forEach(function (a) {
-      var bits = ["confiance " + a.confidence];
-      if (a.note) bits.push("note : " + a.note);
-      a.messages.forEach(function (m) { bits.push(m); });
-      L.push("- **" + a.ref + "** " + String(a.label).slice(0, 70) + " (" + a.zones.join(", ") + ") : " + bits.join(" ; "));
-    });
-    if (over.length) {
-      L.push("");
-      L.push("Textes réduits au minimum mais trop longs pour leur zone :");
-      over.forEach(function (r) { L.push("- " + r.op.zone + " : " + pyRepr(String(r.op.text || "").slice(0, 80))); });
-    }
-    var missed = fillResults.filter(function (r) { return r.ok === false; });
-    if (missed.length) {
-      L.push("");
-      L.push("Écritures impossibles :");
-      missed.forEach(function (r) { L.push("- " + r.op.zone + " : " + (r.error || "écriture impossible")); });
-    }
-    L.push("");
-    L.push("## Zones de texte sans réponse (" + plan.unused.length + ")");
-    L.push("");
-    plan.unused.forEach(function (zid) {
-      var z = zones[zid];
-      var page = z.page ? "p" + z.page + " " : "";
-      L.push("- " + zid + " " + page + ": " + (ctxLine(z) || "(aucun texte autour)"));
-    });
-    L.push("");
-    if (warnings && warnings.length) {
-      L.push("## Avertissements du validateur");
-      L.push("");
-      warnings.forEach(function (w) { L.push("- " + w); });
-      L.push("");
-    }
-    var rest = answers.filter(function (a) { return a.status === "skipped" || a.status === "empty"; });
-    if (rest.length) {
-      L.push("## Ignorées ou vides (" + rest.length + ")");
-      L.push("");
-      rest.forEach(function (a) {
-        L.push("- " + a.ref + " " + String(a.label).slice(0, 60) + " : " + STATUS_FR[a.status] + (a.note ? " (" + a.note + ")" : ""));
-      });
-    }
-    return L.join("\n") + "\n";
-  }
-
   async function run(pdfBytes, zmap, data, PDFLib, opts) {
     opts = opts || {};
     var checked = validateAnswers(data, zmap);
@@ -915,11 +832,10 @@ const Run = (function () {
     var reviewDoc = await PDFLib.PDFDocument.load(filledBytes);
     reviewOn(reviewDoc, plan, zmap, filled.results, PDFLib);
     var reviewBytes = await reviewDoc.save();
-    var report = buildReport(opts.jobName || zmap.source || "formulaire", zmap, plan, filled.results, checked.warnings);
-    return {errors: [], warnings: checked.warnings, plan: plan, results: filled.results, report: report, filled: filledBytes, review: reviewBytes};
+    return {errors: [], warnings: checked.warnings, plan: plan, results: filled.results, filled: filledBytes, review: reviewBytes};
   }
 
-  return {norm: norm, similarity: similarity, validateAnswers: validateAnswers, buildPlan: buildPlan, buildReport: buildReport, run: run, formatForGem: formatForGem};
+  return {norm: norm, similarity: similarity, validateAnswers: validateAnswers, buildPlan: buildPlan, run: run, formatForGem: formatForGem};
 })();
 
 if (typeof module === "object" && module.exports) module.exports = Run;

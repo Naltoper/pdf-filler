@@ -126,6 +126,30 @@
     label.drop strong, .drop strong { display: block; color: var(--navy); font-size: 16px; font-weight: 600; }
     label.drop span, .drop span.hint { display: block; margin-top: 4px; color: var(--muted); font-size: 14px; }
     .picker { display: block; width: 100%; margin-top: 12px; color: var(--muted); font-size: 14px; }
+    .paste-label { display: block; margin: 0 0 8px; color: var(--navy); font-size: 16px; font-weight: 600; }
+    textarea.paste {
+      display: block;
+      width: 100%;
+      min-height: 180px;
+      margin: 0;
+      padding: 14px;
+      border: 1.5px solid rgba(0, 119, 168, 0.55);
+      border-radius: 14px;
+      background: #f8fcfe;
+      color: var(--ink);
+      font-family: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+      font-size: 12px;
+      line-height: 1.45;
+      resize: vertical;
+    }
+    textarea.paste:focus { outline: 2px solid var(--sky); outline-offset: 1px; border-color: var(--navy); }
+    .or {
+      margin: 14px 0;
+      color: var(--muted);
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
     button {
       margin-top: 0;
       background: var(--navy);
@@ -301,19 +325,22 @@
       <ol>
         <li>Download zones.pdf and zones.txt from step 1.</li>
         <li>Open the Gemini gem and give it these two files.</li>
-        <li>The gem returns a JSON file. Save it: this is answers.json, to drop at step 3.</li>
+        <li>Copy the gem reply and paste it at step 3.</li>
       </ol>
     </div>
   </section>
 
   <section class="step">
     <div class="step-title"><span class="step-no">03</span><h2>Fill the form</h2></div>
-    <p class="lead">The blank PDF and zones.json come from step 1. Drop answers.json, the file returned by the gem.</p>
+    <p class="lead">The blank PDF and zones.json come from step 1. Paste the gem reply below. A JSON file still works if you already have one.</p>
     <div class="workspace">
     <div id="fill-previews" class="previews">
-      <p class="empty-preview">Previews of the filled PDF, the review and the report will appear here.</p>
+      <p class="empty-preview">Previews of the filled PDF and the review will appear here.</p>
     </div>
     <div class="box work">
+      <label class="paste-label" for="answers-paste">Paste the gem reply</label>
+      <textarea id="answers-paste" class="paste" spellcheck="false" placeholder="Paste the gem reply here. The code block is fine: the page reads the JSON inside it."></textarea>
+      <p class="or">or drop a file</p>
       <div class="drop" id="fill-drop">
         <strong id="fill-title">Drop answers.json</strong>
         <span class="hint" id="fill-hint">If step 1 has not run here yet, also drop the blank PDF and zones.json.</span>
@@ -420,10 +447,24 @@ function updateFillHint() {
   var title = document.getElementById("fill-title");
   var hint = document.getElementById("fill-hint");
   var ready = !!(window.__fillPdf && window.__fillZones);
-  if (title) title.textContent = ready ? "Drop answers.json" : "Drop the files";
+  if (title) title.textContent = ready ? "Or drop answers.json" : "Or drop the files";
   if (hint) hint.textContent = ready
     ? "The blank PDF and zones.json from step 1 are already here. Drop them again to replace them."
     : "Blank PDF, zones.json and answers.json, in any order.";
+}
+function setAnswersBox(text) {
+  var box = document.getElementById("answers-paste");
+  if (!box) return;
+  window.__settingPaste = true;
+  box.value = text || "";
+  window.__settingPaste = false;
+}
+function extractJsonText(raw) {
+  var text = String(raw || "").replace(/^\uFEFF/, "").trim();
+  var fenced = text.match(/```(?:json)?[ \t]*\r?\n([\s\S]*?)\r?\n```/i);
+  if (fenced) return fenced[1].trim();
+  if (text.indexOf("```") === 0) text = text.replace(/^```(?:json)?[ \t]*/, "").replace(/```\s*$/, "").trim();
+  return text;
 }
 function restoreCache() {
   return cacheAll().then(function (all) {
@@ -439,6 +480,7 @@ function restoreCache() {
     if (all.answers && !window.__fillAnswers) {
       var answersText = textOf(all.answers);
       window.__fillAnswers = {file: new File([answersText], all.answers.name, {type: "application/json"}), text: answersText};
+      setAnswersBox(answersText);
     }
     if (typeof window.paintFillSlots === "function") window.paintFillSlots();
     updateFillHint();
@@ -454,12 +496,11 @@ function restoreCache() {
         window.renderPreviews("fill-previews", [
           {name: all.feedback.name, kind: "text", bytes: textOf(all.feedback), type: "text/plain;charset=utf-8"}
         ], String(all.feedback.name).replace(/\.txt$/i, "") + ".zip");
-      } else if (all.filledPdf && all.reviewPdf && all.report) {
+      } else if (all.filledPdf && all.reviewPdf) {
         var stem = String(all.filledPdf.name).replace(/-filled\.pdf$/i, "");
         window.renderPreviews("fill-previews", [
           {name: all.filledPdf.name, kind: "pdf", bytes: new Uint8Array(all.filledPdf.bytes), type: "application/pdf"},
-          {name: all.reviewPdf.name, kind: "pdf", bytes: new Uint8Array(all.reviewPdf.bytes), type: "application/pdf"},
-          {name: all.report.name, kind: "text", bytes: textOf(all.report), type: "text/markdown;charset=utf-8"}
+          {name: all.reviewPdf.name, kind: "pdf", bytes: new Uint8Array(all.reviewPdf.bytes), type: "application/pdf"}
         ], stem + "-filled.zip");
       }
     }
@@ -472,9 +513,11 @@ function clearPage() {
   window.__fillAnswers = null;
   window.__startPrepare = false;
   window.__startFill = false;
+  window.__fillAgain = false;
+  setAnswersBox("");
   document.getElementById("filename").textContent = "Drop the blank PDF";
   document.getElementById("prepare-previews").innerHTML = "<p class=\"empty-preview\">Previews of zones.pdf and zones.txt will appear here.</p>";
-  document.getElementById("fill-previews").innerHTML = "<p class=\"empty-preview\">Previews of the filled PDF, the review and the report will appear here.</p>";
+  document.getElementById("fill-previews").innerHTML = "<p class=\"empty-preview\">Previews of the filled PDF and the review will appear here.</p>";
   var fileInput = document.getElementById("file");
   var fillInput = document.getElementById("fill-files");
   if (fileInput) fileInput.value = "";
@@ -483,7 +526,7 @@ function clearPage() {
   updateFillHint();
   setStatus(window.__libsReady ? "Ready. Drop a PDF." : "Loading PDF libraries…");
   var fillStatus = document.getElementById("fill-status");
-  if (fillStatus) fillStatus.textContent = window.__libsReady ? "Ready. Drop answers.json, or the PDF and zones.json." : "Waiting for the PDF libraries…";
+  if (fillStatus) fillStatus.textContent = window.__libsReady ? "Ready. Paste the gem reply, or drop the PDF and zones.json." : "Waiting for the PDF libraries…";
 }
 function onResetClick() {
   if (!window.confirm("Clear the files kept in this browser?")) return;
@@ -816,9 +859,9 @@ function bootLibs() {
       if (window.__fillPdf && window.__fillZones && window.__fillAnswers) {
         fillStatus.textContent = "Files restored. You can run Fill again.";
       } else if (window.__fillPdf && window.__fillZones) {
-        fillStatus.textContent = "Ready. Drop answers.json.";
+        fillStatus.textContent = "Ready. Paste the gem reply.";
       } else {
-        fillStatus.textContent = "Ready. Drop answers.json, or the PDF and zones.json.";
+        fillStatus.textContent = "Ready. Paste the gem reply, or drop the PDF and zones.json.";
       }
     }
     if (window.__startFill && typeof window.onFillClick === "function") window.onFillClick();
@@ -2066,14 +2109,12 @@ const Prepare = (function () {
 if (typeof module === "object" && module.exports) module.exports = Prepare;
 
 /* run : valide answers.json, écrit le PDF et le review.
-   Même règles que formfill/validate.py, plan.py, fill_pdf.py, render.py, report.py.
+   Même règles que formfill/validate.py, plan.py, fill_pdf.py, render.py.
    Les rectangles des zones sont en repère PyMuPDF (origine en haut, y vers le bas). */
 const Run = (function () {
   "use strict";
 
   var ROLE_FR = {value: "la valeur", choice: "la case", option: "l'option", remark: "la remarque", inline: "le texte dans la question"};
-  var STATUS_FR = {placed: "écrite", already_filled: "déjà présente", partial: "PARTIELLE", no_zone: "SANS ZONE", conflict: "CONFLIT", empty: "vide", skipped: "ignorée"};
-  var NEEDS_ACTION = {no_zone: 1, conflict: 1, partial: 1};
   var FIT_MIN = 55;
   var MAX_FS = 9.5, REMARK_FS = 8.0, MIN_FS = 5.0, LINE_GAP = 1.15;
   var LINE_SHAPES = {fill: 1, underline: 1, blank: 1};
@@ -2225,7 +2266,7 @@ const Run = (function () {
       if (!form || typeof form !== "object" || Array.isArray(form)) {
         pushErr(errors, ["form"], typeMsg(form, ["object"]));
       } else {
-        requireProps(form, ["title", "file_name", "zone_map"], ["form"]);
+        requireProps(form, ["zone_map"], ["form"]);
         extraProps(form, {title:1, id:1, revision:1, file_name:1, zone_map:1, pages:1, issuer:1, respondent:1}, ["form"]);
         if (Object.prototype.hasOwnProperty.call(form, "title") && typeof form.title !== "string") {
           pushErr(errors, ["form", "title"], typeMsg(form.title, ["string"]));
@@ -2254,9 +2295,11 @@ const Run = (function () {
       if (!a || typeof a !== "object" || Array.isArray(a)) { pushErr(errors, path, typeMsg(a, ["object"])); return; }
       requireProps(a, ["ref", "label", "type"], path);
       var typeKnown = Object.prototype.hasOwnProperty.call(a, "type");
-      if (!typeKnown || a.type === "choice") requireProps(a, ["choice", "zone"], path);
-      if (!typeKnown || a.type === "multi_choice") requireProps(a, ["options_checked", "zones"], path);
-      if (!typeKnown || a.type === "text" || a.type === "date") requireProps(a, ["value", "zone"], path);
+      if (a.do_not_fill !== true) {
+        if (!typeKnown || a.type === "choice") requireProps(a, ["choice", "zone"], path);
+        if (!typeKnown || a.type === "multi_choice") requireProps(a, ["options_checked", "zones"], path);
+        if (!typeKnown || a.type === "text" || a.type === "date") requireProps(a, ["value", "zone"], path);
+      }
       extraProps(a, {ref:1, page:1, label:1, context:1, type:1, zone:1, zones:1, value:1, choice:1, options_checked:1, remark:1, remark_zone:1, inline_text:1, inline_zone:1, confidence:1, note_for_reviewer:1, do_not_fill:1}, path);
       if (Object.prototype.hasOwnProperty.call(a, "ref")) {
         if (typeof a.ref !== "string") pushErr(errors, path.concat("ref"), typeMsg(a.ref, ["string"]));
@@ -2453,7 +2496,7 @@ const Run = (function () {
     data.answers.forEach(function (a, i) {
       var info = {
         index: i, ref: a.ref, label: a.label, context: a.context == null ? null : a.context, type: a.type,
-        confidence: a.confidence || "medium", note: a.note_for_reviewer == null ? null : a.note_for_reviewer,
+        confidence: a.confidence || "high", note: a.note_for_reviewer == null ? null : a.note_for_reviewer,
         zones: [], messages: (fit[i] || []).slice()
       };
       answers.push(info);
@@ -2885,88 +2928,6 @@ const Run = (function () {
     });
   }
 
-  function ctxLine(z) {
-    return Object.keys(z.ctx || {}).filter(function (k) { return z.ctx[k] && k !== "line"; })
-      .map(function (k) { return k + ": " + String(z.ctx[k]).slice(0, 50); }).join(" ; ").slice(0, 160);
-  }
-
-  function buildReport(jobName, zmap, plan, fillResults, warnings) {
-    var zones = {};
-    zmap.zones.forEach(function (z) { zones[z.id] = z; });
-    var answers = plan.answers;
-    var counts = {};
-    answers.forEach(function (a) { counts[a.status] = (counts[a.status] || 0) + 1; });
-    var kinds = {check: 0, text: 0, any: 0};
-    zmap.zones.forEach(function (z) { kinds[z.kind] = (kinds[z.kind] || 0) + 1; });
-    var L = ["# Revue de remplissage : " + jobName, ""];
-    L.push("Formulaire : `" + zmap.source + "` (" + zmap.kind + "), carte des zones " + zmap.map_id);
-    L.push("Zones détectées : " + zmap.zones.length + " (" + (kinds.check || 0) + " cases, " + (kinds.text || 0) + " textes, " +
-      (kinds.any || 0) + " cellules case-ou-texte)");
-    (zmap.notes || []).forEach(function (n) { L.push("Note de détection : " + n); });
-    L.push("");
-    var order = Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a]; });
-    L.push("Réponses : " + order.map(function (k) { return (STATUS_FR[k] || k) + " " + counts[k]; }).join(", "));
-    L.push("");
-    var todo = answers.filter(function (a) { return NEEDS_ACTION[a.status]; });
-    L.push("## À corriger (" + todo.length + ")");
-    L.push("");
-    if (!todo.length) L.push("Rien.");
-    todo.forEach(function (a) {
-      L.push("- **" + a.ref + "** " + String(a.label).slice(0, 70) + " : " + STATUS_FR[a.status] + ". " + a.messages.join(" "));
-    });
-    L.push("");
-    var check = answers.filter(function (a) {
-      return !NEEDS_ACTION[a.status] && a.status !== "skipped" && a.status !== "empty" &&
-        (a.confidence !== "high" || a.note || a.messages.length);
-    });
-    var over = fillResults.filter(function (r) { return r.overflow; });
-    L.push("## À vérifier (" + check.length + ")");
-    L.push("");
-    check.slice().sort(function (a, b) {
-      var am = a.messages.length ? 0 : 1, bm = b.messages.length ? 0 : 1;
-      return am - bm || a.index - b.index;
-    }).forEach(function (a) {
-      var bits = ["confiance " + a.confidence];
-      if (a.note) bits.push("note : " + a.note);
-      a.messages.forEach(function (m) { bits.push(m); });
-      L.push("- **" + a.ref + "** " + String(a.label).slice(0, 70) + " (" + a.zones.join(", ") + ") : " + bits.join(" ; "));
-    });
-    if (over.length) {
-      L.push("");
-      L.push("Textes réduits au minimum mais trop longs pour leur zone :");
-      over.forEach(function (r) { L.push("- " + r.op.zone + " : " + pyRepr(String(r.op.text || "").slice(0, 80))); });
-    }
-    var missed = fillResults.filter(function (r) { return r.ok === false; });
-    if (missed.length) {
-      L.push("");
-      L.push("Écritures impossibles :");
-      missed.forEach(function (r) { L.push("- " + r.op.zone + " : " + (r.error || "écriture impossible")); });
-    }
-    L.push("");
-    L.push("## Zones de texte sans réponse (" + plan.unused.length + ")");
-    L.push("");
-    plan.unused.forEach(function (zid) {
-      var z = zones[zid];
-      var page = z.page ? "p" + z.page + " " : "";
-      L.push("- " + zid + " " + page + ": " + (ctxLine(z) || "(aucun texte autour)"));
-    });
-    L.push("");
-    if (warnings && warnings.length) {
-      L.push("## Avertissements du validateur");
-      L.push("");
-      warnings.forEach(function (w) { L.push("- " + w); });
-      L.push("");
-    }
-    var rest = answers.filter(function (a) { return a.status === "skipped" || a.status === "empty"; });
-    if (rest.length) {
-      L.push("## Ignorées ou vides (" + rest.length + ")");
-      L.push("");
-      rest.forEach(function (a) {
-        L.push("- " + a.ref + " " + String(a.label).slice(0, 60) + " : " + STATUS_FR[a.status] + (a.note ? " (" + a.note + ")" : ""));
-      });
-    }
-    return L.join("\n") + "\n";
-  }
 
   async function run(pdfBytes, zmap, data, PDFLib, opts) {
     opts = opts || {};
@@ -2982,11 +2943,10 @@ const Run = (function () {
     var reviewDoc = await PDFLib.PDFDocument.load(filledBytes);
     reviewOn(reviewDoc, plan, zmap, filled.results, PDFLib);
     var reviewBytes = await reviewDoc.save();
-    var report = buildReport(opts.jobName || zmap.source || "formulaire", zmap, plan, filled.results, checked.warnings);
-    return {errors: [], warnings: checked.warnings, plan: plan, results: filled.results, report: report, filled: filledBytes, review: reviewBytes};
+    return {errors: [], warnings: checked.warnings, plan: plan, results: filled.results, filled: filledBytes, review: reviewBytes};
   }
 
-  return {norm: norm, similarity: similarity, validateAnswers: validateAnswers, buildPlan: buildPlan, buildReport: buildReport, run: run, formatForGem: formatForGem};
+  return {norm: norm, similarity: similarity, validateAnswers: validateAnswers, buildPlan: buildPlan, run: run, formatForGem: formatForGem};
 })();
 
 if (typeof module === "object" && module.exports) module.exports = Run;
@@ -3004,8 +2964,9 @@ if (typeof module === "object" && module.exports) module.exports = Run;
     previews.innerHTML = "<p class=\"empty-preview\">Preparing previews…</p>";
     status.textContent = "Detecting zones…";
     window.__fillAnswers = null;
-    ["answers", "filledPdf", "reviewPdf", "report", "feedback"].forEach(cacheDel);
-    document.getElementById("fill-previews").innerHTML = "<p class=\"empty-preview\">Previews of the filled PDF, the review and the report will appear here.</p>";
+    if (typeof setAnswersBox === "function") setAnswersBox("");
+    ["answers", "filledPdf", "reviewPdf", "feedback"].forEach(cacheDel);
+    document.getElementById("fill-previews").innerHTML = "<p class=\"empty-preview\">Previews of the filled PDF and the review will appear here.</p>";
     if (typeof window.paintFillSlots === "function") window.paintFillSlots();
     var stem = file.name.replace(/\.pdf$/i, "");
     file.arrayBuffer().then(function (buffer) {
@@ -3022,6 +2983,8 @@ if (typeof module === "object" && module.exports) module.exports = Run;
       window.__fillZones = {file: new File([json], zonesName, {type: "application/json"}), text: json};
       if (typeof window.paintFillSlots === "function") window.paintFillSlots();
       if (typeof updateFillHint === "function") updateFillHint();
+      var fillStatus = document.getElementById("fill-status");
+      if (fillStatus) fillStatus.textContent = "Ready. Paste the gem reply.";
       cachePut("blankPdf", {name: file.name, type: "application/pdf", bytes: bytesOf(packed.buffer)});
       cachePut("zonesPdf", {name: stem + "-zones.pdf", type: "application/pdf", bytes: bytesOf(res.pdf)});
       cachePut("zonesTxt", {name: stem + "-zones.txt", type: "text/plain", bytes: res.txt});
@@ -3054,6 +3017,72 @@ if (typeof module === "object" && module.exports) module.exports = Run;
     slot("slot-answers", !!window.__fillAnswers, window.__fillAnswers ? "answers · " + window.__fillAnswers.file.name : "answers.json · missing");
   }
   window.paintFillSlots = paintSlots;
+
+  function rememberAnswers(text, name) {
+    window.__fillAnswers = {file: new File([text], name, {type: "application/json"}), text: text};
+    cachePut("answers", {name: name, type: "application/json", bytes: text});
+    paintSlots();
+    if (typeof updateFillHint === "function") updateFillHint();
+  }
+  function startFillIfReady() {
+    var missing = [];
+    if (!window.__fillPdf) missing.push("the PDF");
+    if (!window.__fillZones) missing.push("zones.json");
+    if (!window.__fillAnswers) missing.push("the gem reply");
+    if (missing.length) {
+      status.textContent = "Still missing " + missing.join(" and ") + ".";
+      return;
+    }
+    if (window.__running) {
+      window.__fillAgain = true;
+      return;
+    }
+    if (!window.__libsReady) {
+      window.__startFill = true;
+      status.textContent = "Reply received. PDF libraries are still loading…";
+      return;
+    }
+    window.onFillClick();
+  }
+  window.acceptPastedAnswers = function (raw) {
+    var trimmed = String(raw || "").trim();
+    if (!trimmed) {
+      if (!window.__fillAnswers) return;
+      window.__fillAnswers = null;
+      cacheDel("answers");
+      paintSlots();
+      status.textContent = window.__fillPdf && window.__fillZones ? "Ready. Paste the gem reply." : "Ready. Paste the gem reply, or drop the PDF and zones.json.";
+      return;
+    }
+    var body = extractJsonText(trimmed);
+    var parsed;
+    try { parsed = JSON.parse(body); }
+    catch (err) {
+      if ((body.charAt(0) === "{" && /}\s*$/.test(body)) || /```\s*$/.test(trimmed)) {
+        status.textContent = "This reply is not valid JSON. Copy the gem's code block and paste it again.";
+      }
+      return;
+    }
+    if (!parsed || !Array.isArray(parsed.answers)) {
+      status.textContent = "This JSON has no answers list. Paste the gem reply.";
+      return;
+    }
+    if (!parsed.answers.length) {
+      status.textContent = "The answers list is empty.";
+      return;
+    }
+    if (window.__fillAnswers && window.__fillAnswers.text === body) return;
+    rememberAnswers(body, "answers.json");
+    startFillIfReady();
+  };
+  var answersBox = document.getElementById("answers-paste");
+  if (answersBox) {
+    answersBox.addEventListener("input", function () {
+      if (window.__settingPaste) return;
+      clearTimeout(window.__pasteTimer);
+      window.__pasteTimer = setTimeout(function () { window.acceptPastedAnswers(answersBox.value); }, 200);
+    });
+  }
 
   window.ingestFillFiles = function (fileList) {
     var files = Array.prototype.slice.call(fileList || []);
@@ -3119,6 +3148,7 @@ if (typeof module === "object" && module.exports) module.exports = Run;
         if (answersHit) {
           window.__fillAnswers = answersHit;
           cachePut("answers", {name: answersHit.file.name, type: "application/json", bytes: answersHit.text});
+          if (typeof setAnswersBox === "function") setAnswersBox(answersHit.text);
         }
       }
       paintSlots();
@@ -3127,20 +3157,7 @@ if (typeof module === "object" && module.exports) module.exports = Run;
         status.textContent = problems.join(" ");
         return;
       }
-      var missing = [];
-      if (!window.__fillPdf) missing.push("the PDF");
-      if (!window.__fillZones) missing.push("zones.json");
-      if (!window.__fillAnswers) missing.push("answers.json");
-      if (missing.length) {
-        status.textContent = "Still missing " + missing.join(" and ") + ".";
-        return;
-      }
-      if (!window.__libsReady) {
-        window.__startFill = true;
-        status.textContent = "Files received. PDF libraries are still loading…";
-        return;
-      }
-      window.onFillClick();
+      startFillIfReady();
     }).catch(function (err) {
       status.textContent = "Error: " + (err && err.message ? err.message : err);
     });
@@ -3179,7 +3196,6 @@ if (typeof module === "object" && module.exports) module.exports = Run;
       if (res.errors.length) {
         cacheDel("filledPdf");
         cacheDel("reviewPdf");
-        cacheDel("report");
         cachePut("feedback", {name: stem + "-gem-feedback.txt", type: "text/plain", bytes: res.feedback});
         window.renderPreviews("fill-previews", [
           {name: stem + "-gem-feedback.txt", kind: "text", bytes: res.feedback, type: "text/plain;charset=utf-8"}
@@ -3190,11 +3206,9 @@ if (typeof module === "object" && module.exports) module.exports = Run;
       cacheDel("feedback");
       cachePut("filledPdf", {name: stem + "-filled.pdf", type: "application/pdf", bytes: bytesOf(res.filled)});
       cachePut("reviewPdf", {name: stem + "-review.pdf", type: "application/pdf", bytes: bytesOf(res.review)});
-      cachePut("report", {name: stem + "-report.md", type: "text/markdown", bytes: res.report});
       window.renderPreviews("fill-previews", [
         {name: stem + "-filled.pdf", kind: "pdf", bytes: res.filled, type: "application/pdf"},
-        {name: stem + "-review.pdf", kind: "pdf", bytes: res.review, type: "application/pdf"},
-        {name: stem + "-report.md", kind: "text", bytes: res.report, type: "text/markdown;charset=utf-8"}
+        {name: stem + "-review.pdf", kind: "pdf", bytes: res.review, type: "application/pdf"}
       ], stem + "-filled.zip");
       var placed = 0, empty = 0;
       res.plan.answers.forEach(function (a) {
@@ -3209,6 +3223,10 @@ if (typeof module === "object" && module.exports) module.exports = Run;
       status.textContent = "Error: " + (err && err.message ? err.message : err);
     }).then(function () {
       window.__running = false;
+      if (window.__fillAgain) {
+        window.__fillAgain = false;
+        window.onFillClick();
+      }
     });
   };
 })();

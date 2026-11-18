@@ -15,7 +15,7 @@ def build_plan(zmap, data, fit=None):
     used, ignored = set(), set()
     for i, a in enumerate(data["answers"]):
         info = dict(index=i, ref=a["ref"], label=a["label"], context=a.get("context"), type=a["type"],
-                    confidence=a.get("confidence", "medium"), note=a.get("note_for_reviewer"),
+                    confidence=a.get("confidence", "high"), note=a.get("note_for_reviewer"),
                     zones=[], messages=list(fit.get(i, [])))
         answers.append(info)
         if a.get("do_not_fill") or a["type"] == "signature":

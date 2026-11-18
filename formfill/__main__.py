@@ -2,7 +2,7 @@
 
 Usage:
   python -m formfill prepare JOB_DIR     detect zones -> JOB_DIR/zones/zones.pdf + zones.txt (for the gem)
-  python -m formfill run JOB_DIR         validate answers.json, fill, review PDF, report
+  python -m formfill run JOB_DIR         validate answers.json, fill, write review PDF
   python -m formfill validate JOB_DIR    only check answers.json
   python -m formfill crop JOB_DIR PAGE X0 Y0 X1 Y1 [--original]   zoom on a zone of the filled PDF
 
@@ -57,7 +57,6 @@ def cmd_validate(job, answers_path):
 def cmd_run(job, answers_path, render=True, pages=False):
     from .fill_pdf import fill_pdf
     from .plan import build_plan
-    from .report import build_report
 
     out = job / "out"
     out.mkdir(exist_ok=True)
@@ -82,15 +81,13 @@ def cmd_run(job, answers_path, render=True, pages=False):
         if pages:
             render_pages(filled_pdf, out / "pages")
 
-    report = build_report(job.name, zmap, plan, fill_results, warnings)
-    (out / "report.md").write_text(report, encoding="utf-8")
     counts = {}
     for a in plan["answers"]:
         counts[a["status"]] = counts.get(a["status"], 0) + 1
     print("réponses :", ", ".join(f"{k}={v}" for k, v in sorted(counts.items())))
     print(f"écritures : {len(plan['ops'])} ; à vérifier (zone douteuse) : {len(fit)} ; "
           f"zones de texte sans réponse : {len(plan['unused'])}")
-    print(f"sorties : {out}/ (filled, review.pdf, report.md{', pages/' if pages else ''})")
+    print(f"sorties : {out}/ (filled.pdf, review.pdf{', pages/' if pages else ''})")
     return 0
 
 

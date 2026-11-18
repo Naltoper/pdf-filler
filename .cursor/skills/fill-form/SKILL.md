@@ -20,7 +20,7 @@ jobs/<nom>/
     zones.txt                liste compacte (id, page, type, texte autour)
     zones.json               carte complète (interne)
   answers.json             sortie du gem (schéma : schema/answers.schema.json)
-  out/                     généré : filled.pdf, review.pdf, report.md, plan.json
+  out/                     généré : filled.pdf, review.pdf, plan.json
 ```
 
 Sans job : créer `jobs/<nom>/`, y copier le formulaire. Sans answers : lancer `prepare`, donner `zones.pdf` + `zones.txt` + `gem/PROMPT.md` à l'utilisateur pour le gem, attendre le JSON.
@@ -33,15 +33,15 @@ Sans job : créer `jobs/<nom>/`, y copier le formulaire. Sans answers : lancer `
 - [ ] 2. Attendre answers.json (doit contenir form.zone_map = code ZONE_MAP de zones.txt)
 - [ ] 3. python -m formfill run jobs/<nom>
 - [ ] 4. Si erreurs de validation : donner out/gem_feedback.txt à l'utilisateur pour le gem, s'arrêter
-- [ ] 5. Lire out/report.md
-        - « À corriger » (no_zone / conflict / partial) : demander au gem une correction
+- [ ] 5. Lire `out/review.pdf` (infobulles) et le résumé affiché par `run`
+        - rouge (conflit, vide, zone sans réponse) : demander au gem une correction
           (zone manquante, mauvaise Zn, conflit) via gem_feedback, ou à l'utilisateur
         - Ne pas inventer de coordonnées ni d'overrides géométriques
 - [ ] 6. Questions bloquantes → AskQuestion
-- [ ] 7. Résumé : fichiers rendus, « À vérifier », zones texte sans réponse, signature manuelle
+- [ ] 7. Résumé : fichiers rendus, jaune « à vérifier », zones rouges sans réponse, signature manuelle
 ```
 
-Pas de contrôle visuel page par page. Revue humaine via `out/review.pdf` (bleu = ajout OK, jaune = à vérifier, rouge = vide / conflit) et `report.md`.
+Pas de contrôle visuel page par page. Revue humaine via `out/review.pdf` (bleu = ajout OK, jaune = à vérifier, rouge = vide / conflit / zone sans réponse).
 
 ## Rôles
 
@@ -49,19 +49,19 @@ Pas de contrôle visuel page par page. Revue humaine via `out/review.pdf` (bleu 
 |---|---|
 | Script `prepare` | Détecte large toutes les zones possibles, les numérote Z1…Zn |
 | Gem Gemini (app web) | Lit le PDF + zones.pdf/txt, produit answers.json avec `zone` / `zones` |
-| Script `run` | Valide les Zn, écrit, produit filled + review + report |
+| Script `run` | Valide les Zn, écrit, produit filled + review |
 | Humain | Revue finale, signature, cases « reserved » |
 
 ## Quand une zone manque
 
-Si le gem signale `zone: null` pour une valeur réelle, ou si `report.md` liste une zone texte importante dans « sans réponse » :
+Si le gem signale `zone: null` pour une valeur réelle, ou si `review.pdf` marque en rouge une zone texte importante « sans réponse » :
 
 1. Vérifier d'abord que le gem n'a pas simplement oublié le numéro (souvent visible sur `zones.pdf`).
 2. Si la zone n'existe vraiment pas dans `zones/` : corriger le détecteur (`formfill/pdf_zones.py`), relancer `prepare` sur **tous** les jobs, puis redemander au gem un JSON sur la **nouvelle** carte (`zone_map` différent).
 
 Ne pas empiler de correctifs manuels de coordonnées : la carte numérotée est la source de vérité.
 
-## Statuts du rapport
+## Statuts (dans `out/plan.json`, et couleurs de `review.pdf`)
 
 - `placed` : écrit
 - `already_filled` : valeur déjà présente, non réécrite
@@ -76,4 +76,4 @@ Ne pas empiler de correctifs manuels de coordonnées : la carte numérotée est 
 - Ne jamais modifier un PDF déjà signé ni le formulaire source : tout va dans `out/` et `zones/`.
 - Ne pas inventer de réponse ni de numéro de zone.
 - Une zone = une réponse (validateur).
-- Livrer `out/review.pdf` + `out/report.md` pour la revue humaine.
+- Livrer `out/review.pdf` pour la revue humaine.
