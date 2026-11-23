@@ -6,7 +6,8 @@
     "file_name": "QA-FO-069R1_Supplier Quality Assessment Questionnaire (2).pdf",
     "pages": 3,
     "issuer": "COMPOSITE TECHNOLOGY INTERNATIONAL PTE LTD",
-    "respondent": "AIRBUS HELICOPTERS"
+    "respondent": "AIRBUS HELICOPTERS",
+    "zone_map": "9fb96e47"
   },
   "answers": [
     {
@@ -15,7 +16,8 @@
       "label": "Registered / Trading Name",
       "type": "text",
       "value": "AIRBUS HELICOPTERS",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z1"
     },
     {
       "ref": "Section 1",
@@ -23,7 +25,8 @@
       "label": "Address",
       "type": "text",
       "value": "Aéroport International Marseille Provence, 13700 Marignane, France",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z2"
     },
     {
       "ref": "Section 1",
@@ -31,7 +34,8 @@
       "label": "Tel",
       "type": "text",
       "value": "+33 4 42 85 85 85",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z3"
     },
     {
       "ref": "Section 1",
@@ -39,7 +43,9 @@
       "label": "Fax",
       "type": "text",
       "value": null,
-      "confidence": "low"
+      "confidence": "low",
+      "zone": "Z4",
+      "note_for_reviewer": "Example empty field"
     },
     {
       "ref": "Section 1",
@@ -47,7 +53,8 @@
       "label": "Website",
       "type": "text",
       "value": "www.airbus.com",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z5"
     },
     {
       "ref": "Section 2",
@@ -55,7 +62,8 @@
       "label": "General Manager",
       "type": "text",
       "value": "Romain TRAPP",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z6"
     },
     {
       "ref": "Section 2",
@@ -64,7 +72,9 @@
       "label": "Email",
       "type": "text",
       "value": null,
-      "confidence": "low"
+      "confidence": "low",
+      "zone": "Z7",
+      "note_for_reviewer": "Example empty field"
     },
     {
       "ref": "Section 2",
@@ -72,7 +82,8 @@
       "label": "Quality Manager",
       "type": "text",
       "value": "Elodie CARMONA",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z8"
     },
     {
       "ref": "Section 2",
@@ -81,7 +92,8 @@
       "label": "Email",
       "type": "text",
       "value": "elodie.carmona@airbus.com",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z9"
     },
     {
       "ref": "Section 2",
@@ -89,7 +101,8 @@
       "label": "Audit Contact Person",
       "type": "text",
       "value": "Shinichi KATAYAMA",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z10"
     },
     {
       "ref": "Section 2",
@@ -98,7 +111,8 @@
       "label": "Email",
       "type": "text",
       "value": "shinichi.katayama@airbus.com",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z11"
     },
     {
       "ref": "Section 3",
@@ -110,7 +124,12 @@
         "MRO",
         "Parts / Materials Distributor"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "zones": [
+        "Z12",
+        "Z13",
+        "Z14"
+      ]
     },
     {
       "ref": "Section 3",
@@ -119,7 +138,9 @@
       "label": "Others (Provide Details)",
       "type": "text",
       "value": null,
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z31",
+      "note_for_reviewer": "Example empty field"
     },
     {
       "ref": "Section 4",
@@ -128,7 +149,9 @@
       "label": "Certificate No",
       "type": "text",
       "value": null,
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z20",
+      "note_for_reviewer": "Example empty field"
     },
     {
       "ref": "Section 4",
@@ -137,7 +160,9 @@
       "label": "Expiry Date",
       "type": "date",
       "value": null,
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z21",
+      "note_for_reviewer": "Example empty field"
     },
     {
       "ref": "Section 4",
@@ -146,7 +171,8 @@
       "label": "Certificate No",
       "type": "text",
       "value": "FR.145.0002 (no limit), Part-21J.700(no limit), Part-21G.0070 (no limit)",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z34"
     },
     {
       "ref": "Section 4",
@@ -155,7 +181,9 @@
       "label": "Expiry Date",
       "type": "date",
       "value": null,
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z191",
+      "note_for_reviewer": "Example empty field"
     },
     {
       "ref": "Section 4",
@@ -164,7 +192,8 @@
       "label": "Certificate No",
       "type": "text",
       "value": "E0OY135X",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z25"
     },
     {
       "ref": "Section 4",
@@ -173,7 +202,8 @@
       "label": "Expiry Date",
       "type": "date",
       "value": "November 30 2027",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z26"
     },
     {
       "ref": "Section 4",
@@ -182,7 +212,9 @@
       "label": "Certificate No",
       "type": "text",
       "value": null,
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z132",
+      "note_for_reviewer": "Example empty field"
     },
     {
       "ref": "Section 4",
@@ -191,7 +223,9 @@
       "label": "Expiry Date",
       "type": "date",
       "value": null,
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z17",
+      "note_for_reviewer": "Example empty field"
     },
     {
       "ref": "Section 4",
@@ -200,7 +234,8 @@
       "label": "Certificate No",
       "type": "text",
       "value": "282727-2019-AQ-FRA-ACCREDIA",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z29"
     },
     {
       "ref": "Section 4",
@@ -209,7 +244,8 @@
       "label": "Expiry Date",
       "type": "date",
       "value": "07 May 2028",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z30"
     },
     {
       "ref": "Section 4",
@@ -218,7 +254,9 @@
       "label": "Certificate No",
       "type": "text",
       "value": null,
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z183",
+      "note_for_reviewer": "Example empty field"
     },
     {
       "ref": "Section 4",
@@ -227,7 +265,9 @@
       "label": "Expiry Date",
       "type": "date",
       "value": null,
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z32",
+      "note_for_reviewer": "Example empty field"
     },
     {
       "ref": "Section 4",
@@ -236,7 +276,9 @@
       "label": "Certificate No",
       "type": "text",
       "value": null,
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z184",
+      "note_for_reviewer": "Example empty field"
     },
     {
       "ref": "Section 4",
@@ -245,7 +287,9 @@
       "label": "Expiry Date",
       "type": "date",
       "value": null,
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z119",
+      "note_for_reviewer": "Example empty field"
     },
     {
       "ref": "1.1",
@@ -253,7 +297,8 @@
       "label": "Is there an established Quality Assurance System in your organisation?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z35"
     },
     {
       "ref": "1.2",
@@ -261,7 +306,8 @@
       "label": "Do you have a documented Quality Policy in your organisation?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z37"
     },
     {
       "ref": "1.3",
@@ -269,7 +315,8 @@
       "label": "If so, is this policy disseminated and understood by all employees in the organisation?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z38"
     },
     {
       "ref": "1.4",
@@ -277,7 +324,8 @@
       "label": "Is there an internal audit program to verify compliance with company procedures?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z41"
     },
     {
       "ref": "1.5",
@@ -285,7 +333,8 @@
       "label": "Does your organisation encourage all staff to cooperate with quality auditors in the performance of their work?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z39"
     },
     {
       "ref": "1.6",
@@ -293,7 +342,8 @@
       "label": "Is there a feedback channel to the Accountable Manager where he is apprised of findings arising from such audits?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z44"
     },
     {
       "ref": "1.7",
@@ -301,7 +351,8 @@
       "label": "Are such audit findings reviewed and relevant information used in your organisation continuous improvement program, if any?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z40"
     },
     {
       "ref": "2.1",
@@ -309,7 +360,8 @@
       "label": "Has your organisation implemented a Safety Management System?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z47"
     },
     {
       "ref": "2.2",
@@ -317,7 +369,8 @@
       "label": "In this Safety Management System, does the Accountable Manager hold the ultimate responsibility for all safety matters in your organisation?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z36"
     },
     {
       "ref": "2.3",
@@ -325,7 +378,8 @@
       "label": "Is hazard identification and risk assessment (HIRA) part of your Safety Management System?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z50"
     },
     {
       "ref": "2.4",
@@ -333,7 +387,8 @@
       "label": "Are personnel who carry out HIRA appropriately trained?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z53"
     },
     {
       "ref": "2.5",
@@ -341,7 +396,8 @@
       "label": "Are HIRAs documented and such records retained.",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z57"
     },
     {
       "ref": "2.6",
@@ -349,7 +405,8 @@
       "label": "Are HIRAs reviewed at regular intervals to ensure that they are current and effective?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z60"
     },
     {
       "ref": "3.1",
@@ -357,7 +414,8 @@
       "label": "Are personnel who perform work in your facility protected from the environment?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z63"
     },
     {
       "ref": "3.2",
@@ -365,7 +423,8 @@
       "label": "Are conditions in your facility environmentally controlled to ensure a conducive work environment?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z66"
     },
     {
       "ref": "3.3",
@@ -373,7 +432,8 @@
       "label": "Does your facility have adequate storage equipment to ensure that customer parts are protected from environmental degradation?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z69"
     },
     {
       "ref": "3.4",
@@ -381,7 +441,8 @@
       "label": "Are customer parts protected from contamination whilst awaiting work to be performed?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z72"
     },
     {
       "ref": "3.5",
@@ -389,7 +450,8 @@
       "label": "Are there adequate storage racks to ensure the proper segregation of serviceable parts from unserviceable ones?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z76"
     },
     {
       "ref": "3.6",
@@ -397,7 +459,8 @@
       "label": "Is the facility adequately protected to ensure the security of customers' property?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z79"
     },
     {
       "ref": "4.1",
@@ -405,7 +468,8 @@
       "label": "Is there a documented procedure for the receiving of parts, including customers' parts?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z82"
     },
     {
       "ref": "4.2",
@@ -413,7 +477,8 @@
       "label": "Are personnel who perform receiving inspection trained and approved?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z68"
     },
     {
       "ref": "4.3",
@@ -421,7 +486,8 @@
       "label": "Are there adequate storage facilities to ensure that parts waiting to be received in your system are protected from pilferage and inter-mixing?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z85"
     },
     {
       "ref": "4.4",
@@ -429,7 +495,8 @@
       "label": "Does your organisation have a bonded store which is environmentally controlled for storage of spares?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z88"
     },
     {
       "ref": "4.5",
@@ -437,7 +504,8 @@
       "label": "If so, is access to this area controlled?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z91"
     },
     {
       "ref": "4.6",
@@ -445,7 +513,8 @@
       "label": "Is there a procedure to ensure the traceability of parts used in production?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z95"
     },
     {
       "ref": "4.7",
@@ -453,7 +522,8 @@
       "label": "Is there a procedure to control shelf life parts to ensure that life expired items are not inadvertently issued for production use?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z98"
     },
     {
       "ref": "4.8",
@@ -461,7 +531,8 @@
       "label": "Is there a secure area dedicated for the storage of quarantine parts awaiting further disposition?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z101"
     },
     {
       "ref": "5.1",
@@ -469,7 +540,8 @@
       "label": "Is there a documented procedure to control the use of maintenance data?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z104"
     },
     {
       "ref": "5.2",
@@ -477,7 +549,8 @@
       "label": "Is there a procedure to ensure that maintenance data used for production is updated?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z107"
     },
     {
       "ref": "5.3",
@@ -485,7 +558,8 @@
       "label": "Where maintenance data is controlled electronically, is there a procedure to control the use of printed data?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z110"
     },
     {
       "ref": "5.4",
@@ -493,7 +567,8 @@
       "label": "Where the use of customer supplied maintenance data is allowed, is there a procedure to control such use?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z113"
     },
     {
       "ref": "6.1",
@@ -501,7 +576,8 @@
       "label": "Is there a procedure to control the use of tools?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z116"
     },
     {
       "ref": "6.2",
@@ -509,7 +585,8 @@
       "label": "Is there a procedure to control the use of equipment that requires calibration?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z120"
     },
     {
       "ref": "6.3",
@@ -517,7 +594,8 @@
       "label": "Is there a procedure to ensure the accountability of tools and to report lost tools?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z123"
     },
     {
       "ref": "6.4",
@@ -525,7 +603,8 @@
       "label": "Are tools maintained and kept in good working condition?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z126"
     },
     {
       "ref": "6.5",
@@ -533,7 +612,8 @@
       "label": "Where personal tools are allowed to be used, is there a procedure to ensure their accountability?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z129"
     },
     {
       "ref": "6.6",
@@ -541,7 +621,8 @@
       "label": "Do you have a recall system if tooling proves to be out of tolerance after the work was released to service?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z133"
     },
     {
       "ref": "7.1",
@@ -549,7 +630,8 @@
       "label": "Does the organisation have a training program?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z136"
     },
     {
       "ref": "7.2",
@@ -557,7 +639,8 @@
       "label": "If so, is human factors performance included in the training program?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z139"
     },
     {
       "ref": "7.3",
@@ -565,7 +648,8 @@
       "label": "If training is conducted in-house, is there a procedure to qualify and ensure the competence of such trainers?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z142"
     },
     {
       "ref": "7.4",
@@ -573,7 +657,8 @@
       "label": "Are the records of such training maintained and retained?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z70"
     },
     {
       "ref": "7.5",
@@ -581,7 +666,8 @@
       "label": "Are maintenance personnel assessed on their competency and training requirements tailored to meet such needs?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z145"
     },
     {
       "ref": "8.1",
@@ -589,7 +675,8 @@
       "label": "Is there a procedure to govern the qualification and approval of personnel involved in maintenance?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z148"
     },
     {
       "ref": "8.2",
@@ -597,7 +684,8 @@
       "label": "Are maintenance personnel provided with appropriate personal protection equipment in the performance of their work?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z152"
     },
     {
       "ref": "8.3",
@@ -605,7 +693,8 @@
       "label": "Is work load monitored to ensure that there is sufficiency of resources available to meet the workload?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z155"
     },
     {
       "ref": "8.4",
@@ -613,7 +702,8 @@
       "label": "Where the organisation employs multiple shifts, is there a procedure for the proper handing-taking over of work between shifts?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z158"
     },
     {
       "ref": "8.5",
@@ -621,7 +711,8 @@
       "label": "Is there effective supervision to ensure that maintenance personnel refer to maintenance data when carrying out work?",
       "type": "choice",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z161"
     },
     {
       "ref": "Section 6",
@@ -629,7 +720,8 @@
       "label": "Questionnaire completed by:",
       "type": "text",
       "value": "Shinichi KATAYAMA / Business & Programs Quality",
-      "confidence": "high"
+      "confidence": "high",
+      "zone": "Z185"
     },
     {
       "ref": "Section 6",
@@ -638,7 +730,8 @@
       "type": "text",
       "value": null,
       "confidence": "low",
-      "note_for_reviewer": "Titre à confirmer pour la signature"
+      "note_for_reviewer": "Titre à confirmer pour la signature",
+      "zone": "Z186"
     },
     {
       "ref": "Section 6",
@@ -654,7 +747,8 @@
       "type": "date",
       "value": null,
       "confidence": "low",
-      "note_for_reviewer": "Date à insérer lors de la signature"
+      "note_for_reviewer": "Date à insérer lors de la signature",
+      "zone": "Z94"
     },
     {
       "ref": "Section 6",
