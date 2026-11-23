@@ -889,8 +889,8 @@ bindDrop("fill-drop", function (files) {
 bootLibs();
 </script>
 <script>
-/* prepare : détecte les zones d'un PDF (même règles que formfill/pdf_zones.py).
-   Repère interne : origine en haut à gauche, y vers le bas, comme PyMuPDF.
+/* prepare : détecte les zones d'un PDF (implémentation canonique JS).
+   Repère interne : origine en haut à gauche, y vers le bas.
    pdf.js et pdf-lib restent en repère PDF (origine en bas). La conversion est faite ici. */
 const Prepare = (function () {
   "use strict";
@@ -2109,8 +2109,8 @@ const Prepare = (function () {
 if (typeof module === "object" && module.exports) module.exports = Prepare;
 
 /* run : valide answers.json, écrit le PDF et le review.
-   Même règles que formfill/validate.py, plan.py, fill_pdf.py, render.py.
-   Les rectangles des zones sont en repère PyMuPDF (origine en haut, y vers le bas). */
+   Implémentation canonique JS (validate / plan / fill / review).
+   Les rectangles des zones sont en repère page (origine en haut, y vers le bas). */
 const Run = (function () {
   "use strict";
 

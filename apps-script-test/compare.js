@@ -1,3 +1,6 @@
+/** Compare live JS detectPdf against a reference jobs/<job>/zones/zones.json
+ * (IoU ≥ 0.5). Useful after detector changes. Needs vendor/ (see cli.js).
+ */
 const fs = require("fs");
 const path = require("path");
 const pdfjsLib = require("./vendor/pdf.min.js");
@@ -43,7 +46,7 @@ function match(py, js) {
     const m = match(py.zones, js.zones);
     const shapes = {};
     js.zones.forEach(z => { shapes[z.shape] = (shapes[z.shape] || 0) + 1; });
-    console.log(`\n${job}: python ${py.zones.length}  js ${js.zones.length}  recall ${m.hit}/${py.zones.length} (${(100 * m.hit / py.zones.length).toFixed(1)}%)  extra ${m.extras.length}`);
+    console.log(`\n${job}: ref ${py.zones.length}  js ${js.zones.length}  recall ${m.hit}/${py.zones.length} (${(100 * m.hit / py.zones.length).toFixed(1)}%)  extra ${m.extras.length}`);
     console.log("  js shapes", shapes);
     const byShape = {};
     m.misses.forEach(z => { byShape[z.shape] = (byShape[z.shape] || 0) + 1; });
