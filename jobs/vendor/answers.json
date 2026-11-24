@@ -1016,7 +1016,7 @@
       "page": 4,
       "label": "Wenn ja, bitte Kopie(n) des/der Zertifikate(s) beifügen! / If it has been, please include a copy of your certificate(s)!",
       "type": "text",
-      "zone": "Z107",
+      "zone": null,
       "value": null,
       "do_not_fill": true,
       "confidence": "high"

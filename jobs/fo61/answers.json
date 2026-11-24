@@ -158,7 +158,7 @@
       "label": "ISO or equivalent management-system certification applicable to the supplied product/service available and current?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z37",
+      "zone": "Z40",
       "remark": "EN 9100, ISO 9001, AS9100, ISO 14001",
       "remark_zone": "Z35",
       "confidence": "high"
@@ -169,7 +169,7 @@
       "label": "Accreditation/certification for specialised services (e.g. calibration, NDT, special processes) available where required?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z40",
+      "zone": "Z44",
       "remark": "NADCAP",
       "remark_zone": "Z43",
       "confidence": "high"
@@ -180,7 +180,7 @@
       "label": "Are copies of relevant approvals/certificates available for review?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z44",
+      "zone": "Z48",
       "confidence": "high"
     },
     {
@@ -198,7 +198,7 @@
       "label": "Are there any current suspended, restricted or expired approvals relevant to the supplied scope?",
       "type": "choice",
       "choice": "NO",
-      "zone": "Z57",
+      "zone": "Z58",
       "confidence": "high"
     },
     {
@@ -216,7 +216,7 @@
       "label": "Is the supplied scope clearly defined in the quotation, purchase order, contract or technical documentation?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z48",
+      "zone": "Z65",
       "confidence": "high"
     },
     {
@@ -225,7 +225,7 @@
       "label": "Where approval is required, does the supplier’s approval scope cover the intended goods/services?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z21",
+      "zone": "Z69",
       "confidence": "high"
     },
     {
@@ -234,7 +234,7 @@
       "label": "Are limitations, ratings, locations and/or capabilities relevant to the supplied scope clearly defined and current?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z52",
+      "zone": "Z73",
       "remark": "Defined in MOE/QCM",
       "remark_zone": "Z72",
       "confidence": "high"
@@ -245,7 +245,7 @@
       "label": "Are critical or safety-relevant processes within the supplier’s own controlled scope?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z61",
+      "zone": "Z77",
       "confidence": "high"
     },
     {
@@ -254,7 +254,7 @@
       "label": "Are any activities further subcontracted? If yes, are they controlled and monitored?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z65",
+      "zone": "Z81",
       "remark": "Controlled via Supplier Quality Assurance (AVL)",
       "remark_zone": "Z80",
       "confidence": "high"
@@ -265,7 +265,7 @@
       "label": "Is a current list or defined control method for significant suppliers/sub-suppliers maintained?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z69",
+      "zone": "Z85",
       "confidence": "high"
     },
     {
@@ -274,7 +274,7 @@
       "label": "Are suppliers of safety/quality-critical items evaluated and approved before use?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z73",
+      "zone": "Z89",
       "confidence": "high"
     },
     {
@@ -283,7 +283,7 @@
       "label": "Are changes to significant suppliers/sub-suppliers controlled and, where applicable, communicated?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z77",
+      "zone": "Z93",
       "confidence": "high"
     },
     {
@@ -292,7 +292,7 @@
       "label": "Are outsourced/special processes subject to appropriate technical and quality controls?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z81",
+      "zone": "Z97",
       "confidence": "high"
     },
     {
@@ -301,7 +301,7 @@
       "label": "Can the required release certificate or conformity documentation be supplied with the ordered item/service?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z82",
+      "zone": "Z101",
       "confidence": "high"
     },
     {
@@ -310,7 +310,7 @@
       "label": "Where applicable, can EASA Form 1 or an accepted equivalent be provided?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z83",
+      "zone": "Z105",
       "confidence": "high"
     },
     {
@@ -319,7 +319,7 @@
       "label": "Where applicable, can FAA Form 8130-3 or other accepted authority release documentation be provided?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z85",
+      "zone": "Z109",
       "confidence": "high"
     },
     {
@@ -328,7 +328,7 @@
       "label": "Can a Certificate of Conformity / inspection certificate be provided where required?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z89",
+      "zone": "Z113",
       "confidence": "high"
     },
     {
@@ -337,7 +337,7 @@
       "label": "Can material certificates in accordance with applicable specifications (e.g. EN 10204) be provided?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z93",
+      "zone": "Z117",
       "confidence": "high"
     },
     {
@@ -346,7 +346,7 @@
       "label": "Is documentation traceable to the delivered part/material/service and purchase order?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z97",
+      "zone": "Z121",
       "confidence": "high"
     },
     {
@@ -355,7 +355,7 @@
       "label": "Are facilities appropriate for the work performed and protected against relevant environmental conditions?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z101",
+      "zone": "Z125",
       "confidence": "high"
     },
     {
@@ -364,7 +364,7 @@
       "label": "Are specialised work areas adequately segregated to prevent contamination or adverse effects on other work?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z105",
+      "zone": "Z129",
       "confidence": "high"
     },
     {
@@ -373,7 +373,7 @@
       "label": "Are suitable areas available for inspection, documentation review and completion of work records?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z109",
+      "zone": "Z133",
       "confidence": "high"
     },
     {
@@ -382,7 +382,7 @@
       "label": "Are lighting, temperature, humidity, cleanliness and other environmental conditions controlled where required?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z113",
+      "zone": "Z137",
       "confidence": "high"
     },
     {
@@ -391,7 +391,7 @@
       "label": "Are facilities, equipment and materials adequately secured against damage, loss or unauthorised access?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z117",
+      "zone": "Z141",
       "confidence": "high"
     },
     {
@@ -400,7 +400,7 @@
       "label": "Are serviceable and unserviceable items physically or otherwise clearly segregated?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z121",
+      "zone": "Z145",
       "confidence": "high"
     },
     {
@@ -409,7 +409,7 @@
       "label": "Is a documented Quality Management / Quality Assurance system appropriate to the supplied scope implemented?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z125",
+      "zone": "Z149",
       "confidence": "high"
     },
     {
@@ -418,7 +418,7 @@
       "label": "Is the current applicable quality manual/procedure set available to relevant personnel?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z129",
+      "zone": "Z153",
       "confidence": "high"
     },
     {
@@ -427,7 +427,7 @@
       "label": "Is an independent internal audit/surveillance programme established and implemented?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z133",
+      "zone": "Z157",
       "confidence": "high"
     },
     {
@@ -436,7 +436,7 @@
       "label": "Are audit findings recorded, assigned, corrected and followed up to effective closure?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z137",
+      "zone": "Z161",
       "confidence": "high"
     },
     {
@@ -445,7 +445,7 @@
       "label": "Are customer, regulatory and contractual requirements incorporated into applicable procedures?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z141",
+      "zone": "Z165",
       "confidence": "high"
     },
     {
@@ -454,7 +454,7 @@
       "label": "Are subcontracted activities controlled to ensure conformity with applicable requirements?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z118",
+      "zone": "Z169",
       "confidence": "high"
     },
     {
@@ -463,7 +463,7 @@
       "label": "Is management responsibility for quality clearly assigned?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z171",
+      "zone": "Z172",
       "confidence": "high"
     },
     {
@@ -472,7 +472,7 @@
       "label": "Are relevant quality records retained and protected for the required period?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z145",
+      "zone": "Z177",
       "confidence": "high"
     },
     {
@@ -481,7 +481,7 @@
       "label": "Where applicable to the supplied aviation activity, is a documented safety management / risk-management process implemented?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z149",
+      "zone": "Z181",
       "confidence": "high"
     },
     {
@@ -490,7 +490,7 @@
       "label": "Are safety hazards and risks associated with the supplied activity identified and controlled?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z153",
+      "zone": "Z185",
       "confidence": "high"
     },
     {
@@ -499,7 +499,7 @@
       "label": "Is there an internal occurrence / incident reporting process?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z157",
+      "zone": "Z189",
       "confidence": "high"
     },
     {
@@ -508,7 +508,7 @@
       "label": "Are personnel encouraged to report safety and quality concerns?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z161",
+      "zone": "Z193",
       "confidence": "high"
     },
     {
@@ -517,7 +517,7 @@
       "label": "Are occurrences investigated and causes/contributing factors addressed to prevent recurrence?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z165",
+      "zone": "Z197",
       "confidence": "high"
     },
     {
@@ -526,7 +526,7 @@
       "label": "Are safety/quality-related occurrences affecting DLHT or its products/services communicated without undue delay?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z169",
+      "zone": "Z201",
       "confidence": "high"
     },
     {
@@ -535,7 +535,7 @@
       "label": "Where personnel work under DLHT's approval or contract (contracting or subcontracting), have they been trained on DLHT's internal occurrence/safety reporting system",
       "type": "choice",
       "choice": "N/A",
-      "zone": "Z206",
+      "zone": "Z207",
       "confidence": "high"
     },
     {
@@ -544,7 +544,7 @@
       "label": "Is contracting/subcontracting controlled by a documented procedure or defined management process?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z172",
+      "zone": "Z209",
       "confidence": "high"
     },
     {
@@ -553,7 +553,7 @@
       "label": "Are contractors/subcontractors evaluated and approved before performing relevant work?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z177",
+      "zone": "Z213",
       "confidence": "high"
     },
     {
@@ -562,7 +562,7 @@
       "label": "Are contracted/subcontracted activities clearly defined, including responsibilities, interfaces and acceptance criteria?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z181",
+      "zone": "Z217",
       "confidence": "high"
     },
     {
@@ -571,7 +571,7 @@
       "label": "Does the supplier verify that contractor/subcontractor approvals/capabilities remain valid where applicable?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z185",
+      "zone": "Z221",
       "confidence": "high"
     },
     {
@@ -580,7 +580,7 @@
       "label": "Are records of contractor/subcontractor evaluations, audits and corrective actions maintained?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z189",
+      "zone": "Z225",
       "confidence": "high"
     },
     {
@@ -589,7 +589,7 @@
       "label": "Are DLHT and/or competent authority access rights supported where required by contract or applicable regulation?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z193",
+      "zone": "Z229",
       "confidence": "high"
     },
     {
@@ -598,7 +598,7 @@
       "label": "Are chemicals, liquids, waste and other environmentally relevant materials handled and disposed of appropriately?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z138",
+      "zone": "Z233",
       "confidence": "high"
     },
     {
@@ -607,7 +607,7 @@
       "label": "Are environmental and workplace controls appropriate to the activities performed?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z197",
+      "zone": "Z237",
       "confidence": "high"
     },
     {
@@ -616,7 +616,7 @@
       "label": "Are special environmental conditions required for the work defined and controlled?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z201",
+      "zone": "Z241",
       "confidence": "high"
     },
     {
@@ -625,7 +625,7 @@
       "label": "Are storage areas suitable for the type of articles/materials stored?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z205",
+      "zone": "Z245",
       "confidence": "high"
     },
     {
@@ -634,7 +634,7 @@
       "label": "Are temperature, humidity, ventilation, cleanliness or other conditions controlled where required?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z209",
+      "zone": "Z249",
       "confidence": "high"
     },
     {
@@ -643,7 +643,7 @@
       "label": "Are serviceable, unserviceable, rejected and quarantined items clearly segregated?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z213",
+      "zone": "Z253",
       "confidence": "high"
     },
     {
@@ -652,7 +652,7 @@
       "label": "Is there a system for identifying and controlling shelf-life / life-limited items?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z217",
+      "zone": "Z257",
       "confidence": "high"
     },
     {
@@ -661,7 +661,7 @@
       "label": "Is the expiry date or life limit clearly identified on applicable items?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z221",
+      "zone": "Z261",
       "confidence": "high"
     },
     {
@@ -670,7 +670,7 @@
       "label": "Are articles protected from damage, contamination, deterioration and unauthorised access?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z225",
+      "zone": "Z265",
       "confidence": "high"
     },
     {
@@ -679,7 +679,7 @@
       "label": "Are storage and preservation requirements defined for sensitive components/materials?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z229",
+      "zone": "Z269",
       "confidence": "high"
     },
     {
@@ -688,7 +688,7 @@
       "label": "Is adequate competent personnel available for the scope and planned workload?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z233",
+      "zone": "Z273",
       "confidence": "high"
     },
     {
@@ -697,7 +697,7 @@
       "label": "Are job descriptions / responsibilities defined for relevant functions?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z237",
+      "zone": "Z277",
       "confidence": "high"
     },
     {
@@ -706,7 +706,7 @@
       "label": "Is competence assessed before personnel perform safety/quality-critical work?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z241",
+      "zone": "Z281",
       "confidence": "high"
     },
     {
@@ -715,7 +715,7 @@
       "label": "Is initial and recurrent training provided and recorded as appropriate?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z245",
+      "zone": "Z285",
       "confidence": "high"
     },
     {
@@ -724,7 +724,7 @@
       "label": "Are personnel trained in applicable internal procedures and work instructions?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z249",
+      "zone": "Z289",
       "confidence": "high"
     },
     {
@@ -733,7 +733,7 @@
       "label": "Where maintenance is performed, are mechanics and certifying staff appropriately trained and authorised?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z253",
+      "zone": "Z293",
       "confidence": "high"
     },
     {
@@ -742,7 +742,7 @@
       "label": "Where NDT or other specialised activities are performed, are personnel appropriately qualified?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z257",
+      "zone": "Z297",
       "confidence": "high"
     },
     {
@@ -751,7 +751,7 @@
       "label": "Where Part-145 certification staff are involved, are authorisations, scope and limitations clearly defined?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z261",
+      "zone": "Z301",
       "confidence": "high"
     },
     {
@@ -760,7 +760,7 @@
       "label": "Where applicable, is relevant human factors / safety training provided?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z265",
+      "zone": "Z305",
       "confidence": "high"
     },
     {
@@ -769,7 +769,7 @@
       "label": "Are current work instructions / maintenance data available at the point of use?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z269",
+      "zone": "Z309",
       "confidence": "high"
     },
     {
@@ -778,7 +778,7 @@
       "label": "Are work packages, job cards or equivalent records used to document performed work?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z273",
+      "zone": "Z313",
       "confidence": "high"
     },
     {
@@ -787,7 +787,7 @@
       "label": "Are manufacturer or approved inspection standards referenced where applicable?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z277",
+      "zone": "Z317",
       "confidence": "high"
     },
     {
@@ -796,7 +796,7 @@
       "label": "Are test and inspection results recorded and traceable to the work performed?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z281",
+      "zone": "Z321",
       "confidence": "high"
     },
     {
@@ -805,7 +805,7 @@
       "label": "Are critical maintenance tasks identified and subject to appropriate control?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z285",
+      "zone": "Z325",
       "confidence": "high"
     },
     {
@@ -814,7 +814,7 @@
       "label": "Where required, are independent inspections or equivalent error-capturing controls performed?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z289",
+      "zone": "Z329",
       "confidence": "high"
     },
     {
@@ -823,7 +823,7 @@
       "label": "Are controls in place to minimise multiple errors, omissions and repeated errors?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z293",
+      "zone": "Z333",
       "confidence": "high"
     },
     {
@@ -832,7 +832,7 @@
       "label": "Is a final inspection/general verification performed to ensure tools, equipment and extraneous items are removed before release?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z297",
+      "zone": "Z337",
       "confidence": "high"
     },
     {
@@ -841,7 +841,7 @@
       "label": "Is a current approved supplier / source control list maintained where applicable?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z301",
+      "zone": "Z341",
       "confidence": "high"
     },
     {
@@ -850,7 +850,7 @@
       "label": "Are incoming items appropriately inspected and segregated from items awaiting inspection/acceptance?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z305",
+      "zone": "Z345",
       "confidence": "high"
     },
     {
@@ -859,7 +859,7 @@
       "label": "Are age-controlled items checked for manufacture date, shelf life and/or expiry date?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z309",
+      "zone": "Z349",
       "confidence": "high"
     },
     {
@@ -868,7 +868,7 @@
       "label": "Are components/materials classified and segregated according to their status?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z313",
+      "zone": "Z353",
       "confidence": "high"
     },
     {
@@ -877,7 +877,7 @@
       "label": "Are raw materials and consumables traceable to the applicable specification and source?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z317",
+      "zone": "Z357",
       "confidence": "high"
     },
     {
@@ -886,7 +886,7 @@
       "label": "Are conformity/release documents clearly linked to the supplied item, batch or serial number where applicable?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z321",
+      "zone": "Z361",
       "confidence": "high"
     },
     {
@@ -895,7 +895,7 @@
       "label": "Are parts/materials verified as eligible for the intended application before release/supply?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z325",
+      "zone": "Z365",
       "confidence": "high"
     },
     {
@@ -904,7 +904,7 @@
       "label": "Are alternate part numbers only supplied where interchangeability/equivalence is demonstrated and accepted?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z329",
+      "zone": "Z369",
       "confidence": "high"
     },
     {
@@ -913,7 +913,7 @@
       "label": "Are unsalvageable/rejected items controlled to prevent unintended re-entry into the supply chain?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z333",
+      "zone": "Z373",
       "confidence": "high"
     },
     {
@@ -922,7 +922,7 @@
       "label": "Are parts/materials re-inspected before shipment where required by the supplier’s procedures or contract?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z337",
+      "zone": "Z377",
       "confidence": "high"
     },
     {
@@ -931,7 +931,7 @@
       "label": "Is full traceability maintained through receiving, processing, storage and delivery?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z341",
+      "zone": "Z381",
       "confidence": "high"
     },
     {
@@ -940,7 +940,7 @@
       "label": "Are electrostatic sensitive devices (ESD) identified, packaged and handled in accordance with applicable ESD-protection procedures?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z119",
+      "zone": "Z385",
       "confidence": "high"
     },
     {
@@ -949,7 +949,7 @@
       "label": "Are components/materials packed and shipped to protect them from damage and deterioration, including compliance with applicable dangerous-goods regulations...",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z345",
+      "zone": "Z389",
       "confidence": "high"
     },
     {
@@ -958,7 +958,7 @@
       "label": "Is there a documented procedure for detecting and reporting Suspected Unapproved Parts (SUP)?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z349",
+      "zone": "Z393",
       "confidence": "high"
     },
     {
@@ -967,7 +967,7 @@
       "label": "Where batches/lots are split or redistributed, is this controlled and are the related certificates/traceability documents maintained for each resulting batch?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z353",
+      "zone": "Z397",
       "confidence": "high"
     },
     {
@@ -976,7 +976,7 @@
       "label": "Are unsalvageable components mutilated, marked or otherwise controlled in accordance with applicable regulations to prevent unintended re-entry into service?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z357",
+      "zone": "Z401",
       "confidence": "high"
     },
     {
@@ -985,7 +985,7 @@
       "label": "Is there a procedure to notify purchasers/customers if a component/material already shipped is later found not to conform...",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z361",
+      "zone": "Z405",
       "confidence": "high"
     },
     {
@@ -994,7 +994,7 @@
       "label": "Is there a recall control procedure to trace and, if necessary, recall components/materials already shipped?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z365",
+      "zone": "Z409",
       "confidence": "high"
     },
     {
@@ -1003,7 +1003,7 @@
       "label": "Are the tools and equipment necessary for the supplied scope available and suitable?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z369",
+      "zone": "Z413",
       "confidence": "high"
     },
     {
@@ -1012,7 +1012,7 @@
       "label": "Are tools/equipment requiring calibration or inspection identified and controlled in a register?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z373",
+      "zone": "Z417",
       "confidence": "high"
     },
     {
@@ -1021,7 +1021,7 @@
       "label": "Are calibration/inspection intervals defined and controlled?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z377",
+      "zone": "Z421",
       "confidence": "high"
     },
     {
@@ -1030,7 +1030,7 @@
       "label": "Are calibration standards traceable to recognised standards and suitable for the intended measurement?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z381",
+      "zone": "Z425",
       "confidence": "high"
     },
     {
@@ -1039,7 +1039,7 @@
       "label": "Are tools/equipment labelled with calibration or inspection status and due date where applicable?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z385",
+      "zone": "Z429",
       "confidence": "high"
     },
     {
@@ -1048,7 +1048,7 @@
       "label": "Is there a process to prevent expired, damaged or unserviceable tools/equipment from being used?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z389",
+      "zone": "Z433",
       "confidence": "high"
     },
     {
@@ -1057,7 +1057,7 @@
       "label": "Are calibration certificates retained and traceable to the equipment identification?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z393",
+      "zone": "Z437",
       "confidence": "high"
     },
     {
@@ -1066,7 +1066,7 @@
       "label": "Are current applicable technical data, specifications, drawings or maintenance instructions established and maintained?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z397",
+      "zone": "Z441",
       "confidence": "high"
     },
     {
@@ -1075,7 +1075,7 @@
       "label": "Is technical data properly identified and available to relevant personnel?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z401",
+      "zone": "Z445",
       "confidence": "high"
     },
     {
@@ -1084,7 +1084,7 @@
       "label": "Is revision status controlled to prevent use of obsolete data?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z405",
+      "zone": "Z449",
       "confidence": "high"
     },
     {
@@ -1093,7 +1093,7 @@
       "label": "Are working copies controlled and updated when revisions are issued?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z409",
+      "zone": "Z453",
       "confidence": "high"
     },
     {
@@ -1102,7 +1102,7 @@
       "label": "Is inaccurate, incomplete or ambiguous technical information identified and communicated to the appropriate source?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z413",
+      "zone": "Z457",
       "confidence": "high"
     },
     {
@@ -1111,7 +1111,7 @@
       "label": "Are records and certificates legible, complete and protected against unauthorised alteration?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z417",
+      "zone": "Z461",
       "confidence": "high"
     },
     {
@@ -1120,7 +1120,7 @@
       "label": "Is access to current, up-to-date applicable regulations, specifications and standards (including component handling/storage data) maintained for the supplied scope?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z421",
+      "zone": "Z465",
       "confidence": "high"
     },
     {
@@ -1129,7 +1129,7 @@
       "label": "Where maintenance is performed, are release-to-service documents issued only by appropriately authorised personnel?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z425",
+      "zone": "Z469",
       "confidence": "high"
     },
     {
@@ -1138,7 +1138,7 @@
       "label": "Where applicable, is EASA Form 1 or another accepted release certificate issued in accordance with the applicable procedure?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z429",
+      "zone": "Z473",
       "confidence": "high"
     },
     {
@@ -1147,7 +1147,7 @@
       "label": "Are release statements and certification references complete and correctly used?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z433",
+      "zone": "Z477",
       "confidence": "high"
     },
     {
@@ -1156,7 +1156,7 @@
       "label": "Are records retained to demonstrate conformity and completion of the supplied work/service?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z437",
+      "zone": "Z481",
       "confidence": "high"
     },
     {
@@ -1165,7 +1165,7 @@
       "label": "Are records protected from damage, alteration, loss and unauthorised access?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z441",
+      "zone": "Z485",
       "confidence": "high"
     },
     {
@@ -1174,7 +1174,7 @@
       "label": "Where electronic records are used, are appropriate access controls and backups implemented?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z445",
+      "zone": "Z489",
       "confidence": "high"
     },
     {
@@ -1183,7 +1183,7 @@
       "label": "Can relevant records be made available to DLHT and/or competent authorities when required?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z449",
+      "zone": "Z493",
       "confidence": "high"
     },
     {
@@ -1192,7 +1192,7 @@
       "label": "Is there a process to identify and control changes affecting the approved supply/service?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z453",
+      "zone": "Z497",
       "confidence": "high"
     },
     {
@@ -1201,7 +1201,7 @@
       "label": "Will changes to relevant approvals, certifications, scope or significant processes be notified to DLHT without undue delay?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z457",
+      "zone": "Z501",
       "confidence": "high"
     },
     {
@@ -1210,7 +1210,7 @@
       "label": "Will relocation, ownership/management changes or significant organisational changes be communicated where relevant?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z461",
+      "zone": "Z505",
       "confidence": "high"
     },
     {
@@ -1219,7 +1219,7 @@
       "label": "Will significant quality, safety, delivery or conformity issues affecting DLHT be communicated promptly?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z465",
+      "zone": "Z509",
       "confidence": "high"
     },
     {
@@ -1228,7 +1228,7 @@
       "label": "Will suspension, limitation, expiry or withdrawal of a relevant approval/certification be communicated immediately?",
       "type": "choice",
       "choice": "YES",
-      "zone": "Z469",
+      "zone": "Z513",
       "confidence": "high"
     },
     {
@@ -1263,8 +1263,9 @@
       "page": 8,
       "label": "Signature:",
       "type": "signature",
-      "zone": "Z518",
-      "confidence": "high"
+      "zone": null,
+      "confidence": "high",
+      "note_for_reviewer": " Zone conflict on Z518; needs gem remap."
     },
     {
       "ref": "14",

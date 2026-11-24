@@ -145,10 +145,10 @@
     },
     {
       "op": "check",
-      "zone": "Z37",
+      "zone": "Z40",
       "answer": 13,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "text",
@@ -156,11 +156,11 @@
       "answer": 13,
       "role": "remark",
       "text": "EN 9100, ISO 9001, AS9100, ISO 14001",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
-      "zone": "Z40",
+      "zone": "Z44",
       "answer": 14,
       "role": "choice",
       "flag": false
@@ -175,10 +175,10 @@
     },
     {
       "op": "check",
-      "zone": "Z44",
+      "zone": "Z48",
       "answer": 15,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "text",
@@ -190,10 +190,10 @@
     },
     {
       "op": "check",
-      "zone": "Z57",
+      "zone": "Z58",
       "answer": 17,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "text",
@@ -205,24 +205,24 @@
     },
     {
       "op": "check",
-      "zone": "Z48",
+      "zone": "Z65",
       "answer": 19,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
-      "zone": "Z21",
+      "zone": "Z69",
       "answer": 20,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
-      "zone": "Z52",
+      "zone": "Z73",
       "answer": 21,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "text",
@@ -230,21 +230,21 @@
       "answer": 21,
       "role": "remark",
       "text": "Defined in MOE/QCM",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
-      "zone": "Z61",
+      "zone": "Z77",
       "answer": 22,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
-      "zone": "Z65",
+      "zone": "Z81",
       "answer": 23,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "text",
@@ -252,763 +252,763 @@
       "answer": 23,
       "role": "remark",
       "text": "Controlled via Supplier Quality Assurance (AVL)",
-      "flag": true
-    },
-    {
-      "op": "check",
-      "zone": "Z69",
-      "answer": 24,
-      "role": "choice",
-      "flag": true
-    },
-    {
-      "op": "check",
-      "zone": "Z73",
-      "answer": 25,
-      "role": "choice",
-      "flag": true
-    },
-    {
-      "op": "check",
-      "zone": "Z77",
-      "answer": 26,
-      "role": "choice",
-      "flag": true
-    },
-    {
-      "op": "check",
-      "zone": "Z81",
-      "answer": 27,
-      "role": "choice",
-      "flag": true
-    },
-    {
-      "op": "check",
-      "zone": "Z82",
-      "answer": 28,
-      "role": "choice",
-      "flag": true
-    },
-    {
-      "op": "check",
-      "zone": "Z83",
-      "answer": 29,
-      "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z85",
-      "answer": 30,
+      "answer": 24,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z89",
-      "answer": 31,
+      "answer": 25,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z93",
-      "answer": 32,
+      "answer": 26,
       "role": "choice",
       "flag": false
     },
     {
       "op": "check",
       "zone": "Z97",
-      "answer": 33,
+      "answer": 27,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z101",
-      "answer": 34,
+      "answer": 28,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z105",
-      "answer": 35,
+      "answer": 29,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z109",
-      "answer": 36,
+      "answer": 30,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z113",
-      "answer": 37,
+      "answer": 31,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z117",
-      "answer": 38,
+      "answer": 32,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z121",
-      "answer": 39,
+      "answer": 33,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z125",
-      "answer": 40,
+      "answer": 34,
       "role": "choice",
       "flag": false
     },
     {
       "op": "check",
       "zone": "Z129",
-      "answer": 41,
+      "answer": 35,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z133",
-      "answer": 42,
+      "answer": 36,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z137",
-      "answer": 43,
+      "answer": 37,
       "role": "choice",
       "flag": false
     },
     {
       "op": "check",
       "zone": "Z141",
-      "answer": 44,
+      "answer": 38,
       "role": "choice",
-      "flag": true
-    },
-    {
-      "op": "check",
-      "zone": "Z118",
-      "answer": 45,
-      "role": "choice",
-      "flag": true
-    },
-    {
-      "op": "check",
-      "zone": "Z171",
-      "answer": 46,
-      "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z145",
-      "answer": 47,
+      "answer": 39,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z149",
-      "answer": 48,
+      "answer": 40,
       "role": "choice",
       "flag": false
     },
     {
       "op": "check",
       "zone": "Z153",
-      "answer": 49,
+      "answer": 41,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z157",
-      "answer": 50,
+      "answer": 42,
       "role": "choice",
       "flag": false
     },
     {
       "op": "check",
       "zone": "Z161",
-      "answer": 51,
+      "answer": 43,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z165",
-      "answer": 52,
+      "answer": 44,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z169",
-      "answer": 53,
+      "answer": 45,
       "role": "choice",
-      "flag": true
-    },
-    {
-      "op": "check",
-      "zone": "Z206",
-      "answer": 54,
-      "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z172",
-      "answer": 55,
+      "answer": 46,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z177",
-      "answer": 56,
+      "answer": 47,
       "role": "choice",
       "flag": false
     },
     {
       "op": "check",
       "zone": "Z181",
-      "answer": 57,
+      "answer": 48,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z185",
-      "answer": 58,
+      "answer": 49,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z189",
-      "answer": 59,
+      "answer": 50,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z193",
-      "answer": 60,
+      "answer": 51,
       "role": "choice",
-      "flag": true
-    },
-    {
-      "op": "check",
-      "zone": "Z138",
-      "answer": 61,
-      "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z197",
-      "answer": 62,
+      "answer": 52,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z201",
-      "answer": 63,
+      "answer": 53,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
-      "zone": "Z205",
-      "answer": 64,
+      "zone": "Z207",
+      "answer": 54,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z209",
-      "answer": 65,
+      "answer": 55,
       "role": "choice",
       "flag": false
     },
     {
       "op": "check",
       "zone": "Z213",
-      "answer": 66,
+      "answer": 56,
       "role": "choice",
       "flag": false
     },
     {
       "op": "check",
       "zone": "Z217",
-      "answer": 67,
+      "answer": 57,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z221",
-      "answer": 68,
+      "answer": 58,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z225",
-      "answer": 69,
+      "answer": 59,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z229",
-      "answer": 70,
+      "answer": 60,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z233",
-      "answer": 71,
+      "answer": 61,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z237",
-      "answer": 72,
+      "answer": 62,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z241",
-      "answer": 73,
+      "answer": 63,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z245",
-      "answer": 74,
+      "answer": 64,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z249",
-      "answer": 75,
+      "answer": 65,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z253",
-      "answer": 76,
+      "answer": 66,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z257",
-      "answer": 77,
+      "answer": 67,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z261",
-      "answer": 78,
+      "answer": 68,
       "role": "choice",
       "flag": false
     },
     {
       "op": "check",
       "zone": "Z265",
-      "answer": 79,
+      "answer": 69,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z269",
-      "answer": 80,
+      "answer": 70,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z273",
-      "answer": 81,
+      "answer": 71,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z277",
-      "answer": 82,
+      "answer": 72,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z281",
-      "answer": 83,
+      "answer": 73,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z285",
-      "answer": 84,
+      "answer": 74,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z289",
-      "answer": 85,
+      "answer": 75,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z293",
-      "answer": 86,
+      "answer": 76,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z297",
-      "answer": 87,
+      "answer": 77,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z301",
-      "answer": 88,
+      "answer": 78,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z305",
-      "answer": 89,
+      "answer": 79,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z309",
-      "answer": 90,
+      "answer": 80,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z313",
-      "answer": 91,
+      "answer": 81,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z317",
-      "answer": 92,
+      "answer": 82,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z321",
-      "answer": 93,
+      "answer": 83,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z325",
-      "answer": 94,
+      "answer": 84,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z329",
-      "answer": 95,
+      "answer": 85,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z333",
-      "answer": 96,
+      "answer": 86,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z337",
-      "answer": 97,
+      "answer": 87,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z341",
-      "answer": 98,
+      "answer": 88,
       "role": "choice",
-      "flag": true
-    },
-    {
-      "op": "check",
-      "zone": "Z119",
-      "answer": 99,
-      "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z345",
-      "answer": 100,
+      "answer": 89,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z349",
-      "answer": 101,
+      "answer": 90,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z353",
-      "answer": 102,
+      "answer": 91,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z357",
-      "answer": 103,
+      "answer": 92,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z361",
-      "answer": 104,
+      "answer": 93,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z365",
-      "answer": 105,
+      "answer": 94,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z369",
-      "answer": 106,
+      "answer": 95,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z373",
-      "answer": 107,
+      "answer": 96,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z377",
-      "answer": 108,
+      "answer": 97,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z381",
-      "answer": 109,
+      "answer": 98,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z385",
-      "answer": 110,
+      "answer": 99,
       "role": "choice",
       "flag": false
     },
     {
       "op": "check",
       "zone": "Z389",
-      "answer": 111,
+      "answer": 100,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z393",
-      "answer": 112,
+      "answer": 101,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z397",
-      "answer": 113,
+      "answer": 102,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z401",
-      "answer": 114,
+      "answer": 103,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z405",
-      "answer": 115,
+      "answer": 104,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z409",
-      "answer": 116,
+      "answer": 105,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z413",
-      "answer": 117,
+      "answer": 106,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z417",
-      "answer": 118,
+      "answer": 107,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z421",
-      "answer": 119,
+      "answer": 108,
       "role": "choice",
       "flag": false
     },
     {
       "op": "check",
       "zone": "Z425",
-      "answer": 120,
+      "answer": 109,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z429",
-      "answer": 121,
+      "answer": 110,
       "role": "choice",
       "flag": false
     },
     {
       "op": "check",
       "zone": "Z433",
-      "answer": 122,
+      "answer": 111,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z437",
-      "answer": 123,
+      "answer": 112,
       "role": "choice",
       "flag": false
     },
     {
       "op": "check",
       "zone": "Z441",
-      "answer": 124,
+      "answer": 113,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z445",
-      "answer": 125,
+      "answer": 114,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z449",
-      "answer": 126,
+      "answer": 115,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z453",
-      "answer": 127,
+      "answer": 116,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z457",
-      "answer": 128,
+      "answer": 117,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z461",
-      "answer": 129,
+      "answer": 118,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z465",
-      "answer": 130,
+      "answer": 119,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "check",
       "zone": "Z469",
+      "answer": 120,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z473",
+      "answer": 121,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z477",
+      "answer": 122,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z481",
+      "answer": 123,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z485",
+      "answer": 124,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z489",
+      "answer": 125,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z493",
+      "answer": 126,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z497",
+      "answer": 127,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z501",
+      "answer": 128,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z505",
+      "answer": 129,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z509",
+      "answer": 130,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z513",
       "answer": 131,
       "role": "choice",
-      "flag": true
+      "flag": false
     },
     {
       "op": "text",
@@ -1286,12 +1286,10 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z37",
+        "Z40",
         "Z35"
       ],
-      "messages": [
-        "Z37 : « YES » ne figure pas autour de la case (left: available and applicable to ; row: Other aviation authority approval/certif ; col: NO)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1303,7 +1301,7 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z40",
+        "Z44",
         "Z43"
       ],
       "messages": [],
@@ -1318,11 +1316,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z44"
+        "Z48"
       ],
-      "messages": [
-        "Z44 : la ligne de cette case ne ressemble pas à la question (left: calibration, NDT, special processes) ava ; row: Accreditation/certification for speciali ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1348,11 +1344,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z57"
+        "Z58"
       ],
-      "messages": [
-        "Z57 : « NO » ne figure pas autour de la case (left: there relevant to the supplied scope? or ; row: Are there any current suspended, restric ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1378,11 +1372,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z48"
+        "Z65"
       ],
-      "messages": [
-        "Z48 : la ligne de cette case ne ressemble pas à la question (left: copies of relevant approvals/certificate ; row: Are copies of relevant approvals/certifi ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1394,11 +1386,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z21"
+        "Z69"
       ],
-      "messages": [
-        "Z21 : « YES » ne figure pas autour de la case (left: Supplier ; right: Calibration Laboratory ; above: Part-21G ; col: Part-145 Part-CAO Part-21G Part-21J Part)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1410,12 +1400,10 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z52",
+        "Z73",
         "Z72"
       ],
-      "messages": [
-        "Z52 : la ligne de cette case ne ressemble pas à la question (left: Date of last relevant authority, certifi ; row: Date of last relevant authority, certifi ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1427,11 +1415,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z61"
+        "Z77"
       ],
-      "messages": [
-        "Z61 : la ligne de cette case ne ressemble pas à la question (left: or the goods, parts, materials, ; above: YES ; row: Please describe the goods, parts, materi ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1443,12 +1429,10 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z65",
+        "Z81",
         "Z80"
       ],
-      "messages": [
-        "Z65 : la ligne de cette case ne ressemble pas à la question (left: the order, contract or defined documenta ; row: Is the supplied scope clearly defined in ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1460,11 +1444,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z69"
+        "Z85"
       ],
-      "messages": [
-        "Z69 : la ligne de cette case ne ressemble pas à la question (left: Where cover the is required, does the su ; row: Where approval is required, does the sup ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1476,11 +1458,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z73"
+        "Z89"
       ],
-      "messages": [
-        "Z73 : la ligne de cette case ne ressemble pas à la question (left: relevant to the supplied scope clearly d ; row: Are limitations, ratings, locations and/ ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1492,11 +1472,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z77"
+        "Z93"
       ],
-      "messages": [
-        "Z77 : la ligne de cette case ne ressemble pas à la question (left: critical or controlled processes within  ; row: Are critical or safety-relevant processe ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1508,11 +1486,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z81"
+        "Z97"
       ],
-      "messages": [
-        "Z81 : la ligne de cette case ne ressemble pas à la question (left: Are any and further subcontracted? If ye ; row: Are any activities further subcontracted ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1524,11 +1500,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z82"
+        "Z101"
       ],
-      "messages": [
-        "Z82 : « YES » ne figure pas autour de la case (left: and further subcontracted? If yes, are t ; row: Are any activities further subcontracted ; col: NO)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1540,11 +1514,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z83"
+        "Z105"
       ],
-      "messages": [
-        "Z83 : « YES » ne figure pas autour de la case (left: further subcontracted? If yes, are they ; row: Are any activities further subcontracted ; col: N/A)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1556,11 +1528,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z85"
+        "Z109"
       ],
-      "messages": [
-        "Z85 : la ligne de cette case ne ressemble pas à la question (left: current list or defined control method f ; above: YES ; row: Is a current list or defined control met ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1572,11 +1542,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z89"
+        "Z113"
       ],
-      "messages": [
-        "Z89 : la ligne de cette case ne ressemble pas à la question (left: items evaluated and ; row: Are suppliers of safety/quality-critical ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1588,7 +1556,7 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z93"
+        "Z117"
       ],
       "messages": [],
       "status": "placed"
@@ -1602,11 +1570,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z97"
+        "Z121"
       ],
-      "messages": [
-        "Z97 : la ligne de cette case ne ressemble pas à la question (left: technical and quality processes subject  ; row: Are outsourced/special processes subject ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1618,11 +1584,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z101"
+        "Z125"
       ],
-      "messages": [
-        "Z101 : la ligne de cette case ne ressemble pas à la question (left: documentation be supplied with the order ; above: YES ; row: Can the required release certificate or  ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1634,11 +1598,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z105"
+        "Z129"
       ],
-      "messages": [
-        "Z105 : la ligne de cette case ne ressemble pas à la question (left: can EASA Form 1 or an accepted ; row: Where applicable, can EASA Form 1 or an  ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1650,11 +1612,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z109"
+        "Z133"
       ],
-      "messages": [
-        "Z109 : la ligne de cette case ne ressemble pas à la question (left: Where authority can FAA Form 8130-3 be p ; row: Where applicable, can FAA Form 8130-3 or ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1666,11 +1626,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z113"
+        "Z137"
       ],
-      "messages": [
-        "Z113 : la ligne de cette case ne ressemble pas à la question (left: a where of Conformity / inspection certi ; row: Can a Certificate of Conformity / inspec ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1682,11 +1640,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z117"
+        "Z141"
       ],
-      "messages": [
-        "Z117 : la ligne de cette case ne ressemble pas à la question (left: with applicable ; row: Can material certificates in accordance  ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1698,11 +1654,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z121"
+        "Z145"
       ],
-      "messages": [
-        "Z121 : la ligne de cette case ne ressemble pas à la question (left: documentation and to the delivered ; row: Is documentation traceable to the delive ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1714,7 +1668,7 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z125"
+        "Z149"
       ],
       "messages": [],
       "status": "placed"
@@ -1728,11 +1682,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z129"
+        "Z153"
       ],
-      "messages": [
-        "Z129 : la ligne de cette case ne ressemble pas à la question (left: specialised work or adverse effects on o ; row: Are specialised work areas adequately se ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1744,11 +1696,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z133"
+        "Z157"
       ],
-      "messages": [
-        "Z133 : la ligne de cette case ne ressemble pas à la question (left: of for inspection, documentation ; row: Are suitable areas available for inspect ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1760,7 +1710,7 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z137"
+        "Z161"
       ],
       "messages": [],
       "status": "placed"
@@ -1774,11 +1724,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z141"
+        "Z165"
       ],
-      "messages": [
-        "Z141 : la ligne de cette case ne ressemble pas à la question (left: against damage, loss or and materials ad ; row: Are facilities, equipment and materials  ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1790,11 +1738,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z118"
+        "Z169"
       ],
-      "messages": [
-        "Z118 : « YES » ne figure pas autour de la case (left: with applicable ; row: Can material certificates in accordance  ; col: NO)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1806,11 +1752,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z171"
+        "Z172"
       ],
-      "messages": [
-        "Z171 : « YES » ne figure pas autour de la case (left: activities controlled to ensure ; row: Are subcontracted activities controlled  ; col: N/A)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1822,11 +1766,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z145"
+        "Z177"
       ],
-      "messages": [
-        "Z145 : la ligne de cette case ne ressemble pas à la question (left: serviceable and unserviceable items phys ; row: Are serviceable and unserviceable items  ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1838,7 +1780,7 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z149"
+        "Z181"
       ],
       "messages": [],
       "status": "placed"
@@ -1852,11 +1794,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z153"
+        "Z185"
       ],
-      "messages": [
-        "Z153 : la ligne de cette case ne ressemble pas à la question (left: the to applicable quality manual/procedu ; row: Is the current applicable quality manual ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1868,7 +1808,7 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z157"
+        "Z189"
       ],
       "messages": [],
       "status": "placed"
@@ -1882,11 +1822,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z161"
+        "Z193"
       ],
-      "messages": [
-        "Z161 : la ligne de cette case ne ressemble pas à la question (left: audit up to recorded, assigned, correcte ; row: Are audit findings recorded, assigned, c ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1898,11 +1836,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z165"
+        "Z197"
       ],
-      "messages": [
-        "Z165 : la ligne de cette case ne ressemble pas à la question (left: customer, regulatory and contractual req ; row: Are customer, regulatory and contractual ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1914,11 +1850,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z169"
+        "Z201"
       ],
-      "messages": [
-        "Z169 : la ligne de cette case ne ressemble pas à la question (left: conformity with activities controlled to ; row: Are subcontracted activities controlled  ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1930,11 +1864,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z206"
+        "Z207"
       ],
-      "messages": [
-        "Z206 : « N/A » ne figure pas autour de la case (left: or subcontracting), have they been train ; row: Where personnel work under DLHT's approv ; col: NO)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1946,11 +1878,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z172"
+        "Z209"
       ],
-      "messages": [
-        "Z172 : la ligne de cette case ne ressemble pas à la question (left: management responsibility for quality cl ; row: 4.0.7 Is management responsibility for q ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1962,7 +1892,7 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z177"
+        "Z213"
       ],
       "messages": [],
       "status": "placed"
@@ -1976,11 +1906,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z181"
+        "Z217"
       ],
-      "messages": [
-        "Z181 : la ligne de cette case ne ressemble pas à la question (left: documented safety management / risk-mana ; above: YES ; row: Where applicable to the supplied aviatio ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -1992,11 +1920,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z185"
+        "Z221"
       ],
-      "messages": [
-        "Z185 : la ligne de cette case ne ressemble pas à la question (left: safety hazards and risks associated with ; row: Are safety hazards and risks associated  ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2008,11 +1934,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z189"
+        "Z225"
       ],
-      "messages": [
-        "Z189 : la ligne de cette case ne ressemble pas à la question (left: there an internal occurrence / incident  ; row: Is there an internal occurrence / incide ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2024,11 +1948,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z193"
+        "Z229"
       ],
-      "messages": [
-        "Z193 : la ligne de cette case ne ressemble pas à la question (left: personnel encouraged to report safety an ; row: Are personnel encouraged to report safet ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2040,11 +1962,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z138"
+        "Z233"
       ],
-      "messages": [
-        "Z138 : « YES » ne figure pas autour de la case (left: and other ; row: Are lighting, temperature, humidity, cle ; col: NO)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2056,11 +1976,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z197"
+        "Z237"
       ],
-      "messages": [
-        "Z197 : la ligne de cette case ne ressemble pas à la question (left: factors addressed to prevent and causes/ ; row: Are occurrences investigated and causes/ ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2072,11 +1990,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z201"
+        "Z241"
       ],
-      "messages": [
-        "Z201 : la ligne de cette case ne ressemble pas à la question (left: products/services communicated without u ; row: Are safety/quality-related occurrences a ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2088,11 +2004,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z205"
+        "Z245"
       ],
-      "messages": [
-        "Z205 : la ligne de cette case ne ressemble pas à la question (left: (contracting or subcontracting), have th ; row: Where personnel work under DLHT's approv ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2104,7 +2018,7 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z209"
+        "Z249"
       ],
       "messages": [],
       "status": "placed"
@@ -2118,7 +2032,7 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z213"
+        "Z253"
       ],
       "messages": [],
       "status": "placed"
@@ -2132,11 +2046,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z217"
+        "Z257"
       ],
-      "messages": [
-        "Z217 : la ligne de cette case ne ressemble pas à la question (left: including responsibilities, interfaces a ; row: Are contracted/subcontracted activities  ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2148,11 +2060,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z221"
+        "Z261"
       ],
-      "messages": [
-        "Z221 : la ligne de cette case ne ressemble pas à la question (left: Does the supplier verify that valid wher ; row: Does the supplier verify that contractor ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2164,11 +2074,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z225"
+        "Z265"
       ],
-      "messages": [
-        "Z225 : la ligne de cette case ne ressemble pas à la question (left: evaluations, ; row: Are records of contractor/subcontractor  ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2180,11 +2088,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z229"
+        "Z269"
       ],
-      "messages": [
-        "Z229 : la ligne de cette case ne ressemble pas à la question (left: supported where required by contract or  ; row: Are DLHT and/or competent authority acce ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2196,11 +2102,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z233"
+        "Z273"
       ],
-      "messages": [
-        "Z233 : la ligne de cette case ne ressemble pas à la question (left: chemicals, liquids, waste and other of a ; above: YES ; row: Are chemicals, liquids, waste and other  ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2212,11 +2116,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z237"
+        "Z277"
       ],
-      "messages": [
-        "Z237 : la ligne de cette case ne ressemble pas à la question (left: environmental and workplace controls app ; row: Are environmental and workplace controls ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2228,11 +2130,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z241"
+        "Z281"
       ],
-      "messages": [
-        "Z241 : la ligne de cette case ne ressemble pas à la question (left: defined and controlled? conditions requi ; row: Are special environmental conditions req ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2244,11 +2144,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z245"
+        "Z285"
       ],
-      "messages": [
-        "Z245 : la ligne de cette case ne ressemble pas à la question (left: storage areas suitable for the type of a ; above: YES ; row: Are storage areas suitable for the type  ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2260,11 +2158,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z249"
+        "Z289"
       ],
-      "messages": [
-        "Z249 : la ligne de cette case ne ressemble pas à la question (left: conditions controlled where required? cl ; row: Are temperature, humidity, ventilation,  ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2276,11 +2172,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z253"
+        "Z293"
       ],
-      "messages": [
-        "Z253 : la ligne de cette case ne ressemble pas à la question (left: items clearly unserviceable, rejected an ; row: Are serviceable, unserviceable, rejected ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2292,11 +2186,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z257"
+        "Z297"
       ],
-      "messages": [
-        "Z257 : la ligne de cette case ne ressemble pas à la question (left: there a items? for identifying and contr ; row: Is there a system for identifying and co ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2308,7 +2200,7 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z261"
+        "Z301"
       ],
       "messages": [],
       "status": "placed"
@@ -2322,11 +2214,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z265"
+        "Z305"
       ],
-      "messages": [
-        "Z265 : la ligne de cette case ne ressemble pas à la question (left: from damage, contamination, ; row: Are articles protected from damage, cont ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2338,11 +2228,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z269"
+        "Z309"
       ],
-      "messages": [
-        "Z269 : la ligne de cette case ne ressemble pas à la question (left: storage and preservation requirements de ; row: Are storage and preservation requirement ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2354,11 +2242,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z273"
+        "Z313"
       ],
-      "messages": [
-        "Z273 : la ligne de cette case ne ressemble pas à la question (left: planned workload? personnel available fo ; above: YES ; row: Is adequate competent personnel availabl ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2370,11 +2256,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z277"
+        "Z317"
       ],
-      "messages": [
-        "Z277 : la ligne de cette case ne ressemble pas à la question (left: job descriptions / responsibilities defi ; row: Are job descriptions / responsibilities  ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2386,11 +2270,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z281"
+        "Z321"
       ],
-      "messages": [
-        "Z281 : la ligne de cette case ne ressemble pas à la question (left: competence assessed before personnel per ; row: Is competence assessed before personnel  ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2402,11 +2284,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z285"
+        "Z325"
       ],
-      "messages": [
-        "Z285 : la ligne de cette case ne ressemble pas à la question (left: initial and recurrent training provided  ; row: Is initial and recurrent training provid ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2418,11 +2298,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z289"
+        "Z329"
       ],
-      "messages": [
-        "Z289 : la ligne de cette case ne ressemble pas à la question (left: trained in applicable internal procedure ; row: Are personnel trained in applicable inte ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2434,11 +2312,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z293"
+        "Z333"
       ],
-      "messages": [
-        "Z293 : la ligne de cette case ne ressemble pas à la question (left: is performed, are mechanics and ; row: Where maintenance is performed, are mech ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2450,11 +2326,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z297"
+        "Z337"
       ],
-      "messages": [
-        "Z297 : la ligne de cette case ne ressemble pas à la question (left: Where NDT or other specialised activitie ; row: Where NDT or other specialised activitie ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2466,11 +2340,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z301"
+        "Z341"
       ],
-      "messages": [
-        "Z301 : la ligne de cette case ne ressemble pas à la question (left: Where Part-145 scope and staff are clear ; row: Where Part-145 certification staff are i ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2482,11 +2354,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z305"
+        "Z345"
       ],
-      "messages": [
-        "Z305 : la ligne de cette case ne ressemble pas à la question (left: Where provided? is relevant human factor ; row: Where applicable, is relevant human fact ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2498,11 +2368,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z309"
+        "Z349"
       ],
-      "messages": [
-        "Z309 : la ligne de cette case ne ressemble pas à la question (left: the point of instructions / maintenance  ; above: YES ; row: Are current work instructions / maintena ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2514,11 +2382,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z313"
+        "Z353"
       ],
-      "messages": [
-        "Z313 : la ligne de cette case ne ressemble pas à la question (left: work packages, job cards or equivalent r ; row: Are work packages, job cards or equivale ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2530,11 +2396,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z317"
+        "Z357"
       ],
-      "messages": [
-        "Z317 : la ligne de cette case ne ressemble pas à la question (left: referenced where or approved inspection  ; row: Are manufacturer or approved inspection  ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2546,11 +2410,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z321"
+        "Z361"
       ],
-      "messages": [
-        "Z321 : la ligne de cette case ne ressemble pas à la question (left: test and inspection results recorded and ; row: Are test and inspection results recorded ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2562,11 +2424,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z325"
+        "Z365"
       ],
-      "messages": [
-        "Z325 : la ligne de cette case ne ressemble pas à la question (left: critical control? tasks identified and s ; row: Are critical maintenance tasks identifie ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2578,11 +2438,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z329"
+        "Z369"
       ],
-      "messages": [
-        "Z329 : la ligne de cette case ne ressemble pas à la question (left: Where required, are independent inspecti ; row: Where required, are independent inspecti ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2594,11 +2452,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z333"
+        "Z373"
       ],
-      "messages": [
-        "Z333 : la ligne de cette case ne ressemble pas à la question (left: controls in place to errors? multiple er ; row: Are controls in place to minimise multip ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2610,11 +2466,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z337"
+        "Z377"
       ],
-      "messages": [
-        "Z337 : la ligne de cette case ne ressemble pas à la question (left: ensure tools, equipment and extraneous i ; row: Is a final inspection/general verificati ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2626,11 +2480,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z341"
+        "Z381"
       ],
-      "messages": [
-        "Z341 : la ligne de cette case ne ressemble pas à la question (left: a current approved supplier / source con ; above: YES ; row: Is a current approved supplier / source  ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2642,11 +2494,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z119"
+        "Z385"
       ],
-      "messages": [
-        "Z119 : « YES » ne figure pas autour de la case (left: with applicable ; row: Can material certificates in accordance  ; col: N/A)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2658,11 +2508,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z345"
+        "Z389"
       ],
-      "messages": [
-        "Z345 : la ligne de cette case ne ressemble pas à la question (left: segregated from items awaiting inspectio ; row: Are incoming items appropriately inspect ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2674,11 +2522,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z349"
+        "Z393"
       ],
-      "messages": [
-        "Z349 : la ligne de cette case ne ressemble pas à la question (left: shelf life and/or items checked for manu ; row: Are age-controlled items checked for man ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2690,11 +2536,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z353"
+        "Z397"
       ],
-      "messages": [
-        "Z353 : la ligne de cette case ne ressemble pas à la question (left: according to their status? classified an ; row: Are components/materials classified and  ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2706,11 +2550,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z357"
+        "Z401"
       ],
-      "messages": [
-        "Z357 : la ligne de cette case ne ressemble pas à la question (left: raw materials and and source? traceable  ; row: Are raw materials and consumables tracea ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2722,11 +2564,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z361"
+        "Z405"
       ],
-      "messages": [
-        "Z361 : la ligne de cette case ne ressemble pas à la question (left: supplied item, batch or serial number wh ; row: Are conformity/release documents clearly ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2738,11 +2578,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z365"
+        "Z409"
       ],
-      "messages": [
-        "Z365 : la ligne de cette case ne ressemble pas à la question (left: application before verified as eligible  ; row: Are parts/materials verified as eligible ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2754,11 +2592,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z369"
+        "Z413"
       ],
-      "messages": [
-        "Z369 : la ligne de cette case ne ressemble pas à la question (left: interchangeability/equivalence is demons ; row: Are alternate part numbers only supplied ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2770,11 +2606,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z373"
+        "Z417"
       ],
-      "messages": [
-        "Z373 : la ligne de cette case ne ressemble pas à la question (left: unintended re-entry into the supply chai ; row: Are unsalvageable/rejected items control ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2786,11 +2620,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z377"
+        "Z421"
       ],
-      "messages": [
-        "Z377 : la ligne de cette case ne ressemble pas à la question (left: required by the supplier’s procedures or ; row: Are parts/materials re-inspected before  ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2802,11 +2634,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z381"
+        "Z425"
       ],
-      "messages": [
-        "Z381 : la ligne de cette case ne ressemble pas à la question (left: through receiving, ; row: Is full traceability maintained through  ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2818,7 +2648,7 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z385"
+        "Z429"
       ],
       "messages": [],
       "status": "placed"
@@ -2832,11 +2662,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z389"
+        "Z433"
       ],
-      "messages": [
-        "Z389 : la ligne de cette case ne ressemble pas à la question (left: protect them from damage and deteriorati ; row: Are components/materials packed and ship ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2848,11 +2676,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z393"
+        "Z437"
       ],
-      "messages": [
-        "Z393 : la ligne de cette case ne ressemble pas à la question (left: there a documented procedure Parts (SUP) ; row: Is there a documented procedure for dete ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2864,11 +2690,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z397"
+        "Z441"
       ],
-      "messages": [
-        "Z397 : la ligne de cette case ne ressemble pas à la question (left: controlled and are the related certifica ; row: Where batches/lots are split or redistri ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2880,11 +2704,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z401"
+        "Z445"
       ],
-      "messages": [
-        "Z401 : la ligne de cette case ne ressemble pas à la question (left: otherwise controlled in accordance with  ; row: Are unsalvageable components mutilated,  ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2896,11 +2718,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z405"
+        "Z449"
       ],
-      "messages": [
-        "Z405 : la ligne de cette case ne ressemble pas à la question (left: component/material already shipped is la ; row: Is there a procedure to notify purchaser ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2912,11 +2732,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z409"
+        "Z453"
       ],
-      "messages": [
-        "Z409 : la ligne de cette case ne ressemble pas à la question (left: necessary, recall components/materials a ; row: Is there a recall control procedure to t ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2928,11 +2746,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z413"
+        "Z457"
       ],
-      "messages": [
-        "Z413 : la ligne de cette case ne ressemble pas à la question (left: the tools and equipment necessary for th ; above: YES ; row: Are the tools and equipment necessary fo ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2944,11 +2760,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z417"
+        "Z461"
       ],
-      "messages": [
-        "Z417 : la ligne de cette case ne ressemble pas à la question (left: identified and controlled in a calibrati ; row: Are tools/equipment requiring calibratio ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2960,7 +2774,7 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z421"
+        "Z465"
       ],
       "messages": [],
       "status": "placed"
@@ -2974,11 +2788,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z425"
+        "Z469"
       ],
-      "messages": [
-        "Z425 : la ligne de cette case ne ressemble pas à la question (left: to measurement? ; row: Are calibration standards traceable to r ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -2990,7 +2802,7 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z429"
+        "Z473"
       ],
       "messages": [],
       "status": "placed"
@@ -3004,11 +2816,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z433"
+        "Z477"
       ],
-      "messages": [
-        "Z433 : la ligne de cette case ne ressemble pas à la question (left: there a process to prevent from damaged  ; row: Is there a process to prevent expired, d ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -3020,7 +2830,7 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z437"
+        "Z481"
       ],
       "messages": [],
       "status": "placed"
@@ -3034,11 +2844,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z441"
+        "Z485"
       ],
-      "messages": [
-        "Z441 : la ligne de cette case ne ressemble pas à la question (left: drawings or maintenance instructions est ; above: YES ; row: Are current applicable technical data, s ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -3050,11 +2858,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z445"
+        "Z489"
       ],
-      "messages": [
-        "Z445 : la ligne de cette case ne ressemble pas à la question (left: technical data properly identified and a ; row: Is technical data properly identified an ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -3066,11 +2872,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z449"
+        "Z493"
       ],
-      "messages": [
-        "Z449 : la ligne de cette case ne ressemble pas à la question (left: revision status controlled to prevent us ; row: Is revision status controlled to prevent ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -3082,11 +2886,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z453"
+        "Z497"
       ],
-      "messages": [
-        "Z453 : la ligne de cette case ne ressemble pas à la question (left: working copies controlled and updated wh ; row: Are working copies controlled and update ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -3098,11 +2900,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z457"
+        "Z501"
       ],
-      "messages": [
-        "Z457 : la ligne de cette case ne ressemble pas à la question (left: information identified and communicated  ; row: Is inaccurate, incomplete or ambiguous t ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -3114,11 +2914,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z461"
+        "Z505"
       ],
-      "messages": [
-        "Z461 : la ligne de cette case ne ressemble pas à la question (left: records and certificates legible, comple ; row: Are records and certificates legible, co ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -3130,11 +2928,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z465"
+        "Z509"
       ],
-      "messages": [
-        "Z465 : la ligne de cette case ne ressemble pas à la question (left: specifications data) maintained for comp ; row: Is access to current, up-to-date applica ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -3146,11 +2942,9 @@
       "confidence": "high",
       "note": null,
       "zones": [
-        "Z469"
+        "Z513"
       ],
-      "messages": [
-        "Z469 : la ligne de cette case ne ressemble pas à la question (left: documents issued only by appropriately a ; above: YES ; row: Where maintenance is performed, are rele ; col: YES)"
-      ],
+      "messages": [],
       "status": "placed"
     },
     {
@@ -3202,7 +2996,7 @@
       "context": null,
       "type": "signature",
       "confidence": "high",
-      "note": null,
+      "note": " Zone conflict on Z518; needs gem remap.",
       "zones": [],
       "messages": [],
       "status": "skipped"
