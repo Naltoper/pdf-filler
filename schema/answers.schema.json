@@ -46,6 +46,10 @@
           "inline_text": {"type": ["string", "null"]},
           "inline_zone": {"$ref": "#/$defs/zone"},
           "confidence": {"enum": ["high", "medium", "low"]},
+          "source": {
+            "type": ["string", "null"],
+            "description": "Short citation of the QMS / document / page / section the gem used (e.g. \"Master QMS §5.2\", \"ED 074 p.12\", \"MOE §1.2\"). Null when unknown or unsupported."
+          },
           "note_for_reviewer": {"type": ["string", "null"]},
           "do_not_fill": {"type": "boolean"}
         },

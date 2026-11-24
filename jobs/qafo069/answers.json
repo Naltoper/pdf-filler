@@ -17,7 +17,8 @@
       "type": "text",
       "value": "AIRBUS HELICOPTERS",
       "confidence": "high",
-      "zone": "Z1"
+      "zone": "Z1",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "Section 1",
@@ -26,7 +27,8 @@
       "type": "text",
       "value": "Aéroport International Marseille Provence, 13700 Marignane, France",
       "confidence": "high",
-      "zone": "Z2"
+      "zone": "Z2",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "Section 1",
@@ -35,7 +37,8 @@
       "type": "text",
       "value": "+33 4 42 85 85 85",
       "confidence": "high",
-      "zone": "Z3"
+      "zone": "Z3",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "Section 1",
@@ -45,7 +48,8 @@
       "value": null,
       "confidence": "low",
       "zone": "Z4",
-      "note_for_reviewer": "Example empty field"
+      "note_for_reviewer": "Example empty field",
+      "source": null
     },
     {
       "ref": "Section 1",
@@ -54,7 +58,8 @@
       "type": "text",
       "value": "www.airbus.com",
       "confidence": "high",
-      "zone": "Z5"
+      "zone": "Z5",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "Section 2",
@@ -63,7 +68,8 @@
       "type": "text",
       "value": "Romain TRAPP",
       "confidence": "high",
-      "zone": "Z6"
+      "zone": "Z6",
+      "source": "Master QMS §5.1 / company profile"
     },
     {
       "ref": "Section 2",
@@ -74,7 +80,8 @@
       "value": null,
       "confidence": "low",
       "zone": "Z7",
-      "note_for_reviewer": "Example empty field"
+      "note_for_reviewer": "Example empty field",
+      "source": null
     },
     {
       "ref": "Section 2",
@@ -83,7 +90,8 @@
       "type": "text",
       "value": "Elodie CARMONA",
       "confidence": "high",
-      "zone": "Z8"
+      "zone": "Z8",
+      "source": "Master QMS §5.1 / company profile"
     },
     {
       "ref": "Section 2",
@@ -93,7 +101,8 @@
       "type": "text",
       "value": "elodie.carmona@airbus.com",
       "confidence": "high",
-      "zone": "Z9"
+      "zone": "Z9",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "Section 2",
@@ -102,7 +111,8 @@
       "type": "text",
       "value": "Shinichi KATAYAMA",
       "confidence": "high",
-      "zone": "Z10"
+      "zone": "Z10",
+      "source": "Master QMS §5.1 / company profile"
     },
     {
       "ref": "Section 2",
@@ -112,7 +122,8 @@
       "type": "text",
       "value": "shinichi.katayama@airbus.com",
       "confidence": "high",
-      "zone": "Z11"
+      "zone": "Z11",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "Section 3",
@@ -129,7 +140,8 @@
         "Z12",
         "Z13",
         "Z14"
-      ]
+      ],
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "Section 3",
@@ -140,7 +152,8 @@
       "value": null,
       "confidence": "high",
       "zone": "Z31",
-      "note_for_reviewer": "Example empty field"
+      "note_for_reviewer": "Example empty field",
+      "source": null
     },
     {
       "ref": "Section 4",
@@ -151,7 +164,8 @@
       "value": null,
       "confidence": "high",
       "zone": "Z20",
-      "note_for_reviewer": "Example empty field"
+      "note_for_reviewer": "Example empty field",
+      "source": null
     },
     {
       "ref": "Section 4",
@@ -162,7 +176,8 @@
       "value": null,
       "confidence": "high",
       "zone": "Z21",
-      "note_for_reviewer": "Example empty field"
+      "note_for_reviewer": "Example empty field",
+      "source": null
     },
     {
       "ref": "Section 4",
@@ -173,7 +188,8 @@
       "value": "FR.145.0002 (no limit), Part-21J.700(no limit), Part-21G.0070 (no limit)",
       "confidence": "high",
       "zone": null,
-      "note_for_reviewer": "Pas de zone texte détectée pour le n° de certificat EASA (case Z22 seule). Valeur à reporter à la main : FR.145.0002 (no limit), Part-21J.700(no limit), Part-21G.0070 (no limit)"
+      "note_for_reviewer": "Pas de zone texte détectée pour le n° de certificat EASA (case Z22 seule). Valeur à reporter à la main : FR.145.0002 (no limit), Part-21J.700(no limit), Part-21G.0070 (no limit)",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "Section 4",
@@ -184,7 +200,8 @@
       "value": null,
       "confidence": "high",
       "zone": null,
-      "note_for_reviewer": "Example empty field"
+      "note_for_reviewer": "Example empty field",
+      "source": null
     },
     {
       "ref": "Section 4",
@@ -195,7 +212,8 @@
       "value": null,
       "confidence": "high",
       "zone": null,
-      "note_for_reviewer": "Pas de zone texte pour FAA (case Z23). Exemple reporté sur ISO9000 Certificate No (Z25) faute de champ FAA."
+      "note_for_reviewer": "Pas de zone texte pour FAA (case Z23). Exemple reporté sur ISO9000 Certificate No (Z25) faute de champ FAA.",
+      "source": null
     },
     {
       "ref": "Section 4",
@@ -206,7 +224,8 @@
       "value": null,
       "confidence": "high",
       "zone": null,
-      "note_for_reviewer": "Pas de zone date pour FAA. Exemple reporté sur ISO9000 Expiry (Z26)."
+      "note_for_reviewer": "Pas de zone date pour FAA. Exemple reporté sur ISO9000 Expiry (Z26).",
+      "source": null
     },
     {
       "ref": "Section 4",
@@ -216,7 +235,8 @@
       "type": "text",
       "value": "E0OY135X",
       "confidence": "high",
-      "zone": "Z25"
+      "zone": "Z25",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "Section 4",
@@ -226,7 +246,8 @@
       "type": "date",
       "value": "November 30 2027",
       "confidence": "high",
-      "zone": "Z26"
+      "zone": "Z26",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "Section 4",
@@ -237,7 +258,8 @@
       "value": null,
       "confidence": "high",
       "zone": null,
-      "note_for_reviewer": "Pas de zone texte ISO9100 (case Z27). Exemple reporté sur ISO/IEC 17025 Certificate No (Z29)."
+      "note_for_reviewer": "Pas de zone texte ISO9100 (case Z27). Exemple reporté sur ISO/IEC 17025 Certificate No (Z29).",
+      "source": null
     },
     {
       "ref": "Section 4",
@@ -248,7 +270,8 @@
       "value": null,
       "confidence": "high",
       "zone": null,
-      "note_for_reviewer": "Pas de zone date ISO9100. Exemple reporté sur ISO/IEC 17025 Expiry (Z30)."
+      "note_for_reviewer": "Pas de zone date ISO9100. Exemple reporté sur ISO/IEC 17025 Expiry (Z30).",
+      "source": null
     },
     {
       "ref": "Section 4",
@@ -258,7 +281,8 @@
       "type": "text",
       "value": "282727-2019-AQ-FRA-ACCREDIA",
       "confidence": "high",
-      "zone": "Z29"
+      "zone": "Z29",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "Section 4",
@@ -268,7 +292,8 @@
       "type": "date",
       "value": "07 May 2028",
       "confidence": "high",
-      "zone": "Z30"
+      "zone": "Z30",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "Section 4",
@@ -279,7 +304,8 @@
       "value": null,
       "confidence": "high",
       "zone": null,
-      "note_for_reviewer": "Example empty field"
+      "note_for_reviewer": "Example empty field",
+      "source": null
     },
     {
       "ref": "Section 4",
@@ -290,7 +316,8 @@
       "value": null,
       "confidence": "high",
       "zone": null,
-      "note_for_reviewer": "Example empty field"
+      "note_for_reviewer": "Example empty field",
+      "source": null
     },
     {
       "ref": "1.1",
@@ -299,7 +326,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z35"
+      "zone": "Z35",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "1.2",
@@ -308,7 +336,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z38"
+      "zone": "Z38",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "1.3",
@@ -317,7 +346,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z41"
+      "zone": "Z41",
+      "source": "Master QMS §5.1 / company profile"
     },
     {
       "ref": "1.4",
@@ -326,7 +356,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z44"
+      "zone": "Z44",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "1.5",
@@ -335,7 +366,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z47"
+      "zone": "Z47",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "1.6",
@@ -344,7 +376,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z50"
+      "zone": "Z50",
+      "source": "Master QMS (ref 1.6)"
     },
     {
       "ref": "1.7",
@@ -353,7 +386,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z53"
+      "zone": "Z53",
+      "source": "Master QMS (ref 1.7)"
     },
     {
       "ref": "2.1",
@@ -362,7 +396,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z57"
+      "zone": "Z57",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "2.2",
@@ -371,7 +406,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z60"
+      "zone": "Z60",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "2.3",
@@ -380,7 +416,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z63"
+      "zone": "Z63",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "2.4",
@@ -389,7 +426,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z66"
+      "zone": "Z66",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "2.5",
@@ -398,7 +436,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z69"
+      "zone": "Z69",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "2.6",
@@ -407,7 +446,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z72"
+      "zone": "Z72",
+      "source": "Master QMS (ref 2.6)"
     },
     {
       "ref": "3.1",
@@ -416,7 +456,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z76"
+      "zone": "Z76",
+      "source": "Master QMS §7.2 competence"
     },
     {
       "ref": "3.2",
@@ -425,7 +466,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z79"
+      "zone": "Z79",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "3.3",
@@ -434,7 +476,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z82"
+      "zone": "Z82",
+      "source": "Master QMS (ref 3.3)"
     },
     {
       "ref": "3.4",
@@ -443,7 +486,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z85"
+      "zone": "Z85",
+      "source": "Master QMS (ref 3.4)"
     },
     {
       "ref": "3.5",
@@ -452,7 +496,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z88"
+      "zone": "Z88",
+      "source": "Master QMS (ref 3.5)"
     },
     {
       "ref": "3.6",
@@ -461,7 +506,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z91"
+      "zone": "Z91",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "4.1",
@@ -470,7 +516,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z95"
+      "zone": "Z95",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "4.2",
@@ -479,7 +526,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z98"
+      "zone": "Z98",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "4.3",
@@ -488,7 +536,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z101"
+      "zone": "Z101",
+      "source": "Master QMS (ref 4.3)"
     },
     {
       "ref": "4.4",
@@ -497,7 +546,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z104"
+      "zone": "Z104",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "4.5",
@@ -506,7 +556,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z107"
+      "zone": "Z107",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "4.6",
@@ -515,7 +566,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z110"
+      "zone": "Z110",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "4.7",
@@ -524,7 +576,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z113"
+      "zone": "Z113",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "4.8",
@@ -533,7 +586,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z116"
+      "zone": "Z116",
+      "source": "Master QMS (ref 4.8)"
     },
     {
       "ref": "5.1",
@@ -542,7 +596,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z120"
+      "zone": "Z120",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "5.2",
@@ -551,7 +606,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z123"
+      "zone": "Z123",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "5.3",
@@ -560,7 +616,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z126"
+      "zone": "Z126",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "5.4",
@@ -569,7 +626,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z129"
+      "zone": "Z129",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "6.1",
@@ -578,7 +636,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z133"
+      "zone": "Z133",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "6.2",
@@ -587,7 +646,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z136"
+      "zone": "Z136",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "6.3",
@@ -596,7 +656,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z139"
+      "zone": "Z139",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "6.4",
@@ -605,7 +666,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z142"
+      "zone": "Z142",
+      "source": "Master QMS (ref 6.4)"
     },
     {
       "ref": "6.5",
@@ -614,7 +676,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z145"
+      "zone": "Z145",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "6.6",
@@ -623,7 +686,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z148"
+      "zone": "Z148",
+      "source": "Master QMS (ref 6.6)"
     },
     {
       "ref": "7.1",
@@ -632,7 +696,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z152"
+      "zone": "Z152",
+      "source": "Master QMS §7.2 competence"
     },
     {
       "ref": "7.2",
@@ -641,7 +706,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z155"
+      "zone": "Z155",
+      "source": "Master QMS §7.2 competence"
     },
     {
       "ref": "7.3",
@@ -650,7 +716,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z158"
+      "zone": "Z158",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "7.4",
@@ -659,7 +726,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z161"
+      "zone": "Z161",
+      "source": "Master QMS §7.2 competence"
     },
     {
       "ref": "7.5",
@@ -668,7 +736,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z164"
+      "zone": "Z164",
+      "source": "MOE / QCM §1.2 scope"
     },
     {
       "ref": "8.1",
@@ -677,7 +746,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z168"
+      "zone": "Z168",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "8.2",
@@ -686,7 +756,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z171"
+      "zone": "Z171",
+      "source": "MOE / QCM §1.2 scope"
     },
     {
       "ref": "8.3",
@@ -695,7 +766,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z174"
+      "zone": "Z174",
+      "source": "Master QMS (ref 8.3)"
     },
     {
       "ref": "8.4",
@@ -704,7 +776,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z177"
+      "zone": "Z177",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "8.5",
@@ -713,7 +786,8 @@
       "type": "choice",
       "choice": "Yes",
       "confidence": "high",
-      "zone": "Z180"
+      "zone": "Z180",
+      "source": "MOE / QCM §1.2 scope"
     },
     {
       "ref": "Section 6",
@@ -722,7 +796,8 @@
       "type": "text",
       "value": "Shinichi KATAYAMA / Business & Programs Quality",
       "confidence": "high",
-      "zone": "Z185"
+      "zone": "Z185",
+      "source": "Master QMS / company data (ref Section 6)"
     },
     {
       "ref": "Section 6",
@@ -732,7 +807,8 @@
       "value": null,
       "confidence": "low",
       "note_for_reviewer": "Titre à confirmer pour la signature",
-      "zone": "Z186"
+      "zone": "Z186",
+      "source": null
     },
     {
       "ref": "Section 6",
@@ -749,7 +825,8 @@
       "value": null,
       "confidence": "low",
       "note_for_reviewer": "Date à insérer lors de la signature",
-      "zone": "Z94"
+      "zone": "Z94",
+      "source": null
     },
     {
       "ref": "Section 6",

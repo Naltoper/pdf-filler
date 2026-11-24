@@ -386,6 +386,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "AH public registry / Master QMS cover",
       "note": null,
       "zones": [
         "Z1"
@@ -400,6 +401,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "AH public registry / Master QMS cover",
       "note": null,
       "zones": [
         "Z2"
@@ -414,6 +416,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "AH public registry / Master QMS cover",
       "note": null,
       "zones": [
         "Z3"
@@ -428,6 +431,7 @@
       "context": null,
       "type": "text",
       "confidence": "low",
+      "source": null,
       "note": "Example empty field",
       "zones": [
         "Z4"
@@ -442,6 +446,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "AH public registry / Master QMS cover",
       "note": null,
       "zones": [
         "Z5"
@@ -456,6 +461,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "Master QMS §5.1 / company profile",
       "note": null,
       "zones": [
         "Z6"
@@ -470,6 +476,7 @@
       "context": "General Manager",
       "type": "text",
       "confidence": "low",
+      "source": null,
       "note": "Example empty field",
       "zones": [
         "Z7"
@@ -484,6 +491,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "Master QMS §5.1 / company profile",
       "note": null,
       "zones": [
         "Z8"
@@ -498,6 +506,7 @@
       "context": "Quality Manager",
       "type": "text",
       "confidence": "high",
+      "source": "AH public registry / Master QMS cover",
       "note": null,
       "zones": [
         "Z9"
@@ -512,6 +521,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "Master QMS §5.1 / company profile",
       "note": null,
       "zones": [
         "Z10"
@@ -526,6 +536,7 @@
       "context": "Audit Contact Person",
       "type": "text",
       "confidence": "high",
+      "source": "AH public registry / Master QMS cover",
       "note": null,
       "zones": [
         "Z11"
@@ -540,6 +551,7 @@
       "context": null,
       "type": "multi_choice",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z12",
@@ -556,6 +568,7 @@
       "context": "Nature of Business (in relation to this application for approval)",
       "type": "text",
       "confidence": "high",
+      "source": null,
       "note": "Example empty field",
       "zones": [
         "Z31"
@@ -570,6 +583,7 @@
       "context": "CAAS",
       "type": "text",
       "confidence": "high",
+      "source": null,
       "note": "Example empty field",
       "zones": [
         "Z20"
@@ -584,6 +598,7 @@
       "context": "CAAS",
       "type": "date",
       "confidence": "high",
+      "source": null,
       "note": "Example empty field",
       "zones": [
         "Z21"
@@ -598,6 +613,7 @@
       "context": "EASA",
       "type": "text",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": "Pas de zone texte détectée pour le n° de certificat EASA (case Z22 seule). Valeur à reporter à la main : FR.145.0002 (no limit), Part-21J.700(no limit), Part-21G.0070 (no limit)",
       "zones": [],
       "messages": [
@@ -612,6 +628,7 @@
       "context": "EASA",
       "type": "date",
       "confidence": "high",
+      "source": null,
       "note": "Example empty field",
       "zones": [],
       "messages": [],
@@ -624,6 +641,7 @@
       "context": "FAA",
       "type": "text",
       "confidence": "high",
+      "source": null,
       "note": "Pas de zone texte pour FAA (case Z23). Exemple reporté sur ISO9000 Certificate No (Z25) faute de champ FAA.",
       "zones": [],
       "messages": [],
@@ -636,6 +654,7 @@
       "context": "FAA",
       "type": "date",
       "confidence": "high",
+      "source": null,
       "note": "Pas de zone date pour FAA. Exemple reporté sur ISO9000 Expiry (Z26).",
       "zones": [],
       "messages": [],
@@ -648,6 +667,7 @@
       "context": "ISO9000 Standards",
       "type": "text",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z25"
@@ -662,6 +682,7 @@
       "context": "ISO9000 Standards",
       "type": "date",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z26"
@@ -676,6 +697,7 @@
       "context": "ISO9100 Standards",
       "type": "text",
       "confidence": "high",
+      "source": null,
       "note": "Pas de zone texte ISO9100 (case Z27). Exemple reporté sur ISO/IEC 17025 Certificate No (Z29).",
       "zones": [],
       "messages": [],
@@ -688,6 +710,7 @@
       "context": "ISO9100 Standards",
       "type": "date",
       "confidence": "high",
+      "source": null,
       "note": "Pas de zone date ISO9100. Exemple reporté sur ISO/IEC 17025 Expiry (Z30).",
       "zones": [],
       "messages": [],
@@ -700,6 +723,7 @@
       "context": "ISO/IEC 17025",
       "type": "text",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z29"
@@ -714,6 +738,7 @@
       "context": "ISO/IEC 17025",
       "type": "date",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z30"
@@ -728,6 +753,7 @@
       "context": "Others (Specify)",
       "type": "text",
       "confidence": "high",
+      "source": null,
       "note": "Example empty field",
       "zones": [],
       "messages": [],
@@ -740,6 +766,7 @@
       "context": "Others (Specify)",
       "type": "date",
       "confidence": "high",
+      "source": null,
       "note": "Example empty field",
       "zones": [],
       "messages": [],
@@ -752,6 +779,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z35"
@@ -766,6 +794,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z38"
@@ -780,6 +809,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §5.1 / company profile",
       "note": null,
       "zones": [
         "Z41"
@@ -794,6 +824,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z44"
@@ -808,6 +839,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z47"
@@ -822,6 +854,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 1.6)",
       "note": null,
       "zones": [
         "Z50"
@@ -836,6 +869,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 1.7)",
       "note": null,
       "zones": [
         "Z53"
@@ -850,6 +884,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z57"
@@ -864,6 +899,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z60"
@@ -878,6 +914,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z63"
@@ -892,6 +929,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "AH public registry / Master QMS cover",
       "note": null,
       "zones": [
         "Z66"
@@ -906,6 +944,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z69"
@@ -920,6 +959,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 2.6)",
       "note": null,
       "zones": [
         "Z72"
@@ -934,6 +974,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §7.2 competence",
       "note": null,
       "zones": [
         "Z76"
@@ -948,6 +989,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z79"
@@ -962,6 +1004,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 3.3)",
       "note": null,
       "zones": [
         "Z82"
@@ -976,6 +1019,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 3.4)",
       "note": null,
       "zones": [
         "Z85"
@@ -990,6 +1034,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 3.5)",
       "note": null,
       "zones": [
         "Z88"
@@ -1004,6 +1049,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "AH public registry / Master QMS cover",
       "note": null,
       "zones": [
         "Z91"
@@ -1018,6 +1064,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z95"
@@ -1032,6 +1079,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z98"
@@ -1046,6 +1094,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 4.3)",
       "note": null,
       "zones": [
         "Z101"
@@ -1060,6 +1109,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z104"
@@ -1074,6 +1124,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z107"
@@ -1088,6 +1139,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z110"
@@ -1102,6 +1154,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z113"
@@ -1116,6 +1169,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 4.8)",
       "note": null,
       "zones": [
         "Z116"
@@ -1130,6 +1184,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z120"
@@ -1144,6 +1199,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z123"
@@ -1158,6 +1214,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z126"
@@ -1172,6 +1229,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z129"
@@ -1186,6 +1244,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z133"
@@ -1200,6 +1259,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z136"
@@ -1214,6 +1274,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z139"
@@ -1228,6 +1289,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 6.4)",
       "note": null,
       "zones": [
         "Z142"
@@ -1242,6 +1304,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z145"
@@ -1256,6 +1319,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 6.6)",
       "note": null,
       "zones": [
         "Z148"
@@ -1270,6 +1334,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §7.2 competence",
       "note": null,
       "zones": [
         "Z152"
@@ -1284,6 +1349,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §7.2 competence",
       "note": null,
       "zones": [
         "Z155"
@@ -1298,6 +1364,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z158"
@@ -1312,6 +1379,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §7.2 competence",
       "note": null,
       "zones": [
         "Z161"
@@ -1326,6 +1394,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "MOE / QCM §1.2 scope",
       "note": null,
       "zones": [
         "Z164"
@@ -1340,6 +1409,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z168"
@@ -1354,6 +1424,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "MOE / QCM §1.2 scope",
       "note": null,
       "zones": [
         "Z171"
@@ -1368,6 +1439,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 8.3)",
       "note": null,
       "zones": [
         "Z174"
@@ -1382,6 +1454,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z177"
@@ -1396,6 +1469,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "MOE / QCM §1.2 scope",
       "note": null,
       "zones": [
         "Z180"
@@ -1410,6 +1484,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "Master QMS / company data (ref Section 6)",
       "note": null,
       "zones": [
         "Z185"
@@ -1424,6 +1499,7 @@
       "context": null,
       "type": "text",
       "confidence": "low",
+      "source": null,
       "note": "Titre à confirmer pour la signature",
       "zones": [
         "Z186"
@@ -1438,6 +1514,7 @@
       "context": null,
       "type": "signature",
       "confidence": "high",
+      "source": null,
       "note": null,
       "zones": [],
       "messages": [],
@@ -1450,6 +1527,7 @@
       "context": null,
       "type": "date",
       "confidence": "low",
+      "source": null,
       "note": "Date à insérer lors de la signature",
       "zones": [
         "Z94"
@@ -1464,6 +1542,7 @@
       "context": "For Composite Technology International Pte Ltd Quality Assurance Department Use",
       "type": "choice",
       "confidence": "high",
+      "source": null,
       "note": null,
       "zones": [],
       "messages": [],
@@ -1476,6 +1555,7 @@
       "context": "For Composite Technology International Pte Ltd Quality Assurance Department Use",
       "type": "choice",
       "confidence": "high",
+      "source": null,
       "note": null,
       "zones": [],
       "messages": [],
@@ -1488,6 +1568,7 @@
       "context": "For Composite Technology International Pte Ltd Quality Assurance Department Use",
       "type": "signature",
       "confidence": "high",
+      "source": null,
       "note": null,
       "zones": [],
       "messages": [],
@@ -1500,6 +1581,7 @@
       "context": "For Composite Technology International Pte Ltd Quality Assurance Department Use",
       "type": "text",
       "confidence": "high",
+      "source": null,
       "note": null,
       "zones": [],
       "messages": [],
@@ -1512,6 +1594,7 @@
       "context": "For Composite Technology International Pte Ltd Quality Assurance Department Use",
       "type": "date",
       "confidence": "high",
+      "source": null,
       "note": null,
       "zones": [],
       "messages": [],
