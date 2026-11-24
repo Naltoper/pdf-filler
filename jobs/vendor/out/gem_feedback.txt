@@ -1,0 +1,3 @@
+Le JSON produit ne respecte pas le format attendu. Corrige uniquement ces points et renvoie le JSON complet :
+- answers[100] (ref '101', 'sonstige / other'): Z101 est une case à cocher, pas une zone de texte (la valeur)
+- answers[101] (ref '102', 'Is there a system established at your or'): Z102 est une zone de texte, pas une case à cocher

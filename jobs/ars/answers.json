@@ -1,0 +1,1504 @@
+{
+  "form": {
+    "title": "ars questionnaire",
+    "id": "ARS",
+    "revision": null,
+    "file_name": "form.pdf",
+    "zone_map": "8e406b63",
+    "pages": null,
+    "issuer": null,
+    "respondent": "EXAMPLE RESPONDENT"
+  },
+  "answers": [
+    {
+      "ref": "1",
+      "page": 1,
+      "label": "Legal company name",
+      "type": "text",
+      "zone": "Z1",
+      "value": "Example Company SAS",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "2",
+      "page": 1,
+      "label": "Trading name (if different)",
+      "type": "text",
+      "zone": "Z2",
+      "value": "Example Company SAS",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "3",
+      "page": 1,
+      "label": "Registered address",
+      "type": "text",
+      "zone": "Z3",
+      "value": "1 Example Street",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "4",
+      "page": 1,
+      "label": "City / Postal code",
+      "type": "text",
+      "zone": "Z4",
+      "value": "1 Example Street",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "5",
+      "page": 1,
+      "label": "Country",
+      "type": "text",
+      "zone": "Z5",
+      "value": "Example value 5",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "6",
+      "page": 1,
+      "label": "Phone",
+      "type": "text",
+      "zone": "Z6",
+      "value": "+33 4 42 85 85 85",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "7",
+      "page": 1,
+      "label": "Website",
+      "type": "text",
+      "zone": "Z7",
+      "value": "https://www.example.com",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "8",
+      "page": 1,
+      "label": "VAT / Chamber of Commerce no.",
+      "type": "text",
+      "zone": "Z8",
+      "value": "Example value 8",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "9",
+      "page": 1,
+      "label": "CAGE / NCAGE",
+      "type": "text",
+      "zone": "Z9",
+      "value": "Example value 9",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "10",
+      "page": 1,
+      "label": "Years in aviation business",
+      "type": "text",
+      "zone": "Z10",
+      "value": "Example value 10",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "11",
+      "page": 1,
+      "label": "Total employees / aviation staff",
+      "type": "text",
+      "zone": "Z11",
+      "value": "Example value 11",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "12",
+      "page": 1,
+      "label": "Quality / Compliance contact (name, title, e-mail, phone)",
+      "type": "text",
+      "zone": "Z12",
+      "value": "+33 4 42 85 85 85",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "13",
+      "page": 1,
+      "label": "Commercial / Order desk contact (name, e-mail, phone)",
+      "type": "text",
+      "zone": "Z13",
+      "value": "+33 4 42 85 85 85",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "14",
+      "page": 1,
+      "label": "Technical / Engineering contact (name, e-mail, phone)",
+      "type": "text",
+      "zone": "Z14",
+      "value": "+33 4 42 85 85 85",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "15",
+      "page": 1,
+      "label": "After-sales / Claims contact (name, e-mail, phone)",
+      "type": "text",
+      "zone": "Z15",
+      "value": "+33 4 42 85 85 85",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "16",
+      "page": 1,
+      "label": "Primary goods / services offered to ARS:",
+      "type": "text",
+      "zone": "Z30",
+      "value": "Example value 16",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "17",
+      "page": 1,
+      "label": "Training organisation Other (specify below)",
+      "type": "text",
+      "zone": "Z31",
+      "value": "Example value 17",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "18",
+      "page": 1,
+      "label": "Z32",
+      "type": "text",
+      "zone": "Z32",
+      "value": "Example value 18",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "19",
+      "page": 2,
+      "label": "Authority / standard Certificate / approval no. Scope (short) Expiry",
+      "type": "text",
+      "zone": "Z33",
+      "value": "Example value 19",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "20",
+      "page": 2,
+      "label": "Authority / standard",
+      "type": "text",
+      "zone": "Z34",
+      "value": "Example value 20",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "21",
+      "page": 2,
+      "label": "Certificate / approval no.",
+      "type": "text",
+      "zone": "Z35",
+      "value": "Example value 21",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "22",
+      "page": 2,
+      "label": "Scope (short)",
+      "type": "text",
+      "zone": "Z36",
+      "value": "Example value 22",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "23",
+      "page": 2,
+      "label": "Expiry",
+      "type": "text",
+      "zone": "Z37",
+      "value": "Example value 23",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "24",
+      "page": 2,
+      "label": "Authority / standard Certificate / approval no. Scope (short) Expiry",
+      "type": "text",
+      "zone": "Z38",
+      "value": "Example value 24",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "25",
+      "page": 2,
+      "label": "Z39",
+      "type": "text",
+      "zone": "Z39",
+      "value": "Example value 25",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "26",
+      "page": 2,
+      "label": "Z40",
+      "type": "text",
+      "zone": "Z40",
+      "value": "Example value 26",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "27",
+      "page": 2,
+      "label": "Z41",
+      "type": "text",
+      "zone": "Z41",
+      "value": "Example value 27",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "28",
+      "page": 2,
+      "label": "Z42",
+      "type": "text",
+      "zone": "Z42",
+      "value": "Example value 28",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "29",
+      "page": 2,
+      "label": "Authority / standard Certificate / approval no. Scope (short) Expiry",
+      "type": "text",
+      "zone": "Z43",
+      "value": "Example value 29",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "30",
+      "page": 2,
+      "label": "(or equivalent) certification is held and",
+      "type": "text",
+      "zone": "Z47",
+      "value": "Example value 30",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "31",
+      "page": 2,
+      "label": "currently suspended, limited, expired or under",
+      "type": "text",
+      "zone": "Z54",
+      "value": "Example value 31",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "32",
+      "page": 2,
+      "label": "certification-body or major customer audit is known",
+      "type": "text",
+      "zone": "Z61",
+      "value": "Example value 32",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "33",
+      "page": 2,
+      "label": "cover the intended ARS purchase or contract",
+      "type": "text",
+      "zone": "Z68",
+      "value": "Example value 33",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "34",
+      "page": 2,
+      "label": "5.3 Limitations, exclusions and work locations applicable to ARS are identified.",
+      "type": "text",
+      "zone": "Z75",
+      "value": "Example value 34",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "35",
+      "page": 2,
+      "label": "processes remain under the vendor·s own control.",
+      "type": "text",
+      "zone": "Z76",
+      "value": "Example value 35",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "36",
+      "page": 2,
+      "label": "control) of significant sub-suppliers is",
+      "type": "text",
+      "zone": "Z83",
+      "value": "Example value 36",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "37",
+      "page": 2,
+      "label": "Z87",
+      "type": "text",
+      "zone": "Z87",
+      "value": "Example value 37",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "38",
+      "page": 3,
+      "label": "procedures are available to personnel who need",
+      "type": "text",
+      "zone": "Z91",
+      "value": "Example value 38",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "39",
+      "page": 3,
+      "label": "corrective actions assigned, verified and closed",
+      "type": "text",
+      "zone": "Z98",
+      "value": "Example value 39",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "40",
+      "page": 3,
+      "label": "and protected for the required retention period.",
+      "type": "text",
+      "zone": "Z105",
+      "value": "Example value 40",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "41",
+      "page": 3,
+      "label": "6.7 Management responsibility for quality is clearly assigned and resourced.",
+      "type": "text",
+      "zone": "Z112",
+      "value": "Example value 41",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "42",
+      "page": 3,
+      "label": "products/services supplied to ARS are identified and",
+      "type": "text",
+      "zone": "Z116",
+      "value": "Example value 42",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "43",
+      "page": 3,
+      "label": "investigated; causes and contributing factors are",
+      "type": "text",
+      "zone": "Z123",
+      "value": "Example value 43",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "44",
+      "page": 3,
+      "label": "applied so personnel are not punished for honest",
+      "type": "text",
+      "zone": "Z130",
+      "value": "Example value 44",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "45",
+      "page": 3,
+      "label": "segregated to prevent contamination or",
+      "type": "text",
+      "zone": "Z137",
+      "value": "Example value 45",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "46",
+      "page": 3,
+      "label": "8.3 Serviceable and unserviceable items are clearly segregated.",
+      "type": "text",
+      "zone": "Z144",
+      "value": "Example value 46",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "47",
+      "page": 3,
+      "label": "against damage, loss, theft or unauthorised",
+      "type": "text",
+      "zone": "Z145",
+      "value": "Example value 47",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "48",
+      "page": 3,
+      "label": "waste are handled under documented HSE",
+      "type": "text",
+      "zone": "Z152",
+      "value": "Example value 48",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "49",
+      "page": 3,
+      "label": "Z156",
+      "type": "text",
+      "zone": "Z156",
+      "value": "Example value 49",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "50",
+      "page": 4,
+      "label": "Form 1 / FAA 8130-3 / accepted equivalent can be",
+      "type": "text",
+      "zone": "Z160",
+      "value": "Example value 50",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "51",
+      "page": 4,
+      "label": "to the delivered item, batch/serial and purchase",
+      "type": "text",
+      "zone": "Z167",
+      "value": "Example value 51",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "52",
+      "page": 4,
+      "label": "are controlled; expired stock cannot be issued for",
+      "type": "text",
+      "zone": "Z174",
+      "value": "Example value 52",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "53",
+      "page": 4,
+      "label": "9.7 ESD-sensitive devices are handled and stored under controlled procedures.",
+      "type": "text",
+      "zone": "Z181",
+      "value": "Example value 53",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "54",
+      "page": 4,
+      "label": "are segregated pending disposition.",
+      "type": "text",
+      "zone": "Z182",
+      "value": "Example value 54",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "55",
+      "page": 4,
+      "label": "quarantine and report suspected unapproved",
+      "type": "text",
+      "zone": "Z189",
+      "value": "Example value 55",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "56",
+      "page": 4,
+      "label": "requiring calibration is registered and within",
+      "type": "text",
+      "zone": "Z196",
+      "value": "Example value 56",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "57",
+      "page": 4,
+      "label": "10.3 Calibration is traceable to national / international standards.",
+      "type": "text",
+      "zone": "Z203",
+      "value": "Example value 57",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "58",
+      "page": 4,
+      "label": "equipment is found out of tolerance after work",
+      "type": "text",
+      "zone": "Z204",
+      "value": "Example value 58",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "59",
+      "page": 4,
+      "label": "included in initial and recurrent training where",
+      "type": "text",
+      "zone": "Z214",
+      "value": "Example value 59",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "60",
+      "page": 4,
+      "label": "11.3 Training records are maintained and retained for the required period.",
+      "type": "text",
+      "zone": "Z221",
+      "value": "Example value 60",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "61",
+      "page": 4,
+      "label": "limitations and authorisations are controlled.",
+      "type": "text",
+      "zone": "Z222",
+      "value": "Example value 61",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "62",
+      "page": 4,
+      "label": "11.5 Workload is monitored so resources remain adequate for planned work.",
+      "type": "text",
+      "zone": "Z229",
+      "value": "Example value 62",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "63",
+      "page": 4,
+      "label": "Z230",
+      "type": "text",
+      "zone": "Z230",
+      "value": "Example value 63",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "64",
+      "page": 5,
+      "label": "12.1 Sources of aeronautical parts are restricted to approved / known suppliers.",
+      "type": "text",
+      "zone": "Z234",
+      "value": "Example value 64",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "65",
+      "page": 5,
+      "label": "define required accompanying documentation for",
+      "type": "text",
+      "zone": "Z235",
+      "value": "Example Company SAS",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "66",
+      "page": 5,
+      "label": "channels are controlled or prohibited for ARS",
+      "type": "text",
+      "zone": "Z242",
+      "value": "Example value 66",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "67",
+      "page": 5,
+      "label": "quality records are backed up and protected",
+      "type": "text",
+      "zone": "Z249",
+      "value": "Example value 67",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "68",
+      "page": 5,
+      "label": "incidents that could affect ARS data or deliveries are",
+      "type": "text",
+      "zone": "Z256",
+      "value": "Example value 68",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "69",
+      "page": 5,
+      "label": "restrictions applicable to ARS deliveries are",
+      "type": "text",
+      "zone": "Z263",
+      "value": "Example value 69",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "70",
+      "page": 5,
+      "label": "withdrawal of a relevant approval is notified",
+      "type": "text",
+      "zone": "Z270",
+      "value": "Example value 70",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "71",
+      "page": 5,
+      "label": "Name of authorised representative",
+      "type": "text",
+      "zone": "Z277",
+      "value": "Example Company SAS",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "72",
+      "page": 5,
+      "label": "Position / title",
+      "type": "text",
+      "zone": "Z278",
+      "value": "Example value 72",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "73",
+      "page": 5,
+      "label": "Signature",
+      "type": "text",
+      "zone": "Z279",
+      "value": "Example value 73",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "74",
+      "page": 5,
+      "label": "Date",
+      "type": "date",
+      "zone": "Z280",
+      "value": "2024-01-15",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "75",
+      "page": 5,
+      "label": "Reviewed by",
+      "type": "text",
+      "zone": "Z281",
+      "value": "Example value 75",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "76",
+      "page": 5,
+      "label": "Date",
+      "type": "date",
+      "zone": "Z282",
+      "value": "2024-01-15",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "77",
+      "page": 5,
+      "label": "Vendor code assigned",
+      "type": "text",
+      "zone": "Z287",
+      "value": "Example value 77",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "78",
+      "page": 5,
+      "label": "Next review due",
+      "type": "text",
+      "zone": "Z288",
+      "value": "Example value 78",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "79",
+      "page": 5,
+      "label": "Remarks:",
+      "type": "text",
+      "zone": "Z289",
+      "value": "Example value 79",
+      "confidence": "medium",
+      "note_for_reviewer": "Example value for validation / demo fill"
+    },
+    {
+      "ref": "C1",
+      "page": 1,
+      "label": "After-sales / Claims contact (name, e-mail,",
+      "type": "choice",
+      "zone": "Z16",
+      "choice": "OEM / Design",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C2",
+      "page": 1,
+      "label": "After-sales / Claims contact (name, e-mail,",
+      "type": "choice",
+      "zone": "Z19",
+      "choice": "Part-21J Design",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C3",
+      "page": 1,
+      "label": "After-sales / Claims contact (name, e-mail,",
+      "type": "choice",
+      "zone": "Z22",
+      "choice": "Material supplier",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C4",
+      "page": 1,
+      "label": "After-sales / Claims contact (name, e-mail,",
+      "type": "choice",
+      "zone": "Z25",
+      "choice": "Tooling / GSE supplier",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C5",
+      "page": 1,
+      "label": "After-sales / Claims contact (name, e-mail,",
+      "type": "choice",
+      "zone": "Z28",
+      "choice": "Training organisation",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C6",
+      "page": 2,
+      "label": "Relevant aviation authority approval is held and remains current for the",
+      "type": "choice",
+      "zone": "Z44",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C7",
+      "page": 2,
+      "label": "9001 / EN 9100 / AS9100 (or equivalent) certification is held and",
+      "type": "choice",
+      "zone": "Z48",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C8",
+      "page": 2,
+      "label": "Specialised accreditation exists where required (ISO/IEC 17025, NADCAP,",
+      "type": "choice",
+      "zone": "Z51",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C9",
+      "page": 2,
+      "label": "relevant approval is currently suspended, limited, expired or under",
+      "type": "choice",
+      "zone": "Z55",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C10",
+      "page": 2,
+      "label": "of certificates, ratings and capability lists can be provided with this",
+      "type": "choice",
+      "zone": "Z58",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C11",
+      "page": 2,
+      "label": "last authority, certification-body or major customer audit is known",
+      "type": "choice",
+      "zone": "Z62",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C12",
+      "page": 2,
+      "label": "Goods/services proposed for ARS are clearly described (P/N, ATA, process,",
+      "type": "choice",
+      "zone": "Z65",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C13",
+      "page": 2,
+      "label": "Approval / capability ratings cover the intended ARS purchase or contract",
+      "type": "choice",
+      "zone": "Z69",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C14",
+      "page": 2,
+      "label": "Limitations, exclusions and work locations applicable to ARS are identified.",
+      "type": "choice",
+      "zone": "Z72",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C15",
+      "page": 2,
+      "label": "or safety-relevant processes remain under the vendor·s own control.",
+      "type": "choice",
+      "zone": "Z77",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C16",
+      "page": 2,
+      "label": "subcontracting of ARS work is controlled, monitored and disclosed",
+      "type": "choice",
+      "zone": "Z80",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C17",
+      "page": 2,
+      "label": "current list (or equivalent control) of significant sub-suppliers is",
+      "type": "choice",
+      "zone": "Z84",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C18",
+      "page": 3,
+      "label": "documented QMS appropriate to the aviation scope is implemented and",
+      "type": "choice",
+      "zone": "Z88",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C19",
+      "page": 3,
+      "label": "policy / manual / procedures are available to personnel who need",
+      "type": "choice",
+      "zone": "Z92",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C20",
+      "page": 3,
+      "label": "independent internal audit / compliance monitoring programme is in",
+      "type": "choice",
+      "zone": "Z95",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C21",
+      "page": 3,
+      "label": "Findings are recorded, corrective actions assigned, verified and closed",
+      "type": "choice",
+      "zone": "Z99",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C22",
+      "page": 3,
+      "label": "Customer, regulatory and contractual requirements are flowed into",
+      "type": "choice",
+      "zone": "Z102",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C23",
+      "page": 3,
+      "label": "records are retained and protected for the required retention period.",
+      "type": "choice",
+      "zone": "Z106",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C24",
+      "page": 3,
+      "label": "Management responsibility for quality is clearly assigned and resourced.",
+      "type": "choice",
+      "zone": "Z109",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C25",
+      "page": 3,
+      "label": "safety / risk management process appropriate to the aviation activity is",
+      "type": "choice",
+      "zone": "Z113",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C26",
+      "page": 3,
+      "label": "Hazards related to products/services supplied to ARS are identified and",
+      "type": "choice",
+      "zone": "Z117",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C27",
+      "page": 3,
+      "label": "internal occurrence / hazard reporting channel exists (including",
+      "type": "choice",
+      "zone": "Z120",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C28",
+      "page": 3,
+      "label": "Occurrences are investigated; causes and contributing factors are",
+      "type": "choice",
+      "zone": "Z124",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C29",
+      "page": 3,
+      "label": "or quality issues affecting ARS products/services are notified without",
+      "type": "choice",
+      "zone": "Z127",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C30",
+      "page": 3,
+      "label": "culture principles are applied so personnel are not punished for honest",
+      "type": "choice",
+      "zone": "Z131",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C31",
+      "page": 3,
+      "label": "Facilities suit the work and protect parts/products from adverse",
+      "type": "choice",
+      "zone": "Z134",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C32",
+      "page": 3,
+      "label": "Specialised areas are segregated to prevent contamination or",
+      "type": "choice",
+      "zone": "Z138",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C33",
+      "page": 3,
+      "label": "Serviceable and unserviceable items are clearly segregated.",
+      "type": "choice",
+      "zone": "Z141",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C34",
+      "page": 3,
+      "label": "Customer property is secured against damage, loss, theft or unauthorised",
+      "type": "choice",
+      "zone": "Z146",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C35",
+      "page": 3,
+      "label": "Lighting, cleanliness, temperature/humidity are controlled where",
+      "type": "choice",
+      "zone": "Z149",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C36",
+      "page": 3,
+      "label": "Hazardous materials and waste are handled under documented HSE",
+      "type": "choice",
+      "zone": "Z153",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C37",
+      "page": 4,
+      "label": "Required release / conformity documents can be supplied with each delivery",
+      "type": "choice",
+      "zone": "Z157",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C38",
+      "page": 4,
+      "label": "applicable, EASA Form 1 / FAA 8130-3 / accepted equivalent can be",
+      "type": "choice",
+      "zone": "Z161",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C39",
+      "page": 4,
+      "label": "Certificates of Conformity and material certs (e.g. EN 10204) can be",
+      "type": "choice",
+      "zone": "Z164",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C40",
+      "page": 4,
+      "label": "Documentation is traceable to the delivered item, batch/serial and purchase",
+      "type": "choice",
+      "zone": "Z168",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C41",
+      "page": 4,
+      "label": "Incoming inspection procedures exist for parts, materials and",
+      "type": "choice",
+      "zone": "Z171",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C42",
+      "page": 4,
+      "label": "Shelf-life / life-limited items are controlled; expired stock cannot be issued for",
+      "type": "choice",
+      "zone": "Z175",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C43",
+      "page": 4,
+      "label": "ESD-sensitive devices are handled and stored under controlled procedures.",
+      "type": "choice",
+      "zone": "Z178",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C44",
+      "page": 4,
+      "label": "Quarantine / rejected items are segregated pending disposition.",
+      "type": "choice",
+      "zone": "Z183",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C45",
+      "page": 4,
+      "label": "Unsalvageable parts are permanently mutilated or controlled to prevent",
+      "type": "choice",
+      "zone": "Z186",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C46",
+      "page": 4,
+      "label": "process exists to detect, quarantine and report suspected unapproved",
+      "type": "choice",
+      "zone": "Z190",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C47",
+      "page": 4,
+      "label": "and equipment used on aviation work are identified, maintained and",
+      "type": "choice",
+      "zone": "Z193",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C48",
+      "page": 4,
+      "label": "Measuring / test equipment requiring calibration is registered and within",
+      "type": "choice",
+      "zone": "Z197",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C49",
+      "page": 4,
+      "label": "Calibration is traceable to national / international standards.",
+      "type": "choice",
+      "zone": "Z200",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C50",
+      "page": 4,
+      "label": "recall process exists if equipment is found out of tolerance after work",
+      "type": "choice",
+      "zone": "Z205",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C51",
+      "page": 4,
+      "label": "accountability / FOD control procedures exist (including personal tools if",
+      "type": "choice",
+      "zone": "Z208",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C52",
+      "page": 4,
+      "label": "Personnel performing aviation work are trained, assessed and authorised for",
+      "type": "choice",
+      "zone": "Z211",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C53",
+      "page": 4,
+      "label": "Factors awareness is included in initial and recurrent training where",
+      "type": "choice",
+      "zone": "Z215",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C54",
+      "page": 4,
+      "label": "Training records are maintained and retained for the required period.",
+      "type": "choice",
+      "zone": "Z218",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C55",
+      "page": 4,
+      "label": "Certifying / release staff limitations and authorisations are controlled.",
+      "type": "choice",
+      "zone": "Z223",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C56",
+      "page": 4,
+      "label": "Workload is monitored so resources remain adequate for planned work.",
+      "type": "choice",
+      "zone": "Z226",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C57",
+      "page": 5,
+      "label": "Sources of aeronautical parts are restricted to approved / known suppliers.",
+      "type": "choice",
+      "zone": "Z231",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C58",
+      "page": 5,
+      "label": "Purchasing procedures define required accompanying documentation for",
+      "type": "choice",
+      "zone": "Z236",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C59",
+      "page": 5,
+      "label": "is a process to escalate and notify ARS of suspected counterfeit or",
+      "type": "choice",
+      "zone": "Z239",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C60",
+      "page": 5,
+      "label": "Military surplus / scrap channels are controlled or prohibited for ARS",
+      "type": "choice",
+      "zone": "Z243",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C61",
+      "page": 5,
+      "label": "Customer technical data / drawings are controlled against unauthorised copy",
+      "type": "choice",
+      "zone": "Z246",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C62",
+      "page": 5,
+      "label": "Electronic maintenance / quality records are backed up and protected",
+      "type": "choice",
+      "zone": "Z250",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C63",
+      "page": 5,
+      "label": "to quality / production IT systems is role-based and reviewed",
+      "type": "choice",
+      "zone": "Z253",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C64",
+      "page": 5,
+      "label": "ransomware incidents that could affect ARS data or deliveries are",
+      "type": "choice",
+      "zone": "Z257",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C65",
+      "page": 5,
+      "label": "business continuity / disaster recovery arrangement covers critical aviation",
+      "type": "choice",
+      "zone": "Z260",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C66",
+      "page": 5,
+      "label": "Export-control / dual-use restrictions applicable to ARS deliveries are",
+      "type": "choice",
+      "zone": "Z264",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C67",
+      "page": 5,
+      "label": "Changes to approvals, ownership, location or key processes are notified to",
+      "type": "choice",
+      "zone": "Z267",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C68",
+      "page": 5,
+      "label": "Suspension, limitation or withdrawal of a relevant approval is notified",
+      "type": "choice",
+      "zone": "Z271",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C69",
+      "page": 5,
+      "label": "Significant quality escapes, delivery failures or safety issues affecting ARS",
+      "type": "choice",
+      "zone": "Z274",
+      "choice": "Yes No N/A Evidence / remarks",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    },
+    {
+      "ref": "C70",
+      "page": 5,
+      "label": "Decision:",
+      "type": "choice",
+      "zone": "Z283",
+      "choice": "Approved",
+      "confidence": "medium",
+      "note_for_reviewer": "Example checkbox for validation / demo fill"
+    }
+  ]
+}

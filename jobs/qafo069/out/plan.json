@@ -1,0 +1,1548 @@
+{
+  "ops": [
+    {
+      "op": "text",
+      "zone": "Z2",
+      "answer": 1,
+      "role": "value",
+      "text": "Aéroport International Marseille Provence, 13700 Marignane, France",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z25",
+      "answer": 19,
+      "role": "value",
+      "text": "E0OY135X",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z26",
+      "answer": 20,
+      "role": "value",
+      "text": "November 30 2027",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z29",
+      "answer": 23,
+      "role": "value",
+      "text": "282727-2019-AQ-FRA-ACCREDIA",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z30",
+      "answer": 24,
+      "role": "value",
+      "text": "07 May 2028",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z35",
+      "answer": 27,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z38",
+      "answer": 28,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z41",
+      "answer": 29,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z44",
+      "answer": 30,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z47",
+      "answer": 31,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z50",
+      "answer": 32,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z53",
+      "answer": 33,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z57",
+      "answer": 34,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z60",
+      "answer": 35,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z63",
+      "answer": 36,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z66",
+      "answer": 37,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z69",
+      "answer": 38,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z72",
+      "answer": 39,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z76",
+      "answer": 40,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z79",
+      "answer": 41,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z82",
+      "answer": 42,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z85",
+      "answer": 43,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z88",
+      "answer": 44,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z91",
+      "answer": 45,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z95",
+      "answer": 46,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z98",
+      "answer": 47,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z101",
+      "answer": 48,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z104",
+      "answer": 49,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z107",
+      "answer": 50,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z110",
+      "answer": 51,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z113",
+      "answer": 52,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z116",
+      "answer": 53,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z120",
+      "answer": 54,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z123",
+      "answer": 55,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z126",
+      "answer": 56,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z129",
+      "answer": 57,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z133",
+      "answer": 58,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z136",
+      "answer": 59,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z139",
+      "answer": 60,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z142",
+      "answer": 61,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z145",
+      "answer": 62,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z148",
+      "answer": 63,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z152",
+      "answer": 64,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z155",
+      "answer": 65,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z158",
+      "answer": 66,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z161",
+      "answer": 67,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z164",
+      "answer": 68,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z168",
+      "answer": 69,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z171",
+      "answer": 70,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z174",
+      "answer": 71,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z177",
+      "answer": 72,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z180",
+      "answer": 73,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z185",
+      "answer": 74,
+      "role": "value",
+      "text": "Shinichi KATAYAMA / Business & Programs Quality",
+      "flag": false
+    }
+  ],
+  "answers": [
+    {
+      "index": 0,
+      "ref": "Section 1",
+      "label": "Registered / Trading Name",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z1"
+      ],
+      "messages": [],
+      "status": "already_filled"
+    },
+    {
+      "index": 1,
+      "ref": "Section 1",
+      "label": "Address",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z2"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 2,
+      "ref": "Section 1",
+      "label": "Tel",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z3"
+      ],
+      "messages": [],
+      "status": "already_filled"
+    },
+    {
+      "index": 3,
+      "ref": "Section 1",
+      "label": "Fax",
+      "context": null,
+      "type": "text",
+      "confidence": "low",
+      "note": "Example empty field",
+      "zones": [
+        "Z4"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 4,
+      "ref": "Section 1",
+      "label": "Website",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z5"
+      ],
+      "messages": [],
+      "status": "already_filled"
+    },
+    {
+      "index": 5,
+      "ref": "Section 2",
+      "label": "General Manager",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z6"
+      ],
+      "messages": [],
+      "status": "already_filled"
+    },
+    {
+      "index": 6,
+      "ref": "Section 2",
+      "label": "Email",
+      "context": "General Manager",
+      "type": "text",
+      "confidence": "low",
+      "note": "Example empty field",
+      "zones": [
+        "Z7"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 7,
+      "ref": "Section 2",
+      "label": "Quality Manager",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z8"
+      ],
+      "messages": [],
+      "status": "already_filled"
+    },
+    {
+      "index": 8,
+      "ref": "Section 2",
+      "label": "Email",
+      "context": "Quality Manager",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z9"
+      ],
+      "messages": [],
+      "status": "already_filled"
+    },
+    {
+      "index": 9,
+      "ref": "Section 2",
+      "label": "Audit Contact Person",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z10"
+      ],
+      "messages": [],
+      "status": "already_filled"
+    },
+    {
+      "index": 10,
+      "ref": "Section 2",
+      "label": "Email",
+      "context": "Audit Contact Person",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z11"
+      ],
+      "messages": [],
+      "status": "already_filled"
+    },
+    {
+      "index": 11,
+      "ref": "Section 3",
+      "label": "Nature of Business (in relation to this application for approval)",
+      "context": null,
+      "type": "multi_choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z12",
+        "Z13",
+        "Z14"
+      ],
+      "messages": [],
+      "status": "already_filled"
+    },
+    {
+      "index": 12,
+      "ref": "Section 3",
+      "label": "Others (Provide Details)",
+      "context": "Nature of Business (in relation to this application for approval)",
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z31"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 13,
+      "ref": "Section 4",
+      "label": "Certificate No",
+      "context": "CAAS",
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z20"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 14,
+      "ref": "Section 4",
+      "label": "Expiry Date",
+      "context": "CAAS",
+      "type": "date",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z21"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 15,
+      "ref": "Section 4",
+      "label": "Certificate No",
+      "context": "EASA",
+      "type": "text",
+      "confidence": "high",
+      "note": "Pas de zone texte détectée pour le n° de certificat EASA (case Z22 seule). Valeur à reporter à la main : FR.145.0002 (no limit), Part-21J.700(no limit), Part-21G.0070 (no limit)",
+      "zones": [],
+      "messages": [
+        "aucune zone pour la valeur « FR.145.0002 (no limit), Part-21J.700(no limit), Part-21G.007 » : à reporter à la main"
+      ],
+      "status": "no_zone"
+    },
+    {
+      "index": 16,
+      "ref": "Section 4",
+      "label": "Expiry Date",
+      "context": "EASA",
+      "type": "date",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 17,
+      "ref": "Section 4",
+      "label": "Certificate No",
+      "context": "FAA",
+      "type": "text",
+      "confidence": "high",
+      "note": "Pas de zone texte pour FAA (case Z23). Exemple reporté sur ISO9000 Certificate No (Z25) faute de champ FAA.",
+      "zones": [],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 18,
+      "ref": "Section 4",
+      "label": "Expiry Date",
+      "context": "FAA",
+      "type": "date",
+      "confidence": "high",
+      "note": "Pas de zone date pour FAA. Exemple reporté sur ISO9000 Expiry (Z26).",
+      "zones": [],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 19,
+      "ref": "Section 4",
+      "label": "Certificate No",
+      "context": "ISO9000 Standards",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z25"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 20,
+      "ref": "Section 4",
+      "label": "Expiry Date",
+      "context": "ISO9000 Standards",
+      "type": "date",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z26"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 21,
+      "ref": "Section 4",
+      "label": "Certificate No",
+      "context": "ISO9100 Standards",
+      "type": "text",
+      "confidence": "high",
+      "note": "Pas de zone texte ISO9100 (case Z27). Exemple reporté sur ISO/IEC 17025 Certificate No (Z29).",
+      "zones": [],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 22,
+      "ref": "Section 4",
+      "label": "Expiry Date",
+      "context": "ISO9100 Standards",
+      "type": "date",
+      "confidence": "high",
+      "note": "Pas de zone date ISO9100. Exemple reporté sur ISO/IEC 17025 Expiry (Z30).",
+      "zones": [],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 23,
+      "ref": "Section 4",
+      "label": "Certificate No",
+      "context": "ISO/IEC 17025",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z29"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 24,
+      "ref": "Section 4",
+      "label": "Expiry Date",
+      "context": "ISO/IEC 17025",
+      "type": "date",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z30"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 25,
+      "ref": "Section 4",
+      "label": "Certificate No",
+      "context": "Others (Specify)",
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 26,
+      "ref": "Section 4",
+      "label": "Expiry Date",
+      "context": "Others (Specify)",
+      "type": "date",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 27,
+      "ref": "1.1",
+      "label": "Is there an established Quality Assurance System in your organisation?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z35"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 28,
+      "ref": "1.2",
+      "label": "Do you have a documented Quality Policy in your organisation?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z38"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 29,
+      "ref": "1.3",
+      "label": "If so, is this policy disseminated and understood by all employees in the organisation?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z41"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 30,
+      "ref": "1.4",
+      "label": "Is there an internal audit program to verify compliance with company procedures?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z44"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 31,
+      "ref": "1.5",
+      "label": "Does your organisation encourage all staff to cooperate with quality auditors in the performance of their work?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z47"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 32,
+      "ref": "1.6",
+      "label": "Is there a feedback channel to the Accountable Manager where he is apprised of findings arising from such audits?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z50"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 33,
+      "ref": "1.7",
+      "label": "Are such audit findings reviewed and relevant information used in your organisation continuous improvement program, if any?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z53"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 34,
+      "ref": "2.1",
+      "label": "Has your organisation implemented a Safety Management System?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z57"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 35,
+      "ref": "2.2",
+      "label": "In this Safety Management System, does the Accountable Manager hold the ultimate responsibility for all safety matters in your organisation?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z60"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 36,
+      "ref": "2.3",
+      "label": "Is hazard identification and risk assessment (HIRA) part of your Safety Management System?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z63"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 37,
+      "ref": "2.4",
+      "label": "Are personnel who carry out HIRA appropriately trained?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z66"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 38,
+      "ref": "2.5",
+      "label": "Are HIRAs documented and such records retained.",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z69"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 39,
+      "ref": "2.6",
+      "label": "Are HIRAs reviewed at regular intervals to ensure that they are current and effective?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z72"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 40,
+      "ref": "3.1",
+      "label": "Are personnel who perform work in your facility protected from the environment?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z76"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 41,
+      "ref": "3.2",
+      "label": "Are conditions in your facility environmentally controlled to ensure a conducive work environment?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z79"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 42,
+      "ref": "3.3",
+      "label": "Does your facility have adequate storage equipment to ensure that customer parts are protected from environmental degradation?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z82"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 43,
+      "ref": "3.4",
+      "label": "Are customer parts protected from contamination whilst awaiting work to be performed?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z85"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 44,
+      "ref": "3.5",
+      "label": "Are there adequate storage racks to ensure the proper segregation of serviceable parts from unserviceable ones?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z88"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 45,
+      "ref": "3.6",
+      "label": "Is the facility adequately protected to ensure the security of customers' property?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z91"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 46,
+      "ref": "4.1",
+      "label": "Is there a documented procedure for the receiving of parts, including customers' parts?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z95"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 47,
+      "ref": "4.2",
+      "label": "Are personnel who perform receiving inspection trained and approved?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z98"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 48,
+      "ref": "4.3",
+      "label": "Are there adequate storage facilities to ensure that parts waiting to be received in your system are protected from pilferage and inter-mixing?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z101"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 49,
+      "ref": "4.4",
+      "label": "Does your organisation have a bonded store which is environmentally controlled for storage of spares?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z104"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 50,
+      "ref": "4.5",
+      "label": "If so, is access to this area controlled?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z107"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 51,
+      "ref": "4.6",
+      "label": "Is there a procedure to ensure the traceability of parts used in production?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z110"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 52,
+      "ref": "4.7",
+      "label": "Is there a procedure to control shelf life parts to ensure that life expired items are not inadvertently issued for production use?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z113"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 53,
+      "ref": "4.8",
+      "label": "Is there a secure area dedicated for the storage of quarantine parts awaiting further disposition?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z116"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 54,
+      "ref": "5.1",
+      "label": "Is there a documented procedure to control the use of maintenance data?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z120"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 55,
+      "ref": "5.2",
+      "label": "Is there a procedure to ensure that maintenance data used for production is updated?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z123"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 56,
+      "ref": "5.3",
+      "label": "Where maintenance data is controlled electronically, is there a procedure to control the use of printed data?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z126"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 57,
+      "ref": "5.4",
+      "label": "Where the use of customer supplied maintenance data is allowed, is there a procedure to control such use?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z129"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 58,
+      "ref": "6.1",
+      "label": "Is there a procedure to control the use of tools?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z133"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 59,
+      "ref": "6.2",
+      "label": "Is there a procedure to control the use of equipment that requires calibration?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z136"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 60,
+      "ref": "6.3",
+      "label": "Is there a procedure to ensure the accountability of tools and to report lost tools?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z139"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 61,
+      "ref": "6.4",
+      "label": "Are tools maintained and kept in good working condition?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z142"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 62,
+      "ref": "6.5",
+      "label": "Where personal tools are allowed to be used, is there a procedure to ensure their accountability?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z145"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 63,
+      "ref": "6.6",
+      "label": "Do you have a recall system if tooling proves to be out of tolerance after the work was released to service?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z148"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 64,
+      "ref": "7.1",
+      "label": "Does the organisation have a training program?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z152"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 65,
+      "ref": "7.2",
+      "label": "If so, is human factors performance included in the training program?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z155"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 66,
+      "ref": "7.3",
+      "label": "If training is conducted in-house, is there a procedure to qualify and ensure the competence of such trainers?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z158"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 67,
+      "ref": "7.4",
+      "label": "Are the records of such training maintained and retained?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z161"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 68,
+      "ref": "7.5",
+      "label": "Are maintenance personnel assessed on their competency and training requirements tailored to meet such needs?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z164"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 69,
+      "ref": "8.1",
+      "label": "Is there a procedure to govern the qualification and approval of personnel involved in maintenance?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z168"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 70,
+      "ref": "8.2",
+      "label": "Are maintenance personnel provided with appropriate personal protection equipment in the performance of their work?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z171"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 71,
+      "ref": "8.3",
+      "label": "Is work load monitored to ensure that there is sufficiency of resources available to meet the workload?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z174"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 72,
+      "ref": "8.4",
+      "label": "Where the organisation employs multiple shifts, is there a procedure for the proper handing-taking over of work between shifts?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z177"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 73,
+      "ref": "8.5",
+      "label": "Is there effective supervision to ensure that maintenance personnel refer to maintenance data when carrying out work?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z180"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 74,
+      "ref": "Section 6",
+      "label": "Questionnaire completed by:",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z185"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 75,
+      "ref": "Section 6",
+      "label": "Authorised Company Representative / Title",
+      "context": null,
+      "type": "text",
+      "confidence": "low",
+      "note": "Titre à confirmer pour la signature",
+      "zones": [
+        "Z186"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 76,
+      "ref": "Section 6",
+      "label": "Signature",
+      "context": null,
+      "type": "signature",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    },
+    {
+      "index": 77,
+      "ref": "Section 6",
+      "label": "Date",
+      "context": null,
+      "type": "date",
+      "confidence": "low",
+      "note": "Date à insérer lors de la signature",
+      "zones": [
+        "Z94"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 78,
+      "ref": "Section 6",
+      "label": "The responses in the questionnaire have been reviewed and are found to be acceptable / unacceptable.",
+      "context": "For Composite Technology International Pte Ltd Quality Assurance Department Use",
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    },
+    {
+      "index": 79,
+      "ref": "Section 6",
+      "label": "Approved / Not Approved to be included as an approved supplier",
+      "context": "For Composite Technology International Pte Ltd Quality Assurance Department Use",
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    },
+    {
+      "index": 80,
+      "ref": "Section 6",
+      "label": "Quality Assurance Manager",
+      "context": "For Composite Technology International Pte Ltd Quality Assurance Department Use",
+      "type": "signature",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    },
+    {
+      "index": 81,
+      "ref": "Section 6",
+      "label": "Composite Technology International Pte Ltd",
+      "context": "For Composite Technology International Pte Ltd Quality Assurance Department Use",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    },
+    {
+      "index": 82,
+      "ref": "Section 6",
+      "label": "Date",
+      "context": "For Composite Technology International Pte Ltd Quality Assurance Department Use",
+      "type": "date",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    }
+  ],
+  "unused": [
+    "Z4",
+    "Z7",
+    "Z17",
+    "Z20",
+    "Z21",
+    "Z31",
+    "Z32",
+    "Z34",
+    "Z56",
+    "Z75",
+    "Z94",
+    "Z119",
+    "Z132",
+    "Z151",
+    "Z167",
+    "Z183",
+    "Z184",
+    "Z186",
+    "Z187",
+    "Z188",
+    "Z189",
+    "Z190",
+    "Z191"
+  ],
+  "map_id": "9fb96e47",
+  "detector": "zones-js-1"
+}

@@ -5,8 +5,17 @@ description: Fill supplier questionnaires (flat or fillable PDF) from a Gemini g
 
 # Remplir un formulaire
 
-Outil : package `formfill` (Python, venv `.venv`). Toujours depuis la racine du repo avec `.venv/bin/python -m formfill`.
-Si `.venv` n'existe pas : `uv venv .venv && uv pip install --python .venv/bin/python -r requirements.txt`.
+Outil : `apps-script-test/` (JavaScript, pdf.js + pdf-lib). En CLI depuis la racine du repo :
+
+```
+node apps-script-test/cli.js prepare jobs/<nom>
+node apps-script-test/cli.js run jobs/<nom>
+node apps-script-test/cli.js validate jobs/<nom>
+```
+
+Libs locales (gitignorées) : `apps-script-test/vendor/{pdf.min.js,pdf.worker.min.js,pdf-lib.min.js}`. Si absentes, suivre les commandes `curl` en tête de `apps-script-test/cli.js`.
+
+Alternative UI : page Apps Script / `Index.html` (même `prepare.js` / `run.js`).
 
 Le gem Gemini (app web uniquement) choisit les zones. Le script détecte, valide et écrit. Pas d'API, pas d'autre IA pour le placement. PDF uniquement.
 
@@ -28,10 +37,10 @@ Sans job : créer `jobs/<nom>/`, y copier le formulaire. Sans answers : lancer `
 ## Workflow
 
 ```
-- [ ] 1. python -m formfill prepare jobs/<nom>
+- [ ] 1. node apps-script-test/cli.js prepare jobs/<nom>
         → donner zones/zones.pdf + zones/zones.txt (+ formulaire) au gem
 - [ ] 2. Attendre answers.json (doit contenir form.zone_map = code ZONE_MAP de zones.txt)
-- [ ] 3. python -m formfill run jobs/<nom>
+- [ ] 3. node apps-script-test/cli.js run jobs/<nom>
 - [ ] 4. Si erreurs de validation : donner out/gem_feedback.txt à l'utilisateur pour le gem, s'arrêter
 - [ ] 5. Lire `out/review.pdf` (infobulles) et le résumé affiché par `run`
         - rouge (conflit, vide, zone sans réponse) : demander au gem une correction
@@ -57,7 +66,7 @@ Pas de contrôle visuel page par page. Revue humaine via `out/review.pdf` (bleu 
 Si le gem signale `zone: null` pour une valeur réelle, ou si `review.pdf` marque en rouge une zone texte importante « sans réponse » :
 
 1. Vérifier d'abord que le gem n'a pas simplement oublié le numéro (souvent visible sur `zones.pdf`).
-2. Si la zone n'existe vraiment pas dans `zones/` : corriger le détecteur (`formfill/pdf_zones.py`), relancer `prepare` sur **tous** les jobs, puis redemander au gem un JSON sur la **nouvelle** carte (`zone_map` différent).
+2. Si la zone n'existe vraiment pas dans `zones/` : corriger le détecteur (`apps-script-test/prepare.js`), relancer `prepare` sur **tous** les jobs, puis redemander au gem un JSON sur la **nouvelle** carte (`zone_map` différent).
 
 Ne pas empiler de correctifs manuels de coordonnées : la carte numérotée est la source de vérité.
 

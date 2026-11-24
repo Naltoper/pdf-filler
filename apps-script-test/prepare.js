@@ -1,5 +1,5 @@
-/* prepare : détecte les zones d'un PDF (même règles que formfill/pdf_zones.py).
-   Repère interne : origine en haut à gauche, y vers le bas, comme PyMuPDF.
+/* prepare : détecte les zones d'un PDF (implémentation canonique JS).
+   Repère interne : origine en haut à gauche, y vers le bas.
    pdf.js et pdf-lib restent en repère PDF (origine en bas). La conversion est faite ici. */
 const Prepare = (function () {
   "use strict";

@@ -1,0 +1,2013 @@
+{
+  "ops": [
+    {
+      "op": "text",
+      "zone": "Z1",
+      "answer": 0,
+      "role": "value",
+      "text": "Aéroport International Marseille Provence, 13700 Marignane, France",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z2",
+      "answer": 1,
+      "role": "value",
+      "text": "+33 4 42 85 85 85",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z5",
+      "answer": 4,
+      "role": "value",
+      "text": "Matthieu Louvot / Romain TRAPP",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z8",
+      "answer": 7,
+      "role": "value",
+      "text": "Elodie CARMONA",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z16",
+      "answer": 15,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z18",
+      "answer": 17,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z20",
+      "answer": 19,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z21",
+      "answer": 20,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z26",
+      "answer": 25,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z27",
+      "answer": 26,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z28",
+      "answer": 27,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z30",
+      "answer": 29,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z31",
+      "answer": 30,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z32",
+      "answer": 31,
+      "role": "value",
+      "text": "Held / Valid - Verify on Acacia",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z33",
+      "answer": 32,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z34",
+      "answer": 33,
+      "role": "value",
+      "text": "ISO 45001, NADCAP",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z36",
+      "answer": 35,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z38",
+      "answer": 37,
+      "role": "value",
+      "text": "OSAC, DSAE, LufABw",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z39",
+      "answer": 38,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z41",
+      "answer": 40,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z43",
+      "answer": 42,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z48",
+      "answer": 47,
+      "role": "value",
+      "text": "X",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z51",
+      "answer": 50,
+      "role": "value",
+      "text": "X",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z54",
+      "answer": 53,
+      "role": "value",
+      "text": "X",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z57",
+      "answer": 56,
+      "role": "value",
+      "text": "X",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z60",
+      "answer": 59,
+      "role": "value",
+      "text": "X",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z63",
+      "answer": 62,
+      "role": "value",
+      "text": "X",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z66",
+      "answer": 65,
+      "role": "value",
+      "text": "X",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z69",
+      "answer": 68,
+      "role": "value",
+      "text": "X",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z72",
+      "answer": 71,
+      "role": "value",
+      "text": "3 to 7+ years depending on component",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z73",
+      "answer": 72,
+      "role": "value",
+      "text": "X",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z76",
+      "answer": 75,
+      "role": "value",
+      "text": "X",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z79",
+      "answer": 78,
+      "role": "value",
+      "text": "X",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z83",
+      "answer": 82,
+      "role": "value",
+      "text": "X",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z89",
+      "answer": 87,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z90",
+      "answer": 88,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z92",
+      "answer": 90,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z94",
+      "answer": 92,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z96",
+      "answer": 94,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z99",
+      "answer": 97,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z100",
+      "answer": 98,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z102",
+      "answer": 100,
+      "role": "value",
+      "text": "Teardown Reports, ATA 106",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z103",
+      "answer": 101,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z105",
+      "answer": 103,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z108",
+      "answer": 107,
+      "role": "value",
+      "text": "Elodie CARMONA",
+      "flag": false
+    }
+  ],
+  "answers": [
+    {
+      "index": 0,
+      "ref": "1",
+      "label": "Anschrift / Address",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z1"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 1,
+      "ref": "2",
+      "label": "Tel.-Nr. / Phone-No.",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z2"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 2,
+      "ref": "3",
+      "label": "Fax-Nr. / Fax-No",
+      "context": null,
+      "type": "text",
+      "confidence": "low",
+      "note": "Fax number not explicitly provided in the knowledge base.",
+      "zones": [
+        "Z3"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 3,
+      "ref": "4",
+      "label": "Е-Mail",
+      "context": null,
+      "type": "text",
+      "confidence": "low",
+      "note": "General e-mail not explicitly provided.",
+      "zones": [
+        "Z4"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 4,
+      "ref": "5",
+      "label": "Geschäftsleitung / Management",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z5"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 5,
+      "ref": "6",
+      "label": "Vertrieb / Sales Department",
+      "context": null,
+      "type": "text",
+      "confidence": "low",
+      "note": "Example empty field",
+      "zones": [
+        "Z6"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 6,
+      "ref": "7",
+      "label": "Tel.-Nr./FAX-Nr. / e-Mail",
+      "context": null,
+      "type": "text",
+      "confidence": "low",
+      "note": "Example empty field",
+      "zones": [
+        "Z7"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 7,
+      "ref": "8",
+      "label": "Qualitätsmgt. / Quality Department",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z8"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 8,
+      "ref": "9",
+      "label": "Tel.-Nr./FAX-Nr. / e-Mail",
+      "context": null,
+      "type": "text",
+      "confidence": "low",
+      "note": "Example empty field",
+      "zones": [
+        "Z9"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 9,
+      "ref": "10",
+      "label": "Gesamt / total",
+      "context": null,
+      "type": "text",
+      "confidence": "low",
+      "note": "Total personnel number not in knowledge base.",
+      "zones": [
+        "Z10"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 10,
+      "ref": "11",
+      "label": "Qualitätsmanagement / Quality Department /",
+      "context": null,
+      "type": "text",
+      "confidence": "low",
+      "note": "Example empty field",
+      "zones": [
+        "Z11"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 11,
+      "ref": "12",
+      "label": "©ADAC",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    },
+    {
+      "index": 12,
+      "ref": "13",
+      "label": "©ADAC",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    },
+    {
+      "index": 13,
+      "ref": "14",
+      "label": "©ADAC Heliservice GmbH",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    },
+    {
+      "index": 14,
+      "ref": "15",
+      "label": "Date of last Recertification-Audit/ (Part-145)",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Verify on Acacia",
+      "zones": [
+        "Z15"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 15,
+      "ref": "16",
+      "label": "Which QM-Requirements do your QM-Measures meet? Approvals/: Part-145",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z16"
+      ],
+      "messages": [
+        "Z16 : « X » ne figure pas autour de la case (left: Approvals/: ; right: Part-145 ; above: QM-Requirements do ; col: Which QM-Requirements do your QM-Measure ; tooltip: Part145)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 16,
+      "ref": "17",
+      "label": "Date of last Recertification-Audit/ (Part-21G)",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Verify on Acacia",
+      "zones": [
+        "Z17"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 17,
+      "ref": "18",
+      "label": "Which QM-Requirements do your QM-Measures meet? Part-21G",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z18"
+      ],
+      "messages": [
+        "Z18 : « X » ne figure pas autour de la case (right: Part-21G ; above: Part-145 ; col: Which QM-Requirements do your QM-Measure ; tooltip: Part21 G)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 18,
+      "ref": "19",
+      "label": "Date of last Recertification-Audit/ (Part-21J)",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Verify on Acacia",
+      "zones": [
+        "Z19"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 19,
+      "ref": "20",
+      "label": "Which QM-Requirements do your QM-Measures meet? Part-21J",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z20"
+      ],
+      "messages": [
+        "Z20 : « X » ne figure pas autour de la case (right: Part-21J ; above: Part-21G ; col: Which QM-Requirements do your QM-Measure ; tooltip: Part21 J)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 20,
+      "ref": "21",
+      "label": "Qualitätsmanagement / Quality Management Part-147",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z21"
+      ],
+      "messages": [
+        "Z21 : « X » ne figure pas autour de la case (right: Part-147 ; above: Part-21J ; col: Qualitätsmanagement / Quality Management ; tooltip: Part147)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 21,
+      "ref": "22",
+      "label": "Date of last Recertification-Audit/ (Part-147)",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Verify on Acacia",
+      "zones": [
+        "Z22"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 22,
+      "ref": "23",
+      "label": "Date of last Recertification-Audi/ (Part-M)",
+      "context": null,
+      "type": "text",
+      "confidence": "low",
+      "note": "Example empty field",
+      "zones": [
+        "Z23"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 23,
+      "ref": "24",
+      "label": "Qualitätsmanagement / Quality Management Part-M",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z24"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 24,
+      "ref": "25",
+      "label": "other/другие Date of last Recertification-Audit",
+      "context": null,
+      "type": "text",
+      "confidence": "low",
+      "note": "Example empty field",
+      "zones": [
+        "Z25"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 25,
+      "ref": "26",
+      "label": "Qualitätsmanagement / Quality Management other/другие",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": "Other standards held: TCCA, UK CAA",
+      "zones": [
+        "Z26"
+      ],
+      "messages": [
+        "Z26 : « X » ne figure pas autour de la case (right: other/другие Please explain ; above: Part-M ; col: Qualitätsmanagement / Quality Management ; tooltip: othergpyrlle)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 26,
+      "ref": "27",
+      "label": "Qualitätsmanagement / Quality Management EN 9001",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z27"
+      ],
+      "messages": [
+        "Z27 : « X » ne figure pas autour de la case (right: EN 9001 ; above: other/другие ; col: Qualitätsmanagement / Quality Management ; tooltip: EN 9001)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 27,
+      "ref": "28",
+      "label": "Qualitätsmanagement / Quality Management EN 9100",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z28"
+      ],
+      "messages": [
+        "Z28 : « X » ne figure pas autour de la case (right: EN 9100 ; above: EN ; col: Qualitätsmanagement / Quality Management ; tooltip: EN 9100)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 28,
+      "ref": "29",
+      "label": "Qualitätsmanagement / Quality Management EN 9120",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z29"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 29,
+      "ref": "30",
+      "label": "Qualitätsmanagement / Quality Management EN 14001",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z30"
+      ],
+      "messages": [
+        "Z30 : « X » ne figure pas autour de la case (right: EN 14001 ; above: EN ; col: Qualitätsmanagement / Quality Management ; tooltip: EN 14001)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 30,
+      "ref": "31",
+      "label": "Qualitätsmanagement / Quality Management EN 17025",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z31"
+      ],
+      "messages": [
+        "Z31 : « X » ne figure pas autour de la case (right: EN 17025 ; above: EN ; col: Qualitätsmanagement / Quality Management ; tooltip: EN 17025)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 31,
+      "ref": "32",
+      "label": "Please explain:",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z32"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 32,
+      "ref": "33",
+      "label": "Qualitätsmanagement / Quality Management other",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z33"
+      ],
+      "messages": [
+        "Z33 : « X » ne figure pas autour de la case (right: other ; above: EN ; col: Qualitätsmanagement / Quality Management ; tooltip: other)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 33,
+      "ref": "34",
+      "label": "sonstige / other",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z34"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 34,
+      "ref": "35",
+      "label": "keiner Forderung / no requirements",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z35"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 35,
+      "ref": "36",
+      "label": "Have your QM-Measures been inspected and certified by other companies?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z36"
+      ],
+      "messages": [
+        "Z36 : « ja / yes » ne figure pas autour de la case (left: ja / yes ; above: your QM-Measures ; col: Have your QM-Measures been inspected and ; tooltip: nein  no)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 36,
+      "ref": "37",
+      "label": "Have your QM-Measures been inspected and certified by other companies? (nein/no)",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z37"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 37,
+      "ref": "38",
+      "label": "Wenn ja, welche(s) Unternehmen? / If yes, which company(s)?",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z38"
+      ],
+      "messages": [
+        "Z38 : le texte autour de la zone ne ressemble pas au libellé « Wenn ja, welche(s) Unternehmen? / If yes, which co » (tooltip: Textfield-7)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 38,
+      "ref": "39",
+      "label": "QM-Handbuch / QM-Manual",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z39"
+      ],
+      "messages": [
+        "Z39 : « ja/yes » ne figure pas autour de la case (left: ja/yes ; right: nein/no ; col: inspected and certified by other compani ; tooltip: neinno)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 39,
+      "ref": "40",
+      "label": "QM-Handbuch / QM-Manual (nein/no)",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z40"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 40,
+      "ref": "41",
+      "label": "Verfahrensanweisungen / Instruction of Procedure",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z41"
+      ],
+      "messages": [
+        "Z41 : « ja/yes » ne figure pas autour de la case (left: ja/yes ; right: nein/no ; col: inspected and certified by other compani ; tooltip: neinno-0)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 41,
+      "ref": "42",
+      "label": "Verfahrensanweisungen / Instruction of Procedure (nein/no)",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z42"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 42,
+      "ref": "43",
+      "label": "Arbeitsanweisungen / Workorders",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z43"
+      ],
+      "messages": [
+        "Z43 : « ja/yes » ne figure pas autour de la case (left: ja/yes ; right: nein/no ; col: inspected and certified by other compani ; tooltip: neinno-1)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 43,
+      "ref": "44",
+      "label": "Arbeitsanweisungen / Workorders (nein/no)",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z44"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 44,
+      "ref": "45",
+      "label": "Fragen / Questions (ja/yes column)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    },
+    {
+      "index": 45,
+      "ref": "46",
+      "label": "Fragen / Questions (nein/no column)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    },
+    {
+      "index": 46,
+      "ref": "47",
+      "label": "Fragen / Questions (n/a column)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    },
+    {
+      "index": 47,
+      "ref": "48",
+      "label": "Do you receive parts and material from your own qualified supplier?",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z48"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 48,
+      "ref": "49",
+      "label": "Do you receive parts and material from your own qualified supplier? (no)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z49"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 49,
+      "ref": "50",
+      "label": "Do you receive parts and material from your own qualified supplier? (n/a)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z50"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 50,
+      "ref": "51",
+      "label": "Is a current list of approved suppliers maintained on file?",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z51"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 51,
+      "ref": "52",
+      "label": "Is a current list of approved suppliers maintained on file? (no)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z52"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 52,
+      "ref": "53",
+      "label": "Is a current list of approved suppliers maintained on file? (n/a)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z53"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 53,
+      "ref": "54",
+      "label": "Do you accept parts and material from your customer?",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z54"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 54,
+      "ref": "55",
+      "label": "Do you accept parts and material from your customer? (no)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z55"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 55,
+      "ref": "56",
+      "label": "Do you accept parts and material from your customer? (n/a)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z56"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 56,
+      "ref": "57",
+      "label": "Will your organization provide the registered warranty of two years?*",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z57"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 57,
+      "ref": "58",
+      "label": "Will your organization provide the registered warranty of two years?* (no)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z58"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 58,
+      "ref": "59",
+      "label": "Will your organization provide the registered warranty of two years?* (n/a)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z59"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 59,
+      "ref": "60",
+      "label": "Is access to stock rooms and material storage areas controlled to prevent unauthorized stocking or removal?",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z60"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 60,
+      "ref": "61",
+      "label": "Is access to stock rooms and material storage areas controlled to prevent unauthorized stocking or removal? (no)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z61"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 61,
+      "ref": "62",
+      "label": "Is access to stock rooms and material storage areas controlled to prevent unauthorized stocking or removal? (n/a)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z62"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 62,
+      "ref": "63",
+      "label": "Is there a written procedure for incoming inspection?",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z63"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 63,
+      "ref": "64",
+      "label": "Is there a written procedure for incoming inspection? (no)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z64"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 64,
+      "ref": "65",
+      "label": "Is there a written procedure for incoming inspection? (n/a)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z65"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 65,
+      "ref": "66",
+      "label": "Is material for non-aircraft use identified and segregated from aircraft material?",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z66"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 66,
+      "ref": "67",
+      "label": "Is material for non-aircraft use identified and segregated from aircraft material? (no)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z67"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 67,
+      "ref": "68",
+      "label": "Is material for non-aircraft use identified and segregated from aircraft material? (n/a)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z68"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 68,
+      "ref": "69",
+      "label": "Are written procedures in effect to control the calibration of tools, gages and test equipment?",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z69"
+      ],
+      "messages": [
+        "Z69 : le texte autour de la zone ne ressemble pas au libellé « Are written procedures in effect to control the ca » (left: zur Überwachung der Kalibrierung von Wer ; tooltip: Gibt es festgelegte Verfahren zur Uberuw)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 69,
+      "ref": "70",
+      "label": "Are written procedures in effect to control the calibration of tools, gages and test equipment? (no)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z70"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 70,
+      "ref": "71",
+      "label": "Are written procedures in effect to control the calibration of tools, gages and test equipment? (n/a)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z71"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 71,
+      "ref": "72",
+      "label": "How long are records of purchase, material certification and test / work reports maintained on file?",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z72"
+      ],
+      "messages": [
+        "Z72 : le texte autour de la zone ne ressemble pas au libellé « How long are records of purchase, material certifi » (left: Nachweisdokumente über Material, Werkzeu ; tooltip: Textfield-8)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 72,
+      "ref": "73",
+      "label": "Do you have a training program for your employees?",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z73"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 73,
+      "ref": "74",
+      "label": "Do you have a training program for your employees? (no)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z74"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 74,
+      "ref": "75",
+      "label": "Do you have a training program for your employees? (n/a)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z75"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 75,
+      "ref": "76",
+      "label": "Do you maintain training records of your employees?",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z76"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 76,
+      "ref": "77",
+      "label": "Do you maintain training records of your employees? (no)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z77"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 77,
+      "ref": "78",
+      "label": "Do you maintain training records of your employees? (n/a)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z78"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 78,
+      "ref": "79",
+      "label": "Is your Organization approved as 'Repair Station' by the FAA?",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z79"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 79,
+      "ref": "80",
+      "label": "Is your Organization approved as 'Repair Station' by the FAA? (nein/no)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z80"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 80,
+      "ref": "81",
+      "label": "Is your Organization approved as 'Repair Station' by the FAA? (n/a)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z81"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 81,
+      "ref": "82",
+      "label": "Have you got an approved anti-drug and alcohol misuse prevention program in place?",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z82"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 82,
+      "ref": "83",
+      "label": "Have you got an approved anti-drug and alcohol misuse prevention program in place? (nein/no)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z83"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 83,
+      "ref": "84",
+      "label": "Have you got an approved anti-drug and alcohol misuse prevention program in place? (n/a)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z84"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 84,
+      "ref": "85",
+      "label": "Wenn ja, If yes,:",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z85"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 85,
+      "ref": "86",
+      "label": "Bitte Kopie beifügen!",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    },
+    {
+      "index": 86,
+      "ref": "87",
+      "label": "JAA Form One",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z88"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 87,
+      "ref": "88",
+      "label": "JAA Form One (nein/no)",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z89"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 88,
+      "ref": "89",
+      "label": "EASA Form One",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z90"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 89,
+      "ref": "90",
+      "label": "EASA Form One (nein/no)",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z91"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 90,
+      "ref": "91",
+      "label": "FAA Form 8130-3",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z92"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 91,
+      "ref": "92",
+      "label": "FAA Form 8130-3 (nein/no)",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z93"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 92,
+      "ref": "93",
+      "label": "Dual Release Form (FAA/EASA)",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z94"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 93,
+      "ref": "94",
+      "label": "Dual Release Form (FAA/EASA) (nein/no)",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z95"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 94,
+      "ref": "95",
+      "label": "Canadian Form 1 (TCCA 24-0078)",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z96"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 95,
+      "ref": "96",
+      "label": "Canadian Form 1 (TCCA 24-0078) (nein/no)",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z97"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 96,
+      "ref": "97",
+      "label": "SEGVOO 003",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z98"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 97,
+      "ref": "98",
+      "label": "SEGVOO 003 (nein/no)",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z99"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 98,
+      "ref": "99",
+      "label": "C of C",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z100"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 99,
+      "ref": "100",
+      "label": "C of C (nein/no)",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z101"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 100,
+      "ref": "101",
+      "label": "sonstige / other",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z102"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 101,
+      "ref": "102",
+      "label": "Is there a system established at your organization for analyzing and evaluating of risks?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z103"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 102,
+      "ref": "103",
+      "label": "Is there a system established at your organization for analyzing and evaluating of risks? (nein/no)",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z104"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 103,
+      "ref": "104",
+      "label": "Do you have a comprehensive general liability?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z105"
+      ],
+      "messages": [
+        "Z105 : « ja/yes » ne figure pas autour de la case (left: ja/yes ; col: established at your organization for ana ; tooltip: neinno-9)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 104,
+      "ref": "105",
+      "label": "Do you have a comprehensive general liability? (nein/no)",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z106"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 105,
+      "ref": "106",
+      "label": "Wie hoch ist die Deckungssumme?",
+      "context": null,
+      "type": "text",
+      "confidence": "low",
+      "note": "Limit of coverage amount is not detailed in the knowledge base.",
+      "zones": [
+        "Z107"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 106,
+      "ref": "107",
+      "label": "Wenn ja, bitte Kopie(n) des/der Zertifikate(s) beifügen! / If it has been, please include a copy of your certificate(s)!",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    },
+    {
+      "index": 107,
+      "ref": "108",
+      "label": "Quality Manager / Quality Manager:",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z108"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 108,
+      "ref": "109",
+      "label": "Ort Datum",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "A remplir lors de la signature",
+      "zones": [
+        "Z109"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 109,
+      "ref": "110",
+      "label": "Name Unterschrift",
+      "context": null,
+      "type": "signature",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    },
+    {
+      "index": 110,
+      "ref": "111",
+      "label": "Ort, Datum:",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "A remplir lors de la signature",
+      "zones": [
+        "Z111"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 111,
+      "ref": "112",
+      "label": "Name, Unterschrift:",
+      "context": null,
+      "type": "signature",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    },
+    {
+      "index": 112,
+      "ref": "113",
+      "label": "Place, Date:",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "A remplir lors de la signature",
+      "zones": [
+        "Z113"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 113,
+      "ref": "114",
+      "label": "Name, Sign:",
+      "context": null,
+      "type": "signature",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    },
+    {
+      "index": 114,
+      "ref": "115",
+      "label": "Please return questionnaire to:",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    }
+  ],
+  "unused": [
+    "Z3",
+    "Z4",
+    "Z6",
+    "Z7",
+    "Z9",
+    "Z10",
+    "Z11",
+    "Z15",
+    "Z17",
+    "Z19",
+    "Z22",
+    "Z23",
+    "Z25",
+    "Z49",
+    "Z50",
+    "Z52",
+    "Z53",
+    "Z55",
+    "Z56",
+    "Z58",
+    "Z59",
+    "Z61",
+    "Z62",
+    "Z64",
+    "Z65",
+    "Z67",
+    "Z68",
+    "Z70",
+    "Z71",
+    "Z74",
+    "Z75",
+    "Z77",
+    "Z78",
+    "Z80",
+    "Z81",
+    "Z82",
+    "Z84",
+    "Z85",
+    "Z87",
+    "Z107",
+    "Z109",
+    "Z111",
+    "Z113",
+    "Z116"
+  ],
+  "map_id": "529a2767",
+  "detector": "zones-js-1"
+}

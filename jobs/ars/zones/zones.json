@@ -1,0 +1,5199 @@
+{
+  "kind": "pdf_flat",
+  "pages": 5,
+  "zones": [
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        169,
+        174,
+        552,
+        187.4
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Legal company name",
+        "above": "identification",
+        "line": "Legal company name"
+      },
+      "id": "Z1"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        169,
+        190,
+        552,
+        203.4
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Trading name (if different)",
+        "above": "identification",
+        "line": "Trading name (if different)"
+      },
+      "id": "Z2"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        169,
+        206,
+        552,
+        219.4
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Registered address",
+        "line": "Registered address"
+      },
+      "id": "Z3"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        149,
+        222,
+        327,
+        235.4
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "City / Postal code",
+        "above": "different)",
+        "line": "City / Postal code Country"
+      },
+      "id": "Z4"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        394,
+        222,
+        552,
+        235.4
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Country",
+        "line": "City / Postal code Country"
+      },
+      "id": "Z5"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        94,
+        238,
+        267,
+        251.4
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Phone",
+        "above": "Postal code",
+        "line": "Phone Website"
+      },
+      "id": "Z6"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        339,
+        238,
+        552,
+        251.4
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Website",
+        "above": "Country",
+        "line": "Phone Website"
+      },
+      "id": "Z7"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        204,
+        254,
+        367,
+        267.4
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "VAT / Chamber of Commerce no.",
+        "above": "Website",
+        "line": "VAT / Chamber of Commerce no. CAGE / NCAGE"
+      },
+      "id": "Z8"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        464,
+        254,
+        552,
+        267.4
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "CAGE / NCAGE",
+        "line": "VAT / Chamber of Commerce no. CAGE / NCAGE"
+      },
+      "id": "Z9"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        184,
+        270,
+        267,
+        283.4
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Years in aviation business",
+        "line": "Years in aviation business Total employees / aviation staff"
+      },
+      "id": "Z10"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        459,
+        270,
+        552,
+        283.4
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Total employees / aviation staff",
+        "line": "Years in aviation business Total employees / aviation staff"
+      },
+      "id": "Z11"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        268.63,
+        308,
+        552,
+        321.4
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Quality / Compliance contact (name, title, e-mail, phone)",
+        "line": "Quality / Compliance contact (name, title, e-mail, phone)"
+      },
+      "id": "Z12"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        266.73,
+        324,
+        552,
+        337.4
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Commercial / Order desk contact (name, e-mail, phone)",
+        "line": "Commercial / Order desk contact (name, e-mail, phone)"
+      },
+      "id": "Z13"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        261.08,
+        340,
+        552,
+        353.4
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Technical / Engineering contact (name, e-mail, phone)",
+        "above": "phone)",
+        "line": "Technical / Engineering contact (name, e-mail, phone)"
+      },
+      "id": "Z14"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        245.95,
+        356,
+        552,
+        369.4
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "After-sales / Claims contact (name, e-mail, phone)",
+        "above": "phone)",
+        "line": "After-sales / Claims contact (name, e-mail, phone)"
+      },
+      "id": "Z15"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        48,
+        399.5,
+        56,
+        407.5
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "right": "OEM / Design",
+        "line": "OEM / Design Part-145 / MRO Part-21G Production",
+        "col": "After-sales / Claims contact (name, e-mail,"
+      },
+      "id": "Z16"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        216.33,
+        399.5,
+        224.33,
+        407.5
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "left": "OEM / Design",
+        "right": "Part-145 / MRO",
+        "above": "that apply)",
+        "line": "OEM / Design Part-145 / MRO Part-21G Production",
+        "col": "3. Nature of business (tick all that apply)"
+      },
+      "id": "Z17"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        384.67,
+        399.5,
+        392.67,
+        407.5
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "left": "Part-145 / MRO",
+        "right": "Part-21G Production",
+        "line": "OEM / Design Part-145 / MRO Part-21G Production",
+        "col": "Total employees / aviation staff"
+      },
+      "id": "Z18"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        48,
+        415.5,
+        56,
+        423.5
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "right": "Part-21J Design",
+        "line": "Part-21J Design CAMO / Part-CAO Distributor / Broker",
+        "col": "After-sales / Claims contact (name, e-mail,"
+      },
+      "id": "Z19"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        216.33,
+        415.5,
+        224.33,
+        423.5
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "left": "Part-21J Design",
+        "right": "CAMO / Part-CAO",
+        "line": "Part-21J Design CAMO / Part-CAO Distributor / Broker",
+        "col": "3. Nature of business (tick all that apply)"
+      },
+      "id": "Z20"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        384.67,
+        415.5,
+        392.67,
+        423.5
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "left": "CAMO / Part-CAO",
+        "right": "Distributor / Broker",
+        "line": "Part-21J Design CAMO / Part-CAO Distributor / Broker",
+        "col": "Total employees / aviation staff"
+      },
+      "id": "Z21"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        48,
+        431.5,
+        56,
+        439.5
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "right": "Material supplier",
+        "line": "Material supplier Calibration laboratory NDT / Special process",
+        "col": "After-sales / Claims contact (name, e-mail,"
+      },
+      "id": "Z22"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        216.33,
+        431.5,
+        224.33,
+        439.5
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "left": "Material supplier",
+        "right": "Calibration laboratory",
+        "line": "Material supplier Calibration laboratory NDT / Special process",
+        "col": "3. Nature of business (tick all that apply)"
+      },
+      "id": "Z23"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        384.67,
+        431.5,
+        392.67,
+        439.5
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "left": "Calibration laboratory",
+        "right": "NDT / Special process",
+        "line": "Material supplier Calibration laboratory NDT / Special process",
+        "col": "Total employees / aviation staff"
+      },
+      "id": "Z24"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        48,
+        447.5,
+        56,
+        455.5
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "right": "Tooling / GSE supplier",
+        "line": "Tooling / GSE supplier Logistics / freight Software / avionics svc",
+        "col": "After-sales / Claims contact (name, e-mail,"
+      },
+      "id": "Z25"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        216.33,
+        447.5,
+        224.33,
+        455.5
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "left": "Tooling / GSE supplier",
+        "right": "Logistics / freight",
+        "line": "Tooling / GSE supplier Logistics / freight Software / avionics svc",
+        "col": "3. Nature of business (tick all that apply)"
+      },
+      "id": "Z26"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        384.67,
+        447.5,
+        392.67,
+        455.5
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "left": "Logistics / freight",
+        "right": "Software / avionics svc",
+        "line": "Tooling / GSE supplier Logistics / freight Software / avionics svc",
+        "col": "Total employees / aviation staff"
+      },
+      "id": "Z27"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        48,
+        463.5,
+        56,
+        471.5
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "right": "Training organisation",
+        "line": "Training organisation Other (specify below)",
+        "col": "After-sales / Claims contact (name, e-mail,"
+      },
+      "id": "Z28"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        216.33,
+        463.5,
+        224.33,
+        471.5
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "left": "Training organisation",
+        "right": "Other (specify below)",
+        "line": "Training organisation Other (specify below)",
+        "col": "3. Nature of business (tick all that apply)"
+      },
+      "id": "Z29"
+    },
+    {
+      "shape": "blank",
+      "kind": "text",
+      "rect": [
+        205.53,
+        486.9,
+        559,
+        496.76
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Primary goods / services offered to ARS:",
+        "above": "Other (specify below)",
+        "line": "Primary goods / services offered to ARS:"
+      },
+      "id": "Z30"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        49,
+        494,
+        552,
+        507.4
+      ],
+      "extra": [
+        [
+          49,
+          508,
+          552,
+          521.4
+        ],
+        [
+          49,
+          522,
+          552,
+          535.4
+        ]
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "Training organisation Other (specify below)"
+      },
+      "id": "Z31"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        49,
+        796,
+        552,
+        809.4
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {},
+      "id": "Z32"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        49.5,
+        119,
+        551.5,
+        135
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "above": "Authority / standard Certificate / approval no. Scope (short) Expiry",
+        "col": "Authority / standard Certificate / approval no. Scope (short) Expiry"
+      },
+      "id": "Z33"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        53,
+        134,
+        161,
+        147.4
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "above": "Authority / standard"
+      },
+      "id": "Z34"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        173,
+        134,
+        301,
+        147.4
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "above": "Certificate / approval no."
+      },
+      "id": "Z35"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        313,
+        134,
+        461,
+        147.4
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "above": "Scope (short)"
+      },
+      "id": "Z36"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        473,
+        134,
+        546,
+        147.4
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "above": "Expiry"
+      },
+      "id": "Z37"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        49.5,
+        155,
+        551.5,
+        171
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "col": "Authority / standard Certificate / approval no. Scope (short) Expiry"
+      },
+      "id": "Z38"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        53,
+        170,
+        161,
+        183.4
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {},
+      "id": "Z39"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        173,
+        170,
+        301,
+        183.4
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {},
+      "id": "Z40"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        313,
+        170,
+        461,
+        183.4
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {},
+      "id": "Z41"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        473,
+        170,
+        546,
+        183.4
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {},
+      "id": "Z42"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        49.5,
+        191,
+        551.5,
+        207
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "col": "Authority / standard Certificate / approval no. Scope (short) Expiry"
+      },
+      "id": "Z43"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        231.5,
+        367,
+        239.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "Relevant aviation authority approval is held and remains current for the",
+        "above": "Yes",
+        "line": "4.1 Relevant aviation authority approval is held and remains current for the",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z44"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        231.5,
+        393,
+        239.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "aviation authority approval is held and remains current for the",
+        "above": "No",
+        "line": "4.1 Relevant aviation authority approval is held and remains current for the",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z45"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        231.5,
+        419,
+        239.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "authority approval is held and remains current for the",
+        "above": "N/A",
+        "line": "4.1 Relevant aviation authority approval is held and remains current for the",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z46"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        254,
+        552,
+        267.4
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "(or equivalent) certification is held and",
+        "line": "4.2 ISO 9001 / EN 9100 / AS9100 (or equivalent) certification is held and"
+      },
+      "id": "Z47"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        259.5,
+        367,
+        267.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "9001 / EN 9100 / AS9100 (or equivalent) certification is held and",
+        "line": "4.2 ISO 9001 / EN 9100 / AS9100 (or equivalent) certification is held and",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z48"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        259.5,
+        393,
+        267.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "9100 / AS9100 (or equivalent) certification is held and",
+        "line": "4.2 ISO 9001 / EN 9100 / AS9100 (or equivalent) certification is held and",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z49"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        259.5,
+        419,
+        267.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "AS9100 (or equivalent) certification is held and",
+        "line": "4.2 ISO 9001 / EN 9100 / AS9100 (or equivalent) certification is held and",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z50"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        287.5,
+        367,
+        295.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "Specialised accreditation exists where required (ISO/IEC 17025, NADCAP,",
+        "line": "4.3 Specialised accreditation exists where required (ISO/IEC 17025, NADCAP,",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z51"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        287.5,
+        393,
+        295.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "accreditation exists where required (ISO/IEC 17025, NADCAP,",
+        "line": "4.3 Specialised accreditation exists where required (ISO/IEC 17025, NADCAP,",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z52"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        287.5,
+        419,
+        295.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "accreditation exists where required (ISO/IEC 17025, NADCAP,",
+        "line": "4.3 Specialised accreditation exists where required (ISO/IEC 17025, NADCAP,",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z53"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        310,
+        552,
+        323.4
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "currently suspended, limited, expired or under",
+        "line": "4.4 No relevant approval is currently suspended, limited, expired or under"
+      },
+      "id": "Z54"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        315.5,
+        367,
+        323.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "relevant approval is currently suspended, limited, expired or under",
+        "line": "4.4 No relevant approval is currently suspended, limited, expired or under",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z55"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        315.5,
+        393,
+        323.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "approval is currently suspended, limited, expired or under",
+        "line": "4.4 No relevant approval is currently suspended, limited, expired or under",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z56"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        315.5,
+        419,
+        323.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "is currently suspended, limited, expired or under",
+        "line": "4.4 No relevant approval is currently suspended, limited, expired or under",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z57"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        343.5,
+        367,
+        351.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "of certificates, ratings and capability lists can be provided with this",
+        "line": "4.5 Copies of certificates, ratings and capability lists can be provided with this",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z58"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        343.5,
+        393,
+        351.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "certificates, ratings and capability lists can be provided with this",
+        "line": "4.5 Copies of certificates, ratings and capability lists can be provided with this",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z59"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        343.5,
+        419,
+        351.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "ratings and capability lists can be provided with this",
+        "line": "4.5 Copies of certificates, ratings and capability lists can be provided with this",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z60"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        366,
+        552,
+        379.4
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "certification-body or major customer audit is known",
+        "line": "4.6 Date of last authority, certification-body or major customer audit is known"
+      },
+      "id": "Z61"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        371.5,
+        367,
+        379.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "last authority, certification-body or major customer audit is known",
+        "line": "4.6 Date of last authority, certification-body or major customer audit is known",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z62"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        371.5,
+        393,
+        379.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "authority, certification-body or major customer audit is known",
+        "line": "4.6 Date of last authority, certification-body or major customer audit is known",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z63"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        371.5,
+        419,
+        379.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "certification-body or major customer audit is known",
+        "line": "4.6 Date of last authority, certification-body or major customer audit is known",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z64"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        437.5,
+        367,
+        445.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "Goods/services proposed for ARS are clearly described (P/N, ATA, process,",
+        "above": "Yes",
+        "line": "5.1 Goods/services proposed for ARS are clearly described (P/N, ATA, process,",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z65"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        437.5,
+        393,
+        445.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "Goods/services proposed for ARS are clearly described (P/N, ATA, process,",
+        "above": "No",
+        "line": "5.1 Goods/services proposed for ARS are clearly described (P/N, ATA, process,",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z66"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        437.5,
+        419,
+        445.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "proposed for ARS are clearly described (P/N, ATA, process,",
+        "above": "N/A",
+        "line": "5.1 Goods/services proposed for ARS are clearly described (P/N, ATA, process,",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z67"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        460,
+        552,
+        473.4
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "cover the intended ARS purchase or contract",
+        "line": "5.2 Approval / capability ratings cover the intended ARS purchase or contract"
+      },
+      "id": "Z68"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        465.5,
+        367,
+        473.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "Approval / capability ratings cover the intended ARS purchase or contract",
+        "line": "5.2 Approval / capability ratings cover the intended ARS purchase or contract",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z69"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        465.5,
+        393,
+        473.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "capability ratings cover the intended ARS purchase or contract",
+        "line": "5.2 Approval / capability ratings cover the intended ARS purchase or contract",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z70"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        465.5,
+        419,
+        473.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "ratings cover the intended ARS purchase or contract",
+        "line": "5.2 Approval / capability ratings cover the intended ARS purchase or contract",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z71"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        493.5,
+        367,
+        501.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "Limitations, exclusions and work locations applicable to ARS are identified.",
+        "line": "5.3 Limitations, exclusions and work locations applicable to ARS are identified.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z72"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        493.5,
+        393,
+        501.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "exclusions and work locations applicable to ARS are identified.",
+        "line": "5.3 Limitations, exclusions and work locations applicable to ARS are identified.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z73"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        493.5,
+        419,
+        501.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "exclusions and work locations applicable to ARS are identified.",
+        "line": "5.3 Limitations, exclusions and work locations applicable to ARS are identified.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z74"
+    },
+    {
+      "shape": "label_space",
+      "kind": "text",
+      "rect": [
+        47.5,
+        502.61,
+        553.5,
+        517
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "above": "5.3 Limitations, exclusions and work locations applicable to ARS are identified.",
+        "col": "5.3 Limitations, exclusions and work locations applicable to ARS are identified."
+      },
+      "id": "Z75"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        516,
+        552,
+        529.4
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "processes remain under the vendor·s own control.",
+        "line": "5.4 Critical or safety-relevant processes remain under the vendor·s own control."
+      },
+      "id": "Z76"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        521.5,
+        367,
+        529.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "or safety-relevant processes remain under the vendor·s own control.",
+        "line": "5.4 Critical or safety-relevant processes remain under the vendor·s own control.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z77"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        521.5,
+        393,
+        529.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "safety-relevant processes remain under the vendor·s own control.",
+        "line": "5.4 Critical or safety-relevant processes remain under the vendor·s own control.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z78"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        521.5,
+        419,
+        529.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "safety-relevant processes remain under the vendor·s own control.",
+        "line": "5.4 Critical or safety-relevant processes remain under the vendor·s own control.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z79"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        549.5,
+        367,
+        557.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "subcontracting of ARS work is controlled, monitored and disclosed",
+        "line": "5.5 Further subcontracting of ARS work is controlled, monitored and disclosed",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z80"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        549.5,
+        393,
+        557.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "subcontracting of ARS work is controlled, monitored and disclosed",
+        "line": "5.5 Further subcontracting of ARS work is controlled, monitored and disclosed",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z81"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        549.5,
+        419,
+        557.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "subcontracting of ARS work is controlled, monitored and disclosed",
+        "line": "5.5 Further subcontracting of ARS work is controlled, monitored and disclosed",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z82"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        572,
+        552,
+        585.4
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "control) of significant sub-suppliers is",
+        "line": "5.6 A current list (or equivalent control) of significant sub-suppliers is"
+      },
+      "id": "Z83"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        577.5,
+        367,
+        585.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "current list (or equivalent control) of significant sub-suppliers is",
+        "line": "5.6 A current list (or equivalent control) of significant sub-suppliers is",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z84"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        577.5,
+        393,
+        585.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "(or equivalent control) of significant sub-suppliers is",
+        "line": "5.6 A current list (or equivalent control) of significant sub-suppliers is",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z85"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        577.5,
+        419,
+        585.5
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "equivalent control) of significant sub-suppliers is",
+        "line": "5.6 A current list (or equivalent control) of significant sub-suppliers is",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z86"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        49,
+        796,
+        552,
+        809.4
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {},
+      "id": "Z87"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        105.5,
+        367,
+        113.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "documented QMS appropriate to the aviation scope is implemented and",
+        "above": "Yes",
+        "line": "6.1 A documented QMS appropriate to the aviation scope is implemented and",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z88"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        105.5,
+        393,
+        113.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "QMS appropriate to the aviation scope is implemented and",
+        "above": "No",
+        "line": "6.1 A documented QMS appropriate to the aviation scope is implemented and",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z89"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        105.5,
+        419,
+        113.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "appropriate to the aviation scope is implemented and",
+        "above": "N/A",
+        "line": "6.1 A documented QMS appropriate to the aviation scope is implemented and",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z90"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        128,
+        552,
+        141.4
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "procedures are available to personnel who need",
+        "line": "6.2 Quality policy / manual / procedures are available to personnel who need"
+      },
+      "id": "Z91"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        133.5,
+        367,
+        141.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "policy / manual / procedures are available to personnel who need",
+        "line": "6.2 Quality policy / manual / procedures are available to personnel who need",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z92"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        133.5,
+        393,
+        141.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "/ manual / procedures are available to personnel who need",
+        "line": "6.2 Quality policy / manual / procedures are available to personnel who need",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z93"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        133.5,
+        419,
+        141.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "manual / procedures are available to personnel who need",
+        "line": "6.2 Quality policy / manual / procedures are available to personnel who need",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z94"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        161.5,
+        367,
+        169.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "independent internal audit / compliance monitoring programme is in",
+        "line": "6.3 An independent internal audit / compliance monitoring programme is in",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z95"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        161.5,
+        393,
+        169.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "independent internal audit / compliance monitoring programme is in",
+        "line": "6.3 An independent internal audit / compliance monitoring programme is in",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z96"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        161.5,
+        419,
+        169.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "internal audit / compliance monitoring programme is in",
+        "line": "6.3 An independent internal audit / compliance monitoring programme is in",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z97"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        184,
+        552,
+        197.4
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "corrective actions assigned, verified and closed",
+        "line": "6.4 Findings are recorded, corrective actions assigned, verified and closed"
+      },
+      "id": "Z98"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        189.5,
+        367,
+        197.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Findings are recorded, corrective actions assigned, verified and closed",
+        "line": "6.4 Findings are recorded, corrective actions assigned, verified and closed",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z99"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        189.5,
+        393,
+        197.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "recorded, corrective actions assigned, verified and closed",
+        "line": "6.4 Findings are recorded, corrective actions assigned, verified and closed",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z100"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        189.5,
+        419,
+        197.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "corrective actions assigned, verified and closed",
+        "line": "6.4 Findings are recorded, corrective actions assigned, verified and closed",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z101"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        217.5,
+        367,
+        225.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Customer, regulatory and contractual requirements are flowed into",
+        "line": "6.5 Customer, regulatory and contractual requirements are flowed into",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z102"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        217.5,
+        393,
+        225.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "regulatory and contractual requirements are flowed into",
+        "line": "6.5 Customer, regulatory and contractual requirements are flowed into",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z103"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        217.5,
+        419,
+        225.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "and contractual requirements are flowed into",
+        "line": "6.5 Customer, regulatory and contractual requirements are flowed into",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z104"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        240,
+        552,
+        253.4
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "and protected for the required retention period.",
+        "line": "6.6 Quality records are retained and protected for the required retention period."
+      },
+      "id": "Z105"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        245.5,
+        367,
+        253.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "records are retained and protected for the required retention period.",
+        "line": "6.6 Quality records are retained and protected for the required retention period.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z106"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        245.5,
+        393,
+        253.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "records are retained and protected for the required retention period.",
+        "line": "6.6 Quality records are retained and protected for the required retention period.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z107"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        245.5,
+        419,
+        253.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "retained and protected for the required retention period.",
+        "line": "6.6 Quality records are retained and protected for the required retention period.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z108"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        273.5,
+        367,
+        281.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Management responsibility for quality is clearly assigned and resourced.",
+        "line": "6.7 Management responsibility for quality is clearly assigned and resourced.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z109"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        273.5,
+        393,
+        281.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "responsibility for quality is clearly assigned and resourced.",
+        "line": "6.7 Management responsibility for quality is clearly assigned and resourced.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z110"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        273.5,
+        419,
+        281.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "responsibility for quality is clearly assigned and resourced.",
+        "line": "6.7 Management responsibility for quality is clearly assigned and resourced.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z111"
+    },
+    {
+      "shape": "label_space",
+      "kind": "text",
+      "rect": [
+        47.5,
+        282.61,
+        553.5,
+        297
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "above": "6.7 Management responsibility for quality is clearly assigned and resourced.",
+        "col": "6.7 Management responsibility for quality is clearly assigned and resourced."
+      },
+      "id": "Z112"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        337.5,
+        367,
+        345.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "safety / risk management process appropriate to the aviation activity is",
+        "above": "Yes",
+        "line": "7.1 A safety / risk management process appropriate to the aviation activity is",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z113"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        337.5,
+        393,
+        345.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "management process appropriate to the aviation activity is",
+        "above": "No",
+        "line": "7.1 A safety / risk management process appropriate to the aviation activity is",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z114"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        337.5,
+        419,
+        345.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "management process appropriate to the aviation activity is",
+        "above": "N/A",
+        "line": "7.1 A safety / risk management process appropriate to the aviation activity is",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z115"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        360,
+        552,
+        373.4
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "products/services supplied to ARS are identified and",
+        "line": "7.2 Hazards related to products/services supplied to ARS are identified and"
+      },
+      "id": "Z116"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        365.5,
+        367,
+        373.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Hazards related to products/services supplied to ARS are identified and",
+        "line": "7.2 Hazards related to products/services supplied to ARS are identified and",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z117"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        365.5,
+        393,
+        373.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "related to products/services supplied to ARS are identified and",
+        "line": "7.2 Hazards related to products/services supplied to ARS are identified and",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z118"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        365.5,
+        419,
+        373.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "products/services supplied to ARS are identified and",
+        "line": "7.2 Hazards related to products/services supplied to ARS are identified and",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z119"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        393.5,
+        367,
+        401.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "internal occurrence / hazard reporting channel exists (including",
+        "line": "7.3 An internal occurrence / hazard reporting channel exists (including",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z120"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        393.5,
+        393,
+        401.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "occurrence / hazard reporting channel exists (including",
+        "line": "7.3 An internal occurrence / hazard reporting channel exists (including",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z121"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        393.5,
+        419,
+        401.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "/ hazard reporting channel exists (including",
+        "line": "7.3 An internal occurrence / hazard reporting channel exists (including",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z122"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        416,
+        552,
+        429.4
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "investigated; causes and contributing factors are",
+        "line": "7.4 Occurrences are investigated; causes and contributing factors are"
+      },
+      "id": "Z123"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        421.5,
+        367,
+        429.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Occurrences are investigated; causes and contributing factors are",
+        "line": "7.4 Occurrences are investigated; causes and contributing factors are",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z124"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        421.5,
+        393,
+        429.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "are investigated; causes and contributing factors are",
+        "line": "7.4 Occurrences are investigated; causes and contributing factors are",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z125"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        421.5,
+        419,
+        429.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "investigated; causes and contributing factors are",
+        "line": "7.4 Occurrences are investigated; causes and contributing factors are",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z126"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        449.5,
+        367,
+        457.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "or quality issues affecting ARS products/services are notified without",
+        "line": "7.5 Safety or quality issues affecting ARS products/services are notified without",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z127"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        449.5,
+        393,
+        457.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "quality issues affecting ARS products/services are notified without",
+        "line": "7.5 Safety or quality issues affecting ARS products/services are notified without",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z128"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        449.5,
+        419,
+        457.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "issues affecting ARS products/services are notified without",
+        "line": "7.5 Safety or quality issues affecting ARS products/services are notified without",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z129"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        472,
+        552,
+        485.4
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "applied so personnel are not punished for honest",
+        "line": "7.6 Just culture principles are applied so personnel are not punished for honest"
+      },
+      "id": "Z130"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        477.5,
+        367,
+        485.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "culture principles are applied so personnel are not punished for honest",
+        "line": "7.6 Just culture principles are applied so personnel are not punished for honest",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z131"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        477.5,
+        393,
+        485.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "principles are applied so personnel are not punished for honest",
+        "line": "7.6 Just culture principles are applied so personnel are not punished for honest",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z132"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        477.5,
+        419,
+        485.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "principles are applied so personnel are not punished for honest",
+        "line": "7.6 Just culture principles are applied so personnel are not punished for honest",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z133"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        541.5,
+        367,
+        549.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Facilities suit the work and protect parts/products from adverse",
+        "above": "Yes",
+        "line": "8.1 Facilities suit the work and protect parts/products from adverse",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z134"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        541.5,
+        393,
+        549.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "the work and protect parts/products from adverse",
+        "above": "No",
+        "line": "8.1 Facilities suit the work and protect parts/products from adverse",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z135"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        541.5,
+        419,
+        549.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "work and protect parts/products from adverse",
+        "above": "N/A",
+        "line": "8.1 Facilities suit the work and protect parts/products from adverse",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z136"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        564,
+        552,
+        577.4
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "segregated to prevent contamination or",
+        "line": "8.2 Specialised areas are segregated to prevent contamination or"
+      },
+      "id": "Z137"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        569.5,
+        367,
+        577.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Specialised areas are segregated to prevent contamination or",
+        "line": "8.2 Specialised areas are segregated to prevent contamination or",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z138"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        569.5,
+        393,
+        577.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "areas are segregated to prevent contamination or",
+        "line": "8.2 Specialised areas are segregated to prevent contamination or",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z139"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        569.5,
+        419,
+        577.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "segregated to prevent contamination or",
+        "line": "8.2 Specialised areas are segregated to prevent contamination or",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z140"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        597.5,
+        367,
+        605.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Serviceable and unserviceable items are clearly segregated.",
+        "line": "8.3 Serviceable and unserviceable items are clearly segregated.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z141"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        597.5,
+        393,
+        605.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "and unserviceable items are clearly segregated.",
+        "line": "8.3 Serviceable and unserviceable items are clearly segregated.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z142"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        597.5,
+        419,
+        605.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "unserviceable items are clearly segregated.",
+        "line": "8.3 Serviceable and unserviceable items are clearly segregated.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z143"
+    },
+    {
+      "shape": "label_space",
+      "kind": "text",
+      "rect": [
+        47.5,
+        606.61,
+        553.5,
+        621
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "above": "8.3 Serviceable and unserviceable items are clearly segregated.",
+        "col": "8.3 Serviceable and unserviceable items are clearly segregated."
+      },
+      "id": "Z144"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        620,
+        552,
+        633.4
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "against damage, loss, theft or unauthorised",
+        "line": "8.4 Customer property is secured against damage, loss, theft or unauthorised"
+      },
+      "id": "Z145"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        625.5,
+        367,
+        633.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Customer property is secured against damage, loss, theft or unauthorised",
+        "line": "8.4 Customer property is secured against damage, loss, theft or unauthorised",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z146"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        625.5,
+        393,
+        633.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "property is secured against damage, loss, theft or unauthorised",
+        "line": "8.4 Customer property is secured against damage, loss, theft or unauthorised",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z147"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        625.5,
+        419,
+        633.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "secured against damage, loss, theft or unauthorised",
+        "line": "8.4 Customer property is secured against damage, loss, theft or unauthorised",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z148"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        653.5,
+        367,
+        661.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Lighting, cleanliness, temperature/humidity are controlled where",
+        "line": "8.5 Lighting, cleanliness, temperature/humidity are controlled where",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z149"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        653.5,
+        393,
+        661.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "cleanliness, temperature/humidity are controlled where",
+        "line": "8.5 Lighting, cleanliness, temperature/humidity are controlled where",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z150"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        653.5,
+        419,
+        661.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "temperature/humidity are controlled where",
+        "line": "8.5 Lighting, cleanliness, temperature/humidity are controlled where",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z151"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        676,
+        552,
+        689.4
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "waste are handled under documented HSE",
+        "line": "8.6 Hazardous materials and waste are handled under documented HSE"
+      },
+      "id": "Z152"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        681.5,
+        367,
+        689.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Hazardous materials and waste are handled under documented HSE",
+        "line": "8.6 Hazardous materials and waste are handled under documented HSE",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z153"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        681.5,
+        393,
+        689.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "materials and waste are handled under documented HSE",
+        "line": "8.6 Hazardous materials and waste are handled under documented HSE",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z154"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        681.5,
+        419,
+        689.5
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "and waste are handled under documented HSE",
+        "line": "8.6 Hazardous materials and waste are handled under documented HSE",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z155"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        49,
+        796,
+        552,
+        809.4
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {},
+      "id": "Z156"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        105.5,
+        367,
+        113.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "Required release / conformity documents can be supplied with each delivery",
+        "above": "Yes",
+        "line": "9.1 Required release / conformity documents can be supplied with each delivery",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z157"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        105.5,
+        393,
+        113.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "release / conformity documents can be supplied with each delivery",
+        "above": "No",
+        "line": "9.1 Required release / conformity documents can be supplied with each delivery",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z158"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        105.5,
+        419,
+        113.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "conformity documents can be supplied with each delivery",
+        "above": "N/A",
+        "line": "9.1 Required release / conformity documents can be supplied with each delivery",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z159"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        128,
+        552,
+        141.4
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "left": "Form 1 / FAA 8130-3 / accepted equivalent can be",
+        "line": "9.2 Where applicable, EASA Form 1 / FAA 8130-3 / accepted equivalent can be"
+      },
+      "id": "Z160"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        133.5,
+        367,
+        141.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "applicable, EASA Form 1 / FAA 8130-3 / accepted equivalent can be",
+        "line": "9.2 Where applicable, EASA Form 1 / FAA 8130-3 / accepted equivalent can be",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z161"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        133.5,
+        393,
+        141.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "applicable, EASA Form 1 / FAA 8130-3 / accepted equivalent can be",
+        "line": "9.2 Where applicable, EASA Form 1 / FAA 8130-3 / accepted equivalent can be",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z162"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        133.5,
+        419,
+        141.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "EASA Form 1 / FAA 8130-3 / accepted equivalent can be",
+        "line": "9.2 Where applicable, EASA Form 1 / FAA 8130-3 / accepted equivalent can be",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z163"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        161.5,
+        367,
+        169.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "Certificates of Conformity and material certs (e.g. EN 10204) can be",
+        "line": "9.3 Certificates of Conformity and material certs (e.g. EN 10204) can be",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z164"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        161.5,
+        393,
+        169.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "Conformity and material certs (e.g. EN 10204) can be",
+        "line": "9.3 Certificates of Conformity and material certs (e.g. EN 10204) can be",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z165"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        161.5,
+        419,
+        169.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "Conformity and material certs (e.g. EN 10204) can be",
+        "line": "9.3 Certificates of Conformity and material certs (e.g. EN 10204) can be",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z166"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        184,
+        552,
+        197.4
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "left": "to the delivered item, batch/serial and purchase",
+        "line": "9.4 Documentation is traceable to the delivered item, batch/serial and purchase"
+      },
+      "id": "Z167"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        189.5,
+        367,
+        197.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "Documentation is traceable to the delivered item, batch/serial and purchase",
+        "line": "9.4 Documentation is traceable to the delivered item, batch/serial and purchase",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z168"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        189.5,
+        393,
+        197.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "is traceable to the delivered item, batch/serial and purchase",
+        "line": "9.4 Documentation is traceable to the delivered item, batch/serial and purchase",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z169"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        189.5,
+        419,
+        197.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "traceable to the delivered item, batch/serial and purchase",
+        "line": "9.4 Documentation is traceable to the delivered item, batch/serial and purchase",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z170"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        217.5,
+        367,
+        225.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "Incoming inspection procedures exist for parts, materials and",
+        "line": "9.5 Incoming inspection procedures exist for parts, materials and",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z171"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        217.5,
+        393,
+        225.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "inspection procedures exist for parts, materials and",
+        "line": "9.5 Incoming inspection procedures exist for parts, materials and",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z172"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        217.5,
+        419,
+        225.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "procedures exist for parts, materials and",
+        "line": "9.5 Incoming inspection procedures exist for parts, materials and",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z173"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        240,
+        552,
+        253.4
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "left": "are controlled; expired stock cannot be issued for",
+        "line": "9.6 Shelf-life / life-limited items are controlled; expired stock cannot be issued for"
+      },
+      "id": "Z174"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        245.5,
+        367,
+        253.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "Shelf-life / life-limited items are controlled; expired stock cannot be issued for",
+        "line": "9.6 Shelf-life / life-limited items are controlled; expired stock cannot be issued for",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z175"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        245.5,
+        393,
+        253.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "life-limited items are controlled; expired stock cannot be issued for",
+        "line": "9.6 Shelf-life / life-limited items are controlled; expired stock cannot be issued for",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z176"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        245.5,
+        419,
+        253.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "items are controlled; expired stock cannot be issued for",
+        "line": "9.6 Shelf-life / life-limited items are controlled; expired stock cannot be issued for",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z177"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        273.5,
+        367,
+        281.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "ESD-sensitive devices are handled and stored under controlled procedures.",
+        "line": "9.7 ESD-sensitive devices are handled and stored under controlled procedures.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z178"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        273.5,
+        393,
+        281.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "devices are handled and stored under controlled procedures.",
+        "line": "9.7 ESD-sensitive devices are handled and stored under controlled procedures.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z179"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        273.5,
+        419,
+        281.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "devices are handled and stored under controlled procedures.",
+        "line": "9.7 ESD-sensitive devices are handled and stored under controlled procedures.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z180"
+    },
+    {
+      "shape": "label_space",
+      "kind": "text",
+      "rect": [
+        47.5,
+        282.61,
+        553.5,
+        297
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "above": "9.7 ESD-sensitive devices are handled and stored under controlled procedures.",
+        "col": "9.7 ESD-sensitive devices are handled and stored under controlled procedures."
+      },
+      "id": "Z181"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        296,
+        552,
+        309.4
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "left": "are segregated pending disposition.",
+        "line": "9.8 Quarantine / rejected items are segregated pending disposition."
+      },
+      "id": "Z182"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        301.5,
+        367,
+        309.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "Quarantine / rejected items are segregated pending disposition.",
+        "line": "9.8 Quarantine / rejected items are segregated pending disposition.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z183"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        301.5,
+        393,
+        309.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "rejected items are segregated pending disposition.",
+        "line": "9.8 Quarantine / rejected items are segregated pending disposition.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z184"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        301.5,
+        419,
+        309.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "items are segregated pending disposition.",
+        "line": "9.8 Quarantine / rejected items are segregated pending disposition.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z185"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        329.5,
+        367,
+        337.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "Unsalvageable parts are permanently mutilated or controlled to prevent",
+        "line": "9.9 Unsalvageable parts are permanently mutilated or controlled to prevent",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z186"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        329.5,
+        393,
+        337.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "parts are permanently mutilated or controlled to prevent",
+        "line": "9.9 Unsalvageable parts are permanently mutilated or controlled to prevent",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z187"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        329.5,
+        419,
+        337.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "are permanently mutilated or controlled to prevent",
+        "line": "9.9 Unsalvageable parts are permanently mutilated or controlled to prevent",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z188"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        352,
+        552,
+        365.4
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "left": "quarantine and report suspected unapproved",
+        "line": "9.10 A process exists to detect, quarantine and report suspected unapproved"
+      },
+      "id": "Z189"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        357.5,
+        367,
+        365.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "process exists to detect, quarantine and report suspected unapproved",
+        "line": "9.10 A process exists to detect, quarantine and report suspected unapproved",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z190"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        357.5,
+        393,
+        365.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "exists to detect, quarantine and report suspected unapproved",
+        "line": "9.10 A process exists to detect, quarantine and report suspected unapproved",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z191"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        357.5,
+        419,
+        365.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "detect, quarantine and report suspected unapproved",
+        "line": "9.10 A process exists to detect, quarantine and report suspected unapproved",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z192"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        421.5,
+        367,
+        429.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "and equipment used on aviation work are identified, maintained and",
+        "above": "Yes",
+        "line": "10.1 Tools and equipment used on aviation work are identified, maintained and",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z193"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        421.5,
+        393,
+        429.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "equipment used on aviation work are identified, maintained and",
+        "above": "No",
+        "line": "10.1 Tools and equipment used on aviation work are identified, maintained and",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z194"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        421.5,
+        419,
+        429.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "used on aviation work are identified, maintained and",
+        "above": "N/A",
+        "line": "10.1 Tools and equipment used on aviation work are identified, maintained and",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z195"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        444,
+        552,
+        457.4
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "left": "requiring calibration is registered and within",
+        "line": "10.2 Measuring / test equipment requiring calibration is registered and within"
+      },
+      "id": "Z196"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        449.5,
+        367,
+        457.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "Measuring / test equipment requiring calibration is registered and within",
+        "line": "10.2 Measuring / test equipment requiring calibration is registered and within",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z197"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        449.5,
+        393,
+        457.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "test equipment requiring calibration is registered and within",
+        "line": "10.2 Measuring / test equipment requiring calibration is registered and within",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z198"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        449.5,
+        419,
+        457.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "equipment requiring calibration is registered and within",
+        "line": "10.2 Measuring / test equipment requiring calibration is registered and within",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z199"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        477.5,
+        367,
+        485.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "Calibration is traceable to national / international standards.",
+        "line": "10.3 Calibration is traceable to national / international standards.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z200"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        477.5,
+        393,
+        485.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "traceable to national / international standards.",
+        "line": "10.3 Calibration is traceable to national / international standards.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z201"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        477.5,
+        419,
+        485.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "traceable to national / international standards.",
+        "line": "10.3 Calibration is traceable to national / international standards.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z202"
+    },
+    {
+      "shape": "label_space",
+      "kind": "text",
+      "rect": [
+        47.5,
+        486.61,
+        553.5,
+        501
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "above": "10.3 Calibration is traceable to national / international standards.",
+        "col": "10.3 Calibration is traceable to national / international standards."
+      },
+      "id": "Z203"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        500,
+        552,
+        513.4
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "left": "equipment is found out of tolerance after work",
+        "line": "10.4 A recall process exists if equipment is found out of tolerance after work"
+      },
+      "id": "Z204"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        505.5,
+        367,
+        513.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "recall process exists if equipment is found out of tolerance after work",
+        "line": "10.4 A recall process exists if equipment is found out of tolerance after work",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z205"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        505.5,
+        393,
+        513.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "process exists if equipment is found out of tolerance after work",
+        "line": "10.4 A recall process exists if equipment is found out of tolerance after work",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z206"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        505.5,
+        419,
+        513.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "exists if equipment is found out of tolerance after work",
+        "line": "10.4 A recall process exists if equipment is found out of tolerance after work",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z207"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        533.5,
+        367,
+        541.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "accountability / FOD control procedures exist (including personal tools if",
+        "line": "10.5 Tool accountability / FOD control procedures exist (including personal tools if",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z208"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        533.5,
+        393,
+        541.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "accountability / FOD control procedures exist (including personal tools if",
+        "line": "10.5 Tool accountability / FOD control procedures exist (including personal tools if",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z209"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        533.5,
+        419,
+        541.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "FOD control procedures exist (including personal tools if",
+        "line": "10.5 Tool accountability / FOD control procedures exist (including personal tools if",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z210"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        597.5,
+        367,
+        605.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "Personnel performing aviation work are trained, assessed and authorised for",
+        "above": "Yes",
+        "line": "11.1 Personnel performing aviation work are trained, assessed and authorised for",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z211"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        597.5,
+        393,
+        605.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "performing aviation work are trained, assessed and authorised for",
+        "above": "No",
+        "line": "11.1 Personnel performing aviation work are trained, assessed and authorised for",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z212"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        597.5,
+        419,
+        605.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "aviation work are trained, assessed and authorised for",
+        "above": "N/A",
+        "line": "11.1 Personnel performing aviation work are trained, assessed and authorised for",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z213"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        620,
+        552,
+        633.4
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "left": "included in initial and recurrent training where",
+        "line": "11.2 Human Factors awareness is included in initial and recurrent training where"
+      },
+      "id": "Z214"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        625.5,
+        367,
+        633.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "Factors awareness is included in initial and recurrent training where",
+        "line": "11.2 Human Factors awareness is included in initial and recurrent training where",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z215"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        625.5,
+        393,
+        633.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "awareness is included in initial and recurrent training where",
+        "line": "11.2 Human Factors awareness is included in initial and recurrent training where",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z216"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        625.5,
+        419,
+        633.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "awareness is included in initial and recurrent training where",
+        "line": "11.2 Human Factors awareness is included in initial and recurrent training where",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z217"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        653.5,
+        367,
+        661.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "Training records are maintained and retained for the required period.",
+        "line": "11.3 Training records are maintained and retained for the required period.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z218"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        653.5,
+        393,
+        661.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "records are maintained and retained for the required period.",
+        "line": "11.3 Training records are maintained and retained for the required period.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z219"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        653.5,
+        419,
+        661.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "maintained and retained for the required period.",
+        "line": "11.3 Training records are maintained and retained for the required period.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z220"
+    },
+    {
+      "shape": "label_space",
+      "kind": "text",
+      "rect": [
+        47.5,
+        662.61,
+        553.5,
+        677
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "above": "11.3 Training records are maintained and retained for the required period.",
+        "col": "11.3 Training records are maintained and retained for the required period."
+      },
+      "id": "Z221"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        676,
+        552,
+        689.4
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "left": "limitations and authorisations are controlled.",
+        "line": "11.4 Certifying / release staff limitations and authorisations are controlled."
+      },
+      "id": "Z222"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        681.5,
+        367,
+        689.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "Certifying / release staff limitations and authorisations are controlled.",
+        "line": "11.4 Certifying / release staff limitations and authorisations are controlled.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z223"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        681.5,
+        393,
+        689.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "release staff limitations and authorisations are controlled.",
+        "line": "11.4 Certifying / release staff limitations and authorisations are controlled.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z224"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        681.5,
+        419,
+        689.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "staff limitations and authorisations are controlled.",
+        "line": "11.4 Certifying / release staff limitations and authorisations are controlled.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z225"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        709.5,
+        367,
+        717.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "Workload is monitored so resources remain adequate for planned work.",
+        "line": "11.5 Workload is monitored so resources remain adequate for planned work.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z226"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        709.5,
+        393,
+        717.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "monitored so resources remain adequate for planned work.",
+        "line": "11.5 Workload is monitored so resources remain adequate for planned work.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z227"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        709.5,
+        419,
+        717.5
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "monitored so resources remain adequate for planned work.",
+        "line": "11.5 Workload is monitored so resources remain adequate for planned work.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z228"
+    },
+    {
+      "shape": "label_space",
+      "kind": "text",
+      "rect": [
+        47.5,
+        718.61,
+        553.5,
+        733
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "above": "11.5 Workload is monitored so resources remain adequate for planned work.",
+        "col": "11.5 Workload is monitored so resources remain adequate for planned work."
+      },
+      "id": "Z229"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        49,
+        796,
+        552,
+        809.4
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {},
+      "id": "Z230"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        105.5,
+        367,
+        113.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "Sources of aeronautical parts are restricted to approved / known suppliers.",
+        "above": "Yes",
+        "line": "12.1 Sources of aeronautical parts are restricted to approved / known suppliers.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z231"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        105.5,
+        393,
+        113.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "aeronautical parts are restricted to approved / known suppliers.",
+        "above": "No",
+        "line": "12.1 Sources of aeronautical parts are restricted to approved / known suppliers.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z232"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        105.5,
+        419,
+        113.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "aeronautical parts are restricted to approved / known suppliers.",
+        "above": "N/A",
+        "line": "12.1 Sources of aeronautical parts are restricted to approved / known suppliers.",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z233"
+    },
+    {
+      "shape": "label_space",
+      "kind": "text",
+      "rect": [
+        47.5,
+        114.61,
+        553.5,
+        129
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "above": "12.1 Sources of aeronautical parts are restricted to approved / known suppliers.",
+        "col": "12.1 Sources of aeronautical parts are restricted to approved / known suppliers."
+      },
+      "id": "Z234"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        128,
+        552,
+        141.4
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "left": "define required accompanying documentation for",
+        "line": "12.2 Purchasing procedures define required accompanying documentation for"
+      },
+      "id": "Z235"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        133.5,
+        367,
+        141.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "Purchasing procedures define required accompanying documentation for",
+        "line": "12.2 Purchasing procedures define required accompanying documentation for",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z236"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        133.5,
+        393,
+        141.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "procedures define required accompanying documentation for",
+        "line": "12.2 Purchasing procedures define required accompanying documentation for",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z237"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        133.5,
+        419,
+        141.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "procedures define required accompanying documentation for",
+        "line": "12.2 Purchasing procedures define required accompanying documentation for",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z238"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        161.5,
+        367,
+        169.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "is a process to escalate and notify ARS of suspected counterfeit or",
+        "line": "12.3 There is a process to escalate and notify ARS of suspected counterfeit or",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z239"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        161.5,
+        393,
+        169.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "process to escalate and notify ARS of suspected counterfeit or",
+        "line": "12.3 There is a process to escalate and notify ARS of suspected counterfeit or",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z240"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        161.5,
+        419,
+        169.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "escalate and notify ARS of suspected counterfeit or",
+        "line": "12.3 There is a process to escalate and notify ARS of suspected counterfeit or",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z241"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        184,
+        552,
+        197.4
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "left": "channels are controlled or prohibited for ARS",
+        "line": "12.4 Military surplus / scrap channels are controlled or prohibited for ARS"
+      },
+      "id": "Z242"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        189.5,
+        367,
+        197.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "Military surplus / scrap channels are controlled or prohibited for ARS",
+        "line": "12.4 Military surplus / scrap channels are controlled or prohibited for ARS",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z243"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        189.5,
+        393,
+        197.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "surplus / scrap channels are controlled or prohibited for ARS",
+        "line": "12.4 Military surplus / scrap channels are controlled or prohibited for ARS",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z244"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        189.5,
+        419,
+        197.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "scrap channels are controlled or prohibited for ARS",
+        "line": "12.4 Military surplus / scrap channels are controlled or prohibited for ARS",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z245"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        251.5,
+        367,
+        259.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "Customer technical data / drawings are controlled against unauthorised copy",
+        "above": "Yes",
+        "line": "13.1 Customer technical data / drawings are controlled against unauthorised copy",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z246"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        251.5,
+        393,
+        259.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "technical data / drawings are controlled against unauthorised copy",
+        "above": "No",
+        "line": "13.1 Customer technical data / drawings are controlled against unauthorised copy",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z247"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        251.5,
+        419,
+        259.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "data / drawings are controlled against unauthorised copy",
+        "above": "N/A",
+        "line": "13.1 Customer technical data / drawings are controlled against unauthorised copy",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z248"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        274,
+        552,
+        287.4
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "left": "quality records are backed up and protected",
+        "line": "13.2 Electronic maintenance / quality records are backed up and protected"
+      },
+      "id": "Z249"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        279.5,
+        367,
+        287.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "Electronic maintenance / quality records are backed up and protected",
+        "line": "13.2 Electronic maintenance / quality records are backed up and protected",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z250"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        279.5,
+        393,
+        287.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "maintenance / quality records are backed up and protected",
+        "line": "13.2 Electronic maintenance / quality records are backed up and protected",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z251"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        279.5,
+        419,
+        287.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "maintenance / quality records are backed up and protected",
+        "line": "13.2 Electronic maintenance / quality records are backed up and protected",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z252"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        307.5,
+        367,
+        315.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "to quality / production IT systems is role-based and reviewed",
+        "line": "13.3 Access to quality / production IT systems is role-based and reviewed",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z253"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        307.5,
+        393,
+        315.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "quality / production IT systems is role-based and reviewed",
+        "line": "13.3 Access to quality / production IT systems is role-based and reviewed",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z254"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        307.5,
+        419,
+        315.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "production IT systems is role-based and reviewed",
+        "line": "13.3 Access to quality / production IT systems is role-based and reviewed",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z255"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        330,
+        552,
+        343.4
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "left": "incidents that could affect ARS data or deliveries are",
+        "line": "13.4 Cyber / ransomware incidents that could affect ARS data or deliveries are"
+      },
+      "id": "Z256"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        335.5,
+        367,
+        343.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "ransomware incidents that could affect ARS data or deliveries are",
+        "line": "13.4 Cyber / ransomware incidents that could affect ARS data or deliveries are",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z257"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        335.5,
+        393,
+        343.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "ransomware incidents that could affect ARS data or deliveries are",
+        "line": "13.4 Cyber / ransomware incidents that could affect ARS data or deliveries are",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z258"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        335.5,
+        419,
+        343.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "incidents that could affect ARS data or deliveries are",
+        "line": "13.4 Cyber / ransomware incidents that could affect ARS data or deliveries are",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z259"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        397.5,
+        367,
+        405.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "business continuity / disaster recovery arrangement covers critical aviation",
+        "above": "Yes",
+        "line": "14.1 A business continuity / disaster recovery arrangement covers critical aviation",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z260"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        397.5,
+        393,
+        405.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "continuity / disaster recovery arrangement covers critical aviation",
+        "above": "No",
+        "line": "14.1 A business continuity / disaster recovery arrangement covers critical aviation",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z261"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        397.5,
+        419,
+        405.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "/ disaster recovery arrangement covers critical aviation",
+        "above": "N/A",
+        "line": "14.1 A business continuity / disaster recovery arrangement covers critical aviation",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z262"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        420,
+        552,
+        433.4
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "left": "restrictions applicable to ARS deliveries are",
+        "line": "14.2 Export-control / dual-use restrictions applicable to ARS deliveries are"
+      },
+      "id": "Z263"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        425.5,
+        367,
+        433.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "Export-control / dual-use restrictions applicable to ARS deliveries are",
+        "line": "14.2 Export-control / dual-use restrictions applicable to ARS deliveries are",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z264"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        425.5,
+        393,
+        433.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "/ dual-use restrictions applicable to ARS deliveries are",
+        "line": "14.2 Export-control / dual-use restrictions applicable to ARS deliveries are",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z265"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        425.5,
+        419,
+        433.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "dual-use restrictions applicable to ARS deliveries are",
+        "line": "14.2 Export-control / dual-use restrictions applicable to ARS deliveries are",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z266"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        453.5,
+        367,
+        461.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "Changes to approvals, ownership, location or key processes are notified to",
+        "line": "14.3 Changes to approvals, ownership, location or key processes are notified to",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z267"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        453.5,
+        393,
+        461.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "approvals, ownership, location or key processes are notified to",
+        "line": "14.3 Changes to approvals, ownership, location or key processes are notified to",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z268"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        453.5,
+        419,
+        461.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "ownership, location or key processes are notified to",
+        "line": "14.3 Changes to approvals, ownership, location or key processes are notified to",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z269"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        436,
+        476,
+        552,
+        489.4
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "left": "withdrawal of a relevant approval is notified",
+        "line": "14.4 Suspension, limitation or withdrawal of a relevant approval is notified"
+      },
+      "id": "Z270"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        481.5,
+        367,
+        489.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "Suspension, limitation or withdrawal of a relevant approval is notified",
+        "line": "14.4 Suspension, limitation or withdrawal of a relevant approval is notified",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z271"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        481.5,
+        393,
+        489.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "limitation or withdrawal of a relevant approval is notified",
+        "line": "14.4 Suspension, limitation or withdrawal of a relevant approval is notified",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z272"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        481.5,
+        419,
+        489.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "or withdrawal of a relevant approval is notified",
+        "line": "14.4 Suspension, limitation or withdrawal of a relevant approval is notified",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z273"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        359,
+        509.5,
+        367,
+        517.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "Significant quality escapes, delivery failures or safety issues affecting ARS",
+        "line": "14.5 Significant quality escapes, delivery failures or safety issues affecting ARS",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z274"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        385,
+        509.5,
+        393,
+        517.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "quality escapes, delivery failures or safety issues affecting ARS",
+        "line": "14.5 Significant quality escapes, delivery failures or safety issues affecting ARS",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z275"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        411,
+        509.5,
+        419,
+        517.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "escapes, delivery failures or safety issues affecting ARS",
+        "line": "14.5 Significant quality escapes, delivery failures or safety issues affecting ARS",
+        "col": "Yes No N/A Evidence / remarks"
+      },
+      "id": "Z276"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        187.39,
+        582,
+        552,
+        595.4
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "left": "Name of authorised representative",
+        "above": "affect the validity of any resulting vendor approval.",
+        "line": "Name of authorised representative"
+      },
+      "id": "Z277"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        169,
+        598,
+        552,
+        611.4
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "left": "Position / title",
+        "above": "representative",
+        "line": "Position / title"
+      },
+      "id": "Z278"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        104,
+        614,
+        327,
+        627.4
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "left": "Signature",
+        "above": "authorised representative",
+        "line": "Signature Date"
+      },
+      "id": "Z279"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        379,
+        614,
+        552,
+        627.4
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "left": "Date",
+        "line": "Signature Date"
+      },
+      "id": "Z280"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        119,
+        654,
+        297,
+        667.4
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "left": "Reviewed by",
+        "above": "Quality use only",
+        "line": "Reviewed by Date"
+      },
+      "id": "Z281"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        349,
+        654,
+        552,
+        667.4
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "left": "Date",
+        "line": "Reviewed by Date"
+      },
+      "id": "Z282"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        103,
+        675.5,
+        111,
+        683.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "Decision:",
+        "right": "Approved",
+        "line": "Decision: Approved Conditional Not approved On-site audit required",
+        "col": "16. For ARS Quality use only"
+      },
+      "id": "Z283"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        178,
+        675.5,
+        186,
+        683.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "Approved",
+        "right": "Conditional",
+        "line": "Decision: Approved Conditional Not approved On-site audit required",
+        "col": "16. For ARS Quality use only"
+      },
+      "id": "Z284"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        263,
+        675.5,
+        271,
+        683.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "Conditional",
+        "right": "Not approved",
+        "line": "Decision: Approved Conditional Not approved On-site audit required",
+        "col": "changes that may affect the validity of any resulting vendor approval."
+      },
+      "id": "Z285"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        358,
+        675.5,
+        366,
+        683.5
+      ],
+      "checked": false,
+      "page": 5,
+      "ctx": {
+        "left": "Not approved",
+        "right": "On-site audit required",
+        "line": "Decision: Approved Conditional Not approved On-site audit required",
+        "col": "Date"
+      },
+      "id": "Z286"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        164,
+        688,
+        297,
+        701.4
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "left": "Vendor code assigned",
+        "above": "Conditional Not approved",
+        "line": "Vendor code assigned Next review due"
+      },
+      "id": "Z287"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        404,
+        688,
+        552,
+        701.4
+      ],
+      "extra": [
+        [
+          49,
+          720,
+          552,
+          733.4
+        ],
+        [
+          49,
+          734,
+          552,
+          747.4
+        ],
+        [
+          49,
+          748,
+          552,
+          761.4
+        ]
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "left": "Next review due",
+        "above": "audit required",
+        "line": "Vendor code assigned Next review due"
+      },
+      "id": "Z288"
+    },
+    {
+      "shape": "blank",
+      "kind": "text",
+      "rect": [
+        88.36,
+        712.9,
+        559,
+        722.76
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "left": "Remarks:",
+        "above": "code assigned Next review due",
+        "line": "Remarks:"
+      },
+      "id": "Z289"
+    }
+  ],
+  "notes": [],
+  "detector": "zones-js-1",
+  "map_id": "8e406b63",
+  "source": "form.pdf"
+}

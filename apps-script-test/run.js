@@ -1,6 +1,5 @@
-/* run : valide answers.json, écrit le PDF et le review.
-   Même règles que formfill/validate.py, plan.py, fill_pdf.py, render.py.
-   Les rectangles des zones sont en repère PyMuPDF (origine en haut, y vers le bas). */
+/* run : valide answers.json, écrit le PDF et le review (implémentation canonique JS).
+   Les rectangles des zones sont en repère page (origine en haut, y vers le bas). */
 const Run = (function () {
   "use strict";
 
