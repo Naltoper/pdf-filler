@@ -17,7 +17,8 @@
       "type": "text",
       "zone": "Z1",
       "value": "AIRBUS HELICOPTERS",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "A2",
@@ -26,7 +27,8 @@
       "type": "text",
       "zone": "Z2",
       "value": "N/A",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "A3",
@@ -35,7 +37,8 @@
       "type": "text",
       "zone": "Z3",
       "value": "388 255 861",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS / company data (ref A3)"
     },
     {
       "ref": "A4",
@@ -44,7 +47,8 @@
       "type": "text",
       "zone": "Z4",
       "value": "Aéroport International Marseille Provence",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "A5",
@@ -53,7 +57,8 @@
       "type": "text",
       "zone": "Z5",
       "value": "13700",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS / company data (ref A5)"
     },
     {
       "ref": "A6",
@@ -62,7 +67,8 @@
       "type": "text",
       "zone": "Z6",
       "value": "Marignane",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS / company data (ref A6)"
     },
     {
       "ref": "A7",
@@ -71,7 +77,8 @@
       "type": "text",
       "zone": "Z7",
       "value": "France",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS / company data (ref A7)"
     },
     {
       "ref": "A8",
@@ -81,7 +88,8 @@
       "zone": "Z8",
       "value": null,
       "confidence": "low",
-      "note_for_reviewer": "TVA intracommunautaire à compléter par l'administration"
+      "note_for_reviewer": "TVA intracommunautaire à compléter par l'administration",
+      "source": null
     },
     {
       "ref": "A9",
@@ -91,7 +99,8 @@
       "zone": "Z9",
       "value": null,
       "confidence": "low",
-      "note_for_reviewer": "Numéro DUNS à confirmer"
+      "note_for_reviewer": "Numéro DUNS à confirmer",
+      "source": null
     },
     {
       "ref": "A10",
@@ -100,7 +109,8 @@
       "type": "text",
       "zone": "Z10",
       "value": "www.airbus.com",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "A11",
@@ -109,7 +119,8 @@
       "type": "text",
       "zone": "Z11",
       "value": "1992",
-      "confidence": "medium"
+      "confidence": "medium",
+      "source": "Master QMS / company data (ref A11)"
     },
     {
       "ref": "A12",
@@ -118,7 +129,8 @@
       "type": "choice",
       "zone": "Z15",
       "choice": "1 000 or more",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS §5.1 / company profile"
     },
     {
       "ref": "A13",
@@ -127,7 +139,8 @@
       "type": "choice",
       "zone": "Z18",
       "choice": "> 50 M EUR",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS (ref A13)"
     },
     {
       "ref": "B",
@@ -137,7 +150,8 @@
       "type": "text",
       "zone": "Z19",
       "value": "Romain TRAPP",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS / company data (ref B)"
     },
     {
       "ref": "B",
@@ -147,7 +161,8 @@
       "type": "text",
       "zone": "Z20",
       "value": "Accountable Manager / EVP Customer Support",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS / company data (ref B)"
     },
     {
       "ref": "B",
@@ -157,7 +172,8 @@
       "type": "text",
       "zone": "Z21",
       "value": "+33 4 42 85 85 85",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "B",
@@ -168,7 +184,8 @@
       "zone": "Z22",
       "value": null,
       "confidence": "low",
-      "note_for_reviewer": "A compléter"
+      "note_for_reviewer": "A compléter",
+      "source": null
     },
     {
       "ref": "B",
@@ -178,7 +195,8 @@
       "type": "text",
       "zone": "Z23",
       "value": "Elodie CARMONA",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "B",
@@ -188,7 +206,8 @@
       "type": "text",
       "zone": "Z24",
       "value": "Head of Safety and Quality S&S",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "B",
@@ -198,7 +217,8 @@
       "type": "text",
       "zone": "Z25",
       "value": "+33 4 42 85 85 85",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "B",
@@ -208,7 +228,8 @@
       "type": "text",
       "zone": "Z26",
       "value": "elodie.carmona@airbus.com",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "B",
@@ -218,7 +239,8 @@
       "type": "text",
       "zone": "Z27",
       "value": "Elisa MOREAU",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS / company data (ref B)"
     },
     {
       "ref": "B",
@@ -228,7 +250,8 @@
       "type": "text",
       "zone": "Z28",
       "value": "Key Account Manager",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS / company data (ref B)"
     },
     {
       "ref": "B",
@@ -238,7 +261,8 @@
       "type": "text",
       "zone": "Z29",
       "value": "+33 442 851 881",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "B",
@@ -248,7 +272,8 @@
       "type": "text",
       "zone": "Z30",
       "value": "elisa.moreau@airbus.com",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS / company data (ref B)"
     },
     {
       "ref": "B",
@@ -258,7 +283,8 @@
       "type": "text",
       "zone": "Z31",
       "value": "Olivier Tillier",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS / company data (ref B)"
     },
     {
       "ref": "B",
@@ -268,7 +294,8 @@
       "type": "text",
       "zone": "Z32",
       "value": "Stores Manager",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS / company data (ref B)"
     },
     {
       "ref": "B",
@@ -278,7 +305,8 @@
       "type": "text",
       "zone": "Z33",
       "value": "+33 4 42 85 85 85",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "B",
@@ -289,7 +317,8 @@
       "zone": "Z34",
       "value": null,
       "confidence": "low",
-      "note_for_reviewer": "A compléter"
+      "note_for_reviewer": "A compléter",
+      "source": null
     },
     {
       "ref": "C1",
@@ -298,7 +327,8 @@
       "type": "choice",
       "zone": "Z35",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS (ref C1)"
     },
     {
       "ref": "C2",
@@ -307,7 +337,8 @@
       "type": "text",
       "zone": "Z37",
       "value": "AIRBUS, Netherlands",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS / company data (ref C2)"
     },
     {
       "ref": "C3",
@@ -316,7 +347,8 @@
       "type": "text",
       "zone": "Z38",
       "value": "AIRBUS",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS / company data (ref C3)"
     },
     {
       "ref": "D.1",
@@ -327,7 +359,8 @@
       "zone": "Z39",
       "remark": "MOE Part 1",
       "remark_zone": "Z43",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "MOE Part 1"
     },
     {
       "ref": "D.1.1",
@@ -338,7 +371,8 @@
       "zone": "Z44",
       "remark": "MOE / QMS",
       "remark_zone": "Z48",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "MOE / QMS"
     },
     {
       "ref": "D.1.2",
@@ -349,7 +383,8 @@
       "zone": "Z49",
       "remark": "MOE Ch 1",
       "remark_zone": "Z53",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "MOE Ch 1"
     },
     {
       "ref": "D.1.3",
@@ -360,7 +395,8 @@
       "zone": "Z54",
       "remark": "MOE Ch 3",
       "remark_zone": "Z58",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "MOE Ch 3"
     },
     {
       "ref": "D.2",
@@ -371,7 +407,8 @@
       "zone": "Z59",
       "remark": "MOE Part 2",
       "remark_zone": "Z63",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "MOE Part 2"
     },
     {
       "ref": "D.2.1",
@@ -382,7 +419,8 @@
       "zone": "Z64",
       "remark": "MOE / QMS",
       "remark_zone": "Z68",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "MOE / QMS"
     },
     {
       "ref": "D.2.2",
@@ -393,7 +431,8 @@
       "zone": "Z69",
       "remark": "MOE",
       "remark_zone": "Z73",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "MOE"
     },
     {
       "ref": "D.2.3",
@@ -404,7 +443,8 @@
       "zone": "Z75",
       "remark": "3 to 7+ years based on regulatory min",
       "remark_zone": "Z78",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "D.3",
@@ -415,7 +455,8 @@
       "zone": "Z79",
       "remark": "MOE Part 2",
       "remark_zone": "Z83",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "MOE Part 2"
     },
     {
       "ref": "D.3.1",
@@ -426,7 +467,8 @@
       "zone": "Z84",
       "remark": "FAI Procedure",
       "remark_zone": "Z88",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "D.3.2",
@@ -437,7 +479,8 @@
       "zone": "Z89",
       "remark": "MOE Ch 2.5",
       "remark_zone": "Z93",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "MOE Ch 2.5"
     },
     {
       "ref": "D.3.3",
@@ -448,7 +491,8 @@
       "zone": "Z94",
       "remark": "MOE Ch 2.15",
       "remark_zone": "Z98",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "MOE Ch 2.15"
     },
     {
       "ref": "D.3.4",
@@ -459,7 +503,8 @@
       "zone": "Z99",
       "remark": "MOE Ch 2",
       "remark_zone": "Z103",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "MOE Ch 2"
     },
     {
       "ref": "D.4",
@@ -470,7 +515,8 @@
       "zone": "Z104",
       "remark": "MOE Ch 2.1",
       "remark_zone": "Z108",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "MOE Ch 2.1"
     },
     {
       "ref": "D.4.1",
@@ -481,7 +527,8 @@
       "zone": "Z109",
       "remark": "MOE Ch 2.1",
       "remark_zone": "Z113",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "MOE Ch 2.1"
     },
     {
       "ref": "D.4.2",
@@ -492,7 +539,8 @@
       "zone": "Z114",
       "remark": "MOE Ch 2.1",
       "remark_zone": "Z118",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "MOE Ch 2.1"
     },
     {
       "ref": "D.4.3",
@@ -503,7 +551,8 @@
       "zone": "Z119",
       "remark": "SUP procedure",
       "remark_zone": "Z123",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "MOE / QCM §1.2 scope"
     },
     {
       "ref": "D.5",
@@ -514,7 +563,8 @@
       "zone": "Z124",
       "remark": "MOE Part 3",
       "remark_zone": "Z128",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "MOE Part 3"
     },
     {
       "ref": "D.5.1",
@@ -525,7 +575,8 @@
       "zone": "Z129",
       "remark": "MOE Ch 3.1",
       "remark_zone": "Z133",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "MOE Ch 3.1"
     },
     {
       "ref": "D.5.2",
@@ -536,7 +587,8 @@
       "zone": "Z134",
       "remark": "MOE Ch 3.3",
       "remark_zone": "Z138",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "MOE Ch 3.3"
     },
     {
       "ref": "D.5.3",
@@ -547,7 +599,8 @@
       "zone": "Z139",
       "remark": "Management review",
       "remark_zone": "Z143",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS (ref D.5.3)"
     },
     {
       "ref": "E",
@@ -556,7 +609,8 @@
       "type": "choice",
       "zone": "Z144",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "E",
@@ -566,7 +620,8 @@
       "type": "text",
       "zone": "Z145",
       "value": "282727-2019-AQ-FRA-ACCREDIA",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "E",
@@ -576,7 +631,8 @@
       "type": "text",
       "zone": "Z146",
       "value": "07/05/2028",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "E",
@@ -585,7 +641,8 @@
       "type": "choice",
       "zone": "Z149",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "E",
@@ -595,7 +652,8 @@
       "type": "text",
       "zone": "Z147",
       "value": "282727-2019-AQ-FRA-ACCREDIA",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "E",
@@ -605,7 +663,8 @@
       "type": "text",
       "zone": "Z148",
       "value": "07/05/2028",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "E",
@@ -614,7 +673,8 @@
       "type": "choice",
       "zone": "Z150",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "E",
@@ -623,7 +683,8 @@
       "type": "choice",
       "zone": "Z153",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "E",
@@ -632,7 +693,8 @@
       "type": "choice",
       "zone": "Z158",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "E",
@@ -642,7 +704,8 @@
       "type": "text",
       "zone": "Z160",
       "value": "EASA.21G.0070",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "E",
@@ -651,7 +714,8 @@
       "type": "choice",
       "zone": "Z159",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "E",
@@ -661,7 +725,8 @@
       "type": "text",
       "zone": "Z164",
       "value": "FR.145.0002",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "E",
@@ -670,7 +735,8 @@
       "type": "choice",
       "zone": "Z162",
       "choice": "Yes",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "MOE / QCM §1.2 scope"
     },
     {
       "ref": "F1",
@@ -690,7 +756,8 @@
         "Z172"
       ],
       "confidence": "medium",
-      "note_for_reviewer": "A adapter selon le périmètre détaillé du site"
+      "note_for_reviewer": "A adapter selon le périmètre détaillé du site",
+      "source": "MOE / QCM §1.2 scope"
     },
     {
       "ref": "F2",
@@ -707,7 +774,8 @@
         "Z183",
         "Z186"
       ],
-      "confidence": "medium"
+      "confidence": "medium",
+      "source": "MOE / QCM §1.2 scope"
     },
     {
       "ref": "H1",
@@ -716,7 +784,8 @@
       "type": "text",
       "zone": "Z192",
       "value": "Shinichi KATAYAMA",
-      "confidence": "medium"
+      "confidence": "medium",
+      "source": "Master QMS / company data (ref H1)"
     },
     {
       "ref": "H2",
@@ -725,7 +794,8 @@
       "type": "text",
       "zone": "Z193",
       "value": "S&S Top Quality Issues Manager",
-      "confidence": "medium"
+      "confidence": "medium",
+      "source": "Master QMS / company data (ref H2)"
     },
     {
       "ref": "H3",
@@ -734,7 +804,8 @@
       "type": "text",
       "zone": "Z194",
       "value": "13/11/2026",
-      "confidence": "high"
+      "confidence": "high",
+      "source": "Master QMS / company data (ref H3)"
     },
     {
       "ref": "H4",

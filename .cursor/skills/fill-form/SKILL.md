@@ -32,6 +32,8 @@ jobs/<nom>/
   out/                     généré : filled.pdf, review.pdf, plan.json
 ```
 
+Chaque entrée de `answers` peut porter un champ optionnel `source` (string ou null) : courte citation QMS / doc / page / section utilisée par le gem (ex. `"Master QMS §5.2"`, `"ED 074 p.12"`). Les prompts (`gem/PROMPT.md`, `gem/PROMPT-drive.md`) demandent `source` sur toute question répondue ; le fill/review accepte l'absence (anciens JSON). Le `review.pdf` affiche la source dans l'infobulle quand elle est présente.
+
 Sans job : créer `jobs/<nom>/`, y copier le formulaire. Sans answers : lancer `prepare`, donner `zones.pdf` + `zones.txt` + `gem/PROMPT.md` à l'utilisateur pour le gem, attendre le JSON.
 
 ## Workflow

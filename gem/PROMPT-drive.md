@@ -92,6 +92,7 @@ Allowed keys on an answer, and no others:
 | `inline_text` | string or null, the text for a blank `____` inside the question. |
 | `inline_zone` | zone id or null. Required when `inline_text` is a non-empty string. |
 | `confidence` | omit when `high`. Write `medium` or `low` only. Use `low` when this chat’s material does not state the fact. Never null. |
+| `source` | short citation of the QMS / document / page / section used for this answer (e.g. `Master QMS §5.2`, `ED 074 p.12`, `MOE §1.2`). Required on every answered question (non-null `value`, `choice`, or non-empty `options_checked`). Cite only material present in **this** chat. Use `null` when unsupported. Omit only for `do_not_fill` / bare `signature` with nothing to cite. |
 | `note_for_reviewer` | French note for the human reviewer. Omit when you have nothing to flag. |
 | `do_not_fill` | `true` only, never the string `"true"` and never `false`. Omit when the field is to be filled. |
 
@@ -126,10 +127,11 @@ Before the code block, verify silently:
 3. Every `type` is one of the five names, and that type's required keys are present.
 4. Every zone id matches `Z` plus digits and exists in `zones.txt`.
 5. Each `Zn` is used once in the whole file (`zone`, `zones`, `remark_zone`, `inline_zone`). If two answers need the same zone, keep the one that matches the label and set the other `zone` to null with a `note_for_reviewer`.
-6. Every `choice` answer: `ref` matches the zone’s `row:` / `line:` question number, and `choice` equals `col:`.
-7. Every exclusive Yes/No/N/A (or similar) row has at most one tick.
-8. No prose written into narrow gutter / Q# `case ou texte` cells.
-9. No key outside the lists above. No trailing comma. `null`, `true`, and `false` are bare.
+6. Every answered question has a `source` (string citation or `null`).
+7. Every `choice` answer: `ref` matches the zone’s `row:` / `line:` question number, and `choice` equals `col:`.
+8. Every exclusive Yes/No/N/A (or similar) row has at most one tick.
+9. No prose written into narrow gutter / Q# `case ou texte` cells.
+10. No key outside the lists above. No trailing comma. `null`, `true`, and `false` are bare.
 
 ## Example
 
@@ -137,10 +139,10 @@ Before the code block, verify silently:
 {
   "form": {"zone_map": "9d7c1d88"},
   "answers": [
-    {"ref": "A1", "label": "Registered company name", "type": "text", "zone": "Z1", "value": "AIRBUS HELICOPTERS"},
-    {"ref": "A12", "label": "Number of employees (all sites)", "type": "choice", "choice": "1 000 or more", "zone": "Z15"},
-    {"ref": "D.1.1", "label": "A quality manager is appointed, independent from production, with direct access to top management.", "type": "choice", "choice": "C", "zone": "Z44", "remark": "ED 074 / QMS ch. 5", "remark_zone": "Z48"},
-    {"ref": "F1", "label": "Processes performed in-house (tick all that apply)", "type": "multi_choice", "options_checked": ["Composite lay-up", "Heat treatment", "Non-destructive testing"], "zones": ["Z170", "Z171", "Z175"], "confidence": "medium", "note_for_reviewer": "Liste à confirmer selon le périmètre du site"},
+    {"ref": "A1", "label": "Registered company name", "type": "text", "zone": "Z1", "value": "AIRBUS HELICOPTERS", "source": "AH public registry / Master QMS cover"},
+    {"ref": "A12", "label": "Number of employees (all sites)", "type": "choice", "choice": "1 000 or more", "zone": "Z15", "source": "Master QMS §5.1 / company profile"},
+    {"ref": "D.1.1", "label": "A quality manager is appointed, independent from production, with direct access to top management.", "type": "choice", "choice": "C", "zone": "Z44", "remark": "ED 074 / QMS ch. 5", "remark_zone": "Z48", "source": "ED 074 / Master QMS §5.3"},
+    {"ref": "F1", "label": "Processes performed in-house (tick all that apply)", "type": "multi_choice", "options_checked": ["Composite lay-up", "Heat treatment", "Non-destructive testing"], "zones": ["Z170", "Z171", "Z175"], "confidence": "medium", "source": "MOE §1.2 scope / site capabilities", "note_for_reviewer": "Liste à confirmer selon le périmètre du site"},
     {"ref": "H4", "label": "Signature", "type": "signature"},
     {"ref": "RESERVED", "label": "Supplier code", "type": "text", "do_not_fill": true, "note_for_reviewer": "Zone réservée à l'émetteur."}
   ]

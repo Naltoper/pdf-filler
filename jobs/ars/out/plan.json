@@ -1131,6 +1131,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "AH public registry / Master QMS cover",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z1"
@@ -1145,6 +1146,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "AH public registry / Master QMS cover",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z2"
@@ -1159,6 +1161,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "AH public registry / Master QMS cover",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z3"
@@ -1173,6 +1176,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 4)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z4"
@@ -1187,6 +1191,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 5)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z5"
@@ -1201,6 +1206,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 6)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z6"
@@ -1215,6 +1221,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "AH public registry / Master QMS cover",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z7"
@@ -1229,6 +1236,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 8)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z8"
@@ -1243,6 +1251,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 9)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z9"
@@ -1257,6 +1266,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 10)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z10"
@@ -1271,6 +1281,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §5.1 / company profile",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z11"
@@ -1285,6 +1296,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z12"
@@ -1299,6 +1311,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 13)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z13"
@@ -1313,6 +1326,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 14)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z14"
@@ -1327,6 +1341,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 15)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z15"
@@ -1341,6 +1356,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 16)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z30"
@@ -1355,6 +1371,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §7.2 competence",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z31"
@@ -1369,6 +1386,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 18)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z32"
@@ -1383,6 +1401,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Approvals register / Master QMS §8.4",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z33"
@@ -1397,6 +1416,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 20)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z34"
@@ -1411,6 +1431,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Approvals register / Master QMS §8.4",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z35"
@@ -1425,6 +1446,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "MOE / QCM §1.2 scope",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z36"
@@ -1439,6 +1461,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 23)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z37"
@@ -1453,6 +1476,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Approvals register / Master QMS §8.4",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z38"
@@ -1467,6 +1491,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 25)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z39"
@@ -1481,6 +1506,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 26)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z40"
@@ -1495,6 +1521,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 27)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z41"
@@ -1509,6 +1536,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 28)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z42"
@@ -1523,6 +1551,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Approvals register / Master QMS §8.4",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z43"
@@ -1537,6 +1566,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 30)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z47"
@@ -1551,6 +1581,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 31)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z54"
@@ -1565,6 +1596,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 32)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z61"
@@ -1579,6 +1611,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §8.4 external providers",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z68"
@@ -1593,6 +1626,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 34)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z75"
@@ -1607,6 +1641,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z76"
@@ -1621,6 +1656,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z83"
@@ -1635,6 +1671,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 37)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z87"
@@ -1649,6 +1686,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z91"
@@ -1663,6 +1701,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z98"
@@ -1677,6 +1716,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §7.5 documented information",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z105"
@@ -1691,6 +1731,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z112"
@@ -1705,6 +1746,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 42)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z116"
@@ -1719,6 +1761,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 43)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z123"
@@ -1733,6 +1776,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §7.2 competence",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z130"
@@ -1747,6 +1791,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 45)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z137"
@@ -1761,6 +1806,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 46)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z144"
@@ -1775,6 +1821,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 47)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z145"
@@ -1789,6 +1836,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z152"
@@ -1803,6 +1851,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 49)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z156"
@@ -1817,6 +1866,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Approvals register / Master QMS §8.4",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z160"
@@ -1831,6 +1881,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §8.4 external providers",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z167"
@@ -1845,6 +1896,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z174"
@@ -1859,6 +1911,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z181"
@@ -1873,6 +1926,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 54)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z182"
@@ -1887,6 +1941,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 55)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z189"
@@ -1901,6 +1956,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "AH public registry / Master QMS cover",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z196"
@@ -1915,6 +1971,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z203"
@@ -1929,6 +1986,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 58)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z204"
@@ -1943,6 +2001,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §7.2 competence",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z214"
@@ -1957,6 +2016,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §7.2 competence",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z221"
@@ -1971,6 +2031,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z222"
@@ -1985,6 +2046,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 62)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z229"
@@ -1999,6 +2061,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 63)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z230"
@@ -2013,6 +2076,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §8.4 external providers",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z234"
@@ -2027,6 +2091,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §7.5 documented information",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z235"
@@ -2041,6 +2106,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z242"
@@ -2055,6 +2121,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z249"
@@ -2069,6 +2136,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 68)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z256"
@@ -2083,6 +2151,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 69)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z263"
@@ -2097,6 +2166,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Approvals register / Master QMS §8.4",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z270"
@@ -2111,6 +2181,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 71)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z277"
@@ -2125,6 +2196,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 72)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z278"
@@ -2139,6 +2211,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 73)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z279"
@@ -2153,6 +2226,7 @@
       "context": null,
       "type": "date",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 74)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z280"
@@ -2167,6 +2241,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 75)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z281"
@@ -2181,6 +2256,7 @@
       "context": null,
       "type": "date",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 76)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z282"
@@ -2195,6 +2271,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 77)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z287"
@@ -2209,6 +2286,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 78)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z288"
@@ -2223,6 +2301,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS / company data (ref 79)",
       "note": "Example value for validation / demo fill",
       "zones": [
         "Z289"
@@ -2237,6 +2316,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS (ref C1)",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z16"
@@ -2253,6 +2333,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS (ref C2)",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z19"
@@ -2269,6 +2350,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS (ref C3)",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z22"
@@ -2285,6 +2367,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS (ref C4)",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z25"
@@ -2301,6 +2384,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS (ref C5)",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z28"
@@ -2317,6 +2401,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Approvals register / Master QMS §8.4",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z44"
@@ -2331,6 +2416,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Approvals register / Master QMS §8.4",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z48"
@@ -2345,6 +2431,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Approvals register / Master QMS §8.4",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z51"
@@ -2359,6 +2446,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Approvals register / Master QMS §8.4",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z55"
@@ -2373,6 +2461,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Approvals register / Master QMS §8.4",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z58"
@@ -2387,6 +2476,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS (ref C11)",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z62"
@@ -2401,6 +2491,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "MOE / QCM §1.2 scope",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z65"
@@ -2415,6 +2506,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Approvals register / Master QMS §8.4",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z69"
@@ -2429,6 +2521,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS (ref C14)",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z72"
@@ -2443,6 +2536,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z77"
@@ -2457,6 +2551,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z80"
@@ -2471,6 +2566,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z84"
@@ -2485,6 +2581,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z88"
@@ -2499,6 +2596,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z92"
@@ -2513,6 +2611,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z95"
@@ -2527,6 +2626,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z99"
@@ -2541,6 +2641,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS (ref C22)",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z102"
@@ -2555,6 +2656,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §7.5 documented information",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z106"
@@ -2569,6 +2671,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z109"
@@ -2583,6 +2686,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "MOE / QCM §1.2 scope",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z113"
@@ -2597,6 +2701,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS (ref C26)",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z117"
@@ -2611,6 +2716,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS (ref C27)",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z120"
@@ -2625,6 +2731,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS (ref C28)",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z124"
@@ -2639,6 +2746,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z127"
@@ -2653,6 +2761,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §7.2 competence",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z131"
@@ -2667,6 +2776,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS (ref C31)",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z134"
@@ -2681,6 +2791,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS (ref C32)",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z138"
@@ -2695,6 +2806,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS (ref C33)",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z141"
@@ -2709,6 +2821,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS (ref C34)",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z146"
@@ -2723,6 +2836,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z149"
@@ -2737,6 +2851,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z153"
@@ -2751,6 +2866,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §7.5 documented information",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z157"
@@ -2765,6 +2881,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Approvals register / Master QMS §8.4",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z161"
@@ -2779,6 +2896,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Approvals register / Master QMS §8.4",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z164"
@@ -2793,6 +2911,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §8.4 external providers",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z168"
@@ -2807,6 +2926,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z171"
@@ -2821,6 +2941,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z175"
@@ -2835,6 +2956,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z178"
@@ -2849,6 +2971,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS (ref C44)",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z183"
@@ -2863,6 +2986,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z186"
@@ -2877,6 +3001,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "MOE / QCM §1.2 scope",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z190"
@@ -2891,6 +3016,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS (ref C47)",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z193"
@@ -2905,6 +3031,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "AH public registry / Master QMS cover",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z197"
@@ -2919,6 +3046,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z200"
@@ -2933,6 +3061,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "MOE / QCM §1.2 scope",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z205"
@@ -2947,6 +3076,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z208"
@@ -2961,6 +3091,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §7.2 competence",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z211"
@@ -2975,6 +3106,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §7.2 competence",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z215"
@@ -2989,6 +3121,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §7.2 competence",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z218"
@@ -3003,6 +3136,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z223"
@@ -3017,6 +3151,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS (ref C56)",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z226"
@@ -3031,6 +3166,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §8.4 external providers",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z231"
@@ -3045,6 +3181,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z236"
@@ -3059,6 +3196,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "MOE / QCM §1.2 scope",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z239"
@@ -3073,6 +3211,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z243"
@@ -3087,6 +3226,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z246"
@@ -3101,6 +3241,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z250"
@@ -3115,6 +3256,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z253"
@@ -3129,6 +3271,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS (ref C64)",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z257"
@@ -3143,6 +3286,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS (ref C65)",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z260"
@@ -3157,6 +3301,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z264"
@@ -3171,6 +3316,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Approvals register / Master QMS §8.4",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z267"
@@ -3185,6 +3331,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Approvals register / Master QMS §8.4",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z271"
@@ -3199,6 +3346,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z274"
@@ -3213,6 +3361,7 @@
       "context": null,
       "type": "choice",
       "confidence": "medium",
+      "source": "Master QMS (ref C70)",
       "note": "Example checkbox for validation / demo fill",
       "zones": [
         "Z283"

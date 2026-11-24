@@ -1091,6 +1091,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "Master QMS / company data (ref 1.0)",
       "note": null,
       "zones": [
         "Z1"
@@ -1105,6 +1106,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "AH public registry / Master QMS cover",
       "note": null,
       "zones": [
         "Z2"
@@ -1119,6 +1121,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "Master QMS / company data (ref 1.0)",
       "note": null,
       "zones": [
         "Z3"
@@ -1133,6 +1136,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "Master QMS / company data (ref 1.0)",
       "note": null,
       "zones": [
         "Z4"
@@ -1147,6 +1151,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "AH public registry / Master QMS cover",
       "note": null,
       "zones": [
         "Z5"
@@ -1161,6 +1166,7 @@
       "context": null,
       "type": "text",
       "confidence": "medium",
+      "source": "Master QMS §5.1 / company profile",
       "note": null,
       "zones": [
         "Z6"
@@ -1175,6 +1181,7 @@
       "context": "Name / phone / e-mail:",
       "type": "text",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z7"
@@ -1189,6 +1196,7 @@
       "context": "Name / phone / e-mail:",
       "type": "text",
       "confidence": "high",
+      "source": "Master QMS / company data (ref 1.0)",
       "note": null,
       "zones": [
         "Z8"
@@ -1203,6 +1211,7 @@
       "context": "Name / phone / e-mail:",
       "type": "text",
       "confidence": "medium",
+      "source": null,
       "note": "Example empty field",
       "zones": [
         "Z9"
@@ -1217,6 +1226,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": null,
       "note": "Example empty field",
       "zones": [
         "Z10"
@@ -1231,6 +1241,7 @@
       "context": null,
       "type": "multi_choice",
       "confidence": "high",
+      "source": "MOE §1.2 scope / site capabilities",
       "note": null,
       "zones": [
         "Z12",
@@ -1254,6 +1265,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z32",
@@ -1269,6 +1281,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z36",
@@ -1284,6 +1297,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "EN 9100, ISO 9001, AS9100, ISO 14001",
       "note": null,
       "zones": [
         "Z40",
@@ -1299,6 +1313,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z44",
@@ -1314,6 +1329,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z48"
@@ -1328,6 +1344,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "Master QMS / company data (ref 1.2.6)",
       "note": null,
       "zones": [
         "Z51"
@@ -1342,6 +1359,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z58"
@@ -1356,6 +1374,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "MOE / QCM §1.2 scope",
       "note": null,
       "zones": [
         "Z60"
@@ -1370,6 +1389,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "MOE / QCM §1.2 scope",
       "note": null,
       "zones": [
         "Z65"
@@ -1384,6 +1404,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z69"
@@ -1398,6 +1419,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Defined in MOE/QCM",
       "note": null,
       "zones": [
         "Z73",
@@ -1413,6 +1435,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z77"
@@ -1427,6 +1450,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z81",
@@ -1442,6 +1466,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z85"
@@ -1456,6 +1481,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z89"
@@ -1470,6 +1496,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z93"
@@ -1484,6 +1511,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z97"
@@ -1498,6 +1526,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z101"
@@ -1512,6 +1541,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z105"
@@ -1526,6 +1556,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z109"
@@ -1540,6 +1571,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z113"
@@ -1554,6 +1586,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z117"
@@ -1568,6 +1601,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.4 external providers",
       "note": null,
       "zones": [
         "Z121"
@@ -1582,6 +1616,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 3.0.1)",
       "note": null,
       "zones": [
         "Z125"
@@ -1596,6 +1631,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "AH public registry / Master QMS cover",
       "note": null,
       "zones": [
         "Z129"
@@ -1610,6 +1646,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z133"
@@ -1624,6 +1661,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z137"
@@ -1638,6 +1676,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "AH public registry / Master QMS cover",
       "note": null,
       "zones": [
         "Z141"
@@ -1652,6 +1691,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 3.0.6)",
       "note": null,
       "zones": [
         "Z145"
@@ -1666,6 +1706,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z149"
@@ -1680,6 +1721,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z153"
@@ -1694,6 +1736,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 4.0.3)",
       "note": null,
       "zones": [
         "Z157"
@@ -1708,6 +1751,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §7.5 documented information",
       "note": null,
       "zones": [
         "Z161"
@@ -1722,6 +1766,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z165"
@@ -1736,6 +1781,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z169"
@@ -1750,6 +1796,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z172"
@@ -1764,6 +1811,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z177"
@@ -1778,6 +1826,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z181"
@@ -1792,6 +1841,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z185"
@@ -1806,6 +1856,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "MOE / QCM §1.2 scope",
       "note": null,
       "zones": [
         "Z189"
@@ -1820,6 +1871,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z193"
@@ -1834,6 +1886,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "AH public registry / Master QMS cover",
       "note": null,
       "zones": [
         "Z197"
@@ -1848,6 +1901,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z201"
@@ -1862,6 +1916,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z207"
@@ -1876,6 +1931,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z209"
@@ -1890,6 +1946,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.4 external providers",
       "note": null,
       "zones": [
         "Z213"
@@ -1904,6 +1961,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.4 external providers",
       "note": null,
       "zones": [
         "Z217"
@@ -1918,6 +1976,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z221"
@@ -1932,6 +1991,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z225"
@@ -1946,6 +2006,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 4.2.6)",
       "note": null,
       "zones": [
         "Z229"
@@ -1960,6 +2021,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "AH public registry / Master QMS cover",
       "note": null,
       "zones": [
         "Z233"
@@ -1974,6 +2036,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z237"
@@ -1988,6 +2051,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z241"
@@ -2002,6 +2066,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 6.0.1)",
       "note": null,
       "zones": [
         "Z245"
@@ -2016,6 +2081,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z249"
@@ -2030,6 +2096,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 6.0.3)",
       "note": null,
       "zones": [
         "Z253"
@@ -2044,6 +2111,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z257"
@@ -2058,6 +2126,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 6.0.5)",
       "note": null,
       "zones": [
         "Z261"
@@ -2072,6 +2141,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 6.0.6)",
       "note": null,
       "zones": [
         "Z265"
@@ -2086,6 +2156,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 6.0.7)",
       "note": null,
       "zones": [
         "Z269"
@@ -2100,6 +2171,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "MOE / QCM §1.2 scope",
       "note": null,
       "zones": [
         "Z273"
@@ -2114,6 +2186,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 7.0.2)",
       "note": null,
       "zones": [
         "Z277"
@@ -2128,6 +2201,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z281"
@@ -2142,6 +2216,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §7.2 competence",
       "note": null,
       "zones": [
         "Z285"
@@ -2156,6 +2231,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z289"
@@ -2170,6 +2246,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "AH public registry / Master QMS cover",
       "note": null,
       "zones": [
         "Z293"
@@ -2184,6 +2261,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "AH public registry / Master QMS cover",
       "note": null,
       "zones": [
         "Z297"
@@ -2198,6 +2276,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "MOE / QCM §1.2 scope",
       "note": null,
       "zones": [
         "Z301"
@@ -2212,6 +2291,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §7.2 competence",
       "note": null,
       "zones": [
         "Z305"
@@ -2226,6 +2306,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "MOE / QCM §1.2 scope",
       "note": null,
       "zones": [
         "Z309"
@@ -2240,6 +2321,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §7.5 documented information",
       "note": null,
       "zones": [
         "Z313"
@@ -2254,6 +2336,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z317"
@@ -2268,6 +2351,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z321"
@@ -2282,6 +2366,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z325"
@@ -2296,6 +2381,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z329"
@@ -2310,6 +2396,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z333"
@@ -2324,6 +2411,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z337"
@@ -2338,6 +2426,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z341"
@@ -2352,6 +2441,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "AH public registry / Master QMS cover",
       "note": null,
       "zones": [
         "Z345"
@@ -2366,6 +2456,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z349"
@@ -2380,6 +2471,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 9.0.4)",
       "note": null,
       "zones": [
         "Z353"
@@ -2394,6 +2486,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 9.0.5)",
       "note": null,
       "zones": [
         "Z357"
@@ -2408,6 +2501,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §7.5 documented information",
       "note": null,
       "zones": [
         "Z361"
@@ -2422,6 +2516,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 9.0.7)",
       "note": null,
       "zones": [
         "Z365"
@@ -2436,6 +2531,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 9.0.8)",
       "note": null,
       "zones": [
         "Z369"
@@ -2450,6 +2546,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z373"
@@ -2464,6 +2561,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z377"
@@ -2478,6 +2576,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "MOE / QCM §1.2 scope",
       "note": null,
       "zones": [
         "Z381"
@@ -2492,6 +2591,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z385"
@@ -2506,6 +2606,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 9.0.13)",
       "note": null,
       "zones": [
         "Z389"
@@ -2520,6 +2621,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z393"
@@ -2534,6 +2636,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z397"
@@ -2548,6 +2651,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z401"
@@ -2562,6 +2666,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z405"
@@ -2576,6 +2681,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z409"
@@ -2590,6 +2696,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "MOE / QCM §1.2 scope",
       "note": null,
       "zones": [
         "Z413"
@@ -2604,6 +2711,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z417"
@@ -2618,6 +2726,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z421"
@@ -2632,6 +2741,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z425"
@@ -2646,6 +2756,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z429"
@@ -2660,6 +2771,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "MOE / QCM §1.2 scope",
       "note": null,
       "zones": [
         "Z433"
@@ -2674,6 +2786,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z437"
@@ -2688,6 +2801,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "MOE / QCM §1.2 scope",
       "note": null,
       "zones": [
         "Z441"
@@ -2702,6 +2816,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §7.2 competence",
       "note": null,
       "zones": [
         "Z445"
@@ -2716,6 +2831,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z449"
@@ -2730,6 +2846,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z453"
@@ -2744,6 +2861,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 11.0.5)",
       "note": null,
       "zones": [
         "Z457"
@@ -2758,6 +2876,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z461"
@@ -2772,6 +2891,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "MOE / QCM §1.2 scope",
       "note": null,
       "zones": [
         "Z465"
@@ -2786,6 +2906,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "AH public registry / Master QMS cover",
       "note": null,
       "zones": [
         "Z469"
@@ -2800,6 +2921,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z473"
@@ -2814,6 +2936,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 12.0.3)",
       "note": null,
       "zones": [
         "Z477"
@@ -2828,6 +2951,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §7.5 documented information",
       "note": null,
       "zones": [
         "Z481"
@@ -2842,6 +2966,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §7.5 documented information",
       "note": null,
       "zones": [
         "Z485"
@@ -2856,6 +2981,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z489"
@@ -2870,6 +2996,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §7.5 documented information",
       "note": null,
       "zones": [
         "Z493"
@@ -2884,6 +3011,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §8.5–§8.7 / process control",
       "note": null,
       "zones": [
         "Z497"
@@ -2898,6 +3026,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Approvals register / Master QMS §8.4",
       "note": null,
       "zones": [
         "Z501"
@@ -2912,6 +3041,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS (ref 13.0.3)",
       "note": null,
       "zones": [
         "Z505"
@@ -2926,6 +3056,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "Master QMS §4–§5 / ED 074",
       "note": null,
       "zones": [
         "Z509"
@@ -2940,6 +3071,7 @@
       "context": null,
       "type": "choice",
       "confidence": "high",
+      "source": "AH public registry / Master QMS cover",
       "note": null,
       "zones": [
         "Z513"
@@ -2954,6 +3086,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "Master QMS / company data (ref 14)",
       "note": null,
       "zones": [
         "Z516"
@@ -2968,6 +3101,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "Master QMS / company data (ref 14)",
       "note": null,
       "zones": [
         "Z517"
@@ -2982,6 +3116,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "AH public registry / Master QMS cover",
       "note": null,
       "zones": [
         "Z518"
@@ -2996,6 +3131,7 @@
       "context": null,
       "type": "signature",
       "confidence": "high",
+      "source": null,
       "note": " Zone conflict on Z518; needs gem remap.",
       "zones": [],
       "messages": [],
@@ -3008,6 +3144,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "Master QMS / company data (ref 14)",
       "note": null,
       "zones": [
         "Z519"
@@ -3022,6 +3159,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": null,
       "note": "Example empty field",
       "zones": [
         "Z521"
@@ -3036,6 +3174,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "Master QMS / company data (ref 16)",
       "note": null,
       "zones": [
         "Z522"
@@ -3052,6 +3191,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "Master QMS / company data (ref 16)",
       "note": null,
       "zones": [
         "Z523"
@@ -3066,6 +3206,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "AH public registry / Master QMS cover",
       "note": null,
       "zones": [
         "Z524"
@@ -3080,6 +3221,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "Master QMS / company data (ref 16)",
       "note": null,
       "zones": [
         "Z525"
@@ -3096,6 +3238,7 @@
       "context": null,
       "type": "signature",
       "confidence": "high",
+      "source": null,
       "note": null,
       "zones": [],
       "messages": [],
@@ -3108,6 +3251,7 @@
       "context": null,
       "type": "text",
       "confidence": "high",
+      "source": "Master QMS / company data (ref 16)",
       "note": null,
       "zones": [
         "Z527"

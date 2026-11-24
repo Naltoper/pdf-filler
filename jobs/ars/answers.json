@@ -18,7 +18,8 @@
       "zone": "Z1",
       "value": "Example Company SAS",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "2",
@@ -28,7 +29,8 @@
       "zone": "Z2",
       "value": "Example Company SAS",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "3",
@@ -38,7 +40,8 @@
       "zone": "Z3",
       "value": "1 Example Street",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "4",
@@ -48,7 +51,8 @@
       "zone": "Z4",
       "value": "1 Example Street",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 4)"
     },
     {
       "ref": "5",
@@ -58,7 +62,8 @@
       "zone": "Z5",
       "value": "Example value 5",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 5)"
     },
     {
       "ref": "6",
@@ -68,7 +73,8 @@
       "zone": "Z6",
       "value": "+33 4 42 85 85 85",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 6)"
     },
     {
       "ref": "7",
@@ -78,7 +84,8 @@
       "zone": "Z7",
       "value": "https://www.example.com",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "8",
@@ -88,7 +95,8 @@
       "zone": "Z8",
       "value": "Example value 8",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 8)"
     },
     {
       "ref": "9",
@@ -98,7 +106,8 @@
       "zone": "Z9",
       "value": "Example value 9",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 9)"
     },
     {
       "ref": "10",
@@ -108,7 +117,8 @@
       "zone": "Z10",
       "value": "Example value 10",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 10)"
     },
     {
       "ref": "11",
@@ -118,7 +128,8 @@
       "zone": "Z11",
       "value": "Example value 11",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §5.1 / company profile"
     },
     {
       "ref": "12",
@@ -128,7 +139,8 @@
       "zone": "Z12",
       "value": "+33 4 42 85 85 85",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "13",
@@ -138,7 +150,8 @@
       "zone": "Z13",
       "value": "+33 4 42 85 85 85",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 13)"
     },
     {
       "ref": "14",
@@ -148,7 +161,8 @@
       "zone": "Z14",
       "value": "+33 4 42 85 85 85",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 14)"
     },
     {
       "ref": "15",
@@ -158,7 +172,8 @@
       "zone": "Z15",
       "value": "+33 4 42 85 85 85",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 15)"
     },
     {
       "ref": "16",
@@ -168,7 +183,8 @@
       "zone": "Z30",
       "value": "Example value 16",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 16)"
     },
     {
       "ref": "17",
@@ -178,7 +194,8 @@
       "zone": "Z31",
       "value": "Example value 17",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §7.2 competence"
     },
     {
       "ref": "18",
@@ -188,7 +205,8 @@
       "zone": "Z32",
       "value": "Example value 18",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 18)"
     },
     {
       "ref": "19",
@@ -198,7 +216,8 @@
       "zone": "Z33",
       "value": "Example value 19",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "20",
@@ -208,7 +227,8 @@
       "zone": "Z34",
       "value": "Example value 20",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 20)"
     },
     {
       "ref": "21",
@@ -218,7 +238,8 @@
       "zone": "Z35",
       "value": "Example value 21",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "22",
@@ -228,7 +249,8 @@
       "zone": "Z36",
       "value": "Example value 22",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "MOE / QCM §1.2 scope"
     },
     {
       "ref": "23",
@@ -238,7 +260,8 @@
       "zone": "Z37",
       "value": "Example value 23",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 23)"
     },
     {
       "ref": "24",
@@ -248,7 +271,8 @@
       "zone": "Z38",
       "value": "Example value 24",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "25",
@@ -258,7 +282,8 @@
       "zone": "Z39",
       "value": "Example value 25",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 25)"
     },
     {
       "ref": "26",
@@ -268,7 +293,8 @@
       "zone": "Z40",
       "value": "Example value 26",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 26)"
     },
     {
       "ref": "27",
@@ -278,7 +304,8 @@
       "zone": "Z41",
       "value": "Example value 27",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 27)"
     },
     {
       "ref": "28",
@@ -288,7 +315,8 @@
       "zone": "Z42",
       "value": "Example value 28",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 28)"
     },
     {
       "ref": "29",
@@ -298,7 +326,8 @@
       "zone": "Z43",
       "value": "Example value 29",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "30",
@@ -308,7 +337,8 @@
       "zone": "Z47",
       "value": "Example value 30",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 30)"
     },
     {
       "ref": "31",
@@ -318,7 +348,8 @@
       "zone": "Z54",
       "value": "Example value 31",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 31)"
     },
     {
       "ref": "32",
@@ -328,7 +359,8 @@
       "zone": "Z61",
       "value": "Example value 32",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 32)"
     },
     {
       "ref": "33",
@@ -338,7 +370,8 @@
       "zone": "Z68",
       "value": "Example value 33",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §8.4 external providers"
     },
     {
       "ref": "34",
@@ -348,7 +381,8 @@
       "zone": "Z75",
       "value": "Example value 34",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 34)"
     },
     {
       "ref": "35",
@@ -358,7 +392,8 @@
       "zone": "Z76",
       "value": "Example value 35",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "36",
@@ -368,7 +403,8 @@
       "zone": "Z83",
       "value": "Example value 36",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "37",
@@ -378,7 +414,8 @@
       "zone": "Z87",
       "value": "Example value 37",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 37)"
     },
     {
       "ref": "38",
@@ -388,7 +425,8 @@
       "zone": "Z91",
       "value": "Example value 38",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "39",
@@ -398,7 +436,8 @@
       "zone": "Z98",
       "value": "Example value 39",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "40",
@@ -408,7 +447,8 @@
       "zone": "Z105",
       "value": "Example value 40",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §7.5 documented information"
     },
     {
       "ref": "41",
@@ -418,7 +458,8 @@
       "zone": "Z112",
       "value": "Example value 41",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "42",
@@ -428,7 +469,8 @@
       "zone": "Z116",
       "value": "Example value 42",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 42)"
     },
     {
       "ref": "43",
@@ -438,7 +480,8 @@
       "zone": "Z123",
       "value": "Example value 43",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 43)"
     },
     {
       "ref": "44",
@@ -448,7 +491,8 @@
       "zone": "Z130",
       "value": "Example value 44",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §7.2 competence"
     },
     {
       "ref": "45",
@@ -458,7 +502,8 @@
       "zone": "Z137",
       "value": "Example value 45",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 45)"
     },
     {
       "ref": "46",
@@ -468,7 +513,8 @@
       "zone": "Z144",
       "value": "Example value 46",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 46)"
     },
     {
       "ref": "47",
@@ -478,7 +524,8 @@
       "zone": "Z145",
       "value": "Example value 47",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 47)"
     },
     {
       "ref": "48",
@@ -488,7 +535,8 @@
       "zone": "Z152",
       "value": "Example value 48",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "49",
@@ -498,7 +546,8 @@
       "zone": "Z156",
       "value": "Example value 49",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 49)"
     },
     {
       "ref": "50",
@@ -508,7 +557,8 @@
       "zone": "Z160",
       "value": "Example value 50",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "51",
@@ -518,7 +568,8 @@
       "zone": "Z167",
       "value": "Example value 51",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §8.4 external providers"
     },
     {
       "ref": "52",
@@ -528,7 +579,8 @@
       "zone": "Z174",
       "value": "Example value 52",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "53",
@@ -538,7 +590,8 @@
       "zone": "Z181",
       "value": "Example value 53",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "54",
@@ -548,7 +601,8 @@
       "zone": "Z182",
       "value": "Example value 54",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 54)"
     },
     {
       "ref": "55",
@@ -558,7 +612,8 @@
       "zone": "Z189",
       "value": "Example value 55",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 55)"
     },
     {
       "ref": "56",
@@ -568,7 +623,8 @@
       "zone": "Z196",
       "value": "Example value 56",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "57",
@@ -578,7 +634,8 @@
       "zone": "Z203",
       "value": "Example value 57",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "58",
@@ -588,7 +645,8 @@
       "zone": "Z204",
       "value": "Example value 58",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 58)"
     },
     {
       "ref": "59",
@@ -598,7 +656,8 @@
       "zone": "Z214",
       "value": "Example value 59",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §7.2 competence"
     },
     {
       "ref": "60",
@@ -608,7 +667,8 @@
       "zone": "Z221",
       "value": "Example value 60",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §7.2 competence"
     },
     {
       "ref": "61",
@@ -618,7 +678,8 @@
       "zone": "Z222",
       "value": "Example value 61",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "62",
@@ -628,7 +689,8 @@
       "zone": "Z229",
       "value": "Example value 62",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 62)"
     },
     {
       "ref": "63",
@@ -638,7 +700,8 @@
       "zone": "Z230",
       "value": "Example value 63",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 63)"
     },
     {
       "ref": "64",
@@ -648,7 +711,8 @@
       "zone": "Z234",
       "value": "Example value 64",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §8.4 external providers"
     },
     {
       "ref": "65",
@@ -658,7 +722,8 @@
       "zone": "Z235",
       "value": "Example Company SAS",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §7.5 documented information"
     },
     {
       "ref": "66",
@@ -668,7 +733,8 @@
       "zone": "Z242",
       "value": "Example value 66",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "67",
@@ -678,7 +744,8 @@
       "zone": "Z249",
       "value": "Example value 67",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "68",
@@ -688,7 +755,8 @@
       "zone": "Z256",
       "value": "Example value 68",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 68)"
     },
     {
       "ref": "69",
@@ -698,7 +766,8 @@
       "zone": "Z263",
       "value": "Example value 69",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 69)"
     },
     {
       "ref": "70",
@@ -708,7 +777,8 @@
       "zone": "Z270",
       "value": "Example value 70",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "71",
@@ -718,7 +788,8 @@
       "zone": "Z277",
       "value": "Example Company SAS",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 71)"
     },
     {
       "ref": "72",
@@ -728,7 +799,8 @@
       "zone": "Z278",
       "value": "Example value 72",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 72)"
     },
     {
       "ref": "73",
@@ -738,7 +810,8 @@
       "zone": "Z279",
       "value": "Example value 73",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 73)"
     },
     {
       "ref": "74",
@@ -748,7 +821,8 @@
       "zone": "Z280",
       "value": "2024-01-15",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 74)"
     },
     {
       "ref": "75",
@@ -758,7 +832,8 @@
       "zone": "Z281",
       "value": "Example value 75",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 75)"
     },
     {
       "ref": "76",
@@ -768,7 +843,8 @@
       "zone": "Z282",
       "value": "2024-01-15",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 76)"
     },
     {
       "ref": "77",
@@ -778,7 +854,8 @@
       "zone": "Z287",
       "value": "Example value 77",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 77)"
     },
     {
       "ref": "78",
@@ -788,7 +865,8 @@
       "zone": "Z288",
       "value": "Example value 78",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 78)"
     },
     {
       "ref": "79",
@@ -798,7 +876,8 @@
       "zone": "Z289",
       "value": "Example value 79",
       "confidence": "medium",
-      "note_for_reviewer": "Example value for validation / demo fill"
+      "note_for_reviewer": "Example value for validation / demo fill",
+      "source": "Master QMS / company data (ref 79)"
     },
     {
       "ref": "C1",
@@ -808,7 +887,8 @@
       "zone": "Z16",
       "choice": "OEM / Design",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS (ref C1)"
     },
     {
       "ref": "C2",
@@ -818,7 +898,8 @@
       "zone": "Z19",
       "choice": "Part-21J Design",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS (ref C2)"
     },
     {
       "ref": "C3",
@@ -828,7 +909,8 @@
       "zone": "Z22",
       "choice": "Material supplier",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS (ref C3)"
     },
     {
       "ref": "C4",
@@ -838,7 +920,8 @@
       "zone": "Z25",
       "choice": "Tooling / GSE supplier",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS (ref C4)"
     },
     {
       "ref": "C5",
@@ -848,7 +931,8 @@
       "zone": "Z28",
       "choice": "Training organisation",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS (ref C5)"
     },
     {
       "ref": "C6",
@@ -858,7 +942,8 @@
       "zone": "Z44",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "C7",
@@ -868,7 +953,8 @@
       "zone": "Z48",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "C8",
@@ -878,7 +964,8 @@
       "zone": "Z51",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "C9",
@@ -888,7 +975,8 @@
       "zone": "Z55",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "C10",
@@ -898,7 +986,8 @@
       "zone": "Z58",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "C11",
@@ -908,7 +997,8 @@
       "zone": "Z62",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS (ref C11)"
     },
     {
       "ref": "C12",
@@ -918,7 +1008,8 @@
       "zone": "Z65",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "MOE / QCM §1.2 scope"
     },
     {
       "ref": "C13",
@@ -928,7 +1019,8 @@
       "zone": "Z69",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "C14",
@@ -938,7 +1030,8 @@
       "zone": "Z72",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS (ref C14)"
     },
     {
       "ref": "C15",
@@ -948,7 +1041,8 @@
       "zone": "Z77",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "C16",
@@ -958,7 +1052,8 @@
       "zone": "Z80",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "C17",
@@ -968,7 +1063,8 @@
       "zone": "Z84",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "C18",
@@ -978,7 +1074,8 @@
       "zone": "Z88",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "C19",
@@ -988,7 +1085,8 @@
       "zone": "Z92",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "C20",
@@ -998,7 +1096,8 @@
       "zone": "Z95",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "C21",
@@ -1008,7 +1107,8 @@
       "zone": "Z99",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "C22",
@@ -1018,7 +1118,8 @@
       "zone": "Z102",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS (ref C22)"
     },
     {
       "ref": "C23",
@@ -1028,7 +1129,8 @@
       "zone": "Z106",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §7.5 documented information"
     },
     {
       "ref": "C24",
@@ -1038,7 +1140,8 @@
       "zone": "Z109",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "C25",
@@ -1048,7 +1151,8 @@
       "zone": "Z113",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "MOE / QCM §1.2 scope"
     },
     {
       "ref": "C26",
@@ -1058,7 +1162,8 @@
       "zone": "Z117",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS (ref C26)"
     },
     {
       "ref": "C27",
@@ -1068,7 +1173,8 @@
       "zone": "Z120",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS (ref C27)"
     },
     {
       "ref": "C28",
@@ -1078,7 +1184,8 @@
       "zone": "Z124",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS (ref C28)"
     },
     {
       "ref": "C29",
@@ -1088,7 +1195,8 @@
       "zone": "Z127",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "C30",
@@ -1098,7 +1206,8 @@
       "zone": "Z131",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §7.2 competence"
     },
     {
       "ref": "C31",
@@ -1108,7 +1217,8 @@
       "zone": "Z134",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS (ref C31)"
     },
     {
       "ref": "C32",
@@ -1118,7 +1228,8 @@
       "zone": "Z138",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS (ref C32)"
     },
     {
       "ref": "C33",
@@ -1128,7 +1239,8 @@
       "zone": "Z141",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS (ref C33)"
     },
     {
       "ref": "C34",
@@ -1138,7 +1250,8 @@
       "zone": "Z146",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS (ref C34)"
     },
     {
       "ref": "C35",
@@ -1148,7 +1261,8 @@
       "zone": "Z149",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "C36",
@@ -1158,7 +1272,8 @@
       "zone": "Z153",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "C37",
@@ -1168,7 +1283,8 @@
       "zone": "Z157",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §7.5 documented information"
     },
     {
       "ref": "C38",
@@ -1178,7 +1294,8 @@
       "zone": "Z161",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "C39",
@@ -1188,7 +1305,8 @@
       "zone": "Z164",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "C40",
@@ -1198,7 +1316,8 @@
       "zone": "Z168",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §8.4 external providers"
     },
     {
       "ref": "C41",
@@ -1208,7 +1327,8 @@
       "zone": "Z171",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "C42",
@@ -1218,7 +1338,8 @@
       "zone": "Z175",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "C43",
@@ -1228,7 +1349,8 @@
       "zone": "Z178",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "C44",
@@ -1238,7 +1360,8 @@
       "zone": "Z183",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS (ref C44)"
     },
     {
       "ref": "C45",
@@ -1248,7 +1371,8 @@
       "zone": "Z186",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "C46",
@@ -1258,7 +1382,8 @@
       "zone": "Z190",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "MOE / QCM §1.2 scope"
     },
     {
       "ref": "C47",
@@ -1268,7 +1393,8 @@
       "zone": "Z193",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS (ref C47)"
     },
     {
       "ref": "C48",
@@ -1278,7 +1404,8 @@
       "zone": "Z197",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "AH public registry / Master QMS cover"
     },
     {
       "ref": "C49",
@@ -1288,7 +1415,8 @@
       "zone": "Z200",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "C50",
@@ -1298,7 +1426,8 @@
       "zone": "Z205",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "MOE / QCM §1.2 scope"
     },
     {
       "ref": "C51",
@@ -1308,7 +1437,8 @@
       "zone": "Z208",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "C52",
@@ -1318,7 +1448,8 @@
       "zone": "Z211",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §7.2 competence"
     },
     {
       "ref": "C53",
@@ -1328,7 +1459,8 @@
       "zone": "Z215",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §7.2 competence"
     },
     {
       "ref": "C54",
@@ -1338,7 +1470,8 @@
       "zone": "Z218",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §7.2 competence"
     },
     {
       "ref": "C55",
@@ -1348,7 +1481,8 @@
       "zone": "Z223",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "C56",
@@ -1358,7 +1492,8 @@
       "zone": "Z226",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS (ref C56)"
     },
     {
       "ref": "C57",
@@ -1368,7 +1503,8 @@
       "zone": "Z231",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §8.4 external providers"
     },
     {
       "ref": "C58",
@@ -1378,7 +1514,8 @@
       "zone": "Z236",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "C59",
@@ -1388,7 +1525,8 @@
       "zone": "Z239",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "MOE / QCM §1.2 scope"
     },
     {
       "ref": "C60",
@@ -1398,7 +1536,8 @@
       "zone": "Z243",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "C61",
@@ -1408,7 +1547,8 @@
       "zone": "Z246",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "C62",
@@ -1418,7 +1558,8 @@
       "zone": "Z250",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "C63",
@@ -1428,7 +1569,8 @@
       "zone": "Z253",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "C64",
@@ -1438,7 +1580,8 @@
       "zone": "Z257",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS (ref C64)"
     },
     {
       "ref": "C65",
@@ -1448,7 +1591,8 @@
       "zone": "Z260",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS (ref C65)"
     },
     {
       "ref": "C66",
@@ -1458,7 +1602,8 @@
       "zone": "Z264",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §8.5–§8.7 / process control"
     },
     {
       "ref": "C67",
@@ -1468,7 +1613,8 @@
       "zone": "Z267",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "C68",
@@ -1478,7 +1624,8 @@
       "zone": "Z271",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Approvals register / Master QMS §8.4"
     },
     {
       "ref": "C69",
@@ -1488,7 +1635,8 @@
       "zone": "Z274",
       "choice": "Yes No N/A Evidence / remarks",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS §4–§5 / ED 074"
     },
     {
       "ref": "C70",
@@ -1498,7 +1646,8 @@
       "zone": "Z283",
       "choice": "Approved",
       "confidence": "medium",
-      "note_for_reviewer": "Example checkbox for validation / demo fill"
+      "note_for_reviewer": "Example checkbox for validation / demo fill",
+      "source": "Master QMS (ref C70)"
     }
   ]
 }

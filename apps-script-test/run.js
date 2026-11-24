@@ -189,7 +189,7 @@ const Run = (function () {
         if (!typeKnown || a.type === "multi_choice") requireProps(a, ["options_checked", "zones"], path);
         if (!typeKnown || a.type === "text" || a.type === "date") requireProps(a, ["value", "zone"], path);
       }
-      extraProps(a, {ref:1, page:1, label:1, context:1, type:1, zone:1, zones:1, value:1, choice:1, options_checked:1, remark:1, remark_zone:1, inline_text:1, inline_zone:1, confidence:1, note_for_reviewer:1, do_not_fill:1}, path);
+      extraProps(a, {ref:1, page:1, label:1, context:1, type:1, zone:1, zones:1, value:1, choice:1, options_checked:1, remark:1, remark_zone:1, inline_text:1, inline_zone:1, confidence:1, source:1, note_for_reviewer:1, do_not_fill:1}, path);
       if (Object.prototype.hasOwnProperty.call(a, "ref")) {
         if (typeof a.ref !== "string") pushErr(errors, path.concat("ref"), typeMsg(a.ref, ["string"]));
         else if (!a.ref.length) pushErr(errors, path.concat("ref"), "'' should be non-empty");
@@ -205,7 +205,7 @@ const Run = (function () {
         if (!(typeof a.page === "number" && Number.isInteger(a.page))) pushErr(errors, path.concat("page"), typeMsg(a.page, ["integer", "null"]));
         else if (a.page < 1) pushErr(errors, path.concat("page"), a.page + " is less than the minimum of 1");
       }
-      ["context", "value", "choice", "remark", "inline_text", "note_for_reviewer"].forEach(function (k) {
+      ["context", "value", "choice", "remark", "inline_text", "source", "note_for_reviewer"].forEach(function (k) {
         if (Object.prototype.hasOwnProperty.call(a, k)) stringOrNull(a[k], path.concat(k));
       });
       ["zone", "remark_zone", "inline_zone"].forEach(function (k) {
@@ -385,7 +385,9 @@ const Run = (function () {
     data.answers.forEach(function (a, i) {
       var info = {
         index: i, ref: a.ref, label: a.label, context: a.context == null ? null : a.context, type: a.type,
-        confidence: a.confidence || "high", note: a.note_for_reviewer == null ? null : a.note_for_reviewer,
+        confidence: a.confidence || "high",
+        source: a.source == null || a.source === "" ? null : a.source,
+        note: a.note_for_reviewer == null ? null : a.note_for_reviewer,
         zones: [], messages: (fit[i] || []).slice()
       };
       answers.push(info);
@@ -783,6 +785,7 @@ const Run = (function () {
         var fail = failed[ans.index + ":" + op.zone];
         var toCheck = op.flag || over || fail;
         var lines = [head, "Zone " + op.zone, "Confiance  " + (ans.confidence || "—")];
+        if (ans.source) lines.push("Source  " + ans.source);
         var kind;
         if (toCheck) {
           lines.push("Statut  à vérifier");
