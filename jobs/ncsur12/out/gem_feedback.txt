@@ -1,0 +1,2 @@
+Le JSON produit ne respecte pas le format attendu. Corrige uniquement ces points et renvoie le JSON complet :
+- form.zone_map vaut '9d7c1d88' mais la carte des zones actuelle est 'd60bd6a4' : réponses produites sur un autre zones.txt, refaire avec les fichiers actuels

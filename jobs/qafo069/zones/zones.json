@@ -1,0 +1,3630 @@
+{
+  "kind": "pdf_flat",
+  "pages": 3,
+  "zones": [
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        194.08,
+        189.77,
+        530.11,
+        203.17
+      ],
+      "prefilled": "AIRBUS HELICOPTERS",
+      "page": 1,
+      "ctx": {
+        "left": "Registered / Trading Name",
+        "line": "Registered / Trading Name",
+        "col": "Supplier Information"
+      },
+      "id": "Z1"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        118.24,
+        235.49,
+        530.11,
+        248.89
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "Aéroport International Marseille Provence, 13700 Marignane, France",
+        "col": "Address"
+      },
+      "id": "Z2"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        90.64,
+        258.41,
+        212.84,
+        271.81
+      ],
+      "prefilled": "+33 4 42 85 85 85",
+      "page": 1,
+      "ctx": {
+        "left": "Tel",
+        "right": "Fax",
+        "line": "Tel Fax Website",
+        "col": "Aéroport International Marseille Provence,"
+      },
+      "id": "Z3"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        242.44,
+        258.41,
+        343.88,
+        271.81
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Fax",
+        "right": "Website",
+        "line": "Tel Fax Website",
+        "col": "Aéroport International Marseille Provence, 13700 Marignane, France"
+      },
+      "id": "Z4"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        394.12,
+        258.41,
+        530.12,
+        271.81
+      ],
+      "prefilled": "www.airbus.com",
+      "page": 1,
+      "ctx": {
+        "left": "Website",
+        "line": "Tel Fax Website",
+        "col": "Revision Date: 07/2018"
+      },
+      "id": "Z5"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        173.44,
+        343.01,
+        330.08,
+        356.41
+      ],
+      "prefilled": "Romain TRAPP",
+      "page": 1,
+      "ctx": {
+        "left": "General Manager:",
+        "right": "Email:",
+        "above": "Information",
+        "line": "General Manager: Email:",
+        "col": "Fax"
+      },
+      "id": "Z6"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        369.64,
+        343.01,
+        530.12,
+        356.41
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Email:",
+        "line": "General Manager: Email:",
+        "col": "Marseille Provence, 13700 Marignane, France"
+      },
+      "id": "Z7"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        173.44,
+        365.87,
+        330.08,
+        379.27
+      ],
+      "prefilled": "Elodie CARMONA",
+      "page": 1,
+      "ctx": {
+        "left": "Quality Manager:",
+        "right": "Email:",
+        "line": "Quality Manager: Email:",
+        "col": "Fax"
+      },
+      "id": "Z8"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        369.64,
+        365.87,
+        530.12,
+        379.27
+      ],
+      "prefilled": "elodie.carmona@airbus.com",
+      "page": 1,
+      "ctx": {
+        "left": "Email:",
+        "line": "Quality Manager: Email:",
+        "col": "Marseille Provence, 13700 Marignane, France"
+      },
+      "id": "Z9"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        173.44,
+        388.73,
+        330.08,
+        402.13
+      ],
+      "prefilled": "Shinichi KATAYAMA",
+      "page": 1,
+      "ctx": {
+        "left": "Audit Contact Person:",
+        "right": "Email:",
+        "line": "Audit Contact Person: Email:",
+        "col": "Fax"
+      },
+      "id": "Z10"
+    },
+    {
+      "shape": "label_space",
+      "kind": "text",
+      "rect": [
+        366.26,
+        390.55,
+        543.48,
+        413.91
+      ],
+      "prefilled": "shinichi.katayama@airbus.com",
+      "page": 1,
+      "ctx": {
+        "left": "Email:",
+        "above": "Email:",
+        "line": "Audit Contact Person: Email:",
+        "col": "Quality Manager:"
+      },
+      "id": "Z11"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        56.16,
+        463.33,
+        65.88,
+        473.05
+      ],
+      "checked": true,
+      "page": 1,
+      "ctx": {
+        "right": "OEM",
+        "above": "Nature",
+        "line": "OEM MRO Parts / Materials Distributor Calibration",
+        "col": "Nature of Business (in relation to this application"
+      },
+      "id": "Z12"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        161.28,
+        463.33,
+        170.99,
+        473.05
+      ],
+      "checked": true,
+      "page": 1,
+      "ctx": {
+        "left": "OEM",
+        "right": "MRO",
+        "above": "relation",
+        "line": "OEM MRO Parts / Materials Distributor Calibration",
+        "col": "Nature of Business (in relation to this application for approval)"
+      },
+      "id": "Z13"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        266.4,
+        463.33,
+        276.11,
+        473.05
+      ],
+      "checked": true,
+      "page": 1,
+      "ctx": {
+        "left": "MRO",
+        "right": "Parts / Materials Distributor",
+        "above": "application",
+        "line": "OEM MRO Parts / Materials Distributor Calibration",
+        "col": "Business (in relation to this application for approval)"
+      },
+      "id": "Z14"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        441.6,
+        463.33,
+        451.31,
+        473.05
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "left": "Parts / Materials Distributor",
+        "right": "Calibration",
+        "line": "OEM MRO Parts / Materials Distributor Calibration",
+        "col": "Revision Date: 07/2018"
+      },
+      "id": "Z15"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        56.16,
+        480.85,
+        65.88,
+        490.56
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "right": "Others (Provide Details)",
+        "above": "OEM",
+        "line": "Others (Provide Details)",
+        "col": "Nature of Business (in relation to this application"
+      },
+      "id": "Z16"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        50.92,
+        489.41,
+        544.63,
+        502.81
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "OEM MRO Parts / Materials Distributor Calibration"
+      },
+      "id": "Z17"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        55.08,
+        549,
+        64.68,
+        560.16
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "right": "Aviation Authority / Other Certification Body Certificate No",
+        "above": "Civil",
+        "line": "Aviation Authority / Other Certification Body Certificate No Expiry Date",
+        "col": "Civil Aviation Authority Approval / Other"
+      },
+      "id": "Z18"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        56.16,
+        561.73,
+        63.48,
+        568.92
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "right": "CAAS",
+        "line": "CAAS",
+        "col": "Civil Aviation Authority Approval / Other"
+      },
+      "id": "Z19"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        291.18,
+        561.41,
+        408,
+        571.17
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "CAAS",
+        "above": "Certificate No",
+        "line": "CAAS",
+        "row": "CAAS",
+        "col": "Certificate No"
+      },
+      "id": "Z20"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        411,
+        561.41,
+        543.54,
+        571.17
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "Expiry Date",
+        "line": "CAAS",
+        "row": "CAAS",
+        "col": "Expiry Date"
+      },
+      "id": "Z21"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        56.16,
+        573.37,
+        63.48,
+        580.69
+      ],
+      "checked": true,
+      "page": 1,
+      "ctx": {
+        "right": "EASA",
+        "line": "EASA FR.145.0002 (no limit), Part-21J.700(no limit),Part-21G.0070(no limit)",
+        "col": "Civil Aviation Authority Approval / Other"
+      },
+      "id": "Z22"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        56.16,
+        585.13,
+        63.48,
+        592.32
+      ],
+      "checked": true,
+      "page": 1,
+      "ctx": {
+        "right": "FAA",
+        "line": "FAA E0OY135X November 30 2027",
+        "col": "Civil Aviation Authority Approval / Other"
+      },
+      "id": "Z23"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        56.16,
+        596.77,
+        63.48,
+        603.96
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "right": "ISO9000 Standards",
+        "line": "ISO9000 Standards",
+        "col": "Civil Aviation Authority Approval / Other"
+      },
+      "id": "Z24"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        291.18,
+        596.45,
+        408,
+        606.21
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "ISO9000 Standards",
+        "above": "E0OY135X November",
+        "line": "ISO9000 Standards",
+        "row": "ISO9000 Standards",
+        "col": "E0OY135X"
+      },
+      "id": "Z25"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        411,
+        596.45,
+        543.54,
+        606.21
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "November 30 2027",
+        "line": "ISO9000 Standards",
+        "row": "ISO9000 Standards",
+        "col": "November 30 2027"
+      },
+      "id": "Z26"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        56.16,
+        608.41,
+        63.48,
+        615.73
+      ],
+      "checked": true,
+      "page": 1,
+      "ctx": {
+        "right": "ISO9100 Standards",
+        "line": "ISO9100 Standards 282727-2019-AQ-FRA-ACCREDIA, 07 May 2028",
+        "col": "Civil Aviation Authority Approval / Other"
+      },
+      "id": "Z27"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        56.16,
+        620.17,
+        63.48,
+        627.37
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "right": "ISO/IEC:17025",
+        "line": "ISO/IEC:17025",
+        "col": "Civil Aviation Authority Approval / Other"
+      },
+      "id": "Z28"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        291.18,
+        619.85,
+        408,
+        629.49
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "ISO/IEC:17025",
+        "above": "282727-2019-AQ-FRA-ACCREDIA,",
+        "line": "ISO/IEC:17025",
+        "row": "ISO/IEC:17025",
+        "col": "E0OY135X"
+      },
+      "id": "Z29"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        411,
+        619.85,
+        543.54,
+        629.49
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "282727-2019-AQ-FRA-ACCREDIA, 07 May 2028",
+        "line": "ISO/IEC:17025",
+        "row": "ISO/IEC:17025",
+        "col": "07 May 2028"
+      },
+      "id": "Z30"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        291.18,
+        631.49,
+        408,
+        641.24
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Others (Specify)",
+        "above": "282727-2019-AQ-FRA-ACCREDIA,",
+        "line": "Others (Specify)",
+        "row": "Others (Specify)",
+        "col": "E0OY135X"
+      },
+      "id": "Z31"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        411,
+        631.49,
+        543.54,
+        641.24
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "282727-2019-AQ-FRA-ACCREDIA, 07 May 2028",
+        "line": "Others (Specify)",
+        "row": "Others (Specify)",
+        "col": "07 May 2028"
+      },
+      "id": "Z32"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        56.16,
+        631.81,
+        63.48,
+        639
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "right": "Others (Specify)",
+        "line": "Others (Specify)",
+        "col": "Civil Aviation Authority Approval / Other"
+      },
+      "id": "Z33"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        51.42,
+        195.77,
+        74.46,
+        205.41
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "right": "Quality Management System",
+        "above": "No",
+        "line": "Quality Management System",
+        "col": "No"
+      },
+      "id": "Z34"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        207.73,
+        479.4,
+        214.92
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "Assurance System in your organisation?",
+        "above": "Yes",
+        "line": "1.1 Is there an established Quality Assurance System in your organisation?",
+        "row": "1.1 Is there an established Quality Assurance System in your organisation?",
+        "col": "Yes"
+      },
+      "id": "Z35"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        207.73,
+        507.11,
+        214.92
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "System in your organisation?",
+        "above": "No",
+        "line": "1.1 Is there an established Quality Assurance System in your organisation?",
+        "row": "1.1 Is there an established Quality Assurance System in your organisation?",
+        "col": "No"
+      },
+      "id": "Z36"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        207.73,
+        534.71,
+        214.92
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "in your organisation?",
+        "above": "N/A",
+        "line": "1.1 Is there an established Quality Assurance System in your organisation?",
+        "row": "Is there an established Quality Assurance System in your organisation?",
+        "col": "N/A"
+      },
+      "id": "Z37"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        218.29,
+        479.4,
+        225.61
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "Policy in your organisation?",
+        "line": "1.2 Do you have a documented Quality Policy in your organisation?",
+        "row": "1.2 Do you have a documented Quality Policy in your organisation?",
+        "col": "Yes"
+      },
+      "id": "Z38"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        218.29,
+        507.11,
+        225.61
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "in your organisation?",
+        "line": "1.2 Do you have a documented Quality Policy in your organisation?",
+        "row": "1.2 Do you have a documented Quality Policy in your organisation?",
+        "col": "No"
+      },
+      "id": "Z39"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        218.29,
+        534.71,
+        225.61
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "organisation?",
+        "line": "1.2 Do you have a documented Quality Policy in your organisation?",
+        "row": "Do you have a documented Quality Policy in your organisation?",
+        "col": "N/A"
+      },
+      "id": "Z40"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        228.85,
+        479.4,
+        236.04
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "and understood by all employees in the organisation?",
+        "line": "1.3 If so, is this policy disseminated and understood by all employees in the organisation?",
+        "row": "1.3 If so, is this policy disseminated and understood by all employees in the organisation?",
+        "col": "Yes"
+      },
+      "id": "Z41"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        228.85,
+        507.11,
+        236.04
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "understood by all employees in the organisation?",
+        "line": "1.3 If so, is this policy disseminated and understood by all employees in the organisation?",
+        "row": "1.3 If so, is this policy disseminated and understood by all employees in the organisation?",
+        "col": "No"
+      },
+      "id": "Z42"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        228.85,
+        534.71,
+        236.04
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "by all employees in the organisation?",
+        "line": "1.3 If so, is this policy disseminated and understood by all employees in the organisation?",
+        "row": "If so, is this policy disseminated and understood by all employees in the organisation?",
+        "col": "N/A"
+      },
+      "id": "Z43"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        239.41,
+        479.4,
+        246.6
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "verify compliance with company procedures?",
+        "line": "1.4 Is there an internal audit program to verify compliance with company procedures?",
+        "row": "1.4 Is there an internal audit program to verify compliance with company procedures?",
+        "col": "Yes"
+      },
+      "id": "Z44"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        239.41,
+        507.11,
+        246.6
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "compliance with company procedures?",
+        "line": "1.4 Is there an internal audit program to verify compliance with company procedures?",
+        "row": "1.4 Is there an internal audit program to verify compliance with company procedures?",
+        "col": "No"
+      },
+      "id": "Z45"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        239.41,
+        534.71,
+        246.6
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "compliance with company procedures?",
+        "line": "1.4 Is there an internal audit program to verify compliance with company procedures?",
+        "row": "Is there an internal audit program to verify compliance with company procedures?",
+        "col": "N/A"
+      },
+      "id": "Z46"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        249.97,
+        479.4,
+        257.16
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "all staff to cooperate with quality auditors in the performance",
+        "line": "1.5 Does your organisation encourage all staff to cooperate with quality auditors in the performance",
+        "row": "1.5 Does your organisation encourage all staff to cooperate with quality auditors in the performance of their ",
+        "col": "Yes"
+      },
+      "id": "Z47"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        249.97,
+        507.11,
+        257.16
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "to cooperate with quality auditors in the performance",
+        "line": "1.5 Does your organisation encourage all staff to cooperate with quality auditors in the performance",
+        "row": "1.5 Does your organisation encourage all staff to cooperate with quality auditors in the performance of their ",
+        "col": "No"
+      },
+      "id": "Z48"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        249.97,
+        534.71,
+        257.16
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "cooperate with quality auditors in the performance",
+        "line": "1.5 Does your organisation encourage all staff to cooperate with quality auditors in the performance",
+        "row": "Does your organisation encourage all staff to cooperate with quality auditors in the performance of their work",
+        "col": "N/A"
+      },
+      "id": "Z49"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        270.61,
+        479.4,
+        277.93
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "Accountable Manager where he is apprised of findings arising",
+        "line": "1.6 Is there a feedback channel to the Accountable Manager where he is apprised of findings arising",
+        "row": "1.6 Is there a feedback channel to the Accountable Manager where he is apprised of findings arising from such ",
+        "col": "Yes"
+      },
+      "id": "Z50"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        270.61,
+        507.11,
+        277.93
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "Accountable Manager where he is apprised of findings arising",
+        "line": "1.6 Is there a feedback channel to the Accountable Manager where he is apprised of findings arising",
+        "row": "1.6 Is there a feedback channel to the Accountable Manager where he is apprised of findings arising from such ",
+        "col": "No"
+      },
+      "id": "Z51"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        270.61,
+        534.71,
+        277.93
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "Manager where he is apprised of findings arising",
+        "line": "1.6 Is there a feedback channel to the Accountable Manager where he is apprised of findings arising",
+        "row": "Is there a feedback channel to the Accountable Manager where he is apprised of findings arising from such audi",
+        "col": "N/A"
+      },
+      "id": "Z52"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        291.25,
+        479.4,
+        298.44
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "and relevant information used in your organisation continuous",
+        "line": "1.7 Are such audit findings reviewed and relevant information used in your organisation continuous",
+        "row": "1.7 Are such audit findings reviewed and relevant information used in your organisation continuous improvement",
+        "col": "Yes"
+      },
+      "id": "Z53"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        291.25,
+        507.11,
+        298.44
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "relevant information used in your organisation continuous",
+        "line": "1.7 Are such audit findings reviewed and relevant information used in your organisation continuous",
+        "row": "1.7 Are such audit findings reviewed and relevant information used in your organisation continuous improvement",
+        "col": "No"
+      },
+      "id": "Z54"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        291.25,
+        534.71,
+        298.44
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "information used in your organisation continuous",
+        "line": "1.7 Are such audit findings reviewed and relevant information used in your organisation continuous",
+        "row": "Are such audit findings reviewed and relevant information used in your organisation continuous improvement pro",
+        "col": "N/A"
+      },
+      "id": "Z55"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        51.42,
+        311.57,
+        74.46,
+        321.33
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "right": "Safety Management System",
+        "above": "1.7",
+        "line": "Safety Management System",
+        "col": "1.7"
+      },
+      "id": "Z56"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        323.53,
+        479.4,
+        330.85
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "a Safety Management System?",
+        "line": "2.1 Has your organisation implemented a Safety Management System?",
+        "row": "2.1 Has your organisation implemented a Safety Management System?",
+        "col": "Yes"
+      },
+      "id": "Z57"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        323.53,
+        507.11,
+        330.85
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "Safety Management System?",
+        "line": "2.1 Has your organisation implemented a Safety Management System?",
+        "row": "2.1 Has your organisation implemented a Safety Management System?",
+        "col": "No"
+      },
+      "id": "Z58"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        323.53,
+        534.71,
+        330.85
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "Management System?",
+        "line": "2.1 Has your organisation implemented a Safety Management System?",
+        "row": "Has your organisation implemented a Safety Management System?",
+        "col": "N/A"
+      },
+      "id": "Z59"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        334.09,
+        479.4,
+        341.28
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "System, does the Accountable Manager hold the ultimate",
+        "line": "2.2 In this Safety Management System, does the Accountable Manager hold the ultimate",
+        "row": "2.2 In this Safety Management System, does the Accountable Manager hold the ultimate responsibility for all sa",
+        "col": "Yes"
+      },
+      "id": "Z60"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        334.09,
+        507.11,
+        341.28
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "does the Accountable Manager hold the ultimate",
+        "line": "2.2 In this Safety Management System, does the Accountable Manager hold the ultimate",
+        "row": "2.2 In this Safety Management System, does the Accountable Manager hold the ultimate responsibility for all sa",
+        "col": "No"
+      },
+      "id": "Z61"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        334.09,
+        534.71,
+        341.28
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "the Accountable Manager hold the ultimate",
+        "line": "2.2 In this Safety Management System, does the Accountable Manager hold the ultimate",
+        "row": "In this Safety Management System, does the Accountable Manager hold the ultimate responsibility for all safety",
+        "col": "N/A"
+      },
+      "id": "Z62"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        354.73,
+        479.4,
+        362.05
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "assessment (HIRA) part of your Safety Management System?",
+        "line": "2.3 Is hazard identification and risk assessment (HIRA) part of your Safety Management System?",
+        "row": "2.3 Is hazard identification and risk assessment (HIRA) part of your Safety Management System?",
+        "col": "Yes"
+      },
+      "id": "Z63"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        354.73,
+        507.11,
+        362.05
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "assessment (HIRA) part of your Safety Management System?",
+        "line": "2.3 Is hazard identification and risk assessment (HIRA) part of your Safety Management System?",
+        "row": "2.3 Is hazard identification and risk assessment (HIRA) part of your Safety Management System?",
+        "col": "No"
+      },
+      "id": "Z64"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        354.73,
+        534.71,
+        362.05
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "(HIRA) part of your Safety Management System?",
+        "line": "2.3 Is hazard identification and risk assessment (HIRA) part of your Safety Management System?",
+        "row": "Is hazard identification and risk assessment (HIRA) part of your Safety Management System?",
+        "col": "N/A"
+      },
+      "id": "Z65"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        365.29,
+        479.4,
+        372.48
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "appropriately trained?",
+        "line": "2.4 Are personnel who carry out HIRA appropriately trained?",
+        "row": "2.4 Are personnel who carry out HIRA appropriately trained?",
+        "col": "Yes"
+      },
+      "id": "Z66"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        365.29,
+        507.11,
+        372.48
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "appropriately trained?",
+        "line": "2.4 Are personnel who carry out HIRA appropriately trained?",
+        "row": "2.4 Are personnel who carry out HIRA appropriately trained?",
+        "col": "No"
+      },
+      "id": "Z67"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        365.29,
+        534.71,
+        372.48
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "trained?",
+        "line": "2.4 Are personnel who carry out HIRA appropriately trained?",
+        "row": "Are personnel who carry out HIRA appropriately trained?",
+        "col": "N/A"
+      },
+      "id": "Z68"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        375.85,
+        479.4,
+        383.16
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "records retained.",
+        "line": "2.5 Are HIRAs documented and such records retained.",
+        "row": "2.5 Are HIRAs documented and such records retained.",
+        "col": "Yes"
+      },
+      "id": "Z69"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        375.85,
+        507.11,
+        383.16
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "retained.",
+        "line": "2.5 Are HIRAs documented and such records retained.",
+        "row": "2.5 Are HIRAs documented and such records retained.",
+        "col": "No"
+      },
+      "id": "Z70"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        375.85,
+        534.71,
+        383.16
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "retained.",
+        "line": "2.5 Are HIRAs documented and such records retained.",
+        "row": "Are HIRAs documented and such records retained.",
+        "col": "N/A"
+      },
+      "id": "Z71"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        386.41,
+        479.4,
+        393.6
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "intervals to ensure that they are current and effective?",
+        "line": "2.6 Are HIRAs reviewed at regular intervals to ensure that they are current and effective?",
+        "row": "2.6 Are HIRAs reviewed at regular intervals to ensure that they are current and effective?",
+        "col": "Yes"
+      },
+      "id": "Z72"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        386.41,
+        507.11,
+        393.6
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "ensure that they are current and effective?",
+        "line": "2.6 Are HIRAs reviewed at regular intervals to ensure that they are current and effective?",
+        "row": "2.6 Are HIRAs reviewed at regular intervals to ensure that they are current and effective?",
+        "col": "No"
+      },
+      "id": "Z73"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        386.41,
+        534.71,
+        393.6
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "that they are current and effective?",
+        "line": "2.6 Are HIRAs reviewed at regular intervals to ensure that they are current and effective?",
+        "row": "Are HIRAs reviewed at regular intervals to ensure that they are current and effective?",
+        "col": "N/A"
+      },
+      "id": "Z74"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        51.42,
+        396.65,
+        74.46,
+        406.29
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "right": "Facilities",
+        "above": "2.6",
+        "line": "Facilities",
+        "col": "2.6"
+      },
+      "id": "Z75"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        408.73,
+        479.4,
+        415.92
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "your facility protected from the environment?",
+        "line": "3.1 Are personnel who perform work in your facility protected from the environment?",
+        "row": "3.1 Are personnel who perform work in your facility protected from the environment?",
+        "col": "Yes"
+      },
+      "id": "Z76"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        408.73,
+        507.11,
+        415.92
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "facility protected from the environment?",
+        "line": "3.1 Are personnel who perform work in your facility protected from the environment?",
+        "row": "3.1 Are personnel who perform work in your facility protected from the environment?",
+        "col": "No"
+      },
+      "id": "Z77"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        408.73,
+        534.71,
+        415.92
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "protected from the environment?",
+        "line": "3.1 Are personnel who perform work in your facility protected from the environment?",
+        "row": "Are personnel who perform work in your facility protected from the environment?",
+        "col": "N/A"
+      },
+      "id": "Z78"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        419.17,
+        479.4,
+        426.49
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "environmentally controlled to ensure a conducive work",
+        "line": "3.2 Are conditions in your facility environmentally controlled to ensure a conducive work",
+        "row": "3.2 Are conditions in your facility environmentally controlled to ensure a conducive work environment?",
+        "col": "Yes"
+      },
+      "id": "Z79"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        419.17,
+        507.11,
+        426.49
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "environmentally controlled to ensure a conducive work",
+        "line": "3.2 Are conditions in your facility environmentally controlled to ensure a conducive work",
+        "row": "3.2 Are conditions in your facility environmentally controlled to ensure a conducive work environment?",
+        "col": "No"
+      },
+      "id": "Z80"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        419.17,
+        534.71,
+        426.49
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "environmentally controlled to ensure a conducive work",
+        "line": "3.2 Are conditions in your facility environmentally controlled to ensure a conducive work",
+        "row": "Are conditions in your facility environmentally controlled to ensure a conducive work environment?",
+        "col": "N/A"
+      },
+      "id": "Z81"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        439.93,
+        479.4,
+        447.12
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "storage equipment to ensure that customer parts are protected",
+        "line": "3.3 Does your facility have adequate storage equipment to ensure that customer parts are protected",
+        "row": "3.3 Does your facility have adequate storage equipment to ensure that customer parts are protected from enviro",
+        "col": "Yes"
+      },
+      "id": "Z82"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        439.93,
+        507.11,
+        447.12
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "equipment to ensure that customer parts are protected",
+        "line": "3.3 Does your facility have adequate storage equipment to ensure that customer parts are protected",
+        "row": "3.3 Does your facility have adequate storage equipment to ensure that customer parts are protected from enviro",
+        "col": "No"
+      },
+      "id": "Z83"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        439.93,
+        534.71,
+        447.12
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "equipment to ensure that customer parts are protected",
+        "line": "3.3 Does your facility have adequate storage equipment to ensure that customer parts are protected",
+        "row": "Does your facility have adequate storage equipment to ensure that customer parts are protected from environmen",
+        "col": "N/A"
+      },
+      "id": "Z84"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        460.45,
+        479.4,
+        467.64
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "contamination whilst awaiting work to be performed?",
+        "line": "3.4 Are customer parts protected from contamination whilst awaiting work to be performed?",
+        "row": "3.4 Are customer parts protected from contamination whilst awaiting work to be performed?",
+        "col": "Yes"
+      },
+      "id": "Z85"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        460.45,
+        507.11,
+        467.64
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "contamination whilst awaiting work to be performed?",
+        "line": "3.4 Are customer parts protected from contamination whilst awaiting work to be performed?",
+        "row": "3.4 Are customer parts protected from contamination whilst awaiting work to be performed?",
+        "col": "No"
+      },
+      "id": "Z86"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        460.45,
+        534.71,
+        467.64
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "whilst awaiting work to be performed?",
+        "line": "3.4 Are customer parts protected from contamination whilst awaiting work to be performed?",
+        "row": "Are customer parts protected from contamination whilst awaiting work to be performed?",
+        "col": "N/A"
+      },
+      "id": "Z87"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        471.13,
+        479.4,
+        478.32
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "to ensure the proper segregation of serviceable parts from",
+        "line": "3.5 Are there adequate storage racks to ensure the proper segregation of serviceable parts from",
+        "row": "3.5 Are there adequate storage racks to ensure the proper segregation of serviceable parts from unserviceable ",
+        "col": "Yes"
+      },
+      "id": "Z88"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        471.13,
+        507.11,
+        478.32
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "ensure the proper segregation of serviceable parts from",
+        "line": "3.5 Are there adequate storage racks to ensure the proper segregation of serviceable parts from",
+        "row": "3.5 Are there adequate storage racks to ensure the proper segregation of serviceable parts from unserviceable ",
+        "col": "No"
+      },
+      "id": "Z89"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        471.13,
+        534.71,
+        478.32
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "proper segregation of serviceable parts from",
+        "line": "3.5 Are there adequate storage racks to ensure the proper segregation of serviceable parts from",
+        "row": "Are there adequate storage racks to ensure the proper segregation of serviceable parts from unserviceable ones",
+        "col": "N/A"
+      },
+      "id": "Z90"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        491.65,
+        479.4,
+        498.85
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "to ensure the security of customers’ property?",
+        "line": "3.6 Is the facility adequately protected to ensure the security of customers’ property?",
+        "row": "3.6 Is the facility adequately protected to ensure the security of customers’ property?",
+        "col": "Yes"
+      },
+      "id": "Z91"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        491.65,
+        507.11,
+        498.85
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "ensure the security of customers’ property?",
+        "line": "3.6 Is the facility adequately protected to ensure the security of customers’ property?",
+        "row": "3.6 Is the facility adequately protected to ensure the security of customers’ property?",
+        "col": "No"
+      },
+      "id": "Z92"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        491.65,
+        534.71,
+        498.85
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "security of customers’ property?",
+        "line": "3.6 Is the facility adequately protected to ensure the security of customers’ property?",
+        "row": "Is the facility adequately protected to ensure the security of customers’ property?",
+        "col": "N/A"
+      },
+      "id": "Z93"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        51.42,
+        502.01,
+        74.46,
+        511.65
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "right": "Materials Management",
+        "above": "3.6",
+        "line": "Materials Management",
+        "col": "3.6"
+      },
+      "id": "Z94"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        513.97,
+        479.4,
+        521.16
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "the receiving of parts, including customers’ parts?",
+        "line": "4.1 Is there a documented procedure for the receiving of parts, including customers’ parts?",
+        "row": "4.1 Is there a documented procedure for the receiving of parts, including customers’ parts?",
+        "col": "Yes"
+      },
+      "id": "Z95"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        513.97,
+        507.11,
+        521.16
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "receiving of parts, including customers’ parts?",
+        "line": "4.1 Is there a documented procedure for the receiving of parts, including customers’ parts?",
+        "row": "4.1 Is there a documented procedure for the receiving of parts, including customers’ parts?",
+        "col": "No"
+      },
+      "id": "Z96"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        513.97,
+        534.71,
+        521.16
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "of parts, including customers’ parts?",
+        "line": "4.1 Is there a documented procedure for the receiving of parts, including customers’ parts?",
+        "row": "Is there a documented procedure for the receiving of parts, including customers’ parts?",
+        "col": "N/A"
+      },
+      "id": "Z97"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        524.41,
+        479.4,
+        531.73
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "receiving inspection trained and approved?",
+        "line": "4.2 Are personnel who perform receiving inspection trained and approved?",
+        "row": "4.2 Are personnel who perform receiving inspection trained and approved?",
+        "col": "Yes"
+      },
+      "id": "Z98"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        524.41,
+        507.11,
+        531.73
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "inspection trained and approved?",
+        "line": "4.2 Are personnel who perform receiving inspection trained and approved?",
+        "row": "4.2 Are personnel who perform receiving inspection trained and approved?",
+        "col": "No"
+      },
+      "id": "Z99"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        524.41,
+        534.71,
+        531.73
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "trained and approved?",
+        "line": "4.2 Are personnel who perform receiving inspection trained and approved?",
+        "row": "Are personnel who perform receiving inspection trained and approved?",
+        "col": "N/A"
+      },
+      "id": "Z100"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        535.09,
+        479.4,
+        542.28
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "facilities to ensure that parts waiting to be received in your system",
+        "line": "4.3 Are there adequate storage facilities to ensure that parts waiting to be received in your system",
+        "row": "4.3 Are there adequate storage facilities to ensure that parts waiting to be received in your system are prote",
+        "col": "Yes"
+      },
+      "id": "Z101"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        535.09,
+        507.11,
+        542.28
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "ensure that parts waiting to be received in your system",
+        "line": "4.3 Are there adequate storage facilities to ensure that parts waiting to be received in your system",
+        "row": "4.3 Are there adequate storage facilities to ensure that parts waiting to be received in your system are prote",
+        "col": "No"
+      },
+      "id": "Z102"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        535.09,
+        534.71,
+        542.28
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "that parts waiting to be received in your system",
+        "line": "4.3 Are there adequate storage facilities to ensure that parts waiting to be received in your system",
+        "row": "Are there adequate storage facilities to ensure that parts waiting to be received in your system are protected",
+        "col": "N/A"
+      },
+      "id": "Z103"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        555.61,
+        479.4,
+        562.93
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "bonded store which is environmentally controlled for storage of",
+        "line": "4.4 Does your organisation have a bonded store which is environmentally controlled for storage of",
+        "row": "4.4 Does your organisation have a bonded store which is environmentally controlled for storage of spares?",
+        "col": "Yes"
+      },
+      "id": "Z104"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        555.61,
+        507.11,
+        562.93
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "store which is environmentally controlled for storage of",
+        "line": "4.4 Does your organisation have a bonded store which is environmentally controlled for storage of",
+        "row": "4.4 Does your organisation have a bonded store which is environmentally controlled for storage of spares?",
+        "col": "No"
+      },
+      "id": "Z105"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        555.61,
+        534.71,
+        562.93
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "which is environmentally controlled for storage of",
+        "line": "4.4 Does your organisation have a bonded store which is environmentally controlled for storage of",
+        "row": "Does your organisation have a bonded store which is environmentally controlled for storage of spares?",
+        "col": "N/A"
+      },
+      "id": "Z106"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        576.37,
+        479.4,
+        583.56
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "controlled?",
+        "line": "4.5 If so, is access to this area controlled?",
+        "row": "4.5 If so, is access to this area controlled?",
+        "col": "Yes"
+      },
+      "id": "Z107"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        576.37,
+        507.11,
+        583.56
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "line": "4.5 If so, is access to this area controlled?",
+        "row": "4.5 If so, is access to this area controlled?",
+        "col": "No"
+      },
+      "id": "Z108"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        576.37,
+        534.71,
+        583.56
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "line": "4.5 If so, is access to this area controlled?",
+        "row": "If so, is access to this area controlled?",
+        "col": "N/A"
+      },
+      "id": "Z109"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        586.81,
+        479.4,
+        594.13
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "traceability of parts used in production?",
+        "line": "4.6 Is there a procedure to ensure the traceability of parts used in production?",
+        "row": "4.6 Is there a procedure to ensure the traceability of parts used in production?",
+        "col": "Yes"
+      },
+      "id": "Z110"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        586.81,
+        507.11,
+        594.13
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "traceability of parts used in production?",
+        "line": "4.6 Is there a procedure to ensure the traceability of parts used in production?",
+        "row": "4.6 Is there a procedure to ensure the traceability of parts used in production?",
+        "col": "No"
+      },
+      "id": "Z111"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        586.81,
+        534.71,
+        594.13
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "parts used in production?",
+        "line": "4.6 Is there a procedure to ensure the traceability of parts used in production?",
+        "row": "Is there a procedure to ensure the traceability of parts used in production?",
+        "col": "N/A"
+      },
+      "id": "Z112"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        597.49,
+        479.4,
+        604.69
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "shelf life parts to ensure that life expired items are not",
+        "line": "4.7 Is there a procedure to control shelf life parts to ensure that life expired items are not",
+        "row": "4.7 Is there a procedure to control shelf life parts to ensure that life expired items are not inadvertently i",
+        "col": "Yes"
+      },
+      "id": "Z113"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        597.49,
+        507.11,
+        604.69
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "life parts to ensure that life expired items are not",
+        "line": "4.7 Is there a procedure to control shelf life parts to ensure that life expired items are not",
+        "row": "4.7 Is there a procedure to control shelf life parts to ensure that life expired items are not inadvertently i",
+        "col": "No"
+      },
+      "id": "Z114"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        597.49,
+        534.71,
+        604.69
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "parts to ensure that life expired items are not",
+        "line": "4.7 Is there a procedure to control shelf life parts to ensure that life expired items are not",
+        "row": "Is there a procedure to control shelf life parts to ensure that life expired items are not inadvertently issue",
+        "col": "N/A"
+      },
+      "id": "Z115"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        618,
+        479.4,
+        625.2
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "the storage of quarantine parts awaiting further disposition?",
+        "line": "4.8 Is there a secure area dedicated for the storage of quarantine parts awaiting further disposition?",
+        "row": "4.8 Is there a secure area dedicated for the storage of quarantine parts awaiting further disposition?",
+        "col": "Yes"
+      },
+      "id": "Z116"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        618,
+        507.11,
+        625.2
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "storage of quarantine parts awaiting further disposition?",
+        "line": "4.8 Is there a secure area dedicated for the storage of quarantine parts awaiting further disposition?",
+        "row": "4.8 Is there a secure area dedicated for the storage of quarantine parts awaiting further disposition?",
+        "col": "No"
+      },
+      "id": "Z117"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        618,
+        534.71,
+        625.2
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "quarantine parts awaiting further disposition?",
+        "line": "4.8 Is there a secure area dedicated for the storage of quarantine parts awaiting further disposition?",
+        "row": "Is there a secure area dedicated for the storage of quarantine parts awaiting further disposition?",
+        "col": "N/A"
+      },
+      "id": "Z118"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        51.42,
+        628.37,
+        74.46,
+        638.01
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "right": "Approved Data",
+        "above": "4.8",
+        "line": "Approved Data",
+        "col": "4.8"
+      },
+      "id": "Z119"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        640.33,
+        479.4,
+        647.53
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "control the use of maintenance data?",
+        "line": "5.1 Is there a documented procedure to control the use of maintenance data?",
+        "row": "5.1 Is there a documented procedure to control the use of maintenance data?",
+        "col": "Yes"
+      },
+      "id": "Z120"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        640.33,
+        507.11,
+        647.53
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "the use of maintenance data?",
+        "line": "5.1 Is there a documented procedure to control the use of maintenance data?",
+        "row": "5.1 Is there a documented procedure to control the use of maintenance data?",
+        "col": "No"
+      },
+      "id": "Z121"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        640.33,
+        534.71,
+        647.53
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "use of maintenance data?",
+        "line": "5.1 Is there a documented procedure to control the use of maintenance data?",
+        "row": "Is there a documented procedure to control the use of maintenance data?",
+        "col": "N/A"
+      },
+      "id": "Z122"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        650.89,
+        479.4,
+        658.08
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "maintenance data used for production is updated?",
+        "line": "5.2 Is there a procedure to ensure that maintenance data used for production is updated?",
+        "row": "5.2 Is there a procedure to ensure that maintenance data used for production is updated?",
+        "col": "Yes"
+      },
+      "id": "Z123"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        650.89,
+        507.11,
+        658.08
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "maintenance data used for production is updated?",
+        "line": "5.2 Is there a procedure to ensure that maintenance data used for production is updated?",
+        "row": "5.2 Is there a procedure to ensure that maintenance data used for production is updated?",
+        "col": "No"
+      },
+      "id": "Z124"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        650.89,
+        534.71,
+        658.08
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "data used for production is updated?",
+        "line": "5.2 Is there a procedure to ensure that maintenance data used for production is updated?",
+        "row": "Is there a procedure to ensure that maintenance data used for production is updated?",
+        "col": "N/A"
+      },
+      "id": "Z125"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        661.33,
+        479.4,
+        668.65
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "controlled electronically, is there a procedure to control the use of",
+        "line": "5.3 Where maintenance data is controlled electronically, is there a procedure to control the use of",
+        "row": "5.3 Where maintenance data is controlled electronically, is there a procedure to control the use of printed da",
+        "col": "Yes"
+      },
+      "id": "Z126"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        661.33,
+        507.11,
+        668.65
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "electronically, is there a procedure to control the use of",
+        "line": "5.3 Where maintenance data is controlled electronically, is there a procedure to control the use of",
+        "row": "5.3 Where maintenance data is controlled electronically, is there a procedure to control the use of printed da",
+        "col": "No"
+      },
+      "id": "Z127"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        661.33,
+        534.71,
+        668.65
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "electronically, is there a procedure to control the use of",
+        "line": "5.3 Where maintenance data is controlled electronically, is there a procedure to control the use of",
+        "row": "Where maintenance data is controlled electronically, is there a procedure to control the use of printed data?",
+        "col": "N/A"
+      },
+      "id": "Z128"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        472.08,
+        681.97,
+        479.4,
+        689.29
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "maintenance data is allowed, is there a procedure to control",
+        "line": "5.4 Where the use of customer supplied maintenance data is allowed, is there a procedure to control",
+        "row": "5.4 Where the use of customer supplied maintenance data is allowed, is there a procedure to control such use?",
+        "col": "Yes"
+      },
+      "id": "Z129"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        499.92,
+        681.97,
+        507.11,
+        689.29
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "maintenance data is allowed, is there a procedure to control",
+        "line": "5.4 Where the use of customer supplied maintenance data is allowed, is there a procedure to control",
+        "row": "5.4 Where the use of customer supplied maintenance data is allowed, is there a procedure to control such use?",
+        "col": "No"
+      },
+      "id": "Z130"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        527.52,
+        681.97,
+        534.71,
+        689.29
+      ],
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "data is allowed, is there a procedure to control",
+        "line": "5.4 Where the use of customer supplied maintenance data is allowed, is there a procedure to control",
+        "row": "Where the use of customer supplied maintenance data is allowed, is there a procedure to control such use?",
+        "col": "N/A"
+      },
+      "id": "Z131"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        51.42,
+        195.77,
+        74.22,
+        205.41
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "right": "Tooling and Equipment",
+        "above": "No",
+        "line": "Tooling and Equipment",
+        "col": "No"
+      },
+      "id": "Z132"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        473.04,
+        207.73,
+        480.23,
+        214.92
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "use of tools?",
+        "above": "Yes",
+        "line": "6.1 Is there a procedure to control the use of tools?",
+        "row": "6.1 Is there a procedure to control the use of tools?",
+        "col": "Yes"
+      },
+      "id": "Z133"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        501.24,
+        207.73,
+        508.43,
+        214.92
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "tools?",
+        "above": "No",
+        "line": "6.1 Is there a procedure to control the use of tools?",
+        "row": "6.1 Is there a procedure to control the use of tools?",
+        "col": "No"
+      },
+      "id": "Z134"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        528.36,
+        207.73,
+        535.68,
+        214.92
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "above": "N/A",
+        "line": "6.1 Is there a procedure to control the use of tools?",
+        "row": "Is there a procedure to control the use of tools?",
+        "col": "N/A"
+      },
+      "id": "Z135"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        473.04,
+        218.29,
+        480.23,
+        225.61
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "use of equipment that requires calibration?",
+        "line": "6.2 Is there a procedure to control the use of equipment that requires calibration?",
+        "row": "6.2 Is there a procedure to control the use of equipment that requires calibration?",
+        "col": "Yes"
+      },
+      "id": "Z136"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        501.24,
+        218.29,
+        508.43,
+        225.61
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "equipment that requires calibration?",
+        "line": "6.2 Is there a procedure to control the use of equipment that requires calibration?",
+        "row": "6.2 Is there a procedure to control the use of equipment that requires calibration?",
+        "col": "No"
+      },
+      "id": "Z137"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        528.36,
+        218.29,
+        535.68,
+        225.61
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "equipment that requires calibration?",
+        "line": "6.2 Is there a procedure to control the use of equipment that requires calibration?",
+        "row": "Is there a procedure to control the use of equipment that requires calibration?",
+        "col": "N/A"
+      },
+      "id": "Z138"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        473.04,
+        228.85,
+        480.23,
+        236.04
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "accountability of tools and to report lost tools?",
+        "line": "6.3 Is there a procedure to ensure the accountability of tools and to report lost tools?",
+        "row": "6.3 Is there a procedure to ensure the accountability of tools and to report lost tools?",
+        "col": "Yes"
+      },
+      "id": "Z139"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        501.24,
+        228.85,
+        508.43,
+        236.04
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "accountability of tools and to report lost tools?",
+        "line": "6.3 Is there a procedure to ensure the accountability of tools and to report lost tools?",
+        "row": "6.3 Is there a procedure to ensure the accountability of tools and to report lost tools?",
+        "col": "No"
+      },
+      "id": "Z140"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        528.36,
+        228.85,
+        535.68,
+        236.04
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "tools and to report lost tools?",
+        "line": "6.3 Is there a procedure to ensure the accountability of tools and to report lost tools?",
+        "row": "Is there a procedure to ensure the accountability of tools and to report lost tools?",
+        "col": "N/A"
+      },
+      "id": "Z141"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        473.04,
+        239.41,
+        480.23,
+        246.6
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "good working condition?",
+        "line": "6.4 Are tools maintained and kept in good working condition?",
+        "row": "6.4 Are tools maintained and kept in good working condition?",
+        "col": "Yes"
+      },
+      "id": "Z142"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        501.24,
+        239.41,
+        508.43,
+        246.6
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "working condition?",
+        "line": "6.4 Are tools maintained and kept in good working condition?",
+        "row": "6.4 Are tools maintained and kept in good working condition?",
+        "col": "No"
+      },
+      "id": "Z143"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        528.36,
+        239.41,
+        535.68,
+        246.6
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "condition?",
+        "line": "6.4 Are tools maintained and kept in good working condition?",
+        "row": "Are tools maintained and kept in good working condition?",
+        "col": "N/A"
+      },
+      "id": "Z144"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        473.04,
+        249.97,
+        480.23,
+        257.16
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "be used, is there a procedure to ensure their accountability?",
+        "line": "6.5 Where personal tools are allowed to be used, is there a procedure to ensure their accountability?",
+        "row": "6.5 Where personal tools are allowed to be used, is there a procedure to ensure their accountability?",
+        "col": "Yes"
+      },
+      "id": "Z145"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        501.24,
+        249.97,
+        508.43,
+        257.16
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "used, is there a procedure to ensure their accountability?",
+        "line": "6.5 Where personal tools are allowed to be used, is there a procedure to ensure their accountability?",
+        "row": "6.5 Where personal tools are allowed to be used, is there a procedure to ensure their accountability?",
+        "col": "No"
+      },
+      "id": "Z146"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        528.36,
+        249.97,
+        535.68,
+        257.16
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "there a procedure to ensure their accountability?",
+        "line": "6.5 Where personal tools are allowed to be used, is there a procedure to ensure their accountability?",
+        "row": "Where personal tools are allowed to be used, is there a procedure to ensure their accountability?",
+        "col": "N/A"
+      },
+      "id": "Z147"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        473.04,
+        260.53,
+        480.23,
+        267.72
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "tooling proves to be out of tolerance after the work was released",
+        "line": "6.6 Do you have a recall system if tooling proves to be out of tolerance after the work was released",
+        "row": "6.6 Do you have a recall system if tooling proves to be out of tolerance after the work was released to servic",
+        "col": "Yes"
+      },
+      "id": "Z148"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        501.24,
+        260.53,
+        508.43,
+        267.72
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "proves to be out of tolerance after the work was released",
+        "line": "6.6 Do you have a recall system if tooling proves to be out of tolerance after the work was released",
+        "row": "6.6 Do you have a recall system if tooling proves to be out of tolerance after the work was released to servic",
+        "col": "No"
+      },
+      "id": "Z149"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        528.36,
+        260.53,
+        535.68,
+        267.72
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "be out of tolerance after the work was released",
+        "line": "6.6 Do you have a recall system if tooling proves to be out of tolerance after the work was released",
+        "row": "Do you have a recall system if tooling proves to be out of tolerance after the work was released to service?",
+        "col": "N/A"
+      },
+      "id": "Z150"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        51.42,
+        280.85,
+        74.22,
+        290.61
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "right": "Training and Assessment",
+        "above": "6.6",
+        "line": "Training and Assessment",
+        "col": "6.6"
+      },
+      "id": "Z151"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        473.04,
+        292.81,
+        480.23,
+        300.13
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "training program?",
+        "line": "7.1 Does the organisation have a training program?",
+        "row": "7.1 Does the organisation have a training program?",
+        "col": "Yes"
+      },
+      "id": "Z152"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        501.24,
+        292.81,
+        508.43,
+        300.13
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "program?",
+        "line": "7.1 Does the organisation have a training program?",
+        "row": "7.1 Does the organisation have a training program?",
+        "col": "No"
+      },
+      "id": "Z153"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        528.36,
+        292.81,
+        535.68,
+        300.13
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "line": "7.1 Does the organisation have a training program?",
+        "row": "Does the organisation have a training program?",
+        "col": "N/A"
+      },
+      "id": "Z154"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        473.04,
+        303.37,
+        480.23,
+        310.56
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "included in the training program?",
+        "line": "7.2 If so, is human factors performance included in the training program?",
+        "row": "7.2 If so, is human factors performance included in the training program?",
+        "col": "Yes"
+      },
+      "id": "Z155"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        501.24,
+        303.37,
+        508.43,
+        310.56
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "included in the training program?",
+        "line": "7.2 If so, is human factors performance included in the training program?",
+        "row": "7.2 If so, is human factors performance included in the training program?",
+        "col": "No"
+      },
+      "id": "Z156"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        528.36,
+        303.37,
+        535.68,
+        310.56
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "training program?",
+        "line": "7.2 If so, is human factors performance included in the training program?",
+        "row": "If so, is human factors performance included in the training program?",
+        "col": "N/A"
+      },
+      "id": "Z157"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        473.04,
+        314.05,
+        480.23,
+        321.24
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "there a procedure to qualify and ensure the competence of",
+        "line": "7.3 If training is conducted in-house, is there a procedure to qualify and ensure the competence of",
+        "row": "7.3 If training is conducted in-house, is there a procedure to qualify and ensure the competence of such train",
+        "col": "Yes"
+      },
+      "id": "Z158"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        501.24,
+        314.05,
+        508.43,
+        321.24
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "a procedure to qualify and ensure the competence of",
+        "line": "7.3 If training is conducted in-house, is there a procedure to qualify and ensure the competence of",
+        "row": "7.3 If training is conducted in-house, is there a procedure to qualify and ensure the competence of such train",
+        "col": "No"
+      },
+      "id": "Z159"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        528.36,
+        314.05,
+        535.68,
+        321.24
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "procedure to qualify and ensure the competence of",
+        "line": "7.3 If training is conducted in-house, is there a procedure to qualify and ensure the competence of",
+        "row": "If training is conducted in-house, is there a procedure to qualify and ensure the competence of such trainers?",
+        "col": "N/A"
+      },
+      "id": "Z160"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        473.04,
+        334.57,
+        480.23,
+        341.76
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "maintained and retained?",
+        "line": "7.4 Are the records of such training maintained and retained?",
+        "row": "7.4 Are the records of such training maintained and retained?",
+        "col": "Yes"
+      },
+      "id": "Z161"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        501.24,
+        334.57,
+        508.43,
+        341.76
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "and retained?",
+        "line": "7.4 Are the records of such training maintained and retained?",
+        "row": "7.4 Are the records of such training maintained and retained?",
+        "col": "No"
+      },
+      "id": "Z162"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        528.36,
+        334.57,
+        535.68,
+        341.76
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "retained?",
+        "line": "7.4 Are the records of such training maintained and retained?",
+        "row": "Are the records of such training maintained and retained?",
+        "col": "N/A"
+      },
+      "id": "Z163"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        473.04,
+        345.13,
+        480.23,
+        352.45
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "assessed on their competency and training requirements tailored to",
+        "line": "7.5 Are maintenance personnel assessed on their competency and training requirements tailored to",
+        "row": "7.5 Are maintenance personnel assessed on their competency and training requirements tailored to meet such nee",
+        "col": "Yes"
+      },
+      "id": "Z164"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        501.24,
+        345.13,
+        508.43,
+        352.45
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "their competency and training requirements tailored to",
+        "line": "7.5 Are maintenance personnel assessed on their competency and training requirements tailored to",
+        "row": "7.5 Are maintenance personnel assessed on their competency and training requirements tailored to meet such nee",
+        "col": "No"
+      },
+      "id": "Z165"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        528.36,
+        345.13,
+        535.68,
+        352.45
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "competency and training requirements tailored to",
+        "line": "7.5 Are maintenance personnel assessed on their competency and training requirements tailored to",
+        "row": "Are maintenance personnel assessed on their competency and training requirements tailored to meet such needs?",
+        "col": "N/A"
+      },
+      "id": "Z166"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        51.42,
+        365.45,
+        74.22,
+        375.09
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "right": "Maintenance Procedures",
+        "above": "7.5",
+        "line": "Maintenance Procedures",
+        "col": "7.5"
+      },
+      "id": "Z167"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        473.04,
+        377.41,
+        480.23,
+        384.6
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "the qualification and approval of personnel involved in",
+        "line": "8.1 Is there a procedure to govern the qualification and approval of personnel involved in",
+        "row": "8.1 Is there a procedure to govern the qualification and approval of personnel involved in maintenance?",
+        "col": "Yes"
+      },
+      "id": "Z168"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        501.24,
+        377.41,
+        508.43,
+        384.6
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "qualification and approval of personnel involved in",
+        "line": "8.1 Is there a procedure to govern the qualification and approval of personnel involved in",
+        "row": "8.1 Is there a procedure to govern the qualification and approval of personnel involved in maintenance?",
+        "col": "No"
+      },
+      "id": "Z169"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        528.36,
+        377.41,
+        535.68,
+        384.6
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "qualification and approval of personnel involved in",
+        "line": "8.1 Is there a procedure to govern the qualification and approval of personnel involved in",
+        "row": "Is there a procedure to govern the qualification and approval of personnel involved in maintenance?",
+        "col": "N/A"
+      },
+      "id": "Z170"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        473.04,
+        398.05,
+        480.23,
+        405.37
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "provided with appropriate personal protection equipment in the",
+        "line": "8.2 Are maintenance personnel provided with appropriate personal protection equipment in the",
+        "row": "8.2 Are maintenance personnel provided with appropriate personal protection equipment in the performance of th",
+        "col": "Yes"
+      },
+      "id": "Z171"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        501.24,
+        398.05,
+        508.43,
+        405.37
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "with appropriate personal protection equipment in the",
+        "line": "8.2 Are maintenance personnel provided with appropriate personal protection equipment in the",
+        "row": "8.2 Are maintenance personnel provided with appropriate personal protection equipment in the performance of th",
+        "col": "No"
+      },
+      "id": "Z172"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        528.36,
+        398.05,
+        535.68,
+        405.37
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "appropriate personal protection equipment in the",
+        "line": "8.2 Are maintenance personnel provided with appropriate personal protection equipment in the",
+        "row": "Are maintenance personnel provided with appropriate personal protection equipment in the performance of their ",
+        "col": "N/A"
+      },
+      "id": "Z173"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        473.04,
+        418.81,
+        480.23,
+        426
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "that there is sufficiency of resources available to meet the",
+        "line": "8.3 Is work load monitored to ensure that there is sufficiency of resources available to meet the",
+        "row": "8.3 Is work load monitored to ensure that there is sufficiency of resources available to meet the workload?",
+        "col": "Yes"
+      },
+      "id": "Z174"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        501.24,
+        418.81,
+        508.43,
+        426
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "there is sufficiency of resources available to meet the",
+        "line": "8.3 Is work load monitored to ensure that there is sufficiency of resources available to meet the",
+        "row": "8.3 Is work load monitored to ensure that there is sufficiency of resources available to meet the workload?",
+        "col": "No"
+      },
+      "id": "Z175"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        528.36,
+        418.81,
+        535.68,
+        426
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "sufficiency of resources available to meet the",
+        "line": "8.3 Is work load monitored to ensure that there is sufficiency of resources available to meet the",
+        "row": "Is work load monitored to ensure that there is sufficiency of resources available to meet the workload?",
+        "col": "N/A"
+      },
+      "id": "Z176"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        473.04,
+        439.33,
+        480.23,
+        446.53
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "multiple shifts, is there a procedure for the proper handing-",
+        "line": "8.4 Where the organisation employs multiple shifts, is there a procedure for the proper handing-",
+        "row": "8.4 Where the organisation employs multiple shifts, is there a procedure for the proper handing- taking over o",
+        "col": "Yes"
+      },
+      "id": "Z177"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        501.24,
+        439.33,
+        508.43,
+        446.53
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "shifts, is there a procedure for the proper handing-",
+        "line": "8.4 Where the organisation employs multiple shifts, is there a procedure for the proper handing-",
+        "row": "8.4 Where the organisation employs multiple shifts, is there a procedure for the proper handing- taking over o",
+        "col": "No"
+      },
+      "id": "Z178"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        528.36,
+        439.33,
+        535.68,
+        446.53
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "is there a procedure for the proper handing-",
+        "line": "8.4 Where the organisation employs multiple shifts, is there a procedure for the proper handing-",
+        "row": "Where the organisation employs multiple shifts, is there a procedure for the proper handing- taking over of wo",
+        "col": "N/A"
+      },
+      "id": "Z179"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        473.04,
+        459.97,
+        480.23,
+        467.16
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "ensure that maintenance personnel refer to maintenance data",
+        "line": "8.5 Is there effective supervision to ensure that maintenance personnel refer to maintenance data",
+        "row": "8.5 Is there effective supervision to ensure that maintenance personnel refer to maintenance data when carryin",
+        "col": "Yes"
+      },
+      "id": "Z180"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        501.24,
+        459.97,
+        508.43,
+        467.16
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "that maintenance personnel refer to maintenance data",
+        "line": "8.5 Is there effective supervision to ensure that maintenance personnel refer to maintenance data",
+        "row": "8.5 Is there effective supervision to ensure that maintenance personnel refer to maintenance data when carryin",
+        "col": "No"
+      },
+      "id": "Z181"
+    },
+    {
+      "shape": "square",
+      "kind": "check",
+      "rect": [
+        528.36,
+        459.97,
+        535.68,
+        467.16
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "maintenance personnel refer to maintenance data",
+        "line": "8.5 Is there effective supervision to ensure that maintenance personnel refer to maintenance data",
+        "row": "Is there effective supervision to ensure that maintenance personnel refer to maintenance data when carrying ou",
+        "col": "N/A"
+      },
+      "id": "Z182"
+    },
+    {
+      "shape": "label_space",
+      "kind": "text",
+      "rect": [
+        367.18,
+        551.33,
+        543.54,
+        560.97
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Questionnaire completed by:",
+        "above": "validity of the supplier approval.",
+        "line": "Questionnaire completed by:",
+        "col": "and when they become available which may"
+      },
+      "id": "Z183"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        318.9,
+        562.97,
+        329.57,
+        606.69
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Shinichi KATAYAMA / Business & Programs Quality",
+        "above": "completed",
+        "line": "Shinichi KATAYAMA / Business & Programs Quality",
+        "row": "Shinichi KATAYAMA / Business & Programs Quality Authorised Company Representative / Title",
+        "col": "Questionnaire completed by:"
+      },
+      "id": "Z184"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        332.57,
+        562.97,
+        439.98,
+        595.05
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Shinichi KATAYAMA / Business & Programs Quality",
+        "above": "completed by:",
+        "line": "Shinichi KATAYAMA / Business & Programs Quality",
+        "row": "Shinichi KATAYAMA / Business & Programs Quality",
+        "col": "Questionnaire completed by:"
+      },
+      "id": "Z185"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        442.98,
+        562.97,
+        453.78,
+        606.69
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Business & Programs Quality",
+        "above": "supplier approval.",
+        "line": "Shinichi KATAYAMA / Business & Programs Quality",
+        "row": "Shinichi KATAYAMA / Business & Programs Quality Authorised Company Representative / Title Signature",
+        "col": "on the validity of the supplier approval."
+      },
+      "id": "Z186"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        456.78,
+        562.97,
+        543.54,
+        595.05
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "& Programs Quality",
+        "above": "approval.",
+        "line": "Shinichi KATAYAMA / Business & Programs Quality",
+        "row": "Shinichi KATAYAMA / Business & Programs Quality",
+        "col": "on the validity of the supplier approval."
+      },
+      "id": "Z187"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        51.42,
+        677.93,
+        370.98,
+        709.89
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "above": "Approved / Not Approved to be included as an approved supplier",
+        "col": "Approved / Not Approved to be included as an approved supplier"
+      },
+      "id": "Z188"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        373.98,
+        677.93,
+        384.78,
+        732.81
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "row": "Quality Assurance Manager Composite Technology International Pte Ltd",
+        "col": "questionnaire have been reviewed and are found to be acceptable / unacceptable."
+      },
+      "id": "Z189"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        387.78,
+        677.93,
+        543.54,
+        709.89
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "col": "The responses in the questionnaire have been reviewed and are found to be accept"
+      },
+      "id": "Z190"
+    },
+    {
+      "shape": "label_space",
+      "kind": "text",
+      "rect": [
+        387.78,
+        722.8,
+        543.54,
+        732.81
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Composite Technology International Pte Ltd",
+        "above": "Date",
+        "line": "Composite Technology International Pte Ltd",
+        "row": "Quality Assurance Manager Composite Technology International Pte Ltd",
+        "col": "Date"
+      },
+      "id": "Z191"
+    }
+  ],
+  "notes": [],
+  "detector": "zones-js-1",
+  "map_id": "9fb96e47",
+  "source": "form.pdf"
+}

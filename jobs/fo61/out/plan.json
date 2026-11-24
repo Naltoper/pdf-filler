@@ -1,0 +1,3456 @@
+{
+  "ops": [
+    {
+      "op": "text",
+      "zone": "Z1",
+      "answer": 0,
+      "role": "value",
+      "text": "AIRBUS HELICOPTERS",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z2",
+      "answer": 1,
+      "role": "value",
+      "text": "Aéroport International Marseille Provence, 13700 Marignane, France",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z3",
+      "answer": 2,
+      "role": "value",
+      "text": "+33 4 42 85 85 85",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z4",
+      "answer": 3,
+      "role": "value",
+      "text": "shinichi.katayama@airbus.com",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z5",
+      "answer": 4,
+      "role": "value",
+      "text": "www.airbus.com",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z6",
+      "answer": 5,
+      "role": "value",
+      "text": "1 000 or more",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z7",
+      "answer": 6,
+      "role": "value",
+      "text": "Elodie CARMONA / +33 4 42 85 85 85 / elodie.carmona@airbus.com",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z8",
+      "answer": 7,
+      "role": "value",
+      "text": "Elisa MOREAU / +33 442 851 881 / elisa.moreau@airbus.com",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z12",
+      "answer": 10,
+      "role": "option",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z13",
+      "answer": 10,
+      "role": "option",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z14",
+      "answer": 10,
+      "role": "option",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z15",
+      "answer": 10,
+      "role": "option",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z17",
+      "answer": 10,
+      "role": "option",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z18",
+      "answer": 10,
+      "role": "option",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z23",
+      "answer": 10,
+      "role": "option",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z32",
+      "answer": 11,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z31",
+      "answer": 11,
+      "role": "remark",
+      "text": "EASA.21G.0070, EASA.21J.0700, FR.145.0002",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z36",
+      "answer": 12,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z29",
+      "answer": 12,
+      "role": "remark",
+      "text": "FAA E0OY135X, TCCA 804-01",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z37",
+      "answer": 13,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z35",
+      "answer": 13,
+      "role": "remark",
+      "text": "EN 9100, ISO 9001, AS9100, ISO 14001",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z40",
+      "answer": 14,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z43",
+      "answer": 14,
+      "role": "remark",
+      "text": "NADCAP",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z44",
+      "answer": 15,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z51",
+      "answer": 16,
+      "role": "value",
+      "text": "Continuous (OSAC, DSAE)",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z57",
+      "answer": 17,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z60",
+      "answer": 18,
+      "role": "value",
+      "text": "OEM, Design, Production, Maintenance of helicopters and components",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z48",
+      "answer": 19,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z21",
+      "answer": 20,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z52",
+      "answer": 21,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z72",
+      "answer": 21,
+      "role": "remark",
+      "text": "Defined in MOE/QCM",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z61",
+      "answer": 22,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z65",
+      "answer": 23,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z80",
+      "answer": 23,
+      "role": "remark",
+      "text": "Controlled via Supplier Quality Assurance (AVL)",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z69",
+      "answer": 24,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z73",
+      "answer": 25,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z77",
+      "answer": 26,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z81",
+      "answer": 27,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z82",
+      "answer": 28,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z83",
+      "answer": 29,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z85",
+      "answer": 30,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z89",
+      "answer": 31,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z93",
+      "answer": 32,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z97",
+      "answer": 33,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z101",
+      "answer": 34,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z105",
+      "answer": 35,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z109",
+      "answer": 36,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z113",
+      "answer": 37,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z117",
+      "answer": 38,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z121",
+      "answer": 39,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z125",
+      "answer": 40,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z129",
+      "answer": 41,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z133",
+      "answer": 42,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z137",
+      "answer": 43,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z141",
+      "answer": 44,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z118",
+      "answer": 45,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z171",
+      "answer": 46,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z145",
+      "answer": 47,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z149",
+      "answer": 48,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z153",
+      "answer": 49,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z157",
+      "answer": 50,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z161",
+      "answer": 51,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z165",
+      "answer": 52,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z169",
+      "answer": 53,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z206",
+      "answer": 54,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z172",
+      "answer": 55,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z177",
+      "answer": 56,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z181",
+      "answer": 57,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z185",
+      "answer": 58,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z189",
+      "answer": 59,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z193",
+      "answer": 60,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z138",
+      "answer": 61,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z197",
+      "answer": 62,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z201",
+      "answer": 63,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z205",
+      "answer": 64,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z209",
+      "answer": 65,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z213",
+      "answer": 66,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z217",
+      "answer": 67,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z221",
+      "answer": 68,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z225",
+      "answer": 69,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z229",
+      "answer": 70,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z233",
+      "answer": 71,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z237",
+      "answer": 72,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z241",
+      "answer": 73,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z245",
+      "answer": 74,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z249",
+      "answer": 75,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z253",
+      "answer": 76,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z257",
+      "answer": 77,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z261",
+      "answer": 78,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z265",
+      "answer": 79,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z269",
+      "answer": 80,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z273",
+      "answer": 81,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z277",
+      "answer": 82,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z281",
+      "answer": 83,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z285",
+      "answer": 84,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z289",
+      "answer": 85,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z293",
+      "answer": 86,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z297",
+      "answer": 87,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z301",
+      "answer": 88,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z305",
+      "answer": 89,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z309",
+      "answer": 90,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z313",
+      "answer": 91,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z317",
+      "answer": 92,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z321",
+      "answer": 93,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z325",
+      "answer": 94,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z329",
+      "answer": 95,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z333",
+      "answer": 96,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z337",
+      "answer": 97,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z341",
+      "answer": 98,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z119",
+      "answer": 99,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z345",
+      "answer": 100,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z349",
+      "answer": 101,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z353",
+      "answer": 102,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z357",
+      "answer": 103,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z361",
+      "answer": 104,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z365",
+      "answer": 105,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z369",
+      "answer": 106,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z373",
+      "answer": 107,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z377",
+      "answer": 108,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z381",
+      "answer": 109,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z385",
+      "answer": 110,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z389",
+      "answer": 111,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z393",
+      "answer": 112,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z397",
+      "answer": 113,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z401",
+      "answer": 114,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z405",
+      "answer": 115,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z409",
+      "answer": 116,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z413",
+      "answer": 117,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z417",
+      "answer": 118,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z421",
+      "answer": 119,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z425",
+      "answer": 120,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z429",
+      "answer": 121,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z433",
+      "answer": 122,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z437",
+      "answer": 123,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z441",
+      "answer": 124,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z445",
+      "answer": 125,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z449",
+      "answer": 126,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z453",
+      "answer": 127,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z457",
+      "answer": 128,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z461",
+      "answer": 129,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z465",
+      "answer": 130,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z469",
+      "answer": 131,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z516",
+      "answer": 132,
+      "role": "value",
+      "text": "Romain TRAPP",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z517",
+      "answer": 133,
+      "role": "value",
+      "text": "Accountable Manager",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z518",
+      "answer": 134,
+      "role": "value",
+      "text": "+33 4 42 85 85 85",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z519",
+      "answer": 136,
+      "role": "value",
+      "text": "2026-11-15",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z522",
+      "answer": 138,
+      "role": "value",
+      "text": "Elodie CARMONA",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z523",
+      "answer": 139,
+      "role": "value",
+      "text": "Quality Manager",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z524",
+      "answer": 140,
+      "role": "value",
+      "text": "+33 4 42 85 85 85",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z525",
+      "answer": 141,
+      "role": "value",
+      "text": "elodie.carmona@airbus.com",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z527",
+      "answer": 143,
+      "role": "value",
+      "text": "2026-11-15",
+      "flag": false
+    }
+  ],
+  "answers": [
+    {
+      "index": 0,
+      "ref": "1.0",
+      "label": "Company Legal Name:",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z1"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 1,
+      "ref": "1.0",
+      "label": "Address:",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z2"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 2,
+      "ref": "1.0",
+      "label": "Phone:",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z3"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 3,
+      "ref": "1.0",
+      "label": "E-Mail:",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z4"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 4,
+      "ref": "1.0",
+      "label": "Website:",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z5"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 5,
+      "ref": "1.0",
+      "label": "Total Employees / relevant employees:",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": null,
+      "zones": [
+        "Z6"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 6,
+      "ref": "1.0",
+      "label": "Quality Contact:",
+      "context": "Name / phone / e-mail:",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z7"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 7,
+      "ref": "1.0",
+      "label": "Order / Commercial Contact:",
+      "context": "Name / phone / e-mail:",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z8"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 8,
+      "ref": "1.0",
+      "label": "Claims / Reclamation Contact:",
+      "context": "Name / phone / e-mail:",
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example empty field",
+      "zones": [
+        "Z9"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 9,
+      "ref": "1.0",
+      "label": "Supplier / Contractor / Subcontractor reference (if any):",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z10"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 10,
+      "ref": "1.1",
+      "label": "Type of Business / Supply Category: (please mark appropriate boxes)",
+      "context": null,
+      "type": "multi_choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z12",
+        "Z13",
+        "Z14",
+        "Z15",
+        "Z17",
+        "Z18",
+        "Z23"
+      ],
+      "messages": [
+        "Z17 : « Distributor » ne figure pas autour de la case (left: Part-147 ; right: CAMO ; col: approvals, key processes, ownership or l)",
+        "Z18 : « OEM » ne figure pas autour de la case (right: Distributor ; above: Part-145 ; col: (please mark appropriate boxes))"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 11,
+      "ref": "1.2.1",
+      "label": "Relevant EASA / LBA approval or authorisation number and scope available and current?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z32",
+        "Z31"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 12,
+      "ref": "1.2.2",
+      "label": "Other aviation authority approval/certificate applicable to the supplied product/service available and current?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z36",
+        "Z29"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 13,
+      "ref": "1.2.3",
+      "label": "ISO or equivalent management-system certification applicable to the supplied product/service available and current?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z37",
+        "Z35"
+      ],
+      "messages": [
+        "Z37 : « YES » ne figure pas autour de la case (left: available and applicable to ; row: Other aviation authority approval/certif ; col: NO)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 14,
+      "ref": "1.2.4",
+      "label": "Accreditation/certification for specialised services (e.g. calibration, NDT, special processes) available where required?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z40",
+        "Z43"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 15,
+      "ref": "1.2.5",
+      "label": "Are copies of relevant approvals/certificates available for review?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z44"
+      ],
+      "messages": [
+        "Z44 : la ligne de cette case ne ressemble pas à la question (left: calibration, NDT, special processes) ava ; row: Accreditation/certification for speciali ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 16,
+      "ref": "1.2.6",
+      "label": "Date of last relevant authority, certification or customer audit:",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z51"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 17,
+      "ref": "1.2.7",
+      "label": "Are there any current suspended, restricted or expired approvals relevant to the supplied scope?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z57"
+      ],
+      "messages": [
+        "Z57 : « NO » ne figure pas autour de la case (left: there relevant to the supplied scope? or ; row: Are there any current suspended, restric ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 18,
+      "ref": "2.0.1",
+      "label": "Please describe the goods, parts, materials, maintenance or services supplied to DLHT.",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z60"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 19,
+      "ref": "2.0.2",
+      "label": "Is the supplied scope clearly defined in the quotation, purchase order, contract or technical documentation?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z48"
+      ],
+      "messages": [
+        "Z48 : la ligne de cette case ne ressemble pas à la question (left: copies of relevant approvals/certificate ; row: Are copies of relevant approvals/certifi ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 20,
+      "ref": "2.0.3",
+      "label": "Where approval is required, does the supplier’s approval scope cover the intended goods/services?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z21"
+      ],
+      "messages": [
+        "Z21 : « YES » ne figure pas autour de la case (left: Supplier ; right: Calibration Laboratory ; above: Part-21G ; col: Part-145 Part-CAO Part-21G Part-21J Part)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 21,
+      "ref": "2.0.4",
+      "label": "Are limitations, ratings, locations and/or capabilities relevant to the supplied scope clearly defined and current?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z52",
+        "Z72"
+      ],
+      "messages": [
+        "Z52 : la ligne de cette case ne ressemble pas à la question (left: Date of last relevant authority, certifi ; row: Date of last relevant authority, certifi ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 22,
+      "ref": "2.0.5",
+      "label": "Are critical or safety-relevant processes within the supplier’s own controlled scope?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z61"
+      ],
+      "messages": [
+        "Z61 : la ligne de cette case ne ressemble pas à la question (left: or the goods, parts, materials, ; above: YES ; row: Please describe the goods, parts, materi ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 23,
+      "ref": "2.0.6",
+      "label": "Are any activities further subcontracted? If yes, are they controlled and monitored?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z65",
+        "Z80"
+      ],
+      "messages": [
+        "Z65 : la ligne de cette case ne ressemble pas à la question (left: the order, contract or defined documenta ; row: Is the supplied scope clearly defined in ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 24,
+      "ref": "2.1.1",
+      "label": "Is a current list or defined control method for significant suppliers/sub-suppliers maintained?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z69"
+      ],
+      "messages": [
+        "Z69 : la ligne de cette case ne ressemble pas à la question (left: Where cover the is required, does the su ; row: Where approval is required, does the sup ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 25,
+      "ref": "2.1.2",
+      "label": "Are suppliers of safety/quality-critical items evaluated and approved before use?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z73"
+      ],
+      "messages": [
+        "Z73 : la ligne de cette case ne ressemble pas à la question (left: relevant to the supplied scope clearly d ; row: Are limitations, ratings, locations and/ ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 26,
+      "ref": "2.1.3",
+      "label": "Are changes to significant suppliers/sub-suppliers controlled and, where applicable, communicated?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z77"
+      ],
+      "messages": [
+        "Z77 : la ligne de cette case ne ressemble pas à la question (left: critical or controlled processes within  ; row: Are critical or safety-relevant processe ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 27,
+      "ref": "2.1.4",
+      "label": "Are outsourced/special processes subject to appropriate technical and quality controls?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z81"
+      ],
+      "messages": [
+        "Z81 : la ligne de cette case ne ressemble pas à la question (left: Are any and further subcontracted? If ye ; row: Are any activities further subcontracted ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 28,
+      "ref": "2.2.1",
+      "label": "Can the required release certificate or conformity documentation be supplied with the ordered item/service?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z82"
+      ],
+      "messages": [
+        "Z82 : « YES » ne figure pas autour de la case (left: and further subcontracted? If yes, are t ; row: Are any activities further subcontracted ; col: NO)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 29,
+      "ref": "2.2.2",
+      "label": "Where applicable, can EASA Form 1 or an accepted equivalent be provided?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z83"
+      ],
+      "messages": [
+        "Z83 : « YES » ne figure pas autour de la case (left: further subcontracted? If yes, are they ; row: Are any activities further subcontracted ; col: N/A)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 30,
+      "ref": "2.2.3",
+      "label": "Where applicable, can FAA Form 8130-3 or other accepted authority release documentation be provided?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z85"
+      ],
+      "messages": [
+        "Z85 : la ligne de cette case ne ressemble pas à la question (left: current list or defined control method f ; above: YES ; row: Is a current list or defined control met ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 31,
+      "ref": "2.2.4",
+      "label": "Can a Certificate of Conformity / inspection certificate be provided where required?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z89"
+      ],
+      "messages": [
+        "Z89 : la ligne de cette case ne ressemble pas à la question (left: items evaluated and ; row: Are suppliers of safety/quality-critical ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 32,
+      "ref": "2.2.5",
+      "label": "Can material certificates in accordance with applicable specifications (e.g. EN 10204) be provided?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z93"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 33,
+      "ref": "2.2.6",
+      "label": "Is documentation traceable to the delivered part/material/service and purchase order?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z97"
+      ],
+      "messages": [
+        "Z97 : la ligne de cette case ne ressemble pas à la question (left: technical and quality processes subject  ; row: Are outsourced/special processes subject ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 34,
+      "ref": "3.0.1",
+      "label": "Are facilities appropriate for the work performed and protected against relevant environmental conditions?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z101"
+      ],
+      "messages": [
+        "Z101 : la ligne de cette case ne ressemble pas à la question (left: documentation be supplied with the order ; above: YES ; row: Can the required release certificate or  ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 35,
+      "ref": "3.0.2",
+      "label": "Are specialised work areas adequately segregated to prevent contamination or adverse effects on other work?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z105"
+      ],
+      "messages": [
+        "Z105 : la ligne de cette case ne ressemble pas à la question (left: can EASA Form 1 or an accepted ; row: Where applicable, can EASA Form 1 or an  ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 36,
+      "ref": "3.0.3",
+      "label": "Are suitable areas available for inspection, documentation review and completion of work records?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z109"
+      ],
+      "messages": [
+        "Z109 : la ligne de cette case ne ressemble pas à la question (left: Where authority can FAA Form 8130-3 be p ; row: Where applicable, can FAA Form 8130-3 or ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 37,
+      "ref": "3.0.4",
+      "label": "Are lighting, temperature, humidity, cleanliness and other environmental conditions controlled where required?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z113"
+      ],
+      "messages": [
+        "Z113 : la ligne de cette case ne ressemble pas à la question (left: a where of Conformity / inspection certi ; row: Can a Certificate of Conformity / inspec ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 38,
+      "ref": "3.0.5",
+      "label": "Are facilities, equipment and materials adequately secured against damage, loss or unauthorised access?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z117"
+      ],
+      "messages": [
+        "Z117 : la ligne de cette case ne ressemble pas à la question (left: with applicable ; row: Can material certificates in accordance  ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 39,
+      "ref": "3.0.6",
+      "label": "Are serviceable and unserviceable items physically or otherwise clearly segregated?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z121"
+      ],
+      "messages": [
+        "Z121 : la ligne de cette case ne ressemble pas à la question (left: documentation and to the delivered ; row: Is documentation traceable to the delive ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 40,
+      "ref": "4.0.1",
+      "label": "Is a documented Quality Management / Quality Assurance system appropriate to the supplied scope implemented?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z125"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 41,
+      "ref": "4.0.2",
+      "label": "Is the current applicable quality manual/procedure set available to relevant personnel?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z129"
+      ],
+      "messages": [
+        "Z129 : la ligne de cette case ne ressemble pas à la question (left: specialised work or adverse effects on o ; row: Are specialised work areas adequately se ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 42,
+      "ref": "4.0.3",
+      "label": "Is an independent internal audit/surveillance programme established and implemented?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z133"
+      ],
+      "messages": [
+        "Z133 : la ligne de cette case ne ressemble pas à la question (left: of for inspection, documentation ; row: Are suitable areas available for inspect ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 43,
+      "ref": "4.0.4",
+      "label": "Are audit findings recorded, assigned, corrected and followed up to effective closure?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z137"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 44,
+      "ref": "4.0.5",
+      "label": "Are customer, regulatory and contractual requirements incorporated into applicable procedures?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z141"
+      ],
+      "messages": [
+        "Z141 : la ligne de cette case ne ressemble pas à la question (left: against damage, loss or and materials ad ; row: Are facilities, equipment and materials  ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 45,
+      "ref": "4.0.6",
+      "label": "Are subcontracted activities controlled to ensure conformity with applicable requirements?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z118"
+      ],
+      "messages": [
+        "Z118 : « YES » ne figure pas autour de la case (left: with applicable ; row: Can material certificates in accordance  ; col: NO)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 46,
+      "ref": "4.0.7",
+      "label": "Is management responsibility for quality clearly assigned?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z171"
+      ],
+      "messages": [
+        "Z171 : « YES » ne figure pas autour de la case (left: activities controlled to ensure ; row: Are subcontracted activities controlled  ; col: N/A)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 47,
+      "ref": "4.0.8",
+      "label": "Are relevant quality records retained and protected for the required period?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z145"
+      ],
+      "messages": [
+        "Z145 : la ligne de cette case ne ressemble pas à la question (left: serviceable and unserviceable items phys ; row: Are serviceable and unserviceable items  ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 48,
+      "ref": "4.1.1",
+      "label": "Where applicable to the supplied aviation activity, is a documented safety management / risk-management process implemented?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z149"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 49,
+      "ref": "4.1.2",
+      "label": "Are safety hazards and risks associated with the supplied activity identified and controlled?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z153"
+      ],
+      "messages": [
+        "Z153 : la ligne de cette case ne ressemble pas à la question (left: the to applicable quality manual/procedu ; row: Is the current applicable quality manual ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 50,
+      "ref": "4.1.3",
+      "label": "Is there an internal occurrence / incident reporting process?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z157"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 51,
+      "ref": "4.1.4",
+      "label": "Are personnel encouraged to report safety and quality concerns?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z161"
+      ],
+      "messages": [
+        "Z161 : la ligne de cette case ne ressemble pas à la question (left: audit up to recorded, assigned, correcte ; row: Are audit findings recorded, assigned, c ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 52,
+      "ref": "4.1.5",
+      "label": "Are occurrences investigated and causes/contributing factors addressed to prevent recurrence?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z165"
+      ],
+      "messages": [
+        "Z165 : la ligne de cette case ne ressemble pas à la question (left: customer, regulatory and contractual req ; row: Are customer, regulatory and contractual ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 53,
+      "ref": "4.1.6",
+      "label": "Are safety/quality-related occurrences affecting DLHT or its products/services communicated without undue delay?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z169"
+      ],
+      "messages": [
+        "Z169 : la ligne de cette case ne ressemble pas à la question (left: conformity with activities controlled to ; row: Are subcontracted activities controlled  ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 54,
+      "ref": "4.1.7",
+      "label": "Where personnel work under DLHT's approval or contract (contracting or subcontracting), have they been trained on DLHT's internal occurrence/safety reporting system",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z206"
+      ],
+      "messages": [
+        "Z206 : « N/A » ne figure pas autour de la case (left: or subcontracting), have they been train ; row: Where personnel work under DLHT's approv ; col: NO)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 55,
+      "ref": "4.2.1",
+      "label": "Is contracting/subcontracting controlled by a documented procedure or defined management process?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z172"
+      ],
+      "messages": [
+        "Z172 : la ligne de cette case ne ressemble pas à la question (left: management responsibility for quality cl ; row: 4.0.7 Is management responsibility for q ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 56,
+      "ref": "4.2.2",
+      "label": "Are contractors/subcontractors evaluated and approved before performing relevant work?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z177"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 57,
+      "ref": "4.2.3",
+      "label": "Are contracted/subcontracted activities clearly defined, including responsibilities, interfaces and acceptance criteria?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z181"
+      ],
+      "messages": [
+        "Z181 : la ligne de cette case ne ressemble pas à la question (left: documented safety management / risk-mana ; above: YES ; row: Where applicable to the supplied aviatio ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 58,
+      "ref": "4.2.4",
+      "label": "Does the supplier verify that contractor/subcontractor approvals/capabilities remain valid where applicable?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z185"
+      ],
+      "messages": [
+        "Z185 : la ligne de cette case ne ressemble pas à la question (left: safety hazards and risks associated with ; row: Are safety hazards and risks associated  ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 59,
+      "ref": "4.2.5",
+      "label": "Are records of contractor/subcontractor evaluations, audits and corrective actions maintained?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z189"
+      ],
+      "messages": [
+        "Z189 : la ligne de cette case ne ressemble pas à la question (left: there an internal occurrence / incident  ; row: Is there an internal occurrence / incide ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 60,
+      "ref": "4.2.6",
+      "label": "Are DLHT and/or competent authority access rights supported where required by contract or applicable regulation?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z193"
+      ],
+      "messages": [
+        "Z193 : la ligne de cette case ne ressemble pas à la question (left: personnel encouraged to report safety an ; row: Are personnel encouraged to report safet ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 61,
+      "ref": "5.0.1",
+      "label": "Are chemicals, liquids, waste and other environmentally relevant materials handled and disposed of appropriately?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z138"
+      ],
+      "messages": [
+        "Z138 : « YES » ne figure pas autour de la case (left: and other ; row: Are lighting, temperature, humidity, cle ; col: NO)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 62,
+      "ref": "5.0.2",
+      "label": "Are environmental and workplace controls appropriate to the activities performed?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z197"
+      ],
+      "messages": [
+        "Z197 : la ligne de cette case ne ressemble pas à la question (left: factors addressed to prevent and causes/ ; row: Are occurrences investigated and causes/ ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 63,
+      "ref": "5.0.3",
+      "label": "Are special environmental conditions required for the work defined and controlled?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z201"
+      ],
+      "messages": [
+        "Z201 : la ligne de cette case ne ressemble pas à la question (left: products/services communicated without u ; row: Are safety/quality-related occurrences a ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 64,
+      "ref": "6.0.1",
+      "label": "Are storage areas suitable for the type of articles/materials stored?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z205"
+      ],
+      "messages": [
+        "Z205 : la ligne de cette case ne ressemble pas à la question (left: (contracting or subcontracting), have th ; row: Where personnel work under DLHT's approv ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 65,
+      "ref": "6.0.2",
+      "label": "Are temperature, humidity, ventilation, cleanliness or other conditions controlled where required?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z209"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 66,
+      "ref": "6.0.3",
+      "label": "Are serviceable, unserviceable, rejected and quarantined items clearly segregated?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z213"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 67,
+      "ref": "6.0.4",
+      "label": "Is there a system for identifying and controlling shelf-life / life-limited items?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z217"
+      ],
+      "messages": [
+        "Z217 : la ligne de cette case ne ressemble pas à la question (left: including responsibilities, interfaces a ; row: Are contracted/subcontracted activities  ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 68,
+      "ref": "6.0.5",
+      "label": "Is the expiry date or life limit clearly identified on applicable items?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z221"
+      ],
+      "messages": [
+        "Z221 : la ligne de cette case ne ressemble pas à la question (left: Does the supplier verify that valid wher ; row: Does the supplier verify that contractor ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 69,
+      "ref": "6.0.6",
+      "label": "Are articles protected from damage, contamination, deterioration and unauthorised access?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z225"
+      ],
+      "messages": [
+        "Z225 : la ligne de cette case ne ressemble pas à la question (left: evaluations, ; row: Are records of contractor/subcontractor  ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 70,
+      "ref": "6.0.7",
+      "label": "Are storage and preservation requirements defined for sensitive components/materials?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z229"
+      ],
+      "messages": [
+        "Z229 : la ligne de cette case ne ressemble pas à la question (left: supported where required by contract or  ; row: Are DLHT and/or competent authority acce ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 71,
+      "ref": "7.0.1",
+      "label": "Is adequate competent personnel available for the scope and planned workload?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z233"
+      ],
+      "messages": [
+        "Z233 : la ligne de cette case ne ressemble pas à la question (left: chemicals, liquids, waste and other of a ; above: YES ; row: Are chemicals, liquids, waste and other  ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 72,
+      "ref": "7.0.2",
+      "label": "Are job descriptions / responsibilities defined for relevant functions?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z237"
+      ],
+      "messages": [
+        "Z237 : la ligne de cette case ne ressemble pas à la question (left: environmental and workplace controls app ; row: Are environmental and workplace controls ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 73,
+      "ref": "7.0.3",
+      "label": "Is competence assessed before personnel perform safety/quality-critical work?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z241"
+      ],
+      "messages": [
+        "Z241 : la ligne de cette case ne ressemble pas à la question (left: defined and controlled? conditions requi ; row: Are special environmental conditions req ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 74,
+      "ref": "7.0.4",
+      "label": "Is initial and recurrent training provided and recorded as appropriate?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z245"
+      ],
+      "messages": [
+        "Z245 : la ligne de cette case ne ressemble pas à la question (left: storage areas suitable for the type of a ; above: YES ; row: Are storage areas suitable for the type  ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 75,
+      "ref": "7.0.5",
+      "label": "Are personnel trained in applicable internal procedures and work instructions?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z249"
+      ],
+      "messages": [
+        "Z249 : la ligne de cette case ne ressemble pas à la question (left: conditions controlled where required? cl ; row: Are temperature, humidity, ventilation,  ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 76,
+      "ref": "7.0.6",
+      "label": "Where maintenance is performed, are mechanics and certifying staff appropriately trained and authorised?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z253"
+      ],
+      "messages": [
+        "Z253 : la ligne de cette case ne ressemble pas à la question (left: items clearly unserviceable, rejected an ; row: Are serviceable, unserviceable, rejected ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 77,
+      "ref": "7.0.7",
+      "label": "Where NDT or other specialised activities are performed, are personnel appropriately qualified?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z257"
+      ],
+      "messages": [
+        "Z257 : la ligne de cette case ne ressemble pas à la question (left: there a items? for identifying and contr ; row: Is there a system for identifying and co ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 78,
+      "ref": "7.0.8",
+      "label": "Where Part-145 certification staff are involved, are authorisations, scope and limitations clearly defined?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z261"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 79,
+      "ref": "7.0.9",
+      "label": "Where applicable, is relevant human factors / safety training provided?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z265"
+      ],
+      "messages": [
+        "Z265 : la ligne de cette case ne ressemble pas à la question (left: from damage, contamination, ; row: Are articles protected from damage, cont ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 80,
+      "ref": "8.0.1",
+      "label": "Are current work instructions / maintenance data available at the point of use?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z269"
+      ],
+      "messages": [
+        "Z269 : la ligne de cette case ne ressemble pas à la question (left: storage and preservation requirements de ; row: Are storage and preservation requirement ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 81,
+      "ref": "8.0.2",
+      "label": "Are work packages, job cards or equivalent records used to document performed work?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z273"
+      ],
+      "messages": [
+        "Z273 : la ligne de cette case ne ressemble pas à la question (left: planned workload? personnel available fo ; above: YES ; row: Is adequate competent personnel availabl ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 82,
+      "ref": "8.0.3",
+      "label": "Are manufacturer or approved inspection standards referenced where applicable?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z277"
+      ],
+      "messages": [
+        "Z277 : la ligne de cette case ne ressemble pas à la question (left: job descriptions / responsibilities defi ; row: Are job descriptions / responsibilities  ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 83,
+      "ref": "8.0.4",
+      "label": "Are test and inspection results recorded and traceable to the work performed?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z281"
+      ],
+      "messages": [
+        "Z281 : la ligne de cette case ne ressemble pas à la question (left: competence assessed before personnel per ; row: Is competence assessed before personnel  ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 84,
+      "ref": "8.0.5",
+      "label": "Are critical maintenance tasks identified and subject to appropriate control?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z285"
+      ],
+      "messages": [
+        "Z285 : la ligne de cette case ne ressemble pas à la question (left: initial and recurrent training provided  ; row: Is initial and recurrent training provid ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 85,
+      "ref": "8.0.6",
+      "label": "Where required, are independent inspections or equivalent error-capturing controls performed?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z289"
+      ],
+      "messages": [
+        "Z289 : la ligne de cette case ne ressemble pas à la question (left: trained in applicable internal procedure ; row: Are personnel trained in applicable inte ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 86,
+      "ref": "8.0.7",
+      "label": "Are controls in place to minimise multiple errors, omissions and repeated errors?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z293"
+      ],
+      "messages": [
+        "Z293 : la ligne de cette case ne ressemble pas à la question (left: is performed, are mechanics and ; row: Where maintenance is performed, are mech ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 87,
+      "ref": "8.0.8",
+      "label": "Is a final inspection/general verification performed to ensure tools, equipment and extraneous items are removed before release?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z297"
+      ],
+      "messages": [
+        "Z297 : la ligne de cette case ne ressemble pas à la question (left: Where NDT or other specialised activitie ; row: Where NDT or other specialised activitie ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 88,
+      "ref": "9.0.1",
+      "label": "Is a current approved supplier / source control list maintained where applicable?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z301"
+      ],
+      "messages": [
+        "Z301 : la ligne de cette case ne ressemble pas à la question (left: Where Part-145 scope and staff are clear ; row: Where Part-145 certification staff are i ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 89,
+      "ref": "9.0.2",
+      "label": "Are incoming items appropriately inspected and segregated from items awaiting inspection/acceptance?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z305"
+      ],
+      "messages": [
+        "Z305 : la ligne de cette case ne ressemble pas à la question (left: Where provided? is relevant human factor ; row: Where applicable, is relevant human fact ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 90,
+      "ref": "9.0.3",
+      "label": "Are age-controlled items checked for manufacture date, shelf life and/or expiry date?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z309"
+      ],
+      "messages": [
+        "Z309 : la ligne de cette case ne ressemble pas à la question (left: the point of instructions / maintenance  ; above: YES ; row: Are current work instructions / maintena ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 91,
+      "ref": "9.0.4",
+      "label": "Are components/materials classified and segregated according to their status?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z313"
+      ],
+      "messages": [
+        "Z313 : la ligne de cette case ne ressemble pas à la question (left: work packages, job cards or equivalent r ; row: Are work packages, job cards or equivale ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 92,
+      "ref": "9.0.5",
+      "label": "Are raw materials and consumables traceable to the applicable specification and source?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z317"
+      ],
+      "messages": [
+        "Z317 : la ligne de cette case ne ressemble pas à la question (left: referenced where or approved inspection  ; row: Are manufacturer or approved inspection  ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 93,
+      "ref": "9.0.6",
+      "label": "Are conformity/release documents clearly linked to the supplied item, batch or serial number where applicable?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z321"
+      ],
+      "messages": [
+        "Z321 : la ligne de cette case ne ressemble pas à la question (left: test and inspection results recorded and ; row: Are test and inspection results recorded ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 94,
+      "ref": "9.0.7",
+      "label": "Are parts/materials verified as eligible for the intended application before release/supply?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z325"
+      ],
+      "messages": [
+        "Z325 : la ligne de cette case ne ressemble pas à la question (left: critical control? tasks identified and s ; row: Are critical maintenance tasks identifie ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 95,
+      "ref": "9.0.8",
+      "label": "Are alternate part numbers only supplied where interchangeability/equivalence is demonstrated and accepted?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z329"
+      ],
+      "messages": [
+        "Z329 : la ligne de cette case ne ressemble pas à la question (left: Where required, are independent inspecti ; row: Where required, are independent inspecti ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 96,
+      "ref": "9.0.9",
+      "label": "Are unsalvageable/rejected items controlled to prevent unintended re-entry into the supply chain?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z333"
+      ],
+      "messages": [
+        "Z333 : la ligne de cette case ne ressemble pas à la question (left: controls in place to errors? multiple er ; row: Are controls in place to minimise multip ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 97,
+      "ref": "9.0.10",
+      "label": "Are parts/materials re-inspected before shipment where required by the supplier’s procedures or contract?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z337"
+      ],
+      "messages": [
+        "Z337 : la ligne de cette case ne ressemble pas à la question (left: ensure tools, equipment and extraneous i ; row: Is a final inspection/general verificati ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 98,
+      "ref": "9.0.11",
+      "label": "Is full traceability maintained through receiving, processing, storage and delivery?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z341"
+      ],
+      "messages": [
+        "Z341 : la ligne de cette case ne ressemble pas à la question (left: a current approved supplier / source con ; above: YES ; row: Is a current approved supplier / source  ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 99,
+      "ref": "9.0.12",
+      "label": "Are electrostatic sensitive devices (ESD) identified, packaged and handled in accordance with applicable ESD-protection procedures?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z119"
+      ],
+      "messages": [
+        "Z119 : « YES » ne figure pas autour de la case (left: with applicable ; row: Can material certificates in accordance  ; col: N/A)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 100,
+      "ref": "9.0.13",
+      "label": "Are components/materials packed and shipped to protect them from damage and deterioration, including compliance with applicable dangerous-goods regulations...",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z345"
+      ],
+      "messages": [
+        "Z345 : la ligne de cette case ne ressemble pas à la question (left: segregated from items awaiting inspectio ; row: Are incoming items appropriately inspect ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 101,
+      "ref": "9.0.14",
+      "label": "Is there a documented procedure for detecting and reporting Suspected Unapproved Parts (SUP)?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z349"
+      ],
+      "messages": [
+        "Z349 : la ligne de cette case ne ressemble pas à la question (left: shelf life and/or items checked for manu ; row: Are age-controlled items checked for man ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 102,
+      "ref": "9.0.15",
+      "label": "Where batches/lots are split or redistributed, is this controlled and are the related certificates/traceability documents maintained for each resulting batch?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z353"
+      ],
+      "messages": [
+        "Z353 : la ligne de cette case ne ressemble pas à la question (left: according to their status? classified an ; row: Are components/materials classified and  ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 103,
+      "ref": "9.0.16",
+      "label": "Are unsalvageable components mutilated, marked or otherwise controlled in accordance with applicable regulations to prevent unintended re-entry into service?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z357"
+      ],
+      "messages": [
+        "Z357 : la ligne de cette case ne ressemble pas à la question (left: raw materials and and source? traceable  ; row: Are raw materials and consumables tracea ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 104,
+      "ref": "9.0.17",
+      "label": "Is there a procedure to notify purchasers/customers if a component/material already shipped is later found not to conform...",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z361"
+      ],
+      "messages": [
+        "Z361 : la ligne de cette case ne ressemble pas à la question (left: supplied item, batch or serial number wh ; row: Are conformity/release documents clearly ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 105,
+      "ref": "9.0.18",
+      "label": "Is there a recall control procedure to trace and, if necessary, recall components/materials already shipped?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z365"
+      ],
+      "messages": [
+        "Z365 : la ligne de cette case ne ressemble pas à la question (left: application before verified as eligible  ; row: Are parts/materials verified as eligible ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 106,
+      "ref": "10.0.1",
+      "label": "Are the tools and equipment necessary for the supplied scope available and suitable?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z369"
+      ],
+      "messages": [
+        "Z369 : la ligne de cette case ne ressemble pas à la question (left: interchangeability/equivalence is demons ; row: Are alternate part numbers only supplied ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 107,
+      "ref": "10.0.2",
+      "label": "Are tools/equipment requiring calibration or inspection identified and controlled in a register?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z373"
+      ],
+      "messages": [
+        "Z373 : la ligne de cette case ne ressemble pas à la question (left: unintended re-entry into the supply chai ; row: Are unsalvageable/rejected items control ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 108,
+      "ref": "10.0.3",
+      "label": "Are calibration/inspection intervals defined and controlled?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z377"
+      ],
+      "messages": [
+        "Z377 : la ligne de cette case ne ressemble pas à la question (left: required by the supplier’s procedures or ; row: Are parts/materials re-inspected before  ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 109,
+      "ref": "10.0.4",
+      "label": "Are calibration standards traceable to recognised standards and suitable for the intended measurement?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z381"
+      ],
+      "messages": [
+        "Z381 : la ligne de cette case ne ressemble pas à la question (left: through receiving, ; row: Is full traceability maintained through  ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 110,
+      "ref": "10.0.5",
+      "label": "Are tools/equipment labelled with calibration or inspection status and due date where applicable?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z385"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 111,
+      "ref": "10.0.6",
+      "label": "Is there a process to prevent expired, damaged or unserviceable tools/equipment from being used?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z389"
+      ],
+      "messages": [
+        "Z389 : la ligne de cette case ne ressemble pas à la question (left: protect them from damage and deteriorati ; row: Are components/materials packed and ship ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 112,
+      "ref": "10.0.7",
+      "label": "Are calibration certificates retained and traceable to the equipment identification?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z393"
+      ],
+      "messages": [
+        "Z393 : la ligne de cette case ne ressemble pas à la question (left: there a documented procedure Parts (SUP) ; row: Is there a documented procedure for dete ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 113,
+      "ref": "11.0.1",
+      "label": "Are current applicable technical data, specifications, drawings or maintenance instructions established and maintained?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z397"
+      ],
+      "messages": [
+        "Z397 : la ligne de cette case ne ressemble pas à la question (left: controlled and are the related certifica ; row: Where batches/lots are split or redistri ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 114,
+      "ref": "11.0.2",
+      "label": "Is technical data properly identified and available to relevant personnel?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z401"
+      ],
+      "messages": [
+        "Z401 : la ligne de cette case ne ressemble pas à la question (left: otherwise controlled in accordance with  ; row: Are unsalvageable components mutilated,  ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 115,
+      "ref": "11.0.3",
+      "label": "Is revision status controlled to prevent use of obsolete data?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z405"
+      ],
+      "messages": [
+        "Z405 : la ligne de cette case ne ressemble pas à la question (left: component/material already shipped is la ; row: Is there a procedure to notify purchaser ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 116,
+      "ref": "11.0.4",
+      "label": "Are working copies controlled and updated when revisions are issued?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z409"
+      ],
+      "messages": [
+        "Z409 : la ligne de cette case ne ressemble pas à la question (left: necessary, recall components/materials a ; row: Is there a recall control procedure to t ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 117,
+      "ref": "11.0.5",
+      "label": "Is inaccurate, incomplete or ambiguous technical information identified and communicated to the appropriate source?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z413"
+      ],
+      "messages": [
+        "Z413 : la ligne de cette case ne ressemble pas à la question (left: the tools and equipment necessary for th ; above: YES ; row: Are the tools and equipment necessary fo ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 118,
+      "ref": "11.0.6",
+      "label": "Are records and certificates legible, complete and protected against unauthorised alteration?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z417"
+      ],
+      "messages": [
+        "Z417 : la ligne de cette case ne ressemble pas à la question (left: identified and controlled in a calibrati ; row: Are tools/equipment requiring calibratio ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 119,
+      "ref": "11.0.7",
+      "label": "Is access to current, up-to-date applicable regulations, specifications and standards (including component handling/storage data) maintained for the supplied scope?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z421"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 120,
+      "ref": "12.0.1",
+      "label": "Where maintenance is performed, are release-to-service documents issued only by appropriately authorised personnel?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z425"
+      ],
+      "messages": [
+        "Z425 : la ligne de cette case ne ressemble pas à la question (left: to measurement? ; row: Are calibration standards traceable to r ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 121,
+      "ref": "12.0.2",
+      "label": "Where applicable, is EASA Form 1 or another accepted release certificate issued in accordance with the applicable procedure?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z429"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 122,
+      "ref": "12.0.3",
+      "label": "Are release statements and certification references complete and correctly used?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z433"
+      ],
+      "messages": [
+        "Z433 : la ligne de cette case ne ressemble pas à la question (left: there a process to prevent from damaged  ; row: Is there a process to prevent expired, d ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 123,
+      "ref": "12.0.4",
+      "label": "Are records retained to demonstrate conformity and completion of the supplied work/service?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z437"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 124,
+      "ref": "12.0.5",
+      "label": "Are records protected from damage, alteration, loss and unauthorised access?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z441"
+      ],
+      "messages": [
+        "Z441 : la ligne de cette case ne ressemble pas à la question (left: drawings or maintenance instructions est ; above: YES ; row: Are current applicable technical data, s ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 125,
+      "ref": "12.0.6",
+      "label": "Where electronic records are used, are appropriate access controls and backups implemented?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z445"
+      ],
+      "messages": [
+        "Z445 : la ligne de cette case ne ressemble pas à la question (left: technical data properly identified and a ; row: Is technical data properly identified an ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 126,
+      "ref": "12.0.7",
+      "label": "Can relevant records be made available to DLHT and/or competent authorities when required?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z449"
+      ],
+      "messages": [
+        "Z449 : la ligne de cette case ne ressemble pas à la question (left: revision status controlled to prevent us ; row: Is revision status controlled to prevent ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 127,
+      "ref": "13.0.1",
+      "label": "Is there a process to identify and control changes affecting the approved supply/service?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z453"
+      ],
+      "messages": [
+        "Z453 : la ligne de cette case ne ressemble pas à la question (left: working copies controlled and updated wh ; row: Are working copies controlled and update ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 128,
+      "ref": "13.0.2",
+      "label": "Will changes to relevant approvals, certifications, scope or significant processes be notified to DLHT without undue delay?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z457"
+      ],
+      "messages": [
+        "Z457 : la ligne de cette case ne ressemble pas à la question (left: information identified and communicated  ; row: Is inaccurate, incomplete or ambiguous t ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 129,
+      "ref": "13.0.3",
+      "label": "Will relocation, ownership/management changes or significant organisational changes be communicated where relevant?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z461"
+      ],
+      "messages": [
+        "Z461 : la ligne de cette case ne ressemble pas à la question (left: records and certificates legible, comple ; row: Are records and certificates legible, co ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 130,
+      "ref": "13.0.4",
+      "label": "Will significant quality, safety, delivery or conformity issues affecting DLHT be communicated promptly?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z465"
+      ],
+      "messages": [
+        "Z465 : la ligne de cette case ne ressemble pas à la question (left: specifications data) maintained for comp ; row: Is access to current, up-to-date applica ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 131,
+      "ref": "13.0.5",
+      "label": "Will suspension, limitation, expiry or withdrawal of a relevant approval/certification be communicated immediately?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z469"
+      ],
+      "messages": [
+        "Z469 : la ligne de cette case ne ressemble pas à la question (left: documents issued only by appropriately a ; above: YES ; row: Where maintenance is performed, are rele ; col: YES)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 132,
+      "ref": "14",
+      "label": "Name:",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z516"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 133,
+      "ref": "14",
+      "label": "Position / Title:",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z517"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 134,
+      "ref": "14",
+      "label": "Telephone / E-mail:",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z518"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 135,
+      "ref": "14",
+      "label": "Signature:",
+      "context": null,
+      "type": "signature",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    },
+    {
+      "index": 136,
+      "ref": "14",
+      "label": "Date:",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z519"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 137,
+      "ref": "15",
+      "label": "Remarks / Additional Information / Supporting Evidence",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": "Example empty field",
+      "zones": [
+        "Z521"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 138,
+      "ref": "16",
+      "label": "Completed by (Name):",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z522"
+      ],
+      "messages": [
+        "Z522 : le texte autour de la zone ne ressemble pas au libellé « Completed by (Name): » (above: 15. Remarks / Additional Information / S)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 139,
+      "ref": "16",
+      "label": "Position / Title:",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z523"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 140,
+      "ref": "16",
+      "label": "Telephone:",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z524"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 141,
+      "ref": "16",
+      "label": "E-mail:",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z525"
+      ],
+      "messages": [
+        "Z525 : le texte autour de la zone ne ressemble pas au libellé « E-mail: » (left: Position / Title:)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 142,
+      "ref": "16",
+      "label": "Signature:",
+      "context": null,
+      "type": "signature",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    },
+    {
+      "index": 143,
+      "ref": "16",
+      "label": "Date:",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z527"
+      ],
+      "messages": [],
+      "status": "placed"
+    }
+  ],
+  "unused": [
+    "Z9",
+    "Z10",
+    "Z11",
+    "Z39",
+    "Z47",
+    "Z55",
+    "Z56",
+    "Z64",
+    "Z68",
+    "Z76",
+    "Z84",
+    "Z88",
+    "Z92",
+    "Z96",
+    "Z100",
+    "Z104",
+    "Z108",
+    "Z112",
+    "Z116",
+    "Z120",
+    "Z124",
+    "Z128",
+    "Z132",
+    "Z136",
+    "Z140",
+    "Z144",
+    "Z148",
+    "Z152",
+    "Z156",
+    "Z160",
+    "Z164",
+    "Z168",
+    "Z175",
+    "Z176",
+    "Z180",
+    "Z184",
+    "Z188",
+    "Z192",
+    "Z196",
+    "Z200",
+    "Z204",
+    "Z208",
+    "Z212",
+    "Z216",
+    "Z220",
+    "Z224",
+    "Z228",
+    "Z232",
+    "Z236",
+    "Z240",
+    "Z244",
+    "Z248",
+    "Z252",
+    "Z256",
+    "Z260",
+    "Z264",
+    "Z268",
+    "Z272",
+    "Z276",
+    "Z280",
+    "Z284",
+    "Z288",
+    "Z292",
+    "Z296",
+    "Z300",
+    "Z304",
+    "Z308",
+    "Z312",
+    "Z316",
+    "Z320",
+    "Z324",
+    "Z328",
+    "Z332",
+    "Z336",
+    "Z340",
+    "Z344",
+    "Z348",
+    "Z352",
+    "Z356",
+    "Z360",
+    "Z364",
+    "Z368",
+    "Z372",
+    "Z376",
+    "Z380",
+    "Z384",
+    "Z388",
+    "Z392",
+    "Z396",
+    "Z400",
+    "Z404",
+    "Z408",
+    "Z412",
+    "Z416",
+    "Z420",
+    "Z424",
+    "Z428",
+    "Z432",
+    "Z436",
+    "Z440",
+    "Z444",
+    "Z448",
+    "Z452",
+    "Z456",
+    "Z460",
+    "Z464",
+    "Z468",
+    "Z472",
+    "Z476",
+    "Z480",
+    "Z484",
+    "Z488",
+    "Z492",
+    "Z496",
+    "Z500",
+    "Z504",
+    "Z508",
+    "Z512",
+    "Z520",
+    "Z521",
+    "Z528",
+    "Z529",
+    "Z530",
+    "Z531",
+    "Z532",
+    "Z533",
+    "Z534"
+  ],
+  "map_id": "207c34ba",
+  "detector": "zones-js-1"
+}

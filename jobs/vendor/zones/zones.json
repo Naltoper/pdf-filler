@@ -1,0 +1,2351 @@
+{
+  "kind": "pdf_acroform",
+  "pages": 5,
+  "zones": [
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        283.2,
+        296.75,
+        491.5,
+        366.8
+      ],
+      "xref": 547,
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Anschrift / Address",
+        "line": "Anschrift / Address",
+        "tooltip": "Textfield",
+        "field_name": "Textfield"
+      },
+      "id": "Z1"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        283.6,
+        373.64,
+        491.68,
+        387.64
+      ],
+      "xref": 553,
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Tel.-Nr. / Phone-No.",
+        "line": "Tel.-Nr. / Phone-No.",
+        "tooltip": "Textfield-0",
+        "field_name": "Textfield-0"
+      },
+      "id": "Z2"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        284.61,
+        388.64,
+        490.68,
+        403.65
+      ],
+      "xref": 1102,
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Fax-Nr. / Fax-No",
+        "line": "Fax-Nr. / Fax-No",
+        "field_name": "Text1"
+      },
+      "id": "Z3"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        284.61,
+        405.65,
+        490.68,
+        420.66
+      ],
+      "xref": 1109,
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Е-Mail",
+        "line": "Е-Mail",
+        "field_name": "Text2"
+      },
+      "id": "Z4"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        283.6,
+        479.68,
+        492.68,
+        496.68
+      ],
+      "xref": 1117,
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Geschäftsleitung / Management",
+        "line": "Geschäftsleitung / Management",
+        "field_name": "Text3"
+      },
+      "id": "Z5"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        284.61,
+        500.69,
+        492.68,
+        517.69
+      ],
+      "xref": 1122,
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Vertrieb / Sales Department",
+        "line": "Vertrieb / Sales Department",
+        "field_name": "Text4"
+      },
+      "id": "Z6"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        284.61,
+        525.69,
+        492.68,
+        557.71
+      ],
+      "xref": 1127,
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "/ / E-Mail",
+        "line": " Tel.-Nr. Phone-No / FAX-Nr. / Fax-No / e-Mail / E-Mail",
+        "field_name": "Text5"
+      },
+      "id": "Z7"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        285.61,
+        565.71,
+        492.68,
+        581.71
+      ],
+      "xref": 1133,
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Qualitätsmgt. / Quality Department",
+        "line": "Qualitätsmgt. / Quality Department",
+        "field_name": "Text6"
+      },
+      "id": "Z8"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        285.61,
+        590.72,
+        494.68,
+        618.73
+      ],
+      "xref": 1138,
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "/ / E-Mail",
+        "line": " Tel.-Nr. Phone-No / FAX-Nr. / Fax-No / e-Mail / E-Mail",
+        "field_name": "Text7"
+      },
+      "id": "Z9"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        318.62,
+        674.75,
+        393.65,
+        696.76
+      ],
+      "xref": 1144,
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Gesamt / total",
+        "line": "Gesamt / total",
+        "field_name": "Text8"
+      },
+      "id": "Z10"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        318.62,
+        702.76,
+        392.65,
+        725.77
+      ],
+      "xref": 1149,
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Qualitätsmanagement / Quality Department /",
+        "line": "Qualitätsmanagement / Quality Department /",
+        "field_name": "Text9"
+      },
+      "id": "Z11"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        2,
+        821,
+        72.52,
+        825.49
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "©ADAC"
+      },
+      "id": "Z12"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        2,
+        827.49,
+        72.52,
+        840.5
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "©ADAC"
+      },
+      "id": "Z13"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        75.52,
+        827.49,
+        205.89,
+        840.5
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "©ADAC Heliservice GmbH",
+        "col": "©ADAC Heliservice GmbH"
+      },
+      "id": "Z14"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        441.6,
+        132.1,
+        518.65,
+        145.75
+      ],
+      "xref": 582,
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "Date of last Recertification-Audit/",
+        "line": "Approvals/: Part-145 Date of last Recertification-Audit/",
+        "tooltip": "Date of last RecertificationAudit",
+        "field_name": "Date of last RecertificationAudit"
+      },
+      "id": "Z15"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        198.95,
+        134.5,
+        209.75,
+        144.55
+      ],
+      "xref": 578,
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "Approvals/:",
+        "right": "Part-145",
+        "above": "QM-Requirements do",
+        "line": "Approvals/: Part-145 Date of last Recertification-Audit/",
+        "col": "Which QM-Requirements do your QM-Measures meet?",
+        "tooltip": "Part145",
+        "field_name": "Part145"
+      },
+      "id": "Z16"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        441.6,
+        158.95,
+        518.65,
+        172.65
+      ],
+      "xref": 590,
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "Date of last Recertification-Audit/",
+        "line": "Part-21G Date of last Recertification-Audit/",
+        "tooltip": "Date of last RecertificationAudit-0",
+        "field_name": "Date of last RecertificationAudit-0"
+      },
+      "id": "Z17"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        198.95,
+        162.1,
+        209.75,
+        172.15
+      ],
+      "xref": 586,
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "right": "Part-21G",
+        "above": "Part-145",
+        "line": "Part-21G Date of last Recertification-Audit/",
+        "col": "Which QM-Requirements do your QM-Measures meet?",
+        "tooltip": "Part21 G",
+        "field_name": "Part21 G"
+      },
+      "id": "Z18"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        441.6,
+        185.35,
+        518.65,
+        199.05
+      ],
+      "xref": 598,
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "Date of last Recertification-Audit/",
+        "line": "Part-21J Date of last Recertification-Audit/",
+        "tooltip": "Date of last RecertificationAudit-1",
+        "field_name": "Date of last RecertificationAudit-1"
+      },
+      "id": "Z19"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        198.95,
+        189.7,
+        209.75,
+        199.75
+      ],
+      "xref": 594,
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "right": "Part-21J",
+        "above": "Part-21G",
+        "line": "Part-21J Date of last Recertification-Audit/",
+        "col": "Which QM-Requirements do your QM-Measures meet?",
+        "tooltip": "Part21 J",
+        "field_name": "Part21 J"
+      },
+      "id": "Z20"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        198.95,
+        217.3,
+        209.75,
+        227.35
+      ],
+      "xref": 602,
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "right": "Part-147",
+        "above": "Part-21J",
+        "line": "Part-147 Date of last Recertification-Audit/",
+        "col": "Qualitätsmanagement / Quality Management",
+        "tooltip": "Part147",
+        "field_name": "Part147"
+      },
+      "id": "Z21"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        441.6,
+        215.15,
+        518.65,
+        228.8
+      ],
+      "xref": 606,
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "Date of last Recertification-Audit/",
+        "line": "Part-147 Date of last Recertification-Audit/",
+        "tooltip": "Date of last RecertificationAudit-2",
+        "field_name": "Date of last RecertificationAudit-2"
+      },
+      "id": "Z22"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        441.6,
+        241.75,
+        518.65,
+        255.45
+      ],
+      "xref": 614,
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "Date of last Recertification-Audi/",
+        "line": "Part-M Date of last Recertification-Audi/",
+        "tooltip": "Date of last RecertificationAudi",
+        "field_name": "Date of last RecertificationAudi"
+      },
+      "id": "Z23"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        198.95,
+        244.9,
+        209.75,
+        254.95
+      ],
+      "xref": 610,
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "right": "Part-M",
+        "above": "Part-147",
+        "line": "Part-M Date of last Recertification-Audi/",
+        "col": "Qualitätsmanagement / Quality Management",
+        "tooltip": "PartM",
+        "field_name": "PartM"
+      },
+      "id": "Z24"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        441.1,
+        269.15,
+        502.8,
+        282.8
+      ],
+      "xref": 622,
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "other/другие Please explain",
+        "line": "other/другие Please explain",
+        "tooltip": "Textfield-5",
+        "field_name": "Textfield-5"
+      },
+      "id": "Z25"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        198.95,
+        272.5,
+        209.75,
+        282.55
+      ],
+      "xref": 618,
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "right": "other/другие Please explain",
+        "above": "Part-M",
+        "line": "other/другие Please explain",
+        "col": "Qualitätsmanagement / Quality Management",
+        "tooltip": "othergpyrlle",
+        "field_name": "othergpyrlle"
+      },
+      "id": "Z26"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        198.95,
+        300.1,
+        209.75,
+        310.15
+      ],
+      "xref": 626,
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "right": "EN 9001",
+        "above": "other/другие",
+        "line": "EN 9001",
+        "col": "Qualitätsmanagement / Quality Management",
+        "tooltip": "EN 9001",
+        "field_name": "EN 9001"
+      },
+      "id": "Z27"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        198.95,
+        316.15,
+        209.75,
+        326.25
+      ],
+      "xref": 630,
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "right": "EN 9100",
+        "above": "EN",
+        "line": "EN 9100",
+        "col": "Qualitätsmanagement / Quality Management",
+        "tooltip": "EN 9100",
+        "field_name": "EN 9100"
+      },
+      "id": "Z28"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        198.95,
+        332.25,
+        209.75,
+        342.35
+      ],
+      "xref": 634,
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "right": "EN 9120",
+        "above": "EN",
+        "line": "EN 9120",
+        "col": "Qualitätsmanagement / Quality Management",
+        "tooltip": "EN 9120",
+        "field_name": "EN 9120"
+      },
+      "id": "Z29"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        198.95,
+        348.35,
+        209.75,
+        358.4
+      ],
+      "xref": 638,
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "right": "EN 14001",
+        "above": "EN",
+        "line": "EN 14001",
+        "col": "Qualitätsmanagement / Quality Management",
+        "tooltip": "EN 14001",
+        "field_name": "EN 14001"
+      },
+      "id": "Z30"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        198.95,
+        364.4,
+        209.75,
+        374.5
+      ],
+      "xref": 642,
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "right": "EN 17025",
+        "above": "EN",
+        "line": "EN 17025",
+        "col": "Qualitätsmanagement / Quality Management",
+        "tooltip": "EN 17025",
+        "field_name": "EN 17025"
+      },
+      "id": "Z31"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        389.3,
+        377.15,
+        500.9,
+        390.8
+      ],
+      "xref": 650,
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "Please explain:",
+        "line": "other Please explain:",
+        "tooltip": "Please explain",
+        "field_name": "Please explain"
+      },
+      "id": "Z32"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        198.95,
+        380.5,
+        209.75,
+        390.55
+      ],
+      "xref": 646,
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "right": "other",
+        "above": "EN",
+        "line": "other Please explain:",
+        "col": "Qualitätsmanagement / Quality Management",
+        "tooltip": "other",
+        "field_name": "other"
+      },
+      "id": "Z33"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        318.5,
+        394.4,
+        453.6,
+        408.1
+      ],
+      "xref": 654,
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "sonstige / other",
+        "above": "Please explain:",
+        "line": "sonstige / other",
+        "tooltip": "Textfield-6",
+        "field_name": "Textfield-6"
+      },
+      "id": "Z34"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        274.1,
+        413.85,
+        284.9,
+        425.15
+      ],
+      "xref": 658,
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "keiner Forderung / no requirements",
+        "line": "keiner Forderung / no requirements",
+        "col": "Which QM-Requirements do your QM-Measures meet?",
+        "tooltip": "ChkBox",
+        "field_name": "ChkBox"
+      },
+      "id": "Z35"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        138.7,
+        531.2,
+        149.5,
+        542.5
+      ],
+      "xref": 662,
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "ja / yes",
+        "above": "your QM-Measures",
+        "line": "ja / yes nein / no",
+        "col": "Have your QM-Measures been inspected and certified",
+        "tooltip": "nein  no",
+        "field_name": "nein  no"
+      },
+      "id": "Z36"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        227.3,
+        531.2,
+        238.1,
+        542.5
+      ],
+      "xref": 666,
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "nein / no",
+        "above": "been inspected",
+        "line": "ja / yes nein / no",
+        "col": "Have your QM-Measures been inspected and certified by other companies?",
+        "tooltip": "ChkBox-0",
+        "field_name": "ChkBox-0"
+      },
+      "id": "Z37"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        321.1,
+        576.1,
+        532.8,
+        589.75
+      ],
+      "xref": 670,
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "tooltip": "Textfield-7",
+        "field_name": "Textfield-7"
+      },
+      "id": "Z38"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        390.95,
+        649.55,
+        401.75,
+        660.8
+      ],
+      "xref": 674,
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "ja/yes",
+        "right": "nein/no",
+        "line": "QM-Handbuch / QM-Manual ja/yes nein/no",
+        "col": "inspected and certified by other companies?",
+        "tooltip": "neinno",
+        "field_name": "neinno"
+      },
+      "id": "Z39"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        463.45,
+        649.55,
+        474.25,
+        660.8
+      ],
+      "xref": 678,
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "nein/no",
+        "line": "QM-Handbuch / QM-Manual ja/yes nein/no",
+        "col": "bereits durch andere Unternehmen geprüft und zugelassen?",
+        "tooltip": "ChkBox-1",
+        "field_name": "ChkBox-1"
+      },
+      "id": "Z40"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        391.45,
+        686.5,
+        402.25,
+        697.75
+      ],
+      "xref": 682,
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "ja/yes",
+        "right": "nein/no",
+        "line": "ja/yes nein/no",
+        "col": "inspected and certified by other companies?",
+        "tooltip": "neinno-0",
+        "field_name": "neinno-0"
+      },
+      "id": "Z41"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        463.45,
+        686.5,
+        474.25,
+        697.75
+      ],
+      "xref": 686,
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "nein/no",
+        "line": "ja/yes nein/no",
+        "col": "bereits durch andere Unternehmen geprüft und zugelassen?",
+        "tooltip": "ChkBox-2",
+        "field_name": "ChkBox-2"
+      },
+      "id": "Z42"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        391.45,
+        723.2,
+        402.25,
+        734.5
+      ],
+      "xref": 690,
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "ja/yes",
+        "right": "nein/no",
+        "line": "ja/yes nein/no",
+        "col": "inspected and certified by other companies?",
+        "tooltip": "neinno-1",
+        "field_name": "neinno-1"
+      },
+      "id": "Z43"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        463.45,
+        723.2,
+        474.25,
+        734.5
+      ],
+      "xref": 694,
+      "checked": false,
+      "page": 2,
+      "ctx": {
+        "left": "nein/no",
+        "line": "ja/yes nein/no",
+        "col": "bereits durch andere Unternehmen geprüft und zugelassen?",
+        "tooltip": "ChkBox-3",
+        "field_name": "ChkBox-3"
+      },
+      "id": "Z44"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        476.45,
+        64.84,
+        500.7,
+        120.32
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "row": "Fragen / Questions"
+      },
+      "id": "Z45"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        503.7,
+        64.84,
+        527.81,
+        120.32
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "row": "Fragen / Questions"
+      },
+      "id": "Z46"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        530.81,
+        64.84,
+        555.18,
+        120.32
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "row": "Fragen / Questions"
+      },
+      "id": "Z47"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        474.68,
+        121.54,
+        501.69,
+        149.56
+      ],
+      "xref": 710,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "material from your own qualified supplier?",
+        "line": "Beziehen Do you receive Sie Zulieferteile parts and material von eigenen, from your zugelassenen own qualified Lieferanten? supplier?",
+        "tooltip": "Beziehen Sie Zulieferteile von eigenen zugelassene",
+        "field_name": "Beziehen Sie Zulieferteile von eigenen zugelassene"
+      },
+      "id": "Z48"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        503.69,
+        121.54,
+        529.7,
+        149.56
+      ],
+      "xref": 714,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "your own qualified supplier?",
+        "line": "Beziehen Do you receive Sie Zulieferteile parts and material von eigenen, from your zugelassenen own qualified Lieferanten? supplier?",
+        "tooltip": "Beziehen Sie Zulieferteile von eigenen zugelassene-0",
+        "field_name": "Beziehen Sie Zulieferteile von eigenen zugelassene-0"
+      },
+      "id": "Z49"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        529.7,
+        121.54,
+        556.71,
+        149.56
+      ],
+      "xref": 718,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "qualified supplier?",
+        "line": "Beziehen Do you receive Sie Zulieferteile parts and material von eigenen, from your zugelassenen own qualified Lieferanten? supplier?",
+        "tooltip": "Beziehen Sie Zulieferteile von eigenen zugelassene-1",
+        "field_name": "Beziehen Sie Zulieferteile von eigenen zugelassene-1"
+      },
+      "id": "Z50"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        474.68,
+        149.56,
+        503.69,
+        177.57
+      ],
+      "xref": 722,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Ihre maintained on Lieferanten / Unterauftragnehmer?",
+        "line": "Führen Is a current Sie Aufzeichnungen list of approved suppliers über Ihre maintained zugelassenen on file? Lieferanten / Unterauftragnehmer?",
+        "tooltip": "Führen Sie Aufzeichnungen über Ihre zugelassenen L",
+        "field_name": "Führen Sie Aufzeichnungen über Ihre zugelassenen L"
+      },
+      "id": "Z51"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        503.69,
+        149.56,
+        529.7,
+        177.57
+      ],
+      "xref": 726,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "maintained on Lieferanten / Unterauftragnehmer?",
+        "line": "Führen Is a current Sie Aufzeichnungen list of approved suppliers über Ihre maintained zugelassenen on file? Lieferanten / Unterauftragnehmer?",
+        "tooltip": "Führen Sie Aufzeichnungen über Ihre zugelassenen L-0",
+        "field_name": "Führen Sie Aufzeichnungen über Ihre zugelassenen L-0"
+      },
+      "id": "Z52"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        531.7,
+        149.56,
+        556.71,
+        177.57
+      ],
+      "xref": 730,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "on Lieferanten / Unterauftragnehmer?",
+        "line": "Führen Is a current Sie Aufzeichnungen list of approved suppliers über Ihre maintained zugelassenen on file? Lieferanten / Unterauftragnehmer?",
+        "tooltip": "Führen Sie Aufzeichnungen über Ihre zugelassenen L-1",
+        "field_name": "Führen Sie Aufzeichnungen über Ihre zugelassenen L-1"
+      },
+      "id": "Z53"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        474.68,
+        177.57,
+        502.69,
+        205.58
+      ],
+      "xref": 734,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "from your customer?",
+        "line": "Akzeptieren Do you accept Sie parts Zulieferteile and material von Ihrem from your Auftraggeber? customer?",
+        "tooltip": "Akzeptieren Sie Zulieferteile von Ihrem Auftraggeb",
+        "field_name": "Akzeptieren Sie Zulieferteile von Ihrem Auftraggeb"
+      },
+      "id": "Z54"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        504.69,
+        177.57,
+        529.7,
+        205.58
+      ],
+      "xref": 738,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "your customer?",
+        "line": "Akzeptieren Do you accept Sie parts Zulieferteile and material von Ihrem from your Auftraggeber? customer?",
+        "tooltip": "Akzeptieren Sie Zulieferteile von Ihrem Auftraggeb-0",
+        "field_name": "Akzeptieren Sie Zulieferteile von Ihrem Auftraggeb-0"
+      },
+      "id": "Z55"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        530.7,
+        177.57,
+        556.71,
+        205.58
+      ],
+      "xref": 742,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "customer?",
+        "line": "Akzeptieren Do you accept Sie parts Zulieferteile and material von Ihrem from your Auftraggeber? customer?",
+        "tooltip": "Akzeptieren Sie Zulieferteile von Ihrem Auftraggeb-1",
+        "field_name": "Akzeptieren Sie Zulieferteile von Ihrem Auftraggeb-1"
+      },
+      "id": "Z56"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        474.68,
+        233.59,
+        500.69,
+        261.6
+      ],
+      "xref": 746,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "registered warranty of two years?* von zwei Jahren?*",
+        "above": "Monate",
+        "line": "Gewähren Will your organization Sie den gesetzlich provide festgelegten the registered Gewährleistungsanspruch warranty of two years?* von zwei Jahren?*",
+        "tooltip": "Gewähren Sie den gesetzlich festgelegten Gewährlei",
+        "field_name": "Gewähren Sie den gesetzlich festgelegten Gewährlei"
+      },
+      "id": "Z57"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        504.69,
+        233.59,
+        529.7,
+        261.6
+      ],
+      "xref": 750,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "registered warranty of two years?* von zwei Jahren?*",
+        "above": "month",
+        "line": "Gewähren Will your organization Sie den gesetzlich provide festgelegten the registered Gewährleistungsanspruch warranty of two years?* von zwei Jahren?*",
+        "tooltip": "Gewähren Sie den gesetzlich festgelegten Gewährlei-0",
+        "field_name": "Gewähren Sie den gesetzlich festgelegten Gewährlei-0"
+      },
+      "id": "Z58"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        531.7,
+        233.59,
+        556.71,
+        261.6
+      ],
+      "xref": 754,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "warranty of two years?* von zwei Jahren?*",
+        "above": "month / years",
+        "line": "Gewähren Will your organization Sie den gesetzlich provide festgelegten the registered Gewährleistungsanspruch warranty of two years?* von zwei Jahren?*",
+        "tooltip": "Gewähren Sie den gesetzlich festgelegten Gewährlei-1",
+        "field_name": "Gewähren Sie den gesetzlich festgelegten Gewährlei-1"
+      },
+      "id": "Z59"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        474.68,
+        261.6,
+        500.69,
+        299.61
+      ],
+      "xref": 866,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "nur für storage areas controlled to prevent unauthorized stocking or",
+        "line": "Ist Is access der Zugang to stock zum rooms Lagerbereich and material nur für storage befugtes areas Personal controlled möglich? to prevent unauthorized stocki",
+        "tooltip": "Ist der Zugang zum Lagerbereich nur für befugtes P-0",
+        "field_name": "Ist der Zugang zum Lagerbereich nur für befugtes P-0"
+      },
+      "id": "Z60"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        504.69,
+        261.6,
+        529.7,
+        299.61
+      ],
+      "xref": 870,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "storage areas controlled to prevent unauthorized stocking or",
+        "line": "Ist Is access der Zugang to stock zum rooms Lagerbereich and material nur für storage befugtes areas Personal controlled möglich? to prevent unauthorized stocki",
+        "tooltip": "Ist der Zugang zum Lagerbereich nur für befugtes P-1",
+        "field_name": "Ist der Zugang zum Lagerbereich nur für befugtes P-1"
+      },
+      "id": "Z61"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        531.7,
+        261.6,
+        556.71,
+        299.61
+      ],
+      "xref": 758,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "areas controlled to prevent unauthorized stocking or",
+        "line": "Ist Is access der Zugang to stock zum rooms Lagerbereich and material nur für storage befugtes areas Personal controlled möglich? to prevent unauthorized stocki",
+        "tooltip": "Ist der Zugang zum Lagerbereich nur für befugtes P",
+        "field_name": "Ist der Zugang zum Lagerbereich nur für befugtes P"
+      },
+      "id": "Z62"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        474.68,
+        299.61,
+        501.69,
+        327.62
+      ],
+      "xref": 762,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Verfahren für die Wareneingangsprüfung?",
+        "above": "or",
+        "line": "Gibt Is there es a ein written festgelegtes procedure Verfahren for incoming für die inspection? Wareneingangsprüfung?",
+        "tooltip": "Gibt es ein festgelegtes Verfahren für die Warenei",
+        "field_name": "Gibt es ein festgelegtes Verfahren für die Warenei"
+      },
+      "id": "Z63"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        503.69,
+        299.61,
+        529.7,
+        327.62
+      ],
+      "xref": 766,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "die Wareneingangsprüfung?",
+        "line": "Gibt Is there es a ein written festgelegtes procedure Verfahren for incoming für die inspection? Wareneingangsprüfung?",
+        "tooltip": "Gibt es ein festgelegtes Verfahren für die Warenei-0",
+        "field_name": "Gibt es ein festgelegtes Verfahren für die Warenei-0"
+      },
+      "id": "Z64"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        531.7,
+        299.61,
+        556.71,
+        327.62
+      ],
+      "xref": 874,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Wareneingangsprüfung?",
+        "line": "Gibt Is there es a ein written festgelegtes procedure Verfahren for incoming für die inspection? Wareneingangsprüfung?",
+        "tooltip": "Gibt es ein festgelegtes Verfahren für die Warenei-1",
+        "field_name": "Gibt es ein festgelegtes Verfahren für die Warenei-1"
+      },
+      "id": "Z65"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        474.68,
+        327.62,
+        503.69,
+        355.63
+      ],
+      "xref": 770,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "identified and segregated from aircraft gelagert?",
+        "line": "Wird Is material luftfahrttaugliches for non-aircraft von use nicht identified luftfahrttauglichem and segregated Material from getrennt aircraft material? gela",
+        "tooltip": "Wird luftfahrttaugliches von nicht luftfahrttaugli",
+        "field_name": "Wird luftfahrttaugliches von nicht luftfahrttaugli"
+      },
+      "id": "Z66"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        505.69,
+        327.62,
+        529.7,
+        355.63
+      ],
+      "xref": 774,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "and segregated from aircraft gelagert?",
+        "line": "Wird Is material luftfahrttaugliches for non-aircraft von use nicht identified luftfahrttauglichem and segregated Material from getrennt aircraft material? gela",
+        "tooltip": "Wird luftfahrttaugliches von nicht luftfahrttaugli-0",
+        "field_name": "Wird luftfahrttaugliches von nicht luftfahrttaugli-0"
+      },
+      "id": "Z67"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        531.7,
+        327.62,
+        556.71,
+        355.63
+      ],
+      "xref": 778,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "segregated from aircraft gelagert?",
+        "line": "Wird Is material luftfahrttaugliches for non-aircraft von use nicht identified luftfahrttauglichem and segregated Material from getrennt aircraft material? gela",
+        "tooltip": "Wird luftfahrttaugliches von nicht luftfahrttaugli-1",
+        "field_name": "Wird luftfahrttaugliches von nicht luftfahrttaugli-1"
+      },
+      "id": "Z68"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        474.68,
+        355.63,
+        501.69,
+        392.65
+      ],
+      "xref": 782,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "zur Überwachung der Kalibrierung von Werkzeug, Messgeräten und Test-",
+        "line": "Gibt Equipment? es festgelegte Verfahren zur Überwachung der Kalibrierung von Werkzeug, Messgeräten und Test-",
+        "tooltip": "Gibt es festgelegte Verfahren zur Uberuwachung der",
+        "field_name": "Gibt es festgelegte Verfahren zur Uberuwachung der"
+      },
+      "id": "Z69"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        504.69,
+        355.63,
+        529.7,
+        392.65
+      ],
+      "xref": 786,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Überwachung der Kalibrierung von Werkzeug, Messgeräten und Test-",
+        "line": "Gibt Equipment? es festgelegte Verfahren zur Überwachung der Kalibrierung von Werkzeug, Messgeräten und Test-",
+        "tooltip": "Gibt es festgelegte Verfahren zur Uberuwachung der-0",
+        "field_name": "Gibt es festgelegte Verfahren zur Uberuwachung der-0"
+      },
+      "id": "Z70"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        532.7,
+        355.63,
+        556.71,
+        392.65
+      ],
+      "xref": 790,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "der Kalibrierung von Werkzeug, Messgeräten und Test-",
+        "line": "Gibt Equipment? es festgelegte Verfahren zur Überwachung der Kalibrierung von Werkzeug, Messgeräten und Test-",
+        "tooltip": "Gibt es festgelegte Verfahren zur Uberuwachung der-1",
+        "field_name": "Gibt es festgelegte Verfahren zur Uberuwachung der-1"
+      },
+      "id": "Z71"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        475.68,
+        392.65,
+        554.7,
+        429.66
+      ],
+      "xref": 794,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Nachweisdokumente über Material, Werkzeug und durchgeführte",
+        "line": "Für Arbeiten welchen aufbewahrt? Zeitraum werden Nachweisdokumente über Material, Werkzeug und durchgeführte",
+        "tooltip": "Textfield-8",
+        "field_name": "Textfield-8"
+      },
+      "id": "Z72"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        474.68,
+        429.66,
+        502.69,
+        457.67
+      ],
+      "xref": 798,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "for your und Ausbildungsprogramm?",
+        "line": "Existiert Do you have für Ihre a training Mitarbeiter program ein Trainings- for your employees? und Ausbildungsprogramm?",
+        "tooltip": "Existiert für Ihre Mitarbeiter ein Trainings und A",
+        "field_name": "Existiert für Ihre Mitarbeiter ein Trainings und A"
+      },
+      "id": "Z73"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        504.69,
+        429.66,
+        529.7,
+        457.67
+      ],
+      "xref": 802,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Trainings- und Ausbildungsprogramm?",
+        "line": "Existiert Do you have für Ihre a training Mitarbeiter program ein Trainings- for your employees? und Ausbildungsprogramm?",
+        "tooltip": "Existiert für Ihre Mitarbeiter ein Trainings und A-0",
+        "field_name": "Existiert für Ihre Mitarbeiter ein Trainings und A-0"
+      },
+      "id": "Z74"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        532.7,
+        429.66,
+        556.71,
+        457.67
+      ],
+      "xref": 806,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Ausbildungsprogramm?",
+        "line": "Existiert Do you have für Ihre a training Mitarbeiter program ein Trainings- for your employees? und Ausbildungsprogramm?",
+        "tooltip": "Existiert für Ihre Mitarbeiter ein Trainings und A-1",
+        "field_name": "Existiert für Ihre Mitarbeiter ein Trainings und A-1"
+      },
+      "id": "Z75"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        474.68,
+        457.67,
+        500.69,
+        486.68
+      ],
+      "xref": 810,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "of your employees? Ihrer Mitarbeiter?",
+        "line": "Archivieren Do you maintain Sie die training Aus- und records Weiterbildungsnachweise of your employees? Ihrer Mitarbeiter?",
+        "tooltip": "Archivieren Sie die Aus und Weiterbildungsnachweis",
+        "field_name": "Archivieren Sie die Aus und Weiterbildungsnachweis"
+      },
+      "id": "Z76"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        504.69,
+        457.67,
+        529.7,
+        486.68
+      ],
+      "xref": 814,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "employees? Ihrer Mitarbeiter?",
+        "line": "Archivieren Do you maintain Sie die training Aus- und records Weiterbildungsnachweise of your employees? Ihrer Mitarbeiter?",
+        "tooltip": "Archivieren Sie die Aus und Weiterbildungsnachweis-0",
+        "field_name": "Archivieren Sie die Aus und Weiterbildungsnachweis-0"
+      },
+      "id": "Z77"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        532.7,
+        457.67,
+        556.71,
+        486.68
+      ],
+      "xref": 818,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "employees? Ihrer Mitarbeiter?",
+        "line": "Archivieren Do you maintain Sie die training Aus- und records Weiterbildungsnachweise of your employees? Ihrer Mitarbeiter?",
+        "tooltip": "Archivieren Sie die Aus und Weiterbildungsnachweis-1",
+        "field_name": "Archivieren Sie die Aus und Weiterbildungsnachweis-1"
+      },
+      "id": "Z78"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        502.3,
+        568.4,
+        529.45,
+        596.5
+      ],
+      "xref": 830,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "“Repair Station” by the FAA? die FAA?",
+        "line": "Hat Is your Ihr Unternehmen Organization eine approved Zulassung as “Repair als ’Repair Station” Station‘ by the durch FAA? die FAA?",
+        "tooltip": "Textfield-10",
+        "field_name": "Textfield-10"
+      },
+      "id": "Z79"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        529.45,
+        568.4,
+        556.8,
+        596.5
+      ],
+      "xref": 834,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Station” by the FAA? die FAA?",
+        "line": "Hat Is your Ihr Unternehmen Organization eine approved Zulassung as “Repair als ’Repair Station” Station‘ by the durch FAA? die FAA?",
+        "tooltip": "Textfield-11",
+        "field_name": "Textfield-11"
+      },
+      "id": "Z80"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        474.68,
+        568.71,
+        502.69,
+        596.72
+      ],
+      "xref": 826,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Zulassung als Station” by the FAA? die FAA?",
+        "line": "Hat Is your Ihr Unternehmen Organization eine approved Zulassung as “Repair als ’Repair Station” Station‘ by the durch FAA? die FAA?",
+        "tooltip": "Textfield-9",
+        "field_name": "Textfield-9"
+      },
+      "id": "Z81"
+    },
+    {
+      "shape": "label_space",
+      "kind": "text",
+      "rect": [
+        104.57,
+        627.15,
+        555.18,
+        638.37
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "above": "Please include a copy of your Approval Certificate & Operations Specifications!",
+        "col": "Please include a copy of your Approval Certificate"
+      },
+      "id": "Z82"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        474.95,
+        639.45,
+        502.3,
+        667.55
+      ],
+      "xref": 846,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "anti-drug Anti Drogen und prevention program in place?",
+        "above": "Specifications!",
+        "line": "Verfügen Have you Sie got über an approved ein genehmigtes anti-drug and Anti alcohol Drogen misuse und Alkohol prevention Programm? program in place?",
+        "tooltip": "Textfield-12",
+        "field_name": "Textfield-12"
+      },
+      "id": "Z83"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        502.3,
+        639.45,
+        529.45,
+        667.55
+      ],
+      "xref": 850,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Drogen und prevention program in place?",
+        "above": "Specifications!",
+        "line": "Verfügen Have you Sie got über an approved ein genehmigtes anti-drug and Anti alcohol Drogen misuse und Alkohol prevention Programm? program in place?",
+        "tooltip": "Textfield-13",
+        "field_name": "Textfield-13"
+      },
+      "id": "Z84"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        529.45,
+        639.45,
+        556.8,
+        667.55
+      ],
+      "xref": 854,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "und prevention program in place?",
+        "line": "Verfügen Have you Sie got über an approved ein genehmigtes anti-drug and Anti alcohol Drogen misuse und Alkohol prevention Programm? program in place?",
+        "tooltip": "Textfield-14",
+        "field_name": "Textfield-14"
+      },
+      "id": "Z85"
+    },
+    {
+      "shape": "blank",
+      "kind": "text",
+      "rect": [
+        167.99,
+        666.86,
+        559.22,
+        677.83
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Wenn ja, If yes,:",
+        "above": "approved anti-drug and alcohol misuse prevention program in place?",
+        "line": "Wenn ja, If yes,:",
+        "col": "Verfügen Sie über ein genehmigtes Anti Drogen und Alkohol Programm? Have you got"
+      },
+      "id": "Z86"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        104.54,
+        676.75,
+        282.6,
+        710.76
+      ],
+      "xref": 858,
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "right": "Bitte Kopie beifügen!",
+        "above": "Wenn ja, If yes,:",
+        "line": "Please Bitte Kopie include beifügen! a copy!",
+        "tooltip": "Wenn ja If yes",
+        "field_name": "Wenn ja If yes"
+      },
+      "id": "Z87"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        316.1,
+        122.95,
+        327.35,
+        134.25
+      ],
+      "xref": 883,
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "ja/yes",
+        "above": "products",
+        "line": "JAA Form One ja/yes nein/no",
+        "col": "provide proofing documents to your products / services for your customer?",
+        "tooltip": "neinno-2",
+        "field_name": "neinno-2"
+      },
+      "id": "Z88"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        393.85,
+        122.95,
+        405.1,
+        134.25
+      ],
+      "xref": 887,
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "nein/no",
+        "above": "for your",
+        "line": "JAA Form One ja/yes nein/no",
+        "col": "documents to your products / services for your customer?",
+        "tooltip": "ChkBox-4",
+        "field_name": "ChkBox-4"
+      },
+      "id": "Z89"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        316.1,
+        140.25,
+        327.35,
+        151.55
+      ],
+      "xref": 891,
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "ja/yes",
+        "above": "ja/yes",
+        "line": "EASA Form One ja/yes nein/no",
+        "col": "provide proofing documents to your products / services for your customer?",
+        "tooltip": "neinno-3",
+        "field_name": "neinno-3"
+      },
+      "id": "Z90"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        393.85,
+        140.25,
+        405.1,
+        151.55
+      ],
+      "xref": 895,
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "nein/no",
+        "above": "nein/no",
+        "line": "EASA Form One ja/yes nein/no",
+        "col": "documents to your products / services for your customer?",
+        "tooltip": "ChkBox-5",
+        "field_name": "ChkBox-5"
+      },
+      "id": "Z91"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        316.1,
+        157.55,
+        327.35,
+        168.8
+      ],
+      "xref": 899,
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "ja/yes",
+        "above": "ja/yes",
+        "line": "FAA Form 8130-3 ja/yes nein/no",
+        "col": "provide proofing documents to your products / services for your customer?",
+        "tooltip": "neinno-4",
+        "field_name": "neinno-4"
+      },
+      "id": "Z92"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        393.85,
+        157.55,
+        405.1,
+        168.8
+      ],
+      "xref": 903,
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "nein/no",
+        "above": "nein/no",
+        "line": "FAA Form 8130-3 ja/yes nein/no",
+        "col": "documents to your products / services for your customer?",
+        "tooltip": "ChkBox-6",
+        "field_name": "ChkBox-6"
+      },
+      "id": "Z93"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        316.1,
+        174.55,
+        327.35,
+        185.85
+      ],
+      "xref": 907,
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "ja/yes",
+        "above": "ja/yes",
+        "line": "Dual Release Form (FAA/EASA) ja/yes nein/no",
+        "col": "provide proofing documents to your products / services for your customer?",
+        "tooltip": "neinno-5",
+        "field_name": "neinno-5"
+      },
+      "id": "Z94"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        393.85,
+        174.55,
+        405.1,
+        185.85
+      ],
+      "xref": 911,
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "nein/no",
+        "above": "nein/no",
+        "line": "Dual Release Form (FAA/EASA) ja/yes nein/no",
+        "col": "documents to your products / services for your customer?",
+        "tooltip": "ChkBox-7",
+        "field_name": "ChkBox-7"
+      },
+      "id": "Z95"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        316.1,
+        191.85,
+        327.35,
+        203.15
+      ],
+      "xref": 915,
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "Canadian Form 1 (TCCA 24-0078) ja/yes",
+        "above": "ja/yes",
+        "line": "Canadian Form 1 (TCCA 24-0078) ja/yes nein/no",
+        "col": "provide proofing documents to your products / services for your customer?",
+        "tooltip": "neinno-6",
+        "field_name": "neinno-6"
+      },
+      "id": "Z96"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        393.85,
+        191.85,
+        405.1,
+        203.15
+      ],
+      "xref": 919,
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "nein/no",
+        "above": "nein/no",
+        "line": "Canadian Form 1 (TCCA 24-0078) ja/yes nein/no",
+        "col": "documents to your products / services for your customer?",
+        "tooltip": "ChkBox-8",
+        "field_name": "ChkBox-8"
+      },
+      "id": "Z97"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        316.1,
+        209.15,
+        327.35,
+        220.4
+      ],
+      "xref": 923,
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "ja/yes",
+        "above": "ja/yes",
+        "line": "SEGVOO 003 ja/yes nein/no",
+        "col": "provide proofing documents to your products / services for your customer?",
+        "tooltip": "neinno-7",
+        "field_name": "neinno-7"
+      },
+      "id": "Z98"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        393.85,
+        209.15,
+        405.1,
+        220.4
+      ],
+      "xref": 927,
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "nein/no",
+        "above": "nein/no",
+        "line": "SEGVOO 003 ja/yes nein/no",
+        "col": "documents to your products / services for your customer?",
+        "tooltip": "ChkBox-9",
+        "field_name": "ChkBox-9"
+      },
+      "id": "Z99"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        316.1,
+        226.4,
+        327.35,
+        237.7
+      ],
+      "xref": 939,
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "ja/yes",
+        "above": "ja/yes",
+        "line": "C of C ja/yes nein/no",
+        "col": "provide proofing documents to your products / services for your customer?",
+        "tooltip": "neinno-8",
+        "field_name": "neinno-8"
+      },
+      "id": "Z100"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        393.85,
+        226.4,
+        405.1,
+        237.7
+      ],
+      "xref": 943,
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "nein/no",
+        "above": "nein/no",
+        "line": "C of C ja/yes nein/no",
+        "col": "documents to your products / services for your customer?",
+        "tooltip": "ChkBox-10",
+        "field_name": "ChkBox-10"
+      },
+      "id": "Z101"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        283.2,
+        241.55,
+        424.55,
+        255.2
+      ],
+      "xref": 947,
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "left": "sonstige / other",
+        "above": "ja/yes nein/no",
+        "line": "sonstige / other",
+        "tooltip": "Textfield-15",
+        "field_name": "Textfield-15"
+      },
+      "id": "Z102"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        136.1,
+        365.6,
+        147.35,
+        376.9
+      ],
+      "xref": 951,
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "ja / yes",
+        "above": "there a system",
+        "line": "ja / yes nein / no",
+        "col": "Is there a system established at your organization",
+        "tooltip": "nein  no-0",
+        "field_name": "nein  no-0"
+      },
+      "id": "Z103"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        225.6,
+        365.6,
+        236.9,
+        376.9
+      ],
+      "xref": 955,
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "nein / no",
+        "above": "established at",
+        "line": "ja / yes nein / no",
+        "col": "Is there a system established at your organization for analyzing and evaluating",
+        "tooltip": "ChkBox-11",
+        "field_name": "ChkBox-11"
+      },
+      "id": "Z104"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        385.45,
+        416.25,
+        396.7,
+        427.55
+      ],
+      "xref": 959,
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "ja/yes",
+        "line": "Verfügen Sie über eine Betriebshaftpflicht? ja/yes nein/no",
+        "col": "established at your organization for analyzing and evaluating of risks?",
+        "tooltip": "neinno-9",
+        "field_name": "neinno-9"
+      },
+      "id": "Z105"
+    },
+    {
+      "shape": "widget",
+      "kind": "check",
+      "rect": [
+        463.45,
+        416.25,
+        474.7,
+        427.55
+      ],
+      "xref": 963,
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "nein/no",
+        "line": "Verfügen Sie über eine Betriebshaftpflicht? ja/yes nein/no",
+        "col": "organization for analyzing and evaluating of risks?",
+        "tooltip": "ChkBox-12",
+        "field_name": "ChkBox-12"
+      },
+      "id": "Z106"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        351.63,
+        506.69,
+        409.65,
+        521.69
+      ],
+      "xref": 1286,
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "left": "Wie hoch ist die Deckungssumme?",
+        "right": "€/$/.",
+        "above": "certificate(s)!",
+        "line": "Wie hoch ist die Deckungssumme? €/$/.",
+        "field_name": "Text11"
+      },
+      "id": "Z107"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        2,
+        828.49,
+        56.02,
+        840.5
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {},
+      "id": "Z108"
+    },
+    {
+      "shape": "blank",
+      "kind": "text",
+      "rect": [
+        268.11,
+        197.22,
+        559.22,
+        210.35
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "left": "Quality Manager / Quality Manager:",
+        "line": "Quality Manager / Quality Manager:"
+      },
+      "id": "Z109"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        108.95,
+        245.15,
+        282,
+        258.8
+      ],
+      "xref": 975,
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "tooltip": "Ort Datum",
+        "field_name": "Ort Datum"
+      },
+      "id": "Z110"
+    },
+    {
+      "shape": "widget",
+      "kind": "text",
+      "rect": [
+        349.7,
+        245.15,
+        522.25,
+        258.8
+      ],
+      "xref": 979,
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "tooltip": "Name Unterschrift",
+        "field_name": "Name Unterschrift"
+      },
+      "id": "Z111"
+    },
+    {
+      "shape": "blank",
+      "kind": "text",
+      "rect": [
+        233.13,
+        259.51,
+        385.51,
+        273.83
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "left": "Ort, Datum:",
+        "right": "Name, Unterschrift:",
+        "line": "Ort, Datum: Name, Unterschrift:"
+      },
+      "id": "Z112"
+    },
+    {
+      "shape": "blank",
+      "kind": "text",
+      "rect": [
+        488.39,
+        259.51,
+        559.22,
+        273.83
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "left": "Name, Unterschrift:",
+        "line": "Ort, Datum: Name, Unterschrift:"
+      },
+      "id": "Z113"
+    },
+    {
+      "shape": "blank",
+      "kind": "text",
+      "rect": [
+        233.43,
+        272.22,
+        410.46,
+        285.35
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "left": "Place, Date:",
+        "right": "Name, Sign:",
+        "above": "Name,",
+        "line": "Place, Date: Name, Sign:"
+      },
+      "id": "Z114"
+    },
+    {
+      "shape": "blank",
+      "kind": "text",
+      "rect": [
+        473.42,
+        272.22,
+        559.22,
+        285.35
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "left": "Name, Sign:",
+        "above": "Unterschrift:",
+        "line": "Place, Date: Name, Sign:"
+      },
+      "id": "Z115"
+    },
+    {
+      "shape": "blank",
+      "kind": "text",
+      "rect": [
+        224.7,
+        329.7,
+        559.22,
+        344.02
+      ],
+      "prefilled": null,
+      "page": 5,
+      "ctx": {
+        "left": "Please return questionnaire to:",
+        "line": "Please return questionnaire to:"
+      },
+      "id": "Z116"
+    }
+  ],
+  "notes": [],
+  "detector": "zones-js-1",
+  "map_id": "529a2767",
+  "source": "Vendor Questionary (1).pdf"
+}

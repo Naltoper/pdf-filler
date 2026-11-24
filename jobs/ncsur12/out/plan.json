@@ -1,0 +1,1815 @@
+{
+  "ops": [
+    {
+      "op": "text",
+      "zone": "Z1",
+      "answer": 0,
+      "role": "value",
+      "text": "AIRBUS HELICOPTERS",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z2",
+      "answer": 1,
+      "role": "value",
+      "text": "N/A",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z3",
+      "answer": 2,
+      "role": "value",
+      "text": "388 255 861",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z4",
+      "answer": 3,
+      "role": "value",
+      "text": "Aéroport International Marseille Provence",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z5",
+      "answer": 4,
+      "role": "value",
+      "text": "13700",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z6",
+      "answer": 5,
+      "role": "value",
+      "text": "Marignane",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z7",
+      "answer": 6,
+      "role": "value",
+      "text": "France",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z10",
+      "answer": 9,
+      "role": "value",
+      "text": "www.airbus.com",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z11",
+      "answer": 10,
+      "role": "value",
+      "text": "1992",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z15",
+      "answer": 11,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z18",
+      "answer": 12,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z19",
+      "answer": 13,
+      "role": "value",
+      "text": "Romain TRAPP",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z20",
+      "answer": 14,
+      "role": "value",
+      "text": "Accountable Manager / EVP Customer Support",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z21",
+      "answer": 15,
+      "role": "value",
+      "text": "+33 4 42 85 85 85",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z23",
+      "answer": 17,
+      "role": "value",
+      "text": "Elodie CARMONA",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z24",
+      "answer": 18,
+      "role": "value",
+      "text": "Head of Safety and Quality S&S",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z25",
+      "answer": 19,
+      "role": "value",
+      "text": "+33 4 42 85 85 85",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z26",
+      "answer": 20,
+      "role": "value",
+      "text": "elodie.carmona@airbus.com",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z27",
+      "answer": 21,
+      "role": "value",
+      "text": "Elisa MOREAU",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z28",
+      "answer": 22,
+      "role": "value",
+      "text": "Key Account Manager",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z29",
+      "answer": 23,
+      "role": "value",
+      "text": "+33 442 851 881",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z30",
+      "answer": 24,
+      "role": "value",
+      "text": "elisa.moreau@airbus.com",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z31",
+      "answer": 25,
+      "role": "value",
+      "text": "Olivier Tillier",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z32",
+      "answer": 26,
+      "role": "value",
+      "text": "Stores Manager",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z33",
+      "answer": 27,
+      "role": "value",
+      "text": "+33 4 42 85 85 85",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z35",
+      "answer": 29,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z37",
+      "answer": 30,
+      "role": "value",
+      "text": "AIRBUS, Netherlands",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z38",
+      "answer": 31,
+      "role": "value",
+      "text": "AIRBUS",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z39",
+      "answer": 32,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z43",
+      "answer": 32,
+      "role": "remark",
+      "text": "MOE Part 1",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z44",
+      "answer": 33,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z48",
+      "answer": 33,
+      "role": "remark",
+      "text": "MOE / QMS",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z49",
+      "answer": 34,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z53",
+      "answer": 34,
+      "role": "remark",
+      "text": "MOE Ch 1",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z54",
+      "answer": 35,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z58",
+      "answer": 35,
+      "role": "remark",
+      "text": "MOE Ch 3",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z59",
+      "answer": 36,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z63",
+      "answer": 36,
+      "role": "remark",
+      "text": "MOE Part 2",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z64",
+      "answer": 37,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z68",
+      "answer": 37,
+      "role": "remark",
+      "text": "MOE / QMS",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z69",
+      "answer": 38,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z73",
+      "answer": 38,
+      "role": "remark",
+      "text": "MOE",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z75",
+      "answer": 39,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z78",
+      "answer": 39,
+      "role": "remark",
+      "text": "3 to 7+ years based on regulatory min",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z79",
+      "answer": 40,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z83",
+      "answer": 40,
+      "role": "remark",
+      "text": "MOE Part 2",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z84",
+      "answer": 41,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z88",
+      "answer": 41,
+      "role": "remark",
+      "text": "FAI Procedure",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z89",
+      "answer": 42,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z93",
+      "answer": 42,
+      "role": "remark",
+      "text": "MOE Ch 2.5",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z94",
+      "answer": 43,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z98",
+      "answer": 43,
+      "role": "remark",
+      "text": "MOE Ch 2.15",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z99",
+      "answer": 44,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z103",
+      "answer": 44,
+      "role": "remark",
+      "text": "MOE Ch 2",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z104",
+      "answer": 45,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z108",
+      "answer": 45,
+      "role": "remark",
+      "text": "MOE Ch 2.1",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z109",
+      "answer": 46,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z113",
+      "answer": 46,
+      "role": "remark",
+      "text": "MOE Ch 2.1",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z114",
+      "answer": 47,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z118",
+      "answer": 47,
+      "role": "remark",
+      "text": "MOE Ch 2.1",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z119",
+      "answer": 48,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z123",
+      "answer": 48,
+      "role": "remark",
+      "text": "SUP procedure",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z124",
+      "answer": 49,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z128",
+      "answer": 49,
+      "role": "remark",
+      "text": "MOE Part 3",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z129",
+      "answer": 50,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z133",
+      "answer": 50,
+      "role": "remark",
+      "text": "MOE Ch 3.1",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z134",
+      "answer": 51,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z138",
+      "answer": 51,
+      "role": "remark",
+      "text": "MOE Ch 3.3",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z139",
+      "answer": 52,
+      "role": "choice",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z143",
+      "answer": 52,
+      "role": "remark",
+      "text": "Management review",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z144",
+      "answer": 53,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z145",
+      "answer": 54,
+      "role": "value",
+      "text": "282727-2019-AQ-FRA-ACCREDIA",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z146",
+      "answer": 55,
+      "role": "value",
+      "text": "07/05/2028",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z149",
+      "answer": 56,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z147",
+      "answer": 57,
+      "role": "value",
+      "text": "282727-2019-AQ-FRA-ACCREDIA",
+      "flag": false
+    },
+    {
+      "op": "text",
+      "zone": "Z148",
+      "answer": 58,
+      "role": "value",
+      "text": "07/05/2028",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z150",
+      "answer": 59,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z153",
+      "answer": 60,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z158",
+      "answer": 61,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z160",
+      "answer": 62,
+      "role": "value",
+      "text": "EASA.21G.0070",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z159",
+      "answer": 63,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z164",
+      "answer": 64,
+      "role": "value",
+      "text": "FR.145.0002",
+      "flag": false
+    },
+    {
+      "op": "check",
+      "zone": "Z162",
+      "answer": 65,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z170",
+      "answer": 66,
+      "role": "option",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z171",
+      "answer": 66,
+      "role": "option",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z175",
+      "answer": 66,
+      "role": "option",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z172",
+      "answer": 66,
+      "role": "option",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z182",
+      "answer": 67,
+      "role": "option",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z183",
+      "answer": 67,
+      "role": "option",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z186",
+      "answer": 67,
+      "role": "option",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z192",
+      "answer": 68,
+      "role": "value",
+      "text": "Shinichi KATAYAMA",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z193",
+      "answer": 69,
+      "role": "value",
+      "text": "S&S Top Quality Issues Manager",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z194",
+      "answer": 70,
+      "role": "value",
+      "text": "13/11/2026",
+      "flag": false
+    }
+  ],
+  "answers": [
+    {
+      "index": 0,
+      "ref": "A1",
+      "label": "Registered company name",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z1"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 1,
+      "ref": "A2",
+      "label": "Trading name (if different)",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z2"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 2,
+      "ref": "A3",
+      "label": "Company registration number",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z3"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 3,
+      "ref": "A4",
+      "label": "Street address",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z4"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 4,
+      "ref": "A5",
+      "label": "Postal code",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z5"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 5,
+      "ref": "A6",
+      "label": "City",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z6"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 6,
+      "ref": "A7",
+      "label": "Country",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z7"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 7,
+      "ref": "A8",
+      "label": "VAT / Tax identification number",
+      "context": null,
+      "type": "text",
+      "confidence": "low",
+      "note": "TVA intracommunautaire à compléter par l'administration",
+      "zones": [
+        "Z8"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 8,
+      "ref": "A9",
+      "label": "DUNS number",
+      "context": null,
+      "type": "text",
+      "confidence": "low",
+      "note": "Numéro DUNS à confirmer",
+      "zones": [
+        "Z9"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 9,
+      "ref": "A10",
+      "label": "Website",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z10"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 10,
+      "ref": "A11",
+      "label": "Year of foundation",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": null,
+      "zones": [
+        "Z11"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 11,
+      "ref": "A12",
+      "label": "Number of employees (all sites)",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z15"
+      ],
+      "messages": [
+        "Z15 : la ligne de cette case ne ressemble pas à la question (left: 250 – 999 ; right: 1 000 or more ; col: completed and signed survey, with copies)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 12,
+      "ref": "A13",
+      "label": "Annual turnover, last fiscal year",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z18"
+      ],
+      "messages": [
+        "Z18 : la ligne de cette case ne ressemble pas à la question (left: 10 – 50 M EUR ; right: > 50 M EUR ; above: 999 ; col: A6 City)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 13,
+      "ref": "B",
+      "label": "General management",
+      "context": "Name",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z19"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 14,
+      "ref": "B",
+      "label": "General management",
+      "context": "Job title",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z20"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 15,
+      "ref": "B",
+      "label": "General management",
+      "context": "Telephone",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z21"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 16,
+      "ref": "B",
+      "label": "General management",
+      "context": "E-mail",
+      "type": "text",
+      "confidence": "low",
+      "note": "A compléter",
+      "zones": [
+        "Z22"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 17,
+      "ref": "B",
+      "label": "Quality / Airworthiness",
+      "context": "Name",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z23"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 18,
+      "ref": "B",
+      "label": "Quality / Airworthiness",
+      "context": "Job title",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z24"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 19,
+      "ref": "B",
+      "label": "Quality / Airworthiness",
+      "context": "Telephone",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z25"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 20,
+      "ref": "B",
+      "label": "Quality / Airworthiness",
+      "context": "E-mail",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z26"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 21,
+      "ref": "B",
+      "label": "Sales / Customer service",
+      "context": "Name",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z27"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 22,
+      "ref": "B",
+      "label": "Sales / Customer service",
+      "context": "Job title",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z28"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 23,
+      "ref": "B",
+      "label": "Sales / Customer service",
+      "context": "Telephone",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z29"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 24,
+      "ref": "B",
+      "label": "Sales / Customer service",
+      "context": "E-mail",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z30"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 25,
+      "ref": "B",
+      "label": "Logistics / Shipping",
+      "context": "Name",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z31"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 26,
+      "ref": "B",
+      "label": "Logistics / Shipping",
+      "context": "Job title",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z32"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 27,
+      "ref": "B",
+      "label": "Logistics / Shipping",
+      "context": "Telephone",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z33"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 28,
+      "ref": "B",
+      "label": "Logistics / Shipping",
+      "context": "E-mail",
+      "type": "text",
+      "confidence": "low",
+      "note": "A compléter",
+      "zones": [
+        "Z34"
+      ],
+      "messages": [],
+      "status": "empty"
+    },
+    {
+      "index": 29,
+      "ref": "C1",
+      "label": "Is your company a subsidiary of a group?",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z35"
+      ],
+      "messages": [
+        "Z35 : « Yes » ne figure pas autour de la case (left: Yes ; col: 1 000 or more)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 30,
+      "ref": "C2",
+      "label": "If yes, name and country of the parent company:",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z37"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 31,
+      "ref": "C3",
+      "label": "Shareholders holding more than 25 %:",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z38"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 32,
+      "ref": "D.1",
+      "label": "Organisation",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z39",
+        "Z43"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 33,
+      "ref": "D.1.1",
+      "label": "A quality manager is appointed, independent from production, with direct access to top management.",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z44",
+        "Z48"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 34,
+      "ref": "D.1.2",
+      "label": "An organisation chart is maintained and responsibilities for product conformity are defined.",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z49",
+        "Z53"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 35,
+      "ref": "D.1.3",
+      "label": "Personnel performing special processes are qualified and their qualification records are kept.",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z54",
+        "Z58"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 36,
+      "ref": "D.2",
+      "label": "Documentation & records",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z59",
+        "Z63"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 37,
+      "ref": "D.2.1",
+      "label": "A quality manual or equivalent describes the quality management system and its scope.",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z64",
+        "Z68"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 38,
+      "ref": "D.2.2",
+      "label": "Documents are controlled (approval, revision status, distribution, removal of obsolete issues).",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z69",
+        "Z73"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 39,
+      "ref": "D.2.3",
+      "label": "Quality records are retained for at least 10 years after delivery, or longer if required by contract.",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z75",
+        "Z78"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 40,
+      "ref": "D.3",
+      "label": "Production & inspection",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z79",
+        "Z83"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 41,
+      "ref": "D.3.1",
+      "label": "First Article Inspection is performed according to EN 9102 / AS9102 for new or modified parts.",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z84",
+        "Z88"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 42,
+      "ref": "D.3.2",
+      "label": "Measuring and test equipment is calibrated against traceable standards at defined intervals.",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z89",
+        "Z93"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 43,
+      "ref": "D.3.3",
+      "label": "Nonconforming product is identified, segregated and dispositioned by authorised personnel.",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z94",
+        "Z98"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 44,
+      "ref": "D.3.4",
+      "label": "Foreign Object Damage (FOD) prevention is in place in production and storage areas.",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z99",
+        "Z103"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 45,
+      "ref": "D.4",
+      "label": "Purchasing & sub-tier suppliers",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z104",
+        "Z108"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 46,
+      "ref": "D.4.1",
+      "label": "Sub-tier suppliers are evaluated, approved and monitored for quality and delivery performance.",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z109",
+        "Z113"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 47,
+      "ref": "D.4.2",
+      "label": "Customer requirements, including key characteristics and flow-down clauses, are passed to sub-tiers.",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z114",
+        "Z118"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 48,
+      "ref": "D.4.3",
+      "label": "A counterfeit part prevention process is implemented (AS5553 / AS6174 or equivalent).",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z119",
+        "Z123"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 49,
+      "ref": "D.5",
+      "label": "Improvement",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z124",
+        "Z128"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 50,
+      "ref": "D.5.1",
+      "label": "Internal audits covering the whole system are planned and performed at least once a year.",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z129",
+        "Z133"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 51,
+      "ref": "D.5.2",
+      "label": "Corrective actions use a root-cause method (8D, 5 Why, Ishikawa) and are verified for effectiveness.",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z134",
+        "Z138"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 52,
+      "ref": "D.5.3",
+      "label": "Customer satisfaction and on-time delivery are measured and reviewed by management.",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z139",
+        "Z143"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 53,
+      "ref": "E",
+      "label": "EN 9100 / AS9100",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z144"
+      ],
+      "messages": [
+        "Z144 : « Yes » ne figure pas autour de la case (right: EN 9100 / AS9100 ; above: Tick the ; col: Tick the approvals held and give the cer)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 54,
+      "ref": "E",
+      "label": "EN 9100 / AS9100",
+      "context": "Cert. no.",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z145"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 55,
+      "ref": "E",
+      "label": "EN 9100 / AS9100",
+      "context": "Expiry",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z146"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 56,
+      "ref": "E",
+      "label": "ISO 9001",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z149"
+      ],
+      "messages": [
+        "Z149 : « Yes » ne figure pas autour de la case (right: ISO 9001 ; col: Tick the approvals held and give the cer)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 57,
+      "ref": "E",
+      "label": "ISO 9001",
+      "context": "Cert. no.",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z147"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 58,
+      "ref": "E",
+      "label": "ISO 9001",
+      "context": "Expiry",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z148"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 59,
+      "ref": "E",
+      "label": "ISO 14001",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z150"
+      ],
+      "messages": [
+        "Z150 : « Yes » ne figure pas autour de la case (right: ISO 14001 ; col: Tick the approvals held and give the cer)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 60,
+      "ref": "E",
+      "label": "ISO 45001",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z153"
+      ],
+      "messages": [
+        "Z153 : « Yes » ne figure pas autour de la case (right: ISO 45001 ; col: Tick the approvals held and give the cer)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 61,
+      "ref": "E",
+      "label": "EASA Part 21G",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z158"
+      ],
+      "messages": [
+        "Z158 : « Yes » ne figure pas autour de la case (right: EASA Part 21G ; col: Tick the approvals held and give the cer)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 62,
+      "ref": "E",
+      "label": "EASA Part 21G",
+      "context": "Cert. no.",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z160"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 63,
+      "ref": "E",
+      "label": "EASA Part 145",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z159"
+      ],
+      "messages": [
+        "Z159 : « Yes » ne figure pas autour de la case (right: EASA Part 145 ; col: Tick the approvals held and give the cer)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 64,
+      "ref": "E",
+      "label": "EASA Part 145",
+      "context": "Cert. no.",
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z164"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 65,
+      "ref": "E",
+      "label": "Nadcap (process)",
+      "context": null,
+      "type": "choice",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z162"
+      ],
+      "messages": [
+        "Z162 : « Yes » ne figure pas autour de la case (right: Nadcap (process): ; col: Tick the approvals held and give the cer)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 66,
+      "ref": "F1",
+      "label": "Processes performed in-house (tick all that apply)",
+      "context": null,
+      "type": "multi_choice",
+      "confidence": "medium",
+      "note": "A adapter selon le périmètre détaillé du site",
+      "zones": [
+        "Z170",
+        "Z171",
+        "Z175",
+        "Z172"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 67,
+      "ref": "F2",
+      "label": "Materials processed",
+      "context": null,
+      "type": "multi_choice",
+      "confidence": "medium",
+      "note": null,
+      "zones": [
+        "Z182",
+        "Z183",
+        "Z186"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 68,
+      "ref": "H1",
+      "label": "Name of authorised signatory",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": null,
+      "zones": [
+        "Z192"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 69,
+      "ref": "H2",
+      "label": "Position",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": null,
+      "zones": [
+        "Z193"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 70,
+      "ref": "H3",
+      "label": "Date",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [
+        "Z194"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 71,
+      "ref": "H4",
+      "label": "Signature",
+      "context": null,
+      "type": "signature",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    },
+    {
+      "index": 72,
+      "ref": "H5",
+      "label": "Company stamp",
+      "context": null,
+      "type": "signature",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    },
+    {
+      "index": 73,
+      "ref": "RESERVED",
+      "label": "RESERVED FOR NORDAVIA - DO NOT FILL IN",
+      "context": null,
+      "type": "text",
+      "confidence": "high",
+      "note": null,
+      "zones": [],
+      "messages": [],
+      "status": "skipped"
+    }
+  ],
+  "unused": [
+    "Z8",
+    "Z9",
+    "Z22",
+    "Z34",
+    "Z151",
+    "Z152",
+    "Z154",
+    "Z155",
+    "Z156",
+    "Z157",
+    "Z161",
+    "Z163",
+    "Z165",
+    "Z166",
+    "Z188",
+    "Z189",
+    "Z190",
+    "Z191",
+    "Z197",
+    "Z198",
+    "Z199",
+    "Z200",
+    "Z204"
+  ],
+  "map_id": "d60bd6a4",
+  "detector": "zones-js-1"
+}

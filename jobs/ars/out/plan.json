@@ -1,0 +1,3227 @@
+{
+  "ops": [
+    {
+      "op": "text",
+      "zone": "Z1",
+      "answer": 0,
+      "role": "value",
+      "text": "Example Company SAS",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z2",
+      "answer": 1,
+      "role": "value",
+      "text": "Example Company SAS",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z3",
+      "answer": 2,
+      "role": "value",
+      "text": "1 Example Street",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z4",
+      "answer": 3,
+      "role": "value",
+      "text": "1 Example Street",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z5",
+      "answer": 4,
+      "role": "value",
+      "text": "Example value 5",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z6",
+      "answer": 5,
+      "role": "value",
+      "text": "+33 4 42 85 85 85",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z7",
+      "answer": 6,
+      "role": "value",
+      "text": "https://www.example.com",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z8",
+      "answer": 7,
+      "role": "value",
+      "text": "Example value 8",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z9",
+      "answer": 8,
+      "role": "value",
+      "text": "Example value 9",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z10",
+      "answer": 9,
+      "role": "value",
+      "text": "Example value 10",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z11",
+      "answer": 10,
+      "role": "value",
+      "text": "Example value 11",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z12",
+      "answer": 11,
+      "role": "value",
+      "text": "+33 4 42 85 85 85",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z13",
+      "answer": 12,
+      "role": "value",
+      "text": "+33 4 42 85 85 85",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z14",
+      "answer": 13,
+      "role": "value",
+      "text": "+33 4 42 85 85 85",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z15",
+      "answer": 14,
+      "role": "value",
+      "text": "+33 4 42 85 85 85",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z30",
+      "answer": 15,
+      "role": "value",
+      "text": "Example value 16",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z31",
+      "answer": 16,
+      "role": "value",
+      "text": "Example value 17",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z32",
+      "answer": 17,
+      "role": "value",
+      "text": "Example value 18",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z33",
+      "answer": 18,
+      "role": "value",
+      "text": "Example value 19",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z34",
+      "answer": 19,
+      "role": "value",
+      "text": "Example value 20",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z35",
+      "answer": 20,
+      "role": "value",
+      "text": "Example value 21",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z36",
+      "answer": 21,
+      "role": "value",
+      "text": "Example value 22",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z37",
+      "answer": 22,
+      "role": "value",
+      "text": "Example value 23",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z38",
+      "answer": 23,
+      "role": "value",
+      "text": "Example value 24",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z39",
+      "answer": 24,
+      "role": "value",
+      "text": "Example value 25",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z40",
+      "answer": 25,
+      "role": "value",
+      "text": "Example value 26",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z41",
+      "answer": 26,
+      "role": "value",
+      "text": "Example value 27",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z42",
+      "answer": 27,
+      "role": "value",
+      "text": "Example value 28",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z43",
+      "answer": 28,
+      "role": "value",
+      "text": "Example value 29",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z47",
+      "answer": 29,
+      "role": "value",
+      "text": "Example value 30",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z54",
+      "answer": 30,
+      "role": "value",
+      "text": "Example value 31",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z61",
+      "answer": 31,
+      "role": "value",
+      "text": "Example value 32",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z68",
+      "answer": 32,
+      "role": "value",
+      "text": "Example value 33",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z75",
+      "answer": 33,
+      "role": "value",
+      "text": "Example value 34",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z76",
+      "answer": 34,
+      "role": "value",
+      "text": "Example value 35",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z83",
+      "answer": 35,
+      "role": "value",
+      "text": "Example value 36",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z87",
+      "answer": 36,
+      "role": "value",
+      "text": "Example value 37",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z91",
+      "answer": 37,
+      "role": "value",
+      "text": "Example value 38",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z98",
+      "answer": 38,
+      "role": "value",
+      "text": "Example value 39",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z105",
+      "answer": 39,
+      "role": "value",
+      "text": "Example value 40",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z112",
+      "answer": 40,
+      "role": "value",
+      "text": "Example value 41",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z116",
+      "answer": 41,
+      "role": "value",
+      "text": "Example value 42",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z123",
+      "answer": 42,
+      "role": "value",
+      "text": "Example value 43",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z130",
+      "answer": 43,
+      "role": "value",
+      "text": "Example value 44",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z137",
+      "answer": 44,
+      "role": "value",
+      "text": "Example value 45",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z144",
+      "answer": 45,
+      "role": "value",
+      "text": "Example value 46",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z145",
+      "answer": 46,
+      "role": "value",
+      "text": "Example value 47",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z152",
+      "answer": 47,
+      "role": "value",
+      "text": "Example value 48",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z156",
+      "answer": 48,
+      "role": "value",
+      "text": "Example value 49",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z160",
+      "answer": 49,
+      "role": "value",
+      "text": "Example value 50",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z167",
+      "answer": 50,
+      "role": "value",
+      "text": "Example value 51",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z174",
+      "answer": 51,
+      "role": "value",
+      "text": "Example value 52",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z181",
+      "answer": 52,
+      "role": "value",
+      "text": "Example value 53",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z182",
+      "answer": 53,
+      "role": "value",
+      "text": "Example value 54",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z189",
+      "answer": 54,
+      "role": "value",
+      "text": "Example value 55",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z196",
+      "answer": 55,
+      "role": "value",
+      "text": "Example value 56",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z203",
+      "answer": 56,
+      "role": "value",
+      "text": "Example value 57",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z204",
+      "answer": 57,
+      "role": "value",
+      "text": "Example value 58",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z214",
+      "answer": 58,
+      "role": "value",
+      "text": "Example value 59",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z221",
+      "answer": 59,
+      "role": "value",
+      "text": "Example value 60",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z222",
+      "answer": 60,
+      "role": "value",
+      "text": "Example value 61",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z229",
+      "answer": 61,
+      "role": "value",
+      "text": "Example value 62",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z230",
+      "answer": 62,
+      "role": "value",
+      "text": "Example value 63",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z234",
+      "answer": 63,
+      "role": "value",
+      "text": "Example value 64",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z235",
+      "answer": 64,
+      "role": "value",
+      "text": "Example Company SAS",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z242",
+      "answer": 65,
+      "role": "value",
+      "text": "Example value 66",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z249",
+      "answer": 66,
+      "role": "value",
+      "text": "Example value 67",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z256",
+      "answer": 67,
+      "role": "value",
+      "text": "Example value 68",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z263",
+      "answer": 68,
+      "role": "value",
+      "text": "Example value 69",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z270",
+      "answer": 69,
+      "role": "value",
+      "text": "Example value 70",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z277",
+      "answer": 70,
+      "role": "value",
+      "text": "Example Company SAS",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z278",
+      "answer": 71,
+      "role": "value",
+      "text": "Example value 72",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z279",
+      "answer": 72,
+      "role": "value",
+      "text": "Example value 73",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z280",
+      "answer": 73,
+      "role": "value",
+      "text": "2024-01-15",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z281",
+      "answer": 74,
+      "role": "value",
+      "text": "Example value 75",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z282",
+      "answer": 75,
+      "role": "value",
+      "text": "2024-01-15",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z287",
+      "answer": 76,
+      "role": "value",
+      "text": "Example value 77",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z288",
+      "answer": 77,
+      "role": "value",
+      "text": "Example value 78",
+      "flag": true
+    },
+    {
+      "op": "text",
+      "zone": "Z289",
+      "answer": 78,
+      "role": "value",
+      "text": "Example value 79",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z16",
+      "answer": 79,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z19",
+      "answer": 80,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z22",
+      "answer": 81,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z25",
+      "answer": 82,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z28",
+      "answer": 83,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z44",
+      "answer": 84,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z48",
+      "answer": 85,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z51",
+      "answer": 86,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z55",
+      "answer": 87,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z58",
+      "answer": 88,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z62",
+      "answer": 89,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z65",
+      "answer": 90,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z69",
+      "answer": 91,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z72",
+      "answer": 92,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z77",
+      "answer": 93,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z80",
+      "answer": 94,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z84",
+      "answer": 95,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z88",
+      "answer": 96,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z92",
+      "answer": 97,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z95",
+      "answer": 98,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z99",
+      "answer": 99,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z102",
+      "answer": 100,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z106",
+      "answer": 101,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z109",
+      "answer": 102,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z113",
+      "answer": 103,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z117",
+      "answer": 104,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z120",
+      "answer": 105,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z124",
+      "answer": 106,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z127",
+      "answer": 107,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z131",
+      "answer": 108,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z134",
+      "answer": 109,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z138",
+      "answer": 110,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z141",
+      "answer": 111,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z146",
+      "answer": 112,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z149",
+      "answer": 113,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z153",
+      "answer": 114,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z157",
+      "answer": 115,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z161",
+      "answer": 116,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z164",
+      "answer": 117,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z168",
+      "answer": 118,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z171",
+      "answer": 119,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z175",
+      "answer": 120,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z178",
+      "answer": 121,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z183",
+      "answer": 122,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z186",
+      "answer": 123,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z190",
+      "answer": 124,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z193",
+      "answer": 125,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z197",
+      "answer": 126,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z200",
+      "answer": 127,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z205",
+      "answer": 128,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z208",
+      "answer": 129,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z211",
+      "answer": 130,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z215",
+      "answer": 131,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z218",
+      "answer": 132,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z223",
+      "answer": 133,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z226",
+      "answer": 134,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z231",
+      "answer": 135,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z236",
+      "answer": 136,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z239",
+      "answer": 137,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z243",
+      "answer": 138,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z246",
+      "answer": 139,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z250",
+      "answer": 140,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z253",
+      "answer": 141,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z257",
+      "answer": 142,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z260",
+      "answer": 143,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z264",
+      "answer": 144,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z267",
+      "answer": 145,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z271",
+      "answer": 146,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z274",
+      "answer": 147,
+      "role": "choice",
+      "flag": true
+    },
+    {
+      "op": "check",
+      "zone": "Z283",
+      "answer": 148,
+      "role": "choice",
+      "flag": true
+    }
+  ],
+  "answers": [
+    {
+      "index": 0,
+      "ref": "1",
+      "label": "Legal company name",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z1"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 1,
+      "ref": "2",
+      "label": "Trading name (if different)",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z2"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 2,
+      "ref": "3",
+      "label": "Registered address",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z3"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 3,
+      "ref": "4",
+      "label": "City / Postal code",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z4"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 4,
+      "ref": "5",
+      "label": "Country",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z5"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 5,
+      "ref": "6",
+      "label": "Phone",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z6"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 6,
+      "ref": "7",
+      "label": "Website",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z7"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 7,
+      "ref": "8",
+      "label": "VAT / Chamber of Commerce no.",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z8"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 8,
+      "ref": "9",
+      "label": "CAGE / NCAGE",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z9"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 9,
+      "ref": "10",
+      "label": "Years in aviation business",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z10"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 10,
+      "ref": "11",
+      "label": "Total employees / aviation staff",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z11"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 11,
+      "ref": "12",
+      "label": "Quality / Compliance contact (name, title, e-mail, phone)",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z12"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 12,
+      "ref": "13",
+      "label": "Commercial / Order desk contact (name, e-mail, phone)",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z13"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 13,
+      "ref": "14",
+      "label": "Technical / Engineering contact (name, e-mail, phone)",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z14"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 14,
+      "ref": "15",
+      "label": "After-sales / Claims contact (name, e-mail, phone)",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z15"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 15,
+      "ref": "16",
+      "label": "Primary goods / services offered to ARS:",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z30"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 16,
+      "ref": "17",
+      "label": "Training organisation Other (specify below)",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z31"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 17,
+      "ref": "18",
+      "label": "Z32",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z32"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 18,
+      "ref": "19",
+      "label": "Authority / standard Certificate / approval no. Scope (short) Expiry",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z33"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 19,
+      "ref": "20",
+      "label": "Authority / standard",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z34"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 20,
+      "ref": "21",
+      "label": "Certificate / approval no.",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z35"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 21,
+      "ref": "22",
+      "label": "Scope (short)",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z36"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 22,
+      "ref": "23",
+      "label": "Expiry",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z37"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 23,
+      "ref": "24",
+      "label": "Authority / standard Certificate / approval no. Scope (short) Expiry",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z38"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 24,
+      "ref": "25",
+      "label": "Z39",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z39"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 25,
+      "ref": "26",
+      "label": "Z40",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z40"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 26,
+      "ref": "27",
+      "label": "Z41",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z41"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 27,
+      "ref": "28",
+      "label": "Z42",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z42"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 28,
+      "ref": "29",
+      "label": "Authority / standard Certificate / approval no. Scope (short) Expiry",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z43"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 29,
+      "ref": "30",
+      "label": "(or equivalent) certification is held and",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z47"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 30,
+      "ref": "31",
+      "label": "currently suspended, limited, expired or under",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z54"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 31,
+      "ref": "32",
+      "label": "certification-body or major customer audit is known",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z61"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 32,
+      "ref": "33",
+      "label": "cover the intended ARS purchase or contract",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z68"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 33,
+      "ref": "34",
+      "label": "5.3 Limitations, exclusions and work locations applicable to ARS are identified.",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z75"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 34,
+      "ref": "35",
+      "label": "processes remain under the vendor·s own control.",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z76"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 35,
+      "ref": "36",
+      "label": "control) of significant sub-suppliers is",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z83"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 36,
+      "ref": "37",
+      "label": "Z87",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z87"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 37,
+      "ref": "38",
+      "label": "procedures are available to personnel who need",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z91"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 38,
+      "ref": "39",
+      "label": "corrective actions assigned, verified and closed",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z98"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 39,
+      "ref": "40",
+      "label": "and protected for the required retention period.",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z105"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 40,
+      "ref": "41",
+      "label": "6.7 Management responsibility for quality is clearly assigned and resourced.",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z112"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 41,
+      "ref": "42",
+      "label": "products/services supplied to ARS are identified and",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z116"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 42,
+      "ref": "43",
+      "label": "investigated; causes and contributing factors are",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z123"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 43,
+      "ref": "44",
+      "label": "applied so personnel are not punished for honest",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z130"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 44,
+      "ref": "45",
+      "label": "segregated to prevent contamination or",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z137"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 45,
+      "ref": "46",
+      "label": "8.3 Serviceable and unserviceable items are clearly segregated.",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z144"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 46,
+      "ref": "47",
+      "label": "against damage, loss, theft or unauthorised",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z145"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 47,
+      "ref": "48",
+      "label": "waste are handled under documented HSE",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z152"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 48,
+      "ref": "49",
+      "label": "Z156",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z156"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 49,
+      "ref": "50",
+      "label": "Form 1 / FAA 8130-3 / accepted equivalent can be",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z160"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 50,
+      "ref": "51",
+      "label": "to the delivered item, batch/serial and purchase",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z167"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 51,
+      "ref": "52",
+      "label": "are controlled; expired stock cannot be issued for",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z174"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 52,
+      "ref": "53",
+      "label": "9.7 ESD-sensitive devices are handled and stored under controlled procedures.",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z181"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 53,
+      "ref": "54",
+      "label": "are segregated pending disposition.",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z182"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 54,
+      "ref": "55",
+      "label": "quarantine and report suspected unapproved",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z189"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 55,
+      "ref": "56",
+      "label": "requiring calibration is registered and within",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z196"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 56,
+      "ref": "57",
+      "label": "10.3 Calibration is traceable to national / international standards.",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z203"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 57,
+      "ref": "58",
+      "label": "equipment is found out of tolerance after work",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z204"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 58,
+      "ref": "59",
+      "label": "included in initial and recurrent training where",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z214"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 59,
+      "ref": "60",
+      "label": "11.3 Training records are maintained and retained for the required period.",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z221"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 60,
+      "ref": "61",
+      "label": "limitations and authorisations are controlled.",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z222"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 61,
+      "ref": "62",
+      "label": "11.5 Workload is monitored so resources remain adequate for planned work.",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z229"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 62,
+      "ref": "63",
+      "label": "Z230",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z230"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 63,
+      "ref": "64",
+      "label": "12.1 Sources of aeronautical parts are restricted to approved / known suppliers.",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z234"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 64,
+      "ref": "65",
+      "label": "define required accompanying documentation for",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z235"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 65,
+      "ref": "66",
+      "label": "channels are controlled or prohibited for ARS",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z242"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 66,
+      "ref": "67",
+      "label": "quality records are backed up and protected",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z249"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 67,
+      "ref": "68",
+      "label": "incidents that could affect ARS data or deliveries are",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z256"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 68,
+      "ref": "69",
+      "label": "restrictions applicable to ARS deliveries are",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z263"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 69,
+      "ref": "70",
+      "label": "withdrawal of a relevant approval is notified",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z270"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 70,
+      "ref": "71",
+      "label": "Name of authorised representative",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z277"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 71,
+      "ref": "72",
+      "label": "Position / title",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z278"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 72,
+      "ref": "73",
+      "label": "Signature",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z279"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 73,
+      "ref": "74",
+      "label": "Date",
+      "context": null,
+      "type": "date",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z280"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 74,
+      "ref": "75",
+      "label": "Reviewed by",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z281"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 75,
+      "ref": "76",
+      "label": "Date",
+      "context": null,
+      "type": "date",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z282"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 76,
+      "ref": "77",
+      "label": "Vendor code assigned",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z287"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 77,
+      "ref": "78",
+      "label": "Next review due",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z288"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 78,
+      "ref": "79",
+      "label": "Remarks:",
+      "context": null,
+      "type": "text",
+      "confidence": "medium",
+      "note": "Example value for validation / demo fill",
+      "zones": [
+        "Z289"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 79,
+      "ref": "C1",
+      "label": "After-sales / Claims contact (name, e-mail,",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z16"
+      ],
+      "messages": [
+        "Z16 : la ligne de cette case ne ressemble pas à la question (right: OEM / Design ; col: After-sales / Claims contact (name, e-ma)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 80,
+      "ref": "C2",
+      "label": "After-sales / Claims contact (name, e-mail,",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z19"
+      ],
+      "messages": [
+        "Z19 : la ligne de cette case ne ressemble pas à la question (right: Part-21J Design ; col: After-sales / Claims contact (name, e-ma)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 81,
+      "ref": "C3",
+      "label": "After-sales / Claims contact (name, e-mail,",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z22"
+      ],
+      "messages": [
+        "Z22 : la ligne de cette case ne ressemble pas à la question (right: Material supplier ; col: After-sales / Claims contact (name, e-ma)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 82,
+      "ref": "C4",
+      "label": "After-sales / Claims contact (name, e-mail,",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z25"
+      ],
+      "messages": [
+        "Z25 : la ligne de cette case ne ressemble pas à la question (right: Tooling / GSE supplier ; col: After-sales / Claims contact (name, e-ma)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 83,
+      "ref": "C5",
+      "label": "After-sales / Claims contact (name, e-mail,",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z28"
+      ],
+      "messages": [
+        "Z28 : la ligne de cette case ne ressemble pas à la question (right: Training organisation ; col: After-sales / Claims contact (name, e-ma)"
+      ],
+      "status": "placed"
+    },
+    {
+      "index": 84,
+      "ref": "C6",
+      "label": "Relevant aviation authority approval is held and remains current for the",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z44"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 85,
+      "ref": "C7",
+      "label": "9001 / EN 9100 / AS9100 (or equivalent) certification is held and",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z48"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 86,
+      "ref": "C8",
+      "label": "Specialised accreditation exists where required (ISO/IEC 17025, NADCAP,",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z51"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 87,
+      "ref": "C9",
+      "label": "relevant approval is currently suspended, limited, expired or under",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z55"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 88,
+      "ref": "C10",
+      "label": "of certificates, ratings and capability lists can be provided with this",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z58"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 89,
+      "ref": "C11",
+      "label": "last authority, certification-body or major customer audit is known",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z62"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 90,
+      "ref": "C12",
+      "label": "Goods/services proposed for ARS are clearly described (P/N, ATA, process,",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z65"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 91,
+      "ref": "C13",
+      "label": "Approval / capability ratings cover the intended ARS purchase or contract",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z69"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 92,
+      "ref": "C14",
+      "label": "Limitations, exclusions and work locations applicable to ARS are identified.",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z72"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 93,
+      "ref": "C15",
+      "label": "or safety-relevant processes remain under the vendor·s own control.",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z77"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 94,
+      "ref": "C16",
+      "label": "subcontracting of ARS work is controlled, monitored and disclosed",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z80"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 95,
+      "ref": "C17",
+      "label": "current list (or equivalent control) of significant sub-suppliers is",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z84"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 96,
+      "ref": "C18",
+      "label": "documented QMS appropriate to the aviation scope is implemented and",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z88"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 97,
+      "ref": "C19",
+      "label": "policy / manual / procedures are available to personnel who need",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z92"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 98,
+      "ref": "C20",
+      "label": "independent internal audit / compliance monitoring programme is in",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z95"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 99,
+      "ref": "C21",
+      "label": "Findings are recorded, corrective actions assigned, verified and closed",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z99"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 100,
+      "ref": "C22",
+      "label": "Customer, regulatory and contractual requirements are flowed into",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z102"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 101,
+      "ref": "C23",
+      "label": "records are retained and protected for the required retention period.",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z106"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 102,
+      "ref": "C24",
+      "label": "Management responsibility for quality is clearly assigned and resourced.",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z109"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 103,
+      "ref": "C25",
+      "label": "safety / risk management process appropriate to the aviation activity is",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z113"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 104,
+      "ref": "C26",
+      "label": "Hazards related to products/services supplied to ARS are identified and",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z117"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 105,
+      "ref": "C27",
+      "label": "internal occurrence / hazard reporting channel exists (including",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z120"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 106,
+      "ref": "C28",
+      "label": "Occurrences are investigated; causes and contributing factors are",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z124"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 107,
+      "ref": "C29",
+      "label": "or quality issues affecting ARS products/services are notified without",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z127"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 108,
+      "ref": "C30",
+      "label": "culture principles are applied so personnel are not punished for honest",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z131"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 109,
+      "ref": "C31",
+      "label": "Facilities suit the work and protect parts/products from adverse",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z134"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 110,
+      "ref": "C32",
+      "label": "Specialised areas are segregated to prevent contamination or",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z138"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 111,
+      "ref": "C33",
+      "label": "Serviceable and unserviceable items are clearly segregated.",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z141"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 112,
+      "ref": "C34",
+      "label": "Customer property is secured against damage, loss, theft or unauthorised",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z146"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 113,
+      "ref": "C35",
+      "label": "Lighting, cleanliness, temperature/humidity are controlled where",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z149"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 114,
+      "ref": "C36",
+      "label": "Hazardous materials and waste are handled under documented HSE",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z153"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 115,
+      "ref": "C37",
+      "label": "Required release / conformity documents can be supplied with each delivery",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z157"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 116,
+      "ref": "C38",
+      "label": "applicable, EASA Form 1 / FAA 8130-3 / accepted equivalent can be",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z161"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 117,
+      "ref": "C39",
+      "label": "Certificates of Conformity and material certs (e.g. EN 10204) can be",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z164"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 118,
+      "ref": "C40",
+      "label": "Documentation is traceable to the delivered item, batch/serial and purchase",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z168"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 119,
+      "ref": "C41",
+      "label": "Incoming inspection procedures exist for parts, materials and",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z171"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 120,
+      "ref": "C42",
+      "label": "Shelf-life / life-limited items are controlled; expired stock cannot be issued for",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z175"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 121,
+      "ref": "C43",
+      "label": "ESD-sensitive devices are handled and stored under controlled procedures.",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z178"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 122,
+      "ref": "C44",
+      "label": "Quarantine / rejected items are segregated pending disposition.",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z183"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 123,
+      "ref": "C45",
+      "label": "Unsalvageable parts are permanently mutilated or controlled to prevent",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z186"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 124,
+      "ref": "C46",
+      "label": "process exists to detect, quarantine and report suspected unapproved",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z190"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 125,
+      "ref": "C47",
+      "label": "and equipment used on aviation work are identified, maintained and",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z193"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 126,
+      "ref": "C48",
+      "label": "Measuring / test equipment requiring calibration is registered and within",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z197"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 127,
+      "ref": "C49",
+      "label": "Calibration is traceable to national / international standards.",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z200"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 128,
+      "ref": "C50",
+      "label": "recall process exists if equipment is found out of tolerance after work",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z205"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 129,
+      "ref": "C51",
+      "label": "accountability / FOD control procedures exist (including personal tools if",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z208"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 130,
+      "ref": "C52",
+      "label": "Personnel performing aviation work are trained, assessed and authorised for",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z211"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 131,
+      "ref": "C53",
+      "label": "Factors awareness is included in initial and recurrent training where",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z215"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 132,
+      "ref": "C54",
+      "label": "Training records are maintained and retained for the required period.",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z218"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 133,
+      "ref": "C55",
+      "label": "Certifying / release staff limitations and authorisations are controlled.",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z223"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 134,
+      "ref": "C56",
+      "label": "Workload is monitored so resources remain adequate for planned work.",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z226"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 135,
+      "ref": "C57",
+      "label": "Sources of aeronautical parts are restricted to approved / known suppliers.",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z231"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 136,
+      "ref": "C58",
+      "label": "Purchasing procedures define required accompanying documentation for",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z236"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 137,
+      "ref": "C59",
+      "label": "is a process to escalate and notify ARS of suspected counterfeit or",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z239"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 138,
+      "ref": "C60",
+      "label": "Military surplus / scrap channels are controlled or prohibited for ARS",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z243"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 139,
+      "ref": "C61",
+      "label": "Customer technical data / drawings are controlled against unauthorised copy",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z246"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 140,
+      "ref": "C62",
+      "label": "Electronic maintenance / quality records are backed up and protected",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z250"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 141,
+      "ref": "C63",
+      "label": "to quality / production IT systems is role-based and reviewed",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z253"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 142,
+      "ref": "C64",
+      "label": "ransomware incidents that could affect ARS data or deliveries are",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z257"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 143,
+      "ref": "C65",
+      "label": "business continuity / disaster recovery arrangement covers critical aviation",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z260"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 144,
+      "ref": "C66",
+      "label": "Export-control / dual-use restrictions applicable to ARS deliveries are",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z264"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 145,
+      "ref": "C67",
+      "label": "Changes to approvals, ownership, location or key processes are notified to",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z267"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 146,
+      "ref": "C68",
+      "label": "Suspension, limitation or withdrawal of a relevant approval is notified",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z271"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 147,
+      "ref": "C69",
+      "label": "Significant quality escapes, delivery failures or safety issues affecting ARS",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z274"
+      ],
+      "messages": [],
+      "status": "placed"
+    },
+    {
+      "index": 148,
+      "ref": "C70",
+      "label": "Decision:",
+      "context": null,
+      "type": "choice",
+      "confidence": "medium",
+      "note": "Example checkbox for validation / demo fill",
+      "zones": [
+        "Z283"
+      ],
+      "messages": [],
+      "status": "placed"
+    }
+  ],
+  "unused": [],
+  "map_id": "8e406b63",
+  "detector": "zones-js-1"
+}

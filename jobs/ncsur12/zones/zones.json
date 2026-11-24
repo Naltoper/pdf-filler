@@ -1,0 +1,3838 @@
+{
+  "kind": "pdf_flat",
+  "pages": 4,
+  "zones": [
+    {
+      "shape": "shaded",
+      "kind": "text",
+      "rect": [
+        37.5,
+        194.42,
+        557.5,
+        209.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "A1 Registered company name"
+      },
+      "id": "Z1"
+    },
+    {
+      "shape": "shaded",
+      "kind": "text",
+      "rect": [
+        37.5,
+        229.42,
+        289,
+        244.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "A2 Trading name (if different)"
+      },
+      "id": "Z2"
+    },
+    {
+      "shape": "shaded",
+      "kind": "text",
+      "rect": [
+        306,
+        229.42,
+        557.5,
+        244.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "A3 Company registration number"
+      },
+      "id": "Z3"
+    },
+    {
+      "shape": "shaded",
+      "kind": "text",
+      "rect": [
+        37.5,
+        264.42,
+        557.5,
+        279.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "A4 Street address"
+      },
+      "id": "Z4"
+    },
+    {
+      "shape": "shaded",
+      "kind": "text",
+      "rect": [
+        37.5,
+        299.42,
+        199.5,
+        314.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "A5 Postal code"
+      },
+      "id": "Z5"
+    },
+    {
+      "shape": "shaded",
+      "kind": "text",
+      "rect": [
+        216.5,
+        299.42,
+        378.5,
+        314.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "A6 City"
+      },
+      "id": "Z6"
+    },
+    {
+      "shape": "shaded",
+      "kind": "text",
+      "rect": [
+        395.5,
+        299.42,
+        557.5,
+        314.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "A7 Country"
+      },
+      "id": "Z7"
+    },
+    {
+      "shape": "shaded",
+      "kind": "text",
+      "rect": [
+        37.5,
+        334.43,
+        289,
+        349.43
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "A8 VAT / Tax identification number"
+      },
+      "id": "Z8"
+    },
+    {
+      "shape": "shaded",
+      "kind": "text",
+      "rect": [
+        306,
+        334.43,
+        557.5,
+        349.43
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "A9 DUNS number"
+      },
+      "id": "Z9"
+    },
+    {
+      "shape": "shaded",
+      "kind": "text",
+      "rect": [
+        37.5,
+        369.43,
+        289,
+        384.43
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "A10 Website"
+      },
+      "id": "Z10"
+    },
+    {
+      "shape": "shaded",
+      "kind": "text",
+      "rect": [
+        306,
+        369.43,
+        557.5,
+        384.43
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "A11 Year of foundation"
+      },
+      "id": "Z11"
+    },
+    {
+      "shape": "circle",
+      "kind": "check",
+      "rect": [
+        39.8,
+        406.23,
+        48.2,
+        414.63
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "right": "1 – 49",
+        "above": "A12 Number",
+        "line": "1 – 49 50 – 249 250 – 999 1 000 or more",
+        "col": "A12 Number of employees (all sites)"
+      },
+      "id": "Z12"
+    },
+    {
+      "shape": "circle",
+      "kind": "check",
+      "rect": [
+        108.72,
+        406.23,
+        117.12,
+        414.63
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "left": "1 – 49",
+        "right": "50 – 249",
+        "above": "employees",
+        "line": "1 – 49 50 – 249 250 – 999 1 000 or more",
+        "col": "A12 Number of employees (all sites)"
+      },
+      "id": "Z13"
+    },
+    {
+      "shape": "circle",
+      "kind": "check",
+      "rect": [
+        187.15,
+        406.23,
+        195.55,
+        414.63
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "left": "50 – 249",
+        "right": "250 – 999",
+        "line": "1 – 49 50 – 249 250 – 999 1 000 or more",
+        "col": "Return the completed and signed survey, with copies of your certificates,"
+      },
+      "id": "Z14"
+    },
+    {
+      "shape": "circle",
+      "kind": "check",
+      "rect": [
+        270.33,
+        406.23,
+        278.73,
+        414.63
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "left": "250 – 999",
+        "right": "1 000 or more",
+        "line": "1 – 49 50 – 249 250 – 999 1 000 or more",
+        "col": "completed and signed survey, with copies of your certificates, to supplier.quali"
+      },
+      "id": "Z15"
+    },
+    {
+      "shape": "circle",
+      "kind": "check",
+      "rect": [
+        39.8,
+        438.23,
+        48.2,
+        446.63
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "right": "< 10 M EUR",
+        "above": "A13 Annual",
+        "line": "< 10 M EUR 10 – 50 M EUR > 50 M EUR",
+        "col": "A13 Annual turnover, last fiscal year"
+      },
+      "id": "Z16"
+    },
+    {
+      "shape": "circle",
+      "kind": "check",
+      "rect": [
+        131.62,
+        438.23,
+        140.02,
+        446.63
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "left": "< 10 M EUR",
+        "right": "10 – 50 M EUR",
+        "above": "fiscal",
+        "line": "< 10 M EUR 10 – 50 M EUR > 50 M EUR",
+        "col": "A13 Annual turnover, last fiscal year"
+      },
+      "id": "Z17"
+    },
+    {
+      "shape": "circle",
+      "kind": "check",
+      "rect": [
+        234.66,
+        438.23,
+        243.06,
+        446.63
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "left": "10 – 50 M EUR",
+        "right": "> 50 M EUR",
+        "above": "999",
+        "line": "< 10 M EUR 10 – 50 M EUR > 50 M EUR",
+        "col": "A6 City"
+      },
+      "id": "Z18"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        151.5,
+        504.43,
+        253.5,
+        523.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "General management",
+        "above": "Name",
+        "line": "General management",
+        "row": "General management",
+        "col": "Name"
+      },
+      "id": "Z19"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        256.5,
+        504.43,
+        358.5,
+        523.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "General management",
+        "above": "Job title",
+        "line": "General management",
+        "row": "General management",
+        "col": "Job title"
+      },
+      "id": "Z20"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        361.5,
+        504.43,
+        448.5,
+        523.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "management",
+        "above": "Telephone",
+        "line": "General management",
+        "row": "General management",
+        "col": "Telephone"
+      },
+      "id": "Z21"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        451.5,
+        504.43,
+        557.5,
+        523.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "above": "E-mail",
+        "line": "General management",
+        "row": "General management",
+        "col": "E-mail"
+      },
+      "id": "Z22"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        151.5,
+        525.42,
+        253.5,
+        544.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Quality / Airworthiness",
+        "line": "Quality / Airworthiness",
+        "row": "Quality / Airworthiness",
+        "col": "Name"
+      },
+      "id": "Z23"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        256.5,
+        525.42,
+        358.5,
+        544.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Quality / Airworthiness",
+        "line": "Quality / Airworthiness",
+        "row": "Quality / Airworthiness",
+        "col": "Job title"
+      },
+      "id": "Z24"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        361.5,
+        525.42,
+        448.5,
+        544.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Airworthiness",
+        "line": "Quality / Airworthiness",
+        "row": "Quality / Airworthiness",
+        "col": "Telephone"
+      },
+      "id": "Z25"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        451.5,
+        525.42,
+        557.5,
+        544.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "line": "Quality / Airworthiness",
+        "row": "Quality / Airworthiness",
+        "col": "E-mail"
+      },
+      "id": "Z26"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        151.5,
+        546.42,
+        253.5,
+        565.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Sales / Customer service",
+        "line": "Sales / Customer service",
+        "row": "Sales / Customer service",
+        "col": "Name"
+      },
+      "id": "Z27"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        256.5,
+        546.42,
+        358.5,
+        565.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Sales / Customer service",
+        "line": "Sales / Customer service",
+        "row": "Sales / Customer service",
+        "col": "Job title"
+      },
+      "id": "Z28"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        361.5,
+        546.42,
+        448.5,
+        565.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "service",
+        "line": "Sales / Customer service",
+        "row": "Sales / Customer service",
+        "col": "Telephone"
+      },
+      "id": "Z29"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        451.5,
+        546.42,
+        557.5,
+        565.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "line": "Sales / Customer service",
+        "row": "Sales / Customer service",
+        "col": "E-mail"
+      },
+      "id": "Z30"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        151.5,
+        567.42,
+        253.5,
+        586.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Logistics / Shipping",
+        "line": "Logistics / Shipping",
+        "row": "Logistics / Shipping",
+        "col": "Name"
+      },
+      "id": "Z31"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        256.5,
+        567.42,
+        358.5,
+        586.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Logistics / Shipping",
+        "line": "Logistics / Shipping",
+        "row": "Logistics / Shipping",
+        "col": "Job title"
+      },
+      "id": "Z32"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        361.5,
+        567.42,
+        448.5,
+        586.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "Shipping",
+        "line": "Logistics / Shipping",
+        "row": "Logistics / Shipping",
+        "col": "Telephone"
+      },
+      "id": "Z33"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        451.5,
+        567.42,
+        557.5,
+        586.42
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "line": "Logistics / Shipping",
+        "row": "Logistics / Shipping",
+        "col": "E-mail"
+      },
+      "id": "Z34"
+    },
+    {
+      "shape": "bracket",
+      "kind": "check",
+      "rect": [
+        318.99,
+        624.8,
+        337.11,
+        637.06
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "left": "Yes",
+        "line": "C1 Is your company a subsidiary of a group? Yes No",
+        "col": "1 000 or more"
+      },
+      "id": "Z35"
+    },
+    {
+      "shape": "bracket",
+      "kind": "check",
+      "rect": [
+        385.99,
+        624.8,
+        404.67,
+        637.06
+      ],
+      "checked": false,
+      "page": 1,
+      "ctx": {
+        "left": "No",
+        "line": "C1 Is your company a subsidiary of a group? Yes No",
+        "col": "Telephone"
+      },
+      "id": "Z36"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        265.03,
+        639.92,
+        558,
+        653.32
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "C2 If yes, name and country of the parent company:",
+        "above": "Yes No",
+        "line": "C2 If yes, name and country of the parent company:"
+      },
+      "id": "Z37"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        220.96,
+        659.92,
+        558,
+        673.32
+      ],
+      "extra": [
+        [
+          55,
+          677.92,
+          558,
+          691.32
+        ]
+      ],
+      "prefilled": null,
+      "page": 1,
+      "ctx": {
+        "left": "C3 Shareholders holding more than 25 %:",
+        "above": "company:",
+        "line": "C3 Shareholders holding more than 25 %:"
+      },
+      "id": "Z38"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        471.5,
+        148,
+        503.5,
+        160
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "above": "C",
+        "line": "D.1 Organisation",
+        "row": "D.1 Organisation",
+        "col": "C"
+      },
+      "id": "Z39"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        506.5,
+        148,
+        538.5,
+        160
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "above": "P",
+        "line": "D.1 Organisation",
+        "row": "Organisation",
+        "col": "P"
+      },
+      "id": "Z40"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        541.5,
+        148,
+        573.5,
+        160
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "above": "NC",
+        "line": "D.1 Organisation",
+        "row": "Organisation",
+        "col": "NC"
+      },
+      "id": "Z41"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        576.5,
+        148,
+        608.5,
+        160
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "above": "N/A",
+        "line": "D.1 Organisation",
+        "col": "N/A"
+      },
+      "id": "Z42"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        611.5,
+        148,
+        804.5,
+        160
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "above": "Evidence / procedure reference",
+        "line": "D.1 Organisation",
+        "col": "Evidence / procedure reference"
+      },
+      "id": "Z43"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        471.5,
+        162,
+        503.5,
+        179
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "independent from production, with direct access to top management.",
+        "above": "C",
+        "line": "D.1.1 A quality manager is appointed, independent from production, with direct access to top management.",
+        "row": "D.1.1 A quality manager is appointed, independent from production, with direct access to top management.",
+        "col": "C"
+      },
+      "id": "Z44"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        506.5,
+        162,
+        538.5,
+        179
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "production, with direct access to top management.",
+        "above": "P",
+        "line": "D.1.1 A quality manager is appointed, independent from production, with direct access to top management.",
+        "row": "D.1.1 A quality manager is appointed, independent from production, with direct access to top management.",
+        "col": "P"
+      },
+      "id": "Z45"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        541.5,
+        162,
+        573.5,
+        179
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "with direct access to top management.",
+        "above": "NC",
+        "line": "D.1.1 A quality manager is appointed, independent from production, with direct access to top management.",
+        "row": "quality manager is appointed, independent from production, with direct access to top management.",
+        "col": "NC"
+      },
+      "id": "Z46"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        576.5,
+        162,
+        608.5,
+        179
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "direct access to top management.",
+        "above": "N/A",
+        "line": "D.1.1 A quality manager is appointed, independent from production, with direct access to top management.",
+        "row": "manager is appointed, independent from production, with direct access to top management.",
+        "col": "N/A"
+      },
+      "id": "Z47"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        611.5,
+        162,
+        804.5,
+        179
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "to top management.",
+        "above": "Evidence / procedure reference",
+        "line": "D.1.1 A quality manager is appointed, independent from production, with direct access to top management.",
+        "row": "appointed, independent from production, with direct access to top management.",
+        "col": "Evidence / procedure reference"
+      },
+      "id": "Z48"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        471.5,
+        181,
+        503.5,
+        198
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "responsibilities for product conformity are defined.",
+        "line": "D.1.2 An organisation chart is maintained and responsibilities for product conformity are defined.",
+        "row": "D.1.2 An organisation chart is maintained and responsibilities for product conformity are defined.",
+        "col": "C"
+      },
+      "id": "Z49"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        506.5,
+        181,
+        538.5,
+        198
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "responsibilities for product conformity are defined.",
+        "line": "D.1.2 An organisation chart is maintained and responsibilities for product conformity are defined.",
+        "row": "D.1.2 An organisation chart is maintained and responsibilities for product conformity are defined.",
+        "col": "P"
+      },
+      "id": "Z50"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        541.5,
+        181,
+        573.5,
+        198
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "product conformity are defined.",
+        "line": "D.1.2 An organisation chart is maintained and responsibilities for product conformity are defined.",
+        "row": "organisation chart is maintained and responsibilities for product conformity are defined.",
+        "col": "NC"
+      },
+      "id": "Z51"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        576.5,
+        181,
+        608.5,
+        198
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "conformity are defined.",
+        "line": "D.1.2 An organisation chart is maintained and responsibilities for product conformity are defined.",
+        "row": "organisation chart is maintained and responsibilities for product conformity are defined.",
+        "col": "N/A"
+      },
+      "id": "Z52"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        611.5,
+        181,
+        804.5,
+        198
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "defined.",
+        "line": "D.1.2 An organisation chart is maintained and responsibilities for product conformity are defined.",
+        "row": "maintained and responsibilities for product conformity are defined.",
+        "col": "Evidence / procedure reference"
+      },
+      "id": "Z53"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        471.5,
+        200,
+        503.5,
+        217
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "are qualified and their qualification records are kept.",
+        "line": "D.1.3 Personnel performing special processes are qualified and their qualification records are kept.",
+        "row": "D.1.3 Personnel performing special processes are qualified and their qualification records are kept.",
+        "col": "C"
+      },
+      "id": "Z54"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        506.5,
+        200,
+        538.5,
+        217
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "qualified and their qualification records are kept.",
+        "line": "D.1.3 Personnel performing special processes are qualified and their qualification records are kept.",
+        "row": "D.1.3 Personnel performing special processes are qualified and their qualification records are kept.",
+        "col": "P"
+      },
+      "id": "Z55"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        541.5,
+        200,
+        573.5,
+        217
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "qualification records are kept.",
+        "line": "D.1.3 Personnel performing special processes are qualified and their qualification records are kept.",
+        "row": "Personnel performing special processes are qualified and their qualification records are kept.",
+        "col": "NC"
+      },
+      "id": "Z56"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        576.5,
+        200,
+        608.5,
+        217
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "qualification records are kept.",
+        "line": "D.1.3 Personnel performing special processes are qualified and their qualification records are kept.",
+        "row": "performing special processes are qualified and their qualification records are kept.",
+        "col": "N/A"
+      },
+      "id": "Z57"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        611.5,
+        200,
+        804.5,
+        217
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "records are kept.",
+        "line": "D.1.3 Personnel performing special processes are qualified and their qualification records are kept.",
+        "row": "special processes are qualified and their qualification records are kept.",
+        "col": "Evidence / procedure reference"
+      },
+      "id": "Z58"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        471.5,
+        219,
+        503.5,
+        231
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "line": "D.2 Documentation & records",
+        "row": "D.2 Documentation & records",
+        "col": "C"
+      },
+      "id": "Z59"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        506.5,
+        219,
+        538.5,
+        231
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "line": "D.2 Documentation & records",
+        "row": "Documentation & records",
+        "col": "P"
+      },
+      "id": "Z60"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        541.5,
+        219,
+        573.5,
+        231
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "line": "D.2 Documentation & records",
+        "row": "Documentation & records",
+        "col": "NC"
+      },
+      "id": "Z61"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        576.5,
+        219,
+        608.5,
+        231
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "line": "D.2 Documentation & records",
+        "row": "& records",
+        "col": "N/A"
+      },
+      "id": "Z62"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        611.5,
+        219,
+        804.5,
+        231
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "line": "D.2 Documentation & records",
+        "row": "records",
+        "col": "Evidence / procedure reference"
+      },
+      "id": "Z63"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        471.5,
+        233,
+        503.5,
+        250
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "the quality management system and its scope.",
+        "line": "D.2.1 A quality manual or equivalent describes the quality management system and its scope.",
+        "row": "D.2.1 A quality manual or equivalent describes the quality management system and its scope.",
+        "col": "C"
+      },
+      "id": "Z64"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        506.5,
+        233,
+        538.5,
+        250
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "management system and its scope.",
+        "line": "D.2.1 A quality manual or equivalent describes the quality management system and its scope.",
+        "row": "D.2.1 A quality manual or equivalent describes the quality management system and its scope.",
+        "col": "P"
+      },
+      "id": "Z65"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        541.5,
+        233,
+        573.5,
+        250
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "management system and its scope.",
+        "line": "D.2.1 A quality manual or equivalent describes the quality management system and its scope.",
+        "row": "quality manual or equivalent describes the quality management system and its scope.",
+        "col": "NC"
+      },
+      "id": "Z66"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        576.5,
+        233,
+        608.5,
+        250
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "system and its scope.",
+        "line": "D.2.1 A quality manual or equivalent describes the quality management system and its scope.",
+        "row": "manual or equivalent describes the quality management system and its scope.",
+        "col": "N/A"
+      },
+      "id": "Z67"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        611.5,
+        233,
+        804.5,
+        250
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "scope.",
+        "line": "D.2.1 A quality manual or equivalent describes the quality management system and its scope.",
+        "row": "equivalent describes the quality management system and its scope.",
+        "col": "Evidence / procedure reference"
+      },
+      "id": "Z68"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        471.5,
+        252,
+        503.5,
+        269
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "revision status, distribution, removal of obsolete issues).",
+        "line": "D.2.2 Documents are controlled (approval, revision status, distribution, removal of obsolete issues).",
+        "row": "D.2.2 Documents are controlled (approval, revision status, distribution, removal of obsolete issues).",
+        "col": "C"
+      },
+      "id": "Z69"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        506.5,
+        252,
+        538.5,
+        269
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "distribution, removal of obsolete issues).",
+        "line": "D.2.2 Documents are controlled (approval, revision status, distribution, removal of obsolete issues).",
+        "row": "D.2.2 Documents are controlled (approval, revision status, distribution, removal of obsolete issues).",
+        "col": "P"
+      },
+      "id": "Z70"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        541.5,
+        252,
+        573.5,
+        269
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "distribution, removal of obsolete issues).",
+        "line": "D.2.2 Documents are controlled (approval, revision status, distribution, removal of obsolete issues).",
+        "row": "Documents are controlled (approval, revision status, distribution, removal of obsolete issues).",
+        "col": "NC"
+      },
+      "id": "Z71"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        576.5,
+        252,
+        608.5,
+        269
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "removal of obsolete issues).",
+        "line": "D.2.2 Documents are controlled (approval, revision status, distribution, removal of obsolete issues).",
+        "row": "are controlled (approval, revision status, distribution, removal of obsolete issues).",
+        "col": "N/A"
+      },
+      "id": "Z72"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        611.5,
+        252,
+        804.5,
+        269
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "obsolete issues).",
+        "line": "D.2.2 Documents are controlled (approval, revision status, distribution, removal of obsolete issues).",
+        "row": "controlled (approval, revision status, distribution, removal of obsolete issues).",
+        "col": "Evidence / procedure reference"
+      },
+      "id": "Z73"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        471.5,
+        271,
+        503.5,
+        288
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "10 years after delivery, or longer if required by contract.",
+        "line": "D.2.3 Quality records are retained for at least 10 years after delivery, or longer if required by contract.",
+        "row": "D.2.3 Quality records are retained for at least 10 years after delivery, or longer if required by contract.",
+        "col": "C"
+      },
+      "id": "Z74"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        506.5,
+        271,
+        538.5,
+        288
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "after delivery, or longer if required by contract.",
+        "line": "D.2.3 Quality records are retained for at least 10 years after delivery, or longer if required by contract.",
+        "row": "D.2.3 Quality records are retained for at least 10 years after delivery, or longer if required by contract.",
+        "col": "P"
+      },
+      "id": "Z75"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        541.5,
+        271,
+        573.5,
+        288
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "delivery, or longer if required by contract.",
+        "line": "D.2.3 Quality records are retained for at least 10 years after delivery, or longer if required by contract.",
+        "row": "Quality records are retained for at least 10 years after delivery, or longer if required by contract.",
+        "col": "NC"
+      },
+      "id": "Z76"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        576.5,
+        271,
+        608.5,
+        288
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "longer if required by contract.",
+        "line": "D.2.3 Quality records are retained for at least 10 years after delivery, or longer if required by contract.",
+        "row": "records are retained for at least 10 years after delivery, or longer if required by contract.",
+        "col": "N/A"
+      },
+      "id": "Z77"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        611.5,
+        271,
+        804.5,
+        288
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "required by contract.",
+        "line": "D.2.3 Quality records are retained for at least 10 years after delivery, or longer if required by contract.",
+        "row": "retained for at least 10 years after delivery, or longer if required by contract.",
+        "col": "Evidence / procedure reference"
+      },
+      "id": "Z78"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        471.5,
+        290,
+        503.5,
+        302
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "line": "D.3 Production & inspection",
+        "row": "D.3 Production & inspection",
+        "col": "C"
+      },
+      "id": "Z79"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        506.5,
+        290,
+        538.5,
+        302
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "line": "D.3 Production & inspection",
+        "row": "Production & inspection",
+        "col": "P"
+      },
+      "id": "Z80"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        541.5,
+        290,
+        573.5,
+        302
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "line": "D.3 Production & inspection",
+        "row": "Production & inspection",
+        "col": "NC"
+      },
+      "id": "Z81"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        576.5,
+        290,
+        608.5,
+        302
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "line": "D.3 Production & inspection",
+        "row": "inspection",
+        "col": "N/A"
+      },
+      "id": "Z82"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        611.5,
+        290,
+        804.5,
+        302
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "line": "D.3 Production & inspection",
+        "col": "Evidence / procedure reference"
+      },
+      "id": "Z83"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        471.5,
+        304,
+        503.5,
+        321
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "according to EN 9102 / AS9102 for new or modified parts.",
+        "line": "D.3.1 First Article Inspection is performed according to EN 9102 / AS9102 for new or modified parts.",
+        "row": "D.3.1 First Article Inspection is performed according to EN 9102 / AS9102 for new or modified parts.",
+        "col": "C"
+      },
+      "id": "Z84"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        506.5,
+        304,
+        538.5,
+        321
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "9102 / AS9102 for new or modified parts.",
+        "line": "D.3.1 First Article Inspection is performed according to EN 9102 / AS9102 for new or modified parts.",
+        "row": "D.3.1 First Article Inspection is performed according to EN 9102 / AS9102 for new or modified parts.",
+        "col": "P"
+      },
+      "id": "Z85"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        541.5,
+        304,
+        573.5,
+        321
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "AS9102 for new or modified parts.",
+        "line": "D.3.1 First Article Inspection is performed according to EN 9102 / AS9102 for new or modified parts.",
+        "row": "First Article Inspection is performed according to EN 9102 / AS9102 for new or modified parts.",
+        "col": "NC"
+      },
+      "id": "Z86"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        576.5,
+        304,
+        608.5,
+        321
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "new or modified parts.",
+        "line": "D.3.1 First Article Inspection is performed according to EN 9102 / AS9102 for new or modified parts.",
+        "row": "Inspection is performed according to EN 9102 / AS9102 for new or modified parts.",
+        "col": "N/A"
+      },
+      "id": "Z87"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        611.5,
+        304,
+        804.5,
+        321
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "modified parts.",
+        "line": "D.3.1 First Article Inspection is performed according to EN 9102 / AS9102 for new or modified parts.",
+        "row": "is performed according to EN 9102 / AS9102 for new or modified parts.",
+        "col": "Evidence / procedure reference"
+      },
+      "id": "Z88"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        471.5,
+        323,
+        503.5,
+        340
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "calibrated against traceable standards at defined intervals.",
+        "line": "D.3.2 Measuring and test equipment is calibrated against traceable standards at defined intervals.",
+        "row": "D.3.2 Measuring and test equipment is calibrated against traceable standards at defined intervals.",
+        "col": "C"
+      },
+      "id": "Z89"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        506.5,
+        323,
+        538.5,
+        340
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "traceable standards at defined intervals.",
+        "line": "D.3.2 Measuring and test equipment is calibrated against traceable standards at defined intervals.",
+        "row": "D.3.2 Measuring and test equipment is calibrated against traceable standards at defined intervals.",
+        "col": "P"
+      },
+      "id": "Z90"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        541.5,
+        323,
+        573.5,
+        340
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "standards at defined intervals.",
+        "line": "D.3.2 Measuring and test equipment is calibrated against traceable standards at defined intervals.",
+        "row": "Measuring and test equipment is calibrated against traceable standards at defined intervals.",
+        "col": "NC"
+      },
+      "id": "Z91"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        576.5,
+        323,
+        608.5,
+        340
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "at defined intervals.",
+        "line": "D.3.2 Measuring and test equipment is calibrated against traceable standards at defined intervals.",
+        "row": "and test equipment is calibrated against traceable standards at defined intervals.",
+        "col": "N/A"
+      },
+      "id": "Z92"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        611.5,
+        323,
+        804.5,
+        340
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "intervals.",
+        "line": "D.3.2 Measuring and test equipment is calibrated against traceable standards at defined intervals.",
+        "row": "equipment is calibrated against traceable standards at defined intervals.",
+        "col": "Evidence / procedure reference"
+      },
+      "id": "Z93"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        471.5,
+        342,
+        503.5,
+        359
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "segregated and dispositioned by authorised personnel.",
+        "line": "D.3.3 Nonconforming product is identified, segregated and dispositioned by authorised personnel.",
+        "row": "D.3.3 Nonconforming product is identified, segregated and dispositioned by authorised personnel.",
+        "col": "C"
+      },
+      "id": "Z94"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        506.5,
+        342,
+        538.5,
+        359
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "dispositioned by authorised personnel.",
+        "line": "D.3.3 Nonconforming product is identified, segregated and dispositioned by authorised personnel.",
+        "row": "D.3.3 Nonconforming product is identified, segregated and dispositioned by authorised personnel.",
+        "col": "P"
+      },
+      "id": "Z95"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        541.5,
+        342,
+        573.5,
+        359
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "dispositioned by authorised personnel.",
+        "line": "D.3.3 Nonconforming product is identified, segregated and dispositioned by authorised personnel.",
+        "row": "Nonconforming product is identified, segregated and dispositioned by authorised personnel.",
+        "col": "NC"
+      },
+      "id": "Z96"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        576.5,
+        342,
+        608.5,
+        359
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "authorised personnel.",
+        "line": "D.3.3 Nonconforming product is identified, segregated and dispositioned by authorised personnel.",
+        "row": "Nonconforming product is identified, segregated and dispositioned by authorised personnel.",
+        "col": "N/A"
+      },
+      "id": "Z97"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        611.5,
+        342,
+        804.5,
+        359
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "personnel.",
+        "line": "D.3.3 Nonconforming product is identified, segregated and dispositioned by authorised personnel.",
+        "row": "is identified, segregated and dispositioned by authorised personnel.",
+        "col": "Evidence / procedure reference"
+      },
+      "id": "Z98"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        471.5,
+        361,
+        503.5,
+        378
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "is in place in production and storage areas.",
+        "line": "D.3.4 Foreign Object Damage (FOD) prevention is in place in production and storage areas.",
+        "row": "D.3.4 Foreign Object Damage (FOD) prevention is in place in production and storage areas.",
+        "col": "C"
+      },
+      "id": "Z99"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        506.5,
+        361,
+        538.5,
+        378
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "in production and storage areas.",
+        "line": "D.3.4 Foreign Object Damage (FOD) prevention is in place in production and storage areas.",
+        "row": "D.3.4 Foreign Object Damage (FOD) prevention is in place in production and storage areas.",
+        "col": "P"
+      },
+      "id": "Z100"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        541.5,
+        361,
+        573.5,
+        378
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "production and storage areas.",
+        "line": "D.3.4 Foreign Object Damage (FOD) prevention is in place in production and storage areas.",
+        "row": "Foreign Object Damage (FOD) prevention is in place in production and storage areas.",
+        "col": "NC"
+      },
+      "id": "Z101"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        576.5,
+        361,
+        608.5,
+        378
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "storage areas.",
+        "line": "D.3.4 Foreign Object Damage (FOD) prevention is in place in production and storage areas.",
+        "row": "Object Damage (FOD) prevention is in place in production and storage areas.",
+        "col": "N/A"
+      },
+      "id": "Z102"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        611.5,
+        361,
+        804.5,
+        378
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "areas.",
+        "line": "D.3.4 Foreign Object Damage (FOD) prevention is in place in production and storage areas.",
+        "row": "(FOD) prevention is in place in production and storage areas.",
+        "col": "Evidence / procedure reference"
+      },
+      "id": "Z103"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        471.5,
+        380,
+        503.5,
+        392
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "line": "D.4 Purchasing & sub-tier suppliers",
+        "row": "D.4 Purchasing & sub-tier suppliers",
+        "col": "C"
+      },
+      "id": "Z104"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        506.5,
+        380,
+        538.5,
+        392
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "line": "D.4 Purchasing & sub-tier suppliers",
+        "row": "Purchasing & sub-tier suppliers",
+        "col": "P"
+      },
+      "id": "Z105"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        541.5,
+        380,
+        573.5,
+        392
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "line": "D.4 Purchasing & sub-tier suppliers",
+        "row": "Purchasing & sub-tier suppliers",
+        "col": "NC"
+      },
+      "id": "Z106"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        576.5,
+        380,
+        608.5,
+        392
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "line": "D.4 Purchasing & sub-tier suppliers",
+        "row": "sub-tier suppliers",
+        "col": "N/A"
+      },
+      "id": "Z107"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        611.5,
+        380,
+        804.5,
+        392
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "line": "D.4 Purchasing & sub-tier suppliers",
+        "row": "suppliers",
+        "col": "Evidence / procedure reference"
+      },
+      "id": "Z108"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        471.5,
+        394,
+        503.5,
+        411
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "approved and monitored for quality and delivery performance.",
+        "line": "D.4.1 Sub-tier suppliers are evaluated, approved and monitored for quality and delivery performance.",
+        "row": "D.4.1 Sub-tier suppliers are evaluated, approved and monitored for quality and delivery performance.",
+        "col": "C"
+      },
+      "id": "Z109"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        506.5,
+        394,
+        538.5,
+        411
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "monitored for quality and delivery performance.",
+        "line": "D.4.1 Sub-tier suppliers are evaluated, approved and monitored for quality and delivery performance.",
+        "row": "D.4.1 Sub-tier suppliers are evaluated, approved and monitored for quality and delivery performance.",
+        "col": "P"
+      },
+      "id": "Z110"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        541.5,
+        394,
+        573.5,
+        411
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "quality and delivery performance.",
+        "line": "D.4.1 Sub-tier suppliers are evaluated, approved and monitored for quality and delivery performance.",
+        "row": "Sub-tier suppliers are evaluated, approved and monitored for quality and delivery performance.",
+        "col": "NC"
+      },
+      "id": "Z111"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        576.5,
+        394,
+        608.5,
+        411
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "and delivery performance.",
+        "line": "D.4.1 Sub-tier suppliers are evaluated, approved and monitored for quality and delivery performance.",
+        "row": "suppliers are evaluated, approved and monitored for quality and delivery performance.",
+        "col": "N/A"
+      },
+      "id": "Z112"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        611.5,
+        394,
+        804.5,
+        411
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "performance.",
+        "line": "D.4.1 Sub-tier suppliers are evaluated, approved and monitored for quality and delivery performance.",
+        "row": "evaluated, approved and monitored for quality and delivery performance.",
+        "col": "Evidence / procedure reference"
+      },
+      "id": "Z113"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        471.5,
+        413,
+        503.5,
+        430
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "characteristics and flow-down clauses, are passed to sub-tiers.",
+        "line": "D.4.2 Customer requirements, including key characteristics and flow-down clauses, are passed to sub-tiers.",
+        "row": "D.4.2 Customer requirements, including key characteristics and flow-down clauses, are passed to sub-tiers.",
+        "col": "C"
+      },
+      "id": "Z114"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        506.5,
+        413,
+        538.5,
+        430
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "characteristics and flow-down clauses, are passed to sub-tiers.",
+        "line": "D.4.2 Customer requirements, including key characteristics and flow-down clauses, are passed to sub-tiers.",
+        "row": "D.4.2 Customer requirements, including key characteristics and flow-down clauses, are passed to sub-tiers.",
+        "col": "P"
+      },
+      "id": "Z115"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        541.5,
+        413,
+        573.5,
+        430
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "flow-down clauses, are passed to sub-tiers.",
+        "line": "D.4.2 Customer requirements, including key characteristics and flow-down clauses, are passed to sub-tiers.",
+        "row": "Customer requirements, including key characteristics and flow-down clauses, are passed to sub-tiers.",
+        "col": "NC"
+      },
+      "id": "Z116"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        576.5,
+        413,
+        608.5,
+        430
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "clauses, are passed to sub-tiers.",
+        "line": "D.4.2 Customer requirements, including key characteristics and flow-down clauses, are passed to sub-tiers.",
+        "row": "requirements, including key characteristics and flow-down clauses, are passed to sub-tiers.",
+        "col": "N/A"
+      },
+      "id": "Z117"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        611.5,
+        413,
+        804.5,
+        430
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "passed to sub-tiers.",
+        "line": "D.4.2 Customer requirements, including key characteristics and flow-down clauses, are passed to sub-tiers.",
+        "row": "including key characteristics and flow-down clauses, are passed to sub-tiers.",
+        "col": "Evidence / procedure reference"
+      },
+      "id": "Z118"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        471.5,
+        432,
+        503.5,
+        449
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "implemented (AS5553 / AS6174 or equivalent).",
+        "line": "D.4.3 A counterfeit part prevention process is implemented (AS5553 / AS6174 or equivalent).",
+        "row": "D.4.3 A counterfeit part prevention process is implemented (AS5553 / AS6174 or equivalent).",
+        "col": "C"
+      },
+      "id": "Z119"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        506.5,
+        432,
+        538.5,
+        449
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "implemented (AS5553 / AS6174 or equivalent).",
+        "line": "D.4.3 A counterfeit part prevention process is implemented (AS5553 / AS6174 or equivalent).",
+        "row": "D.4.3 A counterfeit part prevention process is implemented (AS5553 / AS6174 or equivalent).",
+        "col": "P"
+      },
+      "id": "Z120"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        541.5,
+        432,
+        573.5,
+        449
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "/ AS6174 or equivalent).",
+        "line": "D.4.3 A counterfeit part prevention process is implemented (AS5553 / AS6174 or equivalent).",
+        "row": "counterfeit part prevention process is implemented (AS5553 / AS6174 or equivalent).",
+        "col": "NC"
+      },
+      "id": "Z121"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        576.5,
+        432,
+        608.5,
+        449
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "or equivalent).",
+        "line": "D.4.3 A counterfeit part prevention process is implemented (AS5553 / AS6174 or equivalent).",
+        "row": "part prevention process is implemented (AS5553 / AS6174 or equivalent).",
+        "col": "N/A"
+      },
+      "id": "Z122"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        611.5,
+        432,
+        804.5,
+        449
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "equivalent).",
+        "line": "D.4.3 A counterfeit part prevention process is implemented (AS5553 / AS6174 or equivalent).",
+        "row": "prevention process is implemented (AS5553 / AS6174 or equivalent).",
+        "col": "Evidence / procedure reference"
+      },
+      "id": "Z123"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        471.5,
+        451,
+        503.5,
+        463
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "line": "D.5 Improvement",
+        "row": "D.5 Improvement",
+        "col": "C"
+      },
+      "id": "Z124"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        506.5,
+        451,
+        538.5,
+        463
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "line": "D.5 Improvement",
+        "row": "Improvement",
+        "col": "P"
+      },
+      "id": "Z125"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        541.5,
+        451,
+        573.5,
+        463
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "line": "D.5 Improvement",
+        "row": "Improvement",
+        "col": "NC"
+      },
+      "id": "Z126"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        576.5,
+        451,
+        608.5,
+        463
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "line": "D.5 Improvement",
+        "col": "N/A"
+      },
+      "id": "Z127"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        611.5,
+        451,
+        804.5,
+        463
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "line": "D.5 Improvement",
+        "col": "Evidence / procedure reference"
+      },
+      "id": "Z128"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        471.5,
+        465,
+        503.5,
+        482
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "system are planned and performed at least once a year.",
+        "line": "D.5.1 Internal audits covering the whole system are planned and performed at least once a year.",
+        "row": "D.5.1 Internal audits covering the whole system are planned and performed at least once a year.",
+        "col": "C"
+      },
+      "id": "Z129"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        506.5,
+        465,
+        538.5,
+        482
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "planned and performed at least once a year.",
+        "line": "D.5.1 Internal audits covering the whole system are planned and performed at least once a year.",
+        "row": "D.5.1 Internal audits covering the whole system are planned and performed at least once a year.",
+        "col": "P"
+      },
+      "id": "Z130"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        541.5,
+        465,
+        573.5,
+        482
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "performed at least once a year.",
+        "line": "D.5.1 Internal audits covering the whole system are planned and performed at least once a year.",
+        "row": "Internal audits covering the whole system are planned and performed at least once a year.",
+        "col": "NC"
+      },
+      "id": "Z131"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        576.5,
+        465,
+        608.5,
+        482
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "least once a year.",
+        "line": "D.5.1 Internal audits covering the whole system are planned and performed at least once a year.",
+        "row": "audits covering the whole system are planned and performed at least once a year.",
+        "col": "N/A"
+      },
+      "id": "Z132"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        611.5,
+        465,
+        804.5,
+        482
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "once a year.",
+        "line": "D.5.1 Internal audits covering the whole system are planned and performed at least once a year.",
+        "row": "the whole system are planned and performed at least once a year.",
+        "col": "Evidence / procedure reference"
+      },
+      "id": "Z133"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        471.5,
+        484,
+        503.5,
+        501
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "method (8D, 5 Why, Ishikawa) and are verified for effectiveness.",
+        "line": "D.5.2 Corrective actions use a root-cause method (8D, 5 Why, Ishikawa) and are verified for effectiveness.",
+        "row": "D.5.2 Corrective actions use a root-cause method (8D, 5 Why, Ishikawa) and are verified for effectiveness.",
+        "col": "C"
+      },
+      "id": "Z134"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        506.5,
+        484,
+        538.5,
+        501
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "Why, Ishikawa) and are verified for effectiveness.",
+        "line": "D.5.2 Corrective actions use a root-cause method (8D, 5 Why, Ishikawa) and are verified for effectiveness.",
+        "row": "D.5.2 Corrective actions use a root-cause method (8D, 5 Why, Ishikawa) and are verified for effectiveness.",
+        "col": "P"
+      },
+      "id": "Z135"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        541.5,
+        484,
+        573.5,
+        501
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "Ishikawa) and are verified for effectiveness.",
+        "line": "D.5.2 Corrective actions use a root-cause method (8D, 5 Why, Ishikawa) and are verified for effectiveness.",
+        "row": "Corrective actions use a root-cause method (8D, 5 Why, Ishikawa) and are verified for effectiveness.",
+        "col": "NC"
+      },
+      "id": "Z136"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        576.5,
+        484,
+        608.5,
+        501
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "are verified for effectiveness.",
+        "line": "D.5.2 Corrective actions use a root-cause method (8D, 5 Why, Ishikawa) and are verified for effectiveness.",
+        "row": "actions use a root-cause method (8D, 5 Why, Ishikawa) and are verified for effectiveness.",
+        "col": "N/A"
+      },
+      "id": "Z137"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        611.5,
+        484,
+        804.5,
+        501
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "for effectiveness.",
+        "line": "D.5.2 Corrective actions use a root-cause method (8D, 5 Why, Ishikawa) and are verified for effectiveness.",
+        "row": "root-cause method (8D, 5 Why, Ishikawa) and are verified for effectiveness.",
+        "col": "Evidence / procedure reference"
+      },
+      "id": "Z138"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        471.5,
+        503,
+        503.5,
+        520
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "delivery are measured and reviewed by management.",
+        "line": "D.5.3 Customer satisfaction and on-time delivery are measured and reviewed by management.",
+        "row": "D.5.3 Customer satisfaction and on-time delivery are measured and reviewed by management.",
+        "col": "C"
+      },
+      "id": "Z139"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        506.5,
+        503,
+        538.5,
+        520
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "measured and reviewed by management.",
+        "line": "D.5.3 Customer satisfaction and on-time delivery are measured and reviewed by management.",
+        "row": "D.5.3 Customer satisfaction and on-time delivery are measured and reviewed by management.",
+        "col": "P"
+      },
+      "id": "Z140"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        541.5,
+        503,
+        573.5,
+        520
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "reviewed by management.",
+        "line": "D.5.3 Customer satisfaction and on-time delivery are measured and reviewed by management.",
+        "row": "Customer satisfaction and on-time delivery are measured and reviewed by management.",
+        "col": "NC"
+      },
+      "id": "Z141"
+    },
+    {
+      "shape": "cell",
+      "kind": "any",
+      "rect": [
+        576.5,
+        503,
+        608.5,
+        520
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "by management.",
+        "line": "D.5.3 Customer satisfaction and on-time delivery are measured and reviewed by management.",
+        "row": "satisfaction and on-time delivery are measured and reviewed by management.",
+        "col": "N/A"
+      },
+      "id": "Z142"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        611.5,
+        503,
+        804.5,
+        520
+      ],
+      "prefilled": null,
+      "page": 2,
+      "ctx": {
+        "left": "management.",
+        "line": "D.5.3 Customer satisfaction and on-time delivery are measured and reviewed by management.",
+        "row": "and on-time delivery are measured and reviewed by management.",
+        "col": "Evidence / procedure reference"
+      },
+      "id": "Z143"
+    },
+    {
+      "shape": "bracket",
+      "kind": "check",
+      "rect": [
+        40,
+        111.11,
+        60.47,
+        121
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "right": "EN 9100 / AS9100",
+        "above": "Tick the",
+        "line": "EN 9100 / AS9100 Cert. no. Expiry",
+        "col": "Tick the approvals held and give the certificate"
+      },
+      "id": "Z144"
+    },
+    {
+      "shape": "fill",
+      "kind": "text",
+      "rect": [
+        291.17,
+        110.08,
+        362.81,
+        120
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Cert. no.",
+        "above": "date (DD/MM/YYYY).",
+        "line": "EN 9100 / AS9100 Cert. no. Expiry"
+      },
+      "id": "Z145"
+    },
+    {
+      "shape": "fill",
+      "kind": "text",
+      "rect": [
+        435.82,
+        110.08,
+        486.99,
+        120
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Expiry",
+        "line": "EN 9100 / AS9100 Cert. no. Expiry"
+      },
+      "id": "Z146"
+    },
+    {
+      "shape": "fill",
+      "kind": "text",
+      "rect": [
+        291.17,
+        127.08,
+        362.81,
+        137
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Cert. no.",
+        "above": "date (DD/MM/YYYY).",
+        "line": "ISO 9001 Cert. no. Expiry"
+      },
+      "id": "Z147"
+    },
+    {
+      "shape": "fill",
+      "kind": "text",
+      "rect": [
+        435.82,
+        127.08,
+        486.99,
+        137
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Expiry",
+        "line": "ISO 9001 Cert. no. Expiry"
+      },
+      "id": "Z148"
+    },
+    {
+      "shape": "bracket",
+      "kind": "check",
+      "rect": [
+        40,
+        128.11,
+        60.47,
+        138
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "right": "ISO 9001",
+        "line": "ISO 9001 Cert. no. Expiry",
+        "col": "Tick the approvals held and give the certificate"
+      },
+      "id": "Z149"
+    },
+    {
+      "shape": "bracket",
+      "kind": "check",
+      "rect": [
+        40,
+        145.11,
+        60.47,
+        155
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "right": "ISO 14001",
+        "line": "ISO 14001 Cert. no. Expiry",
+        "col": "Tick the approvals held and give the certificate"
+      },
+      "id": "Z150"
+    },
+    {
+      "shape": "fill",
+      "kind": "text",
+      "rect": [
+        291.17,
+        144.07,
+        362.81,
+        154
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Cert. no.",
+        "line": "ISO 14001 Cert. no. Expiry"
+      },
+      "id": "Z151"
+    },
+    {
+      "shape": "fill",
+      "kind": "text",
+      "rect": [
+        435.82,
+        144.07,
+        486.99,
+        154
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Expiry",
+        "line": "ISO 14001 Cert. no. Expiry"
+      },
+      "id": "Z152"
+    },
+    {
+      "shape": "bracket",
+      "kind": "check",
+      "rect": [
+        40,
+        162.11,
+        60.47,
+        172
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "right": "ISO 45001",
+        "line": "ISO 45001 Cert. no. Expiry",
+        "col": "Tick the approvals held and give the certificate"
+      },
+      "id": "Z153"
+    },
+    {
+      "shape": "fill",
+      "kind": "text",
+      "rect": [
+        291.17,
+        161.07,
+        362.81,
+        171
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Cert. no.",
+        "line": "ISO 45001 Cert. no. Expiry"
+      },
+      "id": "Z154"
+    },
+    {
+      "shape": "fill",
+      "kind": "text",
+      "rect": [
+        435.82,
+        161.07,
+        486.99,
+        171
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Expiry",
+        "line": "ISO 45001 Cert. no. Expiry"
+      },
+      "id": "Z155"
+    },
+    {
+      "shape": "fill",
+      "kind": "text",
+      "rect": [
+        291.17,
+        178.08,
+        362.81,
+        188
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Cert. no.",
+        "line": "EASA Part 21G Cert. no. Expiry"
+      },
+      "id": "Z156"
+    },
+    {
+      "shape": "fill",
+      "kind": "text",
+      "rect": [
+        435.82,
+        178.08,
+        486.99,
+        188
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Expiry",
+        "line": "EASA Part 21G Cert. no. Expiry"
+      },
+      "id": "Z157"
+    },
+    {
+      "shape": "bracket",
+      "kind": "check",
+      "rect": [
+        40,
+        179.11,
+        60.47,
+        189
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "right": "EASA Part 21G",
+        "line": "EASA Part 21G Cert. no. Expiry",
+        "col": "Tick the approvals held and give the certificate"
+      },
+      "id": "Z158"
+    },
+    {
+      "shape": "bracket",
+      "kind": "check",
+      "rect": [
+        40,
+        196.11,
+        60.47,
+        206
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "right": "EASA Part 145",
+        "line": "EASA Part 145 Cert. no. Expiry",
+        "col": "Tick the approvals held and give the certificate"
+      },
+      "id": "Z159"
+    },
+    {
+      "shape": "fill",
+      "kind": "text",
+      "rect": [
+        291.17,
+        195.08,
+        362.81,
+        205
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Cert. no.",
+        "line": "EASA Part 145 Cert. no. Expiry"
+      },
+      "id": "Z160"
+    },
+    {
+      "shape": "fill",
+      "kind": "text",
+      "rect": [
+        435.82,
+        195.08,
+        486.99,
+        205
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Expiry",
+        "line": "EASA Part 145 Cert. no. Expiry"
+      },
+      "id": "Z161"
+    },
+    {
+      "shape": "bracket",
+      "kind": "check",
+      "rect": [
+        40,
+        213.11,
+        60.47,
+        223
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "right": "Nadcap (process):",
+        "line": "Nadcap (process): Cert. no. Expiry",
+        "col": "Tick the approvals held and give the certificate"
+      },
+      "id": "Z162"
+    },
+    {
+      "shape": "blank",
+      "kind": "text",
+      "rect": [
+        156.57,
+        212.11,
+        236,
+        224
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Nadcap (process):",
+        "right": "Cert. no.",
+        "line": "Nadcap (process): Cert. no. Expiry"
+      },
+      "id": "Z163"
+    },
+    {
+      "shape": "fill",
+      "kind": "text",
+      "rect": [
+        291.17,
+        212.08,
+        362.81,
+        222
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Cert. no.",
+        "line": "Nadcap (process): Cert. no. Expiry"
+      },
+      "id": "Z164"
+    },
+    {
+      "shape": "fill",
+      "kind": "text",
+      "rect": [
+        435.82,
+        212.08,
+        486.99,
+        222
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Expiry",
+        "line": "Nadcap (process): Cert. no. Expiry"
+      },
+      "id": "Z165"
+    },
+    {
+      "shape": "fill",
+      "kind": "text",
+      "rect": [
+        147.46,
+        229.08,
+        372.61,
+        239
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Other (specify)",
+        "above": "(process): Cert. no.",
+        "line": "Other (specify)"
+      },
+      "id": "Z166"
+    },
+    {
+      "shape": "bracket",
+      "kind": "check",
+      "rect": [
+        40,
+        230.11,
+        60.47,
+        240
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "right": "Other (specify)",
+        "line": "Other (specify)",
+        "col": "Tick the approvals held and give the certificate"
+      },
+      "id": "Z167"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        44.73,
+        299.5,
+        52.23,
+        307
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "right": "CNC machining",
+        "above": "F1 Processes",
+        "line": "CNC machining Sheet metal forming Composite lay-up",
+        "col": "F1 Processes performed in-house (tick all that"
+      },
+      "id": "Z168"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        219.06,
+        299.5,
+        226.56,
+        307
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "CNC machining",
+        "right": "Sheet metal forming",
+        "above": "that",
+        "line": "CNC machining Sheet metal forming Composite lay-up",
+        "col": "Processes performed in-house (tick all that apply)"
+      },
+      "id": "Z169"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        393.4,
+        299.5,
+        400.9,
+        307
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Sheet metal forming",
+        "right": "Composite lay-up",
+        "line": "CNC machining Sheet metal forming Composite lay-up"
+      },
+      "id": "Z170"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        44.73,
+        315.5,
+        52.23,
+        323
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "right": "Heat treatment",
+        "above": "F1 Processes",
+        "line": "Heat treatment Surface treatment Painting",
+        "col": "F1 Processes performed in-house (tick all that"
+      },
+      "id": "Z171"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        219.06,
+        315.5,
+        226.56,
+        323
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Heat treatment",
+        "right": "Surface treatment",
+        "above": "that",
+        "line": "Heat treatment Surface treatment Painting",
+        "col": "Processes performed in-house (tick all that apply)"
+      },
+      "id": "Z172"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        393.4,
+        315.5,
+        400.9,
+        323
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Surface treatment",
+        "right": "Painting",
+        "line": "Heat treatment Surface treatment Painting"
+      },
+      "id": "Z173"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        44.73,
+        331.5,
+        52.23,
+        339
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "right": "Welding / brazing",
+        "line": "Welding / brazing Non-destructive testing Mechanical assembly",
+        "col": "F1 Processes performed in-house (tick all that"
+      },
+      "id": "Z174"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        219.06,
+        331.5,
+        226.56,
+        339
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Welding / brazing",
+        "right": "Non-destructive testing",
+        "line": "Welding / brazing Non-destructive testing Mechanical assembly",
+        "col": "Processes performed in-house (tick all that apply)"
+      },
+      "id": "Z175"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        393.4,
+        331.5,
+        400.9,
+        339
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Non-destructive testing",
+        "right": "Mechanical assembly",
+        "line": "Welding / brazing Non-destructive testing Mechanical assembly"
+      },
+      "id": "Z176"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        44.73,
+        347.5,
+        52.23,
+        355
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "right": "Cable harness",
+        "line": "Cable harness PCB assembly Additive manufacturing",
+        "col": "F1 Processes performed in-house (tick all that"
+      },
+      "id": "Z177"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        219.06,
+        347.5,
+        226.56,
+        355
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Cable harness",
+        "right": "PCB assembly",
+        "line": "Cable harness PCB assembly Additive manufacturing",
+        "col": "Processes performed in-house (tick all that apply)"
+      },
+      "id": "Z178"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        393.4,
+        347.5,
+        400.9,
+        355
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "PCB assembly",
+        "right": "Additive manufacturing",
+        "line": "Cable harness PCB assembly Additive manufacturing"
+      },
+      "id": "Z179"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        44.73,
+        363.5,
+        52.23,
+        371
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "right": "Design office",
+        "line": "Design office Test laboratory",
+        "col": "F1 Processes performed in-house (tick all that"
+      },
+      "id": "Z180"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        219.06,
+        363.5,
+        226.56,
+        371
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Design office",
+        "right": "Test laboratory",
+        "line": "Design office Test laboratory",
+        "col": "Processes performed in-house (tick all that apply)"
+      },
+      "id": "Z181"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        44.73,
+        403.5,
+        52.23,
+        411
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "right": "Aluminium",
+        "above": "F2 Materials",
+        "line": "Aluminium Titanium Steel / CRES Nickel alloys Composites Plastics",
+        "col": "F2 Materials processed"
+      },
+      "id": "Z182"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        125.14,
+        403.5,
+        132.64,
+        411
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Aluminium",
+        "right": "Titanium",
+        "above": "processed",
+        "line": "Aluminium Titanium Steel / CRES Nickel alloys Composites Plastics",
+        "col": "F2 Materials processed"
+      },
+      "id": "Z183"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        196.48,
+        403.5,
+        203.98,
+        411
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Titanium",
+        "right": "Steel / CRES",
+        "line": "Aluminium Titanium Steel / CRES Nickel alloys Composites Plastics",
+        "col": "F1 Processes performed in-house (tick all that apply)"
+      },
+      "id": "Z184"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        277.41,
+        403.5,
+        284.91,
+        411
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Steel / CRES",
+        "right": "Nickel alloys",
+        "line": "Aluminium Titanium Steel / CRES Nickel alloys Composites Plastics",
+        "col": "Test laboratory"
+      },
+      "id": "Z185"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        362.76,
+        403.5,
+        370.26,
+        411
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Nickel alloys",
+        "right": "Composites",
+        "line": "Aluminium Titanium Steel / CRES Nickel alloys Composites Plastics"
+      },
+      "id": "Z186"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        442.96,
+        403.5,
+        450.46,
+        411
+      ],
+      "checked": false,
+      "page": 3,
+      "ctx": {
+        "left": "Composites",
+        "right": "Plastics",
+        "line": "Aluminium Titanium Steel / CRES Nickel alloys Composites Plastics",
+        "col": "Mechanical assembly"
+      },
+      "id": "Z187"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        331.5,
+        467,
+        398.5,
+        481
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Current capacity load",
+        "right": "%",
+        "line": "G1 Current capacity load %",
+        "row": "G1 Current capacity load",
+        "col": "Nickel alloys"
+      },
+      "id": "Z188"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        331.5,
+        491,
+        398.5,
+        505
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "Average lead time for a new part",
+        "right": "weeks",
+        "line": "G2 Average lead time for a new part weeks",
+        "row": "G2 Average lead time for a new part",
+        "col": "Nickel alloys"
+      },
+      "id": "Z189"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        331.5,
+        515,
+        398.5,
+        529
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "left": "On-time delivery rate, last 12 months",
+        "right": "%",
+        "line": "G3 On-time delivery rate, last 12 months %",
+        "row": "G3 On-time delivery rate, last 12 months",
+        "col": "Nickel alloys"
+      },
+      "id": "Z190"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        37.5,
+        553,
+        557.5,
+        641
+      ],
+      "prefilled": null,
+      "page": 3,
+      "ctx": {
+        "above": "G4 Main aerospace customers and share of turnover (%)",
+        "col": "G4 Main aerospace customers and share of"
+      },
+      "id": "Z191"
+    },
+    {
+      "shape": "shaded",
+      "kind": "text",
+      "rect": [
+        37.5,
+        158.45,
+        289,
+        173.45
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "above": "H1 Name of authorised signatory"
+      },
+      "id": "Z192"
+    },
+    {
+      "shape": "shaded",
+      "kind": "text",
+      "rect": [
+        306,
+        158.45,
+        557.5,
+        173.45
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "above": "H2 Position"
+      },
+      "id": "Z193"
+    },
+    {
+      "shape": "comb",
+      "kind": "text",
+      "rect": [
+        36,
+        192.45,
+        180,
+        210.45
+      ],
+      "cells": [
+        [
+          36,
+          192.45,
+          51,
+          210.45
+        ],
+        [
+          51,
+          192.45,
+          66,
+          210.45
+        ],
+        [
+          78,
+          192.45,
+          93,
+          210.45
+        ],
+        [
+          93,
+          192.45,
+          108,
+          210.45
+        ],
+        [
+          120,
+          192.45,
+          135,
+          210.45
+        ],
+        [
+          135,
+          192.45,
+          150,
+          210.45
+        ],
+        [
+          150,
+          192.45,
+          165,
+          210.45
+        ],
+        [
+          165,
+          192.45,
+          180,
+          210.45
+        ]
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "above": "H3 Date",
+        "col": "H1 Name of authorised signatory"
+      },
+      "id": "Z194"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        37.5,
+        241.45,
+        289,
+        309.45
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "above": "H4 Signature",
+        "col": "H4 Signature"
+      },
+      "id": "Z195"
+    },
+    {
+      "shape": "cell",
+      "kind": "text",
+      "rect": [
+        306,
+        241.45,
+        557.5,
+        309.45
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "above": "H5 Company stamp",
+        "col": "H5 Company stamp"
+      },
+      "id": "Z196"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        151,
+        361.95,
+        329,
+        375.35
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "left": "Supplier code:",
+        "above": "NORDAVIA — DO NOT FILL IN",
+        "line": "Supplier code: Score: / 100",
+        "col": "RESERVED FOR NORDAVIA — DO NOT FILL IN"
+      },
+      "id": "Z197"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        386,
+        361.95,
+        419,
+        375.35
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "left": "Score:",
+        "right": "/ 100",
+        "line": "Supplier code: Score: / 100",
+        "col": "audit, and I undertake to notify NORDAVIA of any significant change"
+      },
+      "id": "Z198"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        151,
+        381.95,
+        329,
+        395.35
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "left": "Survey reviewed by:",
+        "line": "Survey reviewed by:",
+        "col": "Supplier code:"
+      },
+      "id": "Z199"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        151,
+        401.95,
+        329,
+        415.35
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "left": "Audit required:",
+        "line": "Audit required:",
+        "col": "Survey reviewed by:"
+      },
+      "id": "Z200"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        100.73,
+        432.95,
+        108.23,
+        440.45
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "Decision:",
+        "right": "Approved",
+        "above": "required:",
+        "line": "Decision: Approved Conditionally approved Rejected",
+        "col": "Audit required:"
+      },
+      "id": "Z201"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        180.76,
+        432.95,
+        188.26,
+        440.45
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "Approved",
+        "right": "Conditionally approved",
+        "line": "Decision: Approved Conditionally approved Rejected",
+        "col": "RESERVED FOR NORDAVIA — DO NOT FILL IN"
+      },
+      "id": "Z202"
+    },
+    {
+      "shape": "glyph",
+      "kind": "check",
+      "rect": [
+        316.29,
+        432.95,
+        323.79,
+        440.45
+      ],
+      "checked": false,
+      "page": 4,
+      "ctx": {
+        "left": "Conditionally approved",
+        "right": "Rejected",
+        "line": "Decision: Approved Conditionally approved Rejected",
+        "col": "H5 Company stamp"
+      },
+      "id": "Z203"
+    },
+    {
+      "shape": "underline",
+      "kind": "text",
+      "rect": [
+        111,
+        451.95,
+        329,
+        465.35
+      ],
+      "prefilled": null,
+      "page": 4,
+      "ctx": {
+        "left": "Date / visa:",
+        "above": "Approved Conditionally approved Rejected",
+        "line": "Date / visa:",
+        "col": "Decision:"
+      },
+      "id": "Z204"
+    }
+  ],
+  "notes": [],
+  "detector": "zones-js-1",
+  "map_id": "d60bd6a4",
+  "source": "form.pdf"
+}

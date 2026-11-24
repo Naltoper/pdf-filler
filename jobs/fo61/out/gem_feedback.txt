@@ -1,0 +1,127 @@
+Le JSON produit ne respecte pas le format attendu. Corrige uniquement ces points et renvoie le JSON complet :
+- answers[10] (ref '1.1', 'Type of Business / Supply Category: (ple'): Z11 est une zone de texte, pas une case à cocher
+- answers[11] (ref '1.2.1', 'Relevant EASA / LBA approval or authoris'): Z31 est une zone de texte, pas une case à cocher
+- answers[11] (ref '1.2.1', 'Relevant EASA / LBA approval or authoris'): Z30 est une case à cocher, pas une zone de texte (la remarque)
+- answers[12] (ref '1.2.2', 'Other aviation authority approval/certif'): Z35 est une zone de texte, pas une case à cocher
+- answers[12] (ref '1.2.2', 'Other aviation authority approval/certif'): Z34 est une case à cocher, pas une zone de texte (la remarque)
+- answers[13] (ref '1.2.3', 'ISO or equivalent management-system cert'): Z39 est une zone de texte, pas une case à cocher
+- answers[13] (ref '1.2.3', 'ISO or equivalent management-system cert'): Z38 est une case à cocher, pas une zone de texte (la remarque)
+- answers[14] (ref '1.2.4', 'Accreditation/certification for speciali'): Z43 est une zone de texte, pas une case à cocher
+- answers[14] (ref '1.2.4', 'Accreditation/certification for speciali'): Z42 est une case à cocher, pas une zone de texte (la remarque)
+- answers[15] (ref '1.2.5', 'Are copies of relevant approvals/certifi'): Z47 est une zone de texte, pas une case à cocher
+- answers[16] (ref '1.2.6', 'Date of last relevant authority, certifi'): Z54 est une case à cocher, pas une zone de texte (la valeur)
+- answers[18] (ref '2.0.1', 'Please describe the goods, parts, materi'): Z59 est une case à cocher, pas une zone de texte (la valeur)
+- answers[19] (ref '2.0.2', 'Is the supplied scope clearly defined in'): Z64 est une zone de texte, pas une case à cocher
+- answers[20] (ref '2.0.3', 'Where approval is required, does the sup'): Z68 est une zone de texte, pas une case à cocher
+- answers[21] (ref '2.0.4', 'Are limitations, ratings, locations and/'): Z72 est une zone de texte, pas une case à cocher
+- answers[21] (ref '2.0.4', 'Are limitations, ratings, locations and/'): Z71 est une case à cocher, pas une zone de texte (la remarque)
+- answers[22] (ref '2.0.5', 'Are critical or safety-relevant processe'): Z76 est une zone de texte, pas une case à cocher
+- answers[23] (ref '2.0.6', 'Are any activities further subcontracted'): Z80 est une zone de texte, pas une case à cocher
+- answers[23] (ref '2.0.6', 'Are any activities further subcontracted'): Z79 est une case à cocher, pas une zone de texte (la remarque)
+- answers[24] (ref '2.1.1', 'Is a current list or defined control met'): Z84 est une zone de texte, pas une case à cocher
+- answers[25] (ref '2.1.2', 'Are suppliers of safety/quality-critical'): Z88 est une zone de texte, pas une case à cocher
+- answers[26] (ref '2.1.3', 'Are changes to significant suppliers/sub'): Z92 est une zone de texte, pas une case à cocher
+- answers[27] (ref '2.1.4', 'Are outsourced/special processes subject'): Z96 est une zone de texte, pas une case à cocher
+- answers[28] (ref '2.2.1', 'Can the required release certificate or '): Z100 est une zone de texte, pas une case à cocher
+- answers[29] (ref '2.2.2', 'Where applicable, can EASA Form 1 or an '): Z104 est une zone de texte, pas une case à cocher
+- answers[30] (ref '2.2.3', 'Where applicable, can FAA Form 8130-3 or'): Z108 est une zone de texte, pas une case à cocher
+- answers[31] (ref '2.2.4', 'Can a Certificate of Conformity / inspec'): Z112 est une zone de texte, pas une case à cocher
+- answers[32] (ref '2.2.5', 'Can material certificates in accordance '): Z116 est une zone de texte, pas une case à cocher
+- answers[33] (ref '2.2.6', 'Is documentation traceable to the delive'): Z120 est une zone de texte, pas une case à cocher
+- answers[34] (ref '3.0.1', 'Are facilities appropriate for the work '): Z124 est une zone de texte, pas une case à cocher
+- answers[35] (ref '3.0.2', 'Are specialised work areas adequately se'): Z128 est une zone de texte, pas une case à cocher
+- answers[36] (ref '3.0.3', 'Are suitable areas available for inspect'): Z132 est une zone de texte, pas une case à cocher
+- answers[37] (ref '3.0.4', 'Are lighting, temperature, humidity, cle'): Z136 est une zone de texte, pas une case à cocher
+- answers[38] (ref '3.0.5', 'Are facilities, equipment and materials '): Z140 est une zone de texte, pas une case à cocher
+- answers[39] (ref '3.0.6', 'Are serviceable and unserviceable items '): Z144 est une zone de texte, pas une case à cocher
+- answers[40] (ref '4.0.1', 'Is a documented Quality Management / Qua'): Z148 est une zone de texte, pas une case à cocher
+- answers[41] (ref '4.0.2', 'Is the current applicable quality manual'): Z152 est une zone de texte, pas une case à cocher
+- answers[42] (ref '4.0.3', 'Is an independent internal audit/surveil'): Z156 est une zone de texte, pas une case à cocher
+- answers[43] (ref '4.0.4', 'Are audit findings recorded, assigned, c'): Z160 est une zone de texte, pas une case à cocher
+- answers[44] (ref '4.0.5', 'Are customer, regulatory and contractual'): Z164 est une zone de texte, pas une case à cocher
+- answers[45] (ref '4.0.6', 'Are subcontracted activities controlled '): Z168 est une zone de texte, pas une case à cocher
+- answers[47] (ref '4.0.8', 'Are relevant quality records retained an'): Z176 est une zone de texte, pas une case à cocher
+- answers[48] (ref '4.1.1', 'Where applicable to the supplied aviatio'): Z180 est une zone de texte, pas une case à cocher
+- answers[49] (ref '4.1.2', 'Are safety hazards and risks associated '): Z184 est une zone de texte, pas une case à cocher
+- answers[50] (ref '4.1.3', 'Is there an internal occurrence / incide'): Z188 est une zone de texte, pas une case à cocher
+- answers[51] (ref '4.1.4', 'Are personnel encouraged to report safet'): Z192 est une zone de texte, pas une case à cocher
+- answers[52] (ref '4.1.5', 'Are occurrences investigated and causes/'): Z196 est une zone de texte, pas une case à cocher
+- answers[53] (ref '4.1.6', 'Are safety/quality-related occurrences a'): Z200 est une zone de texte, pas une case à cocher
+- answers[55] (ref '4.2.1', 'Is contracting/subcontracting controlled'): Z208 est une zone de texte, pas une case à cocher
+- answers[56] (ref '4.2.2', 'Are contractors/subcontractors evaluated'): Z212 est une zone de texte, pas une case à cocher
+- answers[57] (ref '4.2.3', 'Are contracted/subcontracted activities '): Z216 est une zone de texte, pas une case à cocher
+- answers[58] (ref '4.2.4', 'Does the supplier verify that contractor'): Z220 est une zone de texte, pas une case à cocher
+- answers[59] (ref '4.2.5', 'Are records of contractor/subcontractor '): Z224 est une zone de texte, pas une case à cocher
+- answers[60] (ref '4.2.6', 'Are DLHT and/or competent authority acce'): Z228 est une zone de texte, pas une case à cocher
+- answers[61] (ref '5.0.1', 'Are chemicals, liquids, waste and other '): Z232 est une zone de texte, pas une case à cocher
+- answers[62] (ref '5.0.2', 'Are environmental and workplace controls'): Z236 est une zone de texte, pas une case à cocher
+- answers[63] (ref '5.0.3', 'Are special environmental conditions req'): Z240 est une zone de texte, pas une case à cocher
+- answers[64] (ref '6.0.1', 'Are storage areas suitable for the type '): Z244 est une zone de texte, pas une case à cocher
+- answers[65] (ref '6.0.2', 'Are temperature, humidity, ventilation, '): Z248 est une zone de texte, pas une case à cocher
+- answers[66] (ref '6.0.3', 'Are serviceable, unserviceable, rejected'): Z252 est une zone de texte, pas une case à cocher
+- answers[67] (ref '6.0.4', 'Is there a system for identifying and co'): Z256 est une zone de texte, pas une case à cocher
+- answers[68] (ref '6.0.5', 'Is the expiry date or life limit clearly'): Z260 est une zone de texte, pas une case à cocher
+- answers[69] (ref '6.0.6', 'Are articles protected from damage, cont'): Z264 est une zone de texte, pas une case à cocher
+- answers[70] (ref '6.0.7', 'Are storage and preservation requirement'): Z268 est une zone de texte, pas une case à cocher
+- answers[71] (ref '7.0.1', 'Is adequate competent personnel availabl'): Z272 est une zone de texte, pas une case à cocher
+- answers[72] (ref '7.0.2', 'Are job descriptions / responsibilities '): Z276 est une zone de texte, pas une case à cocher
+- answers[73] (ref '7.0.3', 'Is competence assessed before personnel '): Z280 est une zone de texte, pas une case à cocher
+- answers[74] (ref '7.0.4', 'Is initial and recurrent training provid'): Z284 est une zone de texte, pas une case à cocher
+- answers[75] (ref '7.0.5', 'Are personnel trained in applicable inte'): Z288 est une zone de texte, pas une case à cocher
+- answers[76] (ref '7.0.6', 'Where maintenance is performed, are mech'): Z292 est une zone de texte, pas une case à cocher
+- answers[77] (ref '7.0.7', 'Where NDT or other specialised activitie'): Z296 est une zone de texte, pas une case à cocher
+- answers[78] (ref '7.0.8', 'Where Part-145 certification staff are i'): Z300 est une zone de texte, pas une case à cocher
+- answers[79] (ref '7.0.9', 'Where applicable, is relevant human fact'): Z304 est une zone de texte, pas une case à cocher
+- answers[80] (ref '8.0.1', 'Are current work instructions / maintena'): Z308 est une zone de texte, pas une case à cocher
+- answers[81] (ref '8.0.2', 'Are work packages, job cards or equivale'): Z312 est une zone de texte, pas une case à cocher
+- answers[82] (ref '8.0.3', 'Are manufacturer or approved inspection '): Z316 est une zone de texte, pas une case à cocher
+- answers[83] (ref '8.0.4', 'Are test and inspection results recorded'): Z320 est une zone de texte, pas une case à cocher
+- answers[84] (ref '8.0.5', 'Are critical maintenance tasks identifie'): Z324 est une zone de texte, pas une case à cocher
+- answers[85] (ref '8.0.6', 'Where required, are independent inspecti'): Z328 est une zone de texte, pas une case à cocher
+- answers[86] (ref '8.0.7', 'Are controls in place to minimise multip'): Z332 est une zone de texte, pas une case à cocher
+- answers[87] (ref '8.0.8', 'Is a final inspection/general verificati'): Z336 est une zone de texte, pas une case à cocher
+- answers[88] (ref '9.0.1', 'Is a current approved supplier / source '): Z340 est une zone de texte, pas une case à cocher
+- answers[89] (ref '9.0.2', 'Are incoming items appropriately inspect'): Z344 est une zone de texte, pas une case à cocher
+- answers[90] (ref '9.0.3', 'Are age-controlled items checked for man'): Z348 est une zone de texte, pas une case à cocher
+- answers[91] (ref '9.0.4', 'Are components/materials classified and '): Z352 est une zone de texte, pas une case à cocher
+- answers[92] (ref '9.0.5', 'Are raw materials and consumables tracea'): Z356 est une zone de texte, pas une case à cocher
+- answers[93] (ref '9.0.6', 'Are conformity/release documents clearly'): Z360 est une zone de texte, pas une case à cocher
+- answers[94] (ref '9.0.7', 'Are parts/materials verified as eligible'): Z364 est une zone de texte, pas une case à cocher
+- answers[95] (ref '9.0.8', 'Are alternate part numbers only supplied'): Z368 est une zone de texte, pas une case à cocher
+- answers[96] (ref '9.0.9', 'Are unsalvageable/rejected items control'): Z372 est une zone de texte, pas une case à cocher
+- answers[97] (ref '9.0.10', 'Are parts/materials re-inspected before '): Z376 est une zone de texte, pas une case à cocher
+- answers[98] (ref '9.0.11', 'Is full traceability maintained through '): Z380 est une zone de texte, pas une case à cocher
+- answers[99] (ref '9.0.12', 'Are electrostatic sensitive devices (ESD'): Z384 est une zone de texte, pas une case à cocher
+- answers[100] (ref '9.0.13', 'Are components/materials packed and ship'): Z388 est une zone de texte, pas une case à cocher
+- answers[101] (ref '9.0.14', 'Is there a documented procedure for dete'): Z392 est une zone de texte, pas une case à cocher
+- answers[102] (ref '9.0.15', 'Where batches/lots are split or redistri'): Z396 est une zone de texte, pas une case à cocher
+- answers[103] (ref '9.0.16', 'Are unsalvageable components mutilated, '): Z400 est une zone de texte, pas une case à cocher
+- answers[104] (ref '9.0.17', 'Is there a procedure to notify purchaser'): Z404 est une zone de texte, pas une case à cocher
+- answers[105] (ref '9.0.18', 'Is there a recall control procedure to t'): Z408 est une zone de texte, pas une case à cocher
+- answers[106] (ref '10.0.1', 'Are the tools and equipment necessary fo'): Z412 est une zone de texte, pas une case à cocher
+- answers[107] (ref '10.0.2', 'Are tools/equipment requiring calibratio'): Z416 est une zone de texte, pas une case à cocher
+- answers[108] (ref '10.0.3', 'Are calibration/inspection intervals def'): Z420 est une zone de texte, pas une case à cocher
+- answers[109] (ref '10.0.4', 'Are calibration standards traceable to r'): Z424 est une zone de texte, pas une case à cocher
+- answers[110] (ref '10.0.5', 'Are tools/equipment labelled with calibr'): Z428 est une zone de texte, pas une case à cocher
+- answers[111] (ref '10.0.6', 'Is there a process to prevent expired, d'): Z432 est une zone de texte, pas une case à cocher
+- answers[112] (ref '10.0.7', 'Are calibration certificates retained an'): Z436 est une zone de texte, pas une case à cocher
+- answers[113] (ref '11.0.1', 'Are current applicable technical data, s'): Z440 est une zone de texte, pas une case à cocher
+- answers[114] (ref '11.0.2', 'Is technical data properly identified an'): Z444 est une zone de texte, pas une case à cocher
+- answers[115] (ref '11.0.3', 'Is revision status controlled to prevent'): Z448 est une zone de texte, pas une case à cocher
+- answers[116] (ref '11.0.4', 'Are working copies controlled and update'): Z452 est une zone de texte, pas une case à cocher
+- answers[117] (ref '11.0.5', 'Is inaccurate, incomplete or ambiguous t'): Z456 est une zone de texte, pas une case à cocher
+- answers[118] (ref '11.0.6', 'Are records and certificates legible, co'): Z460 est une zone de texte, pas une case à cocher
+- answers[119] (ref '11.0.7', 'Is access to current, up-to-date applica'): Z464 est une zone de texte, pas une case à cocher
+- answers[120] (ref '12.0.1', 'Where maintenance is performed, are rele'): Z468 est une zone de texte, pas une case à cocher
+- answers[121] (ref '12.0.2', 'Where applicable, is EASA Form 1 or anot'): Z472 est une zone de texte, pas une case à cocher
+- answers[122] (ref '12.0.3', 'Are release statements and certification'): Z476 est une zone de texte, pas une case à cocher
+- answers[123] (ref '12.0.4', 'Are records retained to demonstrate conf'): Z480 est une zone de texte, pas une case à cocher
+- answers[124] (ref '12.0.5', 'Are records protected from damage, alter'): Z484 est une zone de texte, pas une case à cocher
+- answers[125] (ref '12.0.6', 'Where electronic records are used, are a'): Z488 est une zone de texte, pas une case à cocher
+- answers[126] (ref '12.0.7', 'Can relevant records be made available t'): Z492 est une zone de texte, pas une case à cocher
+- answers[127] (ref '13.0.1', 'Is there a process to identify and contr'): Z496 est une zone de texte, pas une case à cocher
+- answers[128] (ref '13.0.2', 'Will changes to relevant approvals, cert'): Z500 est une zone de texte, pas une case à cocher
+- answers[129] (ref '13.0.3', 'Will relocation, ownership/management ch'): Z504 est une zone de texte, pas une case à cocher
+- answers[130] (ref '13.0.4', 'Will significant quality, safety, delive'): Z508 est une zone de texte, pas une case à cocher
+- answers[131] (ref '13.0.5', 'Will suspension, limitation, expiry or w'): Z512 est une zone de texte, pas une case à cocher
+- answers[132] (ref '14', 'Name:'): Z515 est une case à cocher, pas une zone de texte (la valeur)
